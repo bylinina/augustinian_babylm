@@ -247,9 +247,12 @@ def train(args):
     use_bf16 = bf16_ok and not args.fp16
     use_fp16 = args.fp16 or (torch.cuda.is_available() and not bf16_ok)
 
-    targs = TrainingArguments(
+    # Build kwargs, then keep only those the INSTALLED transformers accepts.
+    # transformers 5.x removed several args (overwrite_output_dir, ...) and
+    # renamed evaluation_strategy -> eval_strategy; this survives both.
+    import inspect
+    ta_kwargs = dict(
         output_dir=args.output_path,
-        overwrite_output_dir=True,
         num_train_epochs=args.epochs,
         per_device_train_batch_size=per_device,
         per_device_eval_batch_size=per_device,
@@ -272,6 +275,17 @@ def train(args):
         seed=args.seed,
         remove_unused_columns=False,
     )
+    valid = set(inspect.signature(TrainingArguments.__init__).parameters)
+    # handle the 4.x/5.x evaluation_strategy <-> eval_strategy rename
+    if "eval_strategy" not in valid and "evaluation_strategy" in valid:
+        ta_kwargs["evaluation_strategy"] = ta_kwargs.pop("eval_strategy")
+    dropped = [k for k in ta_kwargs if k not in valid]
+    for k in dropped:
+        ta_kwargs.pop(k)
+    if dropped:
+        print(f"[compat] dropped TrainingArguments kwargs not in this "
+              f"transformers version: {dropped}")
+    targs = TrainingArguments(**ta_kwargs)
 
     # custom optimizer (betas 0.9/0.95) + cosine schedule with 1% warmup
     optimizer = torch.optim.AdamW(
