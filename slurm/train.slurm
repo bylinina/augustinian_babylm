@@ -48,12 +48,11 @@ export HF_DATASETS_CACHE="$HF_HOME/datasets"
 srun python scripts/train_deberta_babylm.py \
     --tokenizer "augustinian-babylm/babylm-bpe-${VOCAB}" \
     --preset base \
-    --epochs 10 \
-    --batch_size 256 \
     --grad_acc 4 \
-    --lr 1e-3 \
     --output_path "$HOME/models/deberta-babylm-${VOCAB}-base" \
     --push_to_hub "augustinian-babylm/deberta-base-${VOCAB}" \
     --hub_private
+    # epochs/lr/batch/warmup/decay/context-warmup all use the script's paper
+    # defaults (Table 3): lr 2e-4, 50 epochs, wd 0.01, warmup 4000, ctx 64->128.
 
 echo "Training done for ${VOCAB}."

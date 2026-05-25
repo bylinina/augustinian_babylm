@@ -13,17 +13,22 @@ Runs both on Colab (just call main() / run as a cell) and on Surf Snellius
 inside an srun/sbatch GPU allocation).
 
 ------------------------------------------------------------------------------
-Hyperparameters — taken from Lukas's train_mask.py argparse defaults:
-  optimizer        AdamW, betas=(0.9, 0.95), eps=1e-8        (his non-LAMB path)
-  lr               1e-3 (default here; Lukas's original was 0.007 — see --lr)
-  weight_decay     0.1
-  scheduler        cosine, warmup = total_steps // 100  (1%)
-  epochs           10
-  batch_size       256, grad_acc 4  (=> 64 per device; effective batch 256)
+Hyperparameters — from the paper's Table 3 (with context warmup 64 -> 128):
+  optimizer        AdamW, betas=(0.9, 0.999), eps=1e-8  (standard AdamW defaults;
+                   the paper says only "AdamW")
+  lr               2e-4
+  weight_decay     0.01  ("Decay" in the table)
+  scheduler        cosine, fixed warmup = 4000 steps
+  epochs           50
+  batch_size       256 effective, grad_acc 4 (=> 64 per device). The paper's
+                   "64, 256" scales batch with context for memory only; we hold
+                   effective batch at 256 and use grad_acc, so the optimizer math
+                   is unchanged (HF Trainer can't vary batch mid-run anyway).
   mlm_prob         0.15   (mask 0.8 / random 0.1 / keep 0.1)
   dropout          0.1
   seed             0
-  seq-len warmup   "0:64,5:256"  -> len 64 for epochs 0-4, len 256 from epoch 5
+  context warmup   "0:64,5:128"  -> ctx 64 for epochs 0-4, ctx 128 from epoch 5
+  vocab size       set by --tokenizer (paper used 40k; we sweep 50k/75k/100k)
   architecture     from microsoft/deberta-v3-base config, then
                    hidden_size=768, intermediate_size=3072,
                    max_position_embeddings=1024
@@ -75,25 +80,32 @@ def build_parser():
                         "augustinian-babylm/babylm-bpe-75k (required).")
     p.add_argument("--base_config", type=str, default="microsoft/deberta-v3-base",
                    help="Config to inherit DeBERTa architecture defaults from.")
-    # optimization (Lukas's defaults)
-    p.add_argument("--lr", type=float, default=1e-3,
-                   help="Default 1e-3 (from-scratch AdamW). Lukas's original was "
-                        "0.007; raise toward it to match his recipe, lower to "
-                        "~5e-4 if you see early divergence.")
-    p.add_argument("--epochs", type=int, default=10)
-    p.add_argument("--batch_size", type=int, default=256)
+    # optimization (paper hyperparameters, Table 3)
+    p.add_argument("--lr", type=float, default=2e-4,
+                   help="Default 2e-4 (paper). Lukas's repo default was 0.007; "
+                        "lower to ~1e-4 if you see early divergence.")
+    p.add_argument("--epochs", type=int, default=50)
+    p.add_argument("--batch_size", type=int, default=256,
+                   help="Effective batch (paper: 256 at long context). The "
+                        "paper's '64, 256' scales batch with context purely for "
+                        "memory; we instead hold effective batch at 256 and use "
+                        "--grad_acc for memory, so the optimizer math is unchanged.")
     p.add_argument("--grad_acc", type=int, default=4,
                    help="Mini-batches per step. Default 4 -> 64/device at batch "
                         "256, fits base size on one GPU. Effective batch unchanged.")
-    p.add_argument("--weight_decay", type=float, default=0.1)
-    p.add_argument("--warmup_ratio", type=float, default=0.01)   # total_steps//100
+    p.add_argument("--weight_decay", type=float, default=0.01)
+    p.add_argument("--warmup_steps", type=int, default=4000,
+                   help="Fixed warmup steps (paper: 4000). Set <0 to fall back to "
+                        "--warmup_ratio instead.")
+    p.add_argument("--warmup_ratio", type=float, default=0.01,
+                   help="Used only if --warmup_steps < 0.")
     p.add_argument("--adam_beta1", type=float, default=0.9)
-    p.add_argument("--adam_beta2", type=float, default=0.95)
+    p.add_argument("--adam_beta2", type=float, default=0.999)
     p.add_argument("--mlm_prob", type=float, default=0.15)
     p.add_argument("--dropout", type=float, default=0.1)
     p.add_argument("--seed", type=int, default=0)
-    # seq-len warmup: "0:64,5:256" == len 64 from epoch 0, len 256 from epoch 5
-    p.add_argument("--max_seq_len", type=str, default="0:64,5:256")
+    # context-size warmup: "0:64,5:128" == ctx 64 from epoch 0, ctx 128 from epoch 5
+    p.add_argument("--max_seq_len", type=str, default="0:64,5:128")
     # architecture
     p.add_argument("--preset", choices=["small", "base"], default="base",
                    help="base = Lukas's 12L/768H (default); small = 6L/768H (fast).")
@@ -239,7 +251,12 @@ def train(args):
     per_device = max(1, args.batch_size // args.grad_acc)
     steps_per_epoch = math.ceil(len(ds["train"]) / args.batch_size)
     total_steps = steps_per_epoch * args.epochs
-    warmup_steps = max(1, int(total_steps * args.warmup_ratio))
+    # paper uses a fixed warmup of 4000 steps; fall back to ratio if asked
+    if args.warmup_steps is not None and args.warmup_steps >= 0:
+        warmup_steps = args.warmup_steps
+    else:
+        warmup_steps = max(1, int(total_steps * args.warmup_ratio))
+    warmup_steps = min(warmup_steps, max(1, total_steps - 1))  # never exceed run
     if args.debug:
         args.epochs, total_steps, warmup_steps = 1, max(1, steps_per_epoch), 1
 

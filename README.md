@@ -27,13 +27,14 @@ everything else is in `requirements.txt`.
 | | |
 |---|---|
 | architecture | deberta-v3-base config; 768 hidden, 12 layers (`--preset base`) |
-| optimizer | AdamW, betas (0.9, 0.95), eps 1e-8 |
-| lr | **1e-3** (his original was 0.007; see `--lr`) |
-| schedule | cosine, 1% warmup |
-| epochs | 10 |
-| batch | 256, grad_acc 4 (= 64/device, effective batch 256) |
+| optimizer | AdamW, betas (0.9, 0.999), eps 1e-8 |
+| lr | **2e-4** (paper Table 3) |
+| weight decay | 0.01 |
+| schedule | cosine, fixed 4000 warmup steps |
+| epochs | 50 |
+| batch | 256 effective, grad_acc 4 (= 64/device) |
 | MLM | 15% (80/10/10) |
-| seq-len warmup | len 64 for epochs 0–4, len 256 from epoch 5 |
+| context warmup | ctx 64 for epochs 0–4, ctx 128 from epoch 5 |
 | tokenizer | **required** — pass `--tokenizer augustinian-babylm/babylm-bpe-{50k,75k,100k}` |
 
 ---
