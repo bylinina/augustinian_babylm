@@ -3,6 +3,7 @@ transformers>=5.0
 tokenizers>=0.20
 datasets>=2.18
 huggingface_hub>=0.24
+accelerate>=1.1.0
 tqdm>=4.66
 
 # torch is installed separately with the right CUDA wheels (see README / SLURM),
