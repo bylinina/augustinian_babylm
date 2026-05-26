@@ -459,7 +459,7 @@ def build(args):
 def build_parser():
     p = argparse.ArgumentParser(description="Build visual embedding tables (compact)")
     p.add_argument("--dataset_repo", type=str,
-                   default="augustinian-babylm/multimodal-babylm-grounding")
+                   default="augustinian-babylm/augustinian_babylm")
     p.add_argument("--encoder_name", type=str, default="dinov3", choices=list(BACKENDS))
     p.add_argument("--encoder", type=str,
                    default="facebook/dinov3-vitb16-pretrain-lvd1689m",
