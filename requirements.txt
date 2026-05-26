@@ -4,6 +4,11 @@ tokenizers>=0.20
 datasets>=2.18
 huggingface_hub>=0.24
 accelerate>=1.1.0
+safetensors>=0.4
+Pillow>=10.0
+numpy>=1.23
+pandas>=2.0
+timm>=1.0          # for the iBOT vision encoder
 tqdm>=4.66
 
 # torch is installed separately with the right CUDA wheels (see README / SLURM),
