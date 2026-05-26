@@ -117,3 +117,21 @@ masked-token accuracy on the dev set, for each model.
   instead of falling, drop to `--lr 5e-4`.
 - **Tokenizer loading.** We load with `AutoTokenizer`, not `DebertaV2Tokenizer`,
   because the latter can't read our byte-level BPE on transformers 5.x.
+
+
+## Training-dynamics checkpoints (Pythia-style)
+Each training run also saves checkpoints at steps 0, 1, 2, 4, ..., 512, 1000,
+then every 5000 (`--dynamics_linear_every`, set 1000 for full Pythia density),
+plus the best-by-eval checkpoint. With `--push_to_hub`, the **final** model is on
+the repo's `main` branch and every intermediate is its own branch:
+
+```python
+from transformers import AutoModelForMaskedLM
+# final model:
+m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k")
+# a mid-training checkpoint:
+m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="step256")
+# the best-by-eval checkpoint:
+m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="best")
+```
+Pass `--no_push_intermediates` to keep intermediates local (only final + best pushed).

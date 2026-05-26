@@ -33,6 +33,15 @@ Hyperparameters — from the paper's Table 3 (with context warmup 64 -> 128):
                    hidden_size=768, intermediate_size=3072,
                    max_position_embeddings=1024
 
+Checkpointing (for training-dynamics study, Pythia-style):
+  * Saves at steps 0,1,2,4,8,...,512,1000, then every --dynamics_linear_every
+    (default 5000; set 1000 for full Pythia density). Step 0 = initialization.
+  * Tracks the best checkpoint by eval_loss (--keep_best).
+  * With --push_to_hub, the final model goes to the repo's MAIN branch, and each
+    dynamics checkpoint + the best go to their own HF BRANCHES (step0, step1, ...,
+    best) — load via from_pretrained(repo, revision="step256"). Pass
+    --no_push_intermediates to keep them local only.
+
 Faithful deviations:
   * Tokenizer is loaded with AutoTokenizer, NOT DebertaV2Tokenizer. On current
     transformers (5.x) the DebertaV2Tokenizer path is broken and cannot read our
@@ -124,10 +133,25 @@ def build_parser():
     p.add_argument("--fp16", action="store_true", help="Force fp16 (else bf16 if available).")
     p.add_argument("--push_to_hub", type=str, default=None,
                    help="Optional repo id to push the trained model to, e.g. "
-                        "augustinian-babylm/deberta-small-50k")
+                        "augustinian-babylm/deberta-base-50k")
     p.add_argument("--hub_private", action="store_true", default=True)
     p.add_argument("--wandb", action="store_true")
     p.add_argument("--debug", action="store_true", help="Tiny subset + 1 epoch.")
+    # ---- checkpointing for training-dynamics study (Pythia-style) ----
+    p.add_argument("--dynamics_checkpoints", action="store_true", default=True,
+                   help="Save Pythia-style checkpoints: step 0,1,2,4,...,512,1000, "
+                        "then every --dynamics_linear_every steps. Each is also "
+                        "pushed to HF as a `stepN` branch if --push_to_hub is set.")
+    p.add_argument("--dynamics_linear_every", type=int, default=5000,
+                   help="Linear-phase interval after step 1000. Pythia used 1000 "
+                        "(dense, ~128 ckpts here); default 5000 keeps storage sane "
+                        "(~25 ckpts). Set 1000 for full Pythia density.")
+    p.add_argument("--keep_best", action="store_true", default=True,
+                   help="Also track + save the best checkpoint by eval_loss "
+                        "(pushed to the `best` branch).")
+    p.add_argument("--no_push_intermediates", action="store_true",
+                   help="Compute/save dynamics checkpoints locally but do NOT push "
+                        "each to HF (saves bandwidth; only final + best go up).")
     return p
 
 
@@ -186,6 +210,27 @@ def load_text_dataset(train_url, valid_url, tokenizer, workdir, debug=False):
     ds = ds.map(tok_fn, batched=True, remove_columns=["text"],
                 desc="tokenizing")
     return ds
+
+
+def pythia_checkpoint_steps(total_steps, linear_every=5000):
+    """Pythia schedule: 0, 1, 2, 4, ..., 512, 1000, then every `linear_every`.
+    Returns a sorted set of step indices <= total_steps. The log-spaced early
+    points capture the fast initial dynamics; the linear tail the slow phase."""
+    steps = {0}
+    p = 1
+    while p <= 512:
+        steps.add(p)
+        p *= 2
+    steps.add(1000)
+    s = linear_every if linear_every >= 1000 else 1000
+    # align the linear phase to multiples of linear_every starting after 1000
+    k = 1
+    while k * linear_every <= total_steps:
+        if k * linear_every > 1000:
+            steps.add(k * linear_every)
+        k += 1
+    steps.add(total_steps)  # always keep the final step
+    return sorted(x for x in steps if x <= total_steps)
 
 
 # ==========================================================================
@@ -324,20 +369,32 @@ def train(args):
     seqcap = SeqLenWarmup(schedule)
 
     class CappingCollator:
-        def __init__(self, base, seqcap):
+        """Sequence-length warmup: cap each example to the per-epoch length.
+        IMPORTANT: keep the final [SEP] — naive input_ids[:cap] slicing drops the
+        closing special token and leaves a mid-word truncation, which makes the
+        training inputs malformed (and inflates training loss vs eval). We slice
+        to cap-1 content tokens and re-append SEP so every example stays
+        [CLS] ... [SEP]."""
+        def __init__(self, base, seqcap, sep_id):
             self.base = base
             self.seqcap = seqcap
+            self.sep_id = sep_id
             self.epoch = 0
         def __call__(self, features):
             cap = self.seqcap.cap_for(self.epoch)
             for f in features:
-                if len(f["input_ids"]) > cap:
-                    f["input_ids"] = f["input_ids"][:cap]
+                ids = f["input_ids"]
+                if len(ids) > cap:
+                    # keep room for the closing SEP at the end
+                    ids = ids[:cap - 1] + [self.sep_id]
+                    f["input_ids"] = ids
                     if "attention_mask" in f:
                         f["attention_mask"] = f["attention_mask"][:cap]
+                    if "token_type_ids" in f:
+                        f["token_type_ids"] = f["token_type_ids"][:cap]
             return self.base(features)
 
-    capping = CappingCollator(collator, seqcap)
+    capping = CappingCollator(collator, seqcap, tokenizer.sep_token_id)
 
     from transformers import TrainerCallback
 
@@ -347,6 +404,67 @@ def train(args):
             print(f"[seqlen warmup] epoch {capping.epoch} -> max_len "
                   f"{seqcap.cap_for(capping.epoch)}")
 
+    # ---- Pythia-style dynamics checkpoints + best-by-eval ----
+    ckpt_steps = set(pythia_checkpoint_steps(total_steps, args.dynamics_linear_every)) \
+        if args.dynamics_checkpoints else set()
+    push_intermediates = (args.push_to_hub is not None
+                          and not args.no_push_intermediates)
+
+    def _save_and_push(trainer_model, step_label, branch):
+        """Save a checkpoint dir locally and (optionally) push it to a HF branch."""
+        sub = os.path.join(args.output_path, "dynamics", step_label)
+        os.makedirs(sub, exist_ok=True)
+        trainer_model.save_pretrained(sub)
+        tokenizer.save_pretrained(sub)
+        if push_intermediates:
+            from huggingface_hub import create_repo, HfApi
+            create_repo(args.push_to_hub, repo_type="model",
+                        private=args.hub_private, exist_ok=True)
+            api = HfApi()
+            try:
+                api.create_branch(repo_id=args.push_to_hub, repo_type="model",
+                                  branch=branch, exist_ok=True)
+            except Exception as e:
+                print(f"  (branch {branch}: {e})")
+            api.upload_folder(folder_path=sub, repo_id=args.push_to_hub,
+                              repo_type="model", revision=branch,
+                              commit_message=f"checkpoint {branch}")
+            print(f"  [dynamics] pushed {branch} -> "
+                  f"huggingface.co/{args.push_to_hub}/tree/{branch}")
+
+    class DynamicsCheckpoint(TrainerCallback):
+        """Saves at Pythia steps (incl. step 0 = init) and tracks best eval."""
+        def __init__(self):
+            self.best = float("inf")
+            self.saved = set()
+        def _maybe_save_step(self, model, step):
+            if step in ckpt_steps and step not in self.saved:
+                self.saved.add(step)
+                print(f"[dynamics] checkpoint at step {step}")
+                _save_and_push(model, f"step{step}", f"step{step}")
+        def on_train_begin(self, a, state, control, model=None, **kw):
+            # step 0 = initialization checkpoint (Pythia includes this)
+            if 0 in ckpt_steps:
+                self._maybe_save_step(model, 0)
+        def on_step_end(self, a, state, control, model=None, **kw):
+            self._maybe_save_step(model, int(state.global_step))
+        def on_evaluate(self, a, state, control, model=None, metrics=None, **kw):
+            if not args.keep_best or not metrics or "eval_loss" not in metrics:
+                return
+            if metrics["eval_loss"] < self.best:
+                self.best = metrics["eval_loss"]
+                print(f"[dynamics] new best eval_loss {self.best:.4f} "
+                      f"@ step {state.global_step}")
+                _save_and_push(model, "best", "best")
+
+    callbacks = [EpochTracker()]
+    if ckpt_steps:
+        print(f"[dynamics] will checkpoint at steps: "
+              f"{sorted(ckpt_steps)[:14]}{' ...' if len(ckpt_steps) > 14 else ''} "
+              f"({len(ckpt_steps)} total)"
+              + (" | pushing each as a HF branch" if push_intermediates else ""))
+        callbacks.append(DynamicsCheckpoint())
+
     trainer = Trainer(
         model=model,
         args=targs,
@@ -354,7 +472,7 @@ def train(args):
         eval_dataset=ds["validation"],
         data_collator=capping,
         optimizers=(optimizer, scheduler),
-        callbacks=[EpochTracker()],
+        callbacks=callbacks,
     )
 
     print(f"\nTraining: {len(ds['train']):,} train / {len(ds['validation']):,} valid | "
@@ -375,9 +493,16 @@ def train(args):
         from huggingface_hub import create_repo, HfApi
         create_repo(args.push_to_hub, repo_type="model",
                     private=args.hub_private, exist_ok=True)
-        HfApi().upload_folder(folder_path=args.output_path,
-                              repo_id=args.push_to_hub, repo_type="model")
-        print(f"Pushed -> https://huggingface.co/{args.push_to_hub}")
+        # main branch = final (last-step) model + tokenizer
+        HfApi().upload_folder(folder_path=args.output_path, repo_id=args.push_to_hub,
+                              repo_type="model", commit_message="final model",
+                              ignore_patterns=["dynamics/*", "checkpoint-*/*", "_data/*"])
+        print(f"Pushed final -> https://huggingface.co/{args.push_to_hub}")
+        if args.dynamics_checkpoints and not args.no_push_intermediates:
+            print("Dynamics checkpoints are on branches: "
+                  f"step0, step1, ... and `best`. Load with "
+                  f"AutoModelForMaskedLM.from_pretrained('{args.push_to_hub}', "
+                  f"revision='step256').")
     return metrics
 
 
