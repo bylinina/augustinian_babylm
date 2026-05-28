@@ -95,7 +95,7 @@ annotations table with embeddings appended. A row-aligned `region_embeddings.npy
 ```bash
 ssh <username>@snellius.surf.nl
 cd $HOME
-git clone <THIS_REPO_URL> augustinian_babylm     # <-- replace with the real URL
+git clone https://github.com/bylinina/augustinian_babylm.git augustinian_babylm     
 cd augustinian_babylm
 ```
 
