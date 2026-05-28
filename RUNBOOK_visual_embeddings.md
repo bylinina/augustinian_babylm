@@ -1,16 +1,12 @@
-# Visual embedding extraction — runbook
+# Visual embeddings — runbook
 
-The full, self-contained step-by-step now lives in the main **[README](README.md)**
-under "▶ Visual embedding extraction (main task right now)", including:
+The visual-embedding work is split into **two stages**, documented in full in the
+main **[README](README.md)**:
 
-- prerequisites (HF org membership + token)
-- cloning on Snellius
-- downloading the iBOT checkpoint
-- per-encoder smoke tests
-- the three full `sbatch` runs
-- setup variations (persistent vs. node-local venv, partitions, module versions,
-  token via cache vs. export)
-- troubleshooting (SAM 768-d, iBOT key mismatch, 404, 401, multi-line paste)
+- **Stage 1 (Ece, GPU):** per-row visual embeddings (whole-image + bbox-region),
+  no tokenizer. Script `scripts/extract_region_embeddings.py`,
+  SLURM `slurm/extract_region_embeddings.slurm`.
+- **Stage 2 (later, CPU):** region embeddings → per-token table.
+  Script `scripts/build_token_embeddings.py`.
 
-Open the README and start at that section. (This file is kept only so old links
-don't break.)
+Open the README and start at "▶ Visual embeddings — TWO SEPARATE STAGES".
