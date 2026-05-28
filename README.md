@@ -1,137 +1,259 @@
 # augustinian-babylm-training
 
-Training & evaluation for the Augustinian BabyLM DeBERTa models. Follows the
-recipe in Lukas's [babylm25](https://github.com/Leukas/babylm25) repo, using our
-byte-level BPE tokenizers from the `augustinian-babylm` HF org.
+Training, evaluation, and **visual-embedding extraction** for the Augustinian
+BabyLM DeBERTa project. Models follow the recipe in Lukas's
+[babylm25](https://github.com/Leukas/babylm25) repo (Table 3 hyperparameters),
+using our byte-level BPE tokenizers from the private `augustinian-babylm` HF org.
 
-## Layout
+> **If you only need to run the visual embeddings:** jump to
+> [RUNBOOK_visual_embeddings.md](RUNBOOK_visual_embeddings.md) — it is fully
+> self-contained and covers different Snellius setups. The summary below mirrors it.
+
+---
+
+## Repo layout
 
 ```
 .
 ├── scripts/
-│   ├── train_deberta_babylm.py    # pretrain a DeBERTa MLM
-│   └── eval_deberta_babylm.py     # mask-fill samples + pseudo-perplexity
+│   ├── build_visual_embeddings.py  # extract visual embedding tables (DINOv3/iBOT/SAM)
+│   ├── train_deberta_babylm.py     # pretrain a DeBERTa MLM
+│   └── eval_deberta_babylm.py      # mask-fill samples + pseudo-perplexity
 ├── slurm/
-│   ├── train.slurm                # Snellius batch job for training
-│   └── eval.slurm                 # Snellius batch job for eval
+│   ├── build_visual_embeddings.slurm
+│   ├── train.slurm
+│   └── eval.slurm
 ├── requirements.txt
+├── RUNBOOK_visual_embeddings.md    # step-by-step for the visual part (start here)
 └── README.md
 ```
 
-Both python scripts run **either** as a Colab cell (`main([...])`) **or** from
-the CLI / Snellius. torch is installed separately (cluster-specific CUDA wheels);
-everything else is in `requirements.txt`.
+All Python scripts auto-install their Python deps on first run; **torch is
+installed separately** with cluster-specific CUDA wheels (see setup below).
 
-## Defaults (from Lukas's `train_mask.py`)
+---
+
+## What's already done vs. what's next
+
+- **Done:** three BPE tokenizers (`augustinian-babylm/babylm-bpe-{50k,75k,100k}`)
+  and three random-init DeBERTa baselines (`augustinian-babylm/deberta-base-{50k,75k,100k}`).
+- **Grounding dataset:** `augustinian-babylm/augustinian_babylm` (HF dataset, private)
+  — `annotations.parquet` (image_uid, bbox, text, ...) + `images/` parquet shards.
+- **Next (this is what the visual scripts do):** build per-token *visual*
+  embedding tables from three vision encoders × three tokenizers, to initialize
+  DeBERTa embeddings from vision instead of random Gaussian.
+
+---
+
+# ▶ Visual embedding extraction (main task right now)
+
+Builds, for each vision encoder, a per-token embedding table by: encoding each
+image once, pooling the region (bbox → patches; whole image when there's no
+bbox), averaging per token, then post-processing (mean-center → L2-normalize →
+×0.55, giving std ≈ 0.02 to match transformer init). One run produces all three
+tokenizer tables (50k/75k/100k) in a single encode pass.
+
+**Three encoders** (all ViT-B, 768-dim, so no projection needed):
+
+| `ENC` | `ENC_ID` to pass | path |
+|---|---|---|
+| `dinov3` | `facebook/dinov3-vitb16-pretrain-lvd1689m` | encode → slice patches in bbox → pool |
+| `sam` | `facebook/sam-vit-base` | bbox prompt → predicted mask → pool 768-d features over mask |
+| `ibot` | a local `.pth` path (see below) | timm loads official ByteDance ViT-B/16 → slice patches → pool |
+
+**Output:** per `(encoder × tokenizer)`, pushed to
+`augustinian-babylm/visual-embeddings/<encoder>/<tag>`:
+`E_raw.safetensors`, `E_init.safetensors` (+`seeded_mask`), `coverage.parquet`,
+`config.json`.
+
+### Step 0 — prerequisites (one time)
+
+You need:
+1. An HF account that is a **member of the `augustinian-babylm` org** with at
+   least **read** (to read the private dataset/tokenizers) and **write** (to push
+   the results). Create a token at huggingface.co → Settings → Access Tokens.
+2. Access to Snellius with a GPU allocation (partition `gpu_a100` assumed; adjust
+   if your project uses another).
+
+### Step 1 — clone the repo (on Snellius login node)
+
+```bash
+ssh <username>@snellius.surf.nl
+cd $HOME
+git clone <THIS_REPO_URL> augustinian_babylm     # <-- replace with the real URL
+cd augustinian_babylm
+```
+
+### Step 2 — download the iBOT checkpoint (one time, login node)
+
+DINOv3 and SAM download themselves from HF. iBOT does not — fetch its official
+ByteDance ViT-B/16 (ImageNet-22K) checkpoint once to `$HOME`:
+
+```bash
+wget https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vitb_16_pt22k/checkpoint_student.pth -O $HOME/ibot_vitb16_pt22k.pth
+ls -lh $HOME/ibot_vitb16_pt22k.pth      # ~327 MB
+```
+(Keep the whole command on ONE line. If that host is unreachable, download on a
+laptop and `scp` it to `$HOME/ibot_vitb16_pt22k.pth`.)
+
+### Step 3 — set your HF token
+
+```bash
+export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
+echo ${HF_TOKEN:0:5}        # should print hf_xx
+```
+You must `export` this in the **same shell** you submit jobs from (sbatch copies
+it via `--export`). To make it permanent instead, run `hf auth login` once
+(writes `~/.cache/huggingface/token`, picked up by all jobs automatically).
+
+### Step 4 — smoke-test each encoder (interactive GPU, ~15 min total)
+
+Strongly recommended before the full runs — validates each encoder on 100 images.
+
+```bash
+srun --partition=gpu_a100 --gpus=1 --cpus-per-task=8 --time=00:30:00 --pty bash
+# once on the gcn… node:
+cd ~/augustinian_babylm
+module load 2024 Python/3.12.3-GCCcore-13.3.0 CUDA/12.6.0
+python -m venv $TMPDIR/venv_babylm && source $TMPDIR/venv_babylm/bin/activate
+pip install -q --upgrade pip
+pip install -q torch --index-url https://download.pytorch.org/whl/cu126
+pip install -q -r requirements.txt
+export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
+python -c "import torch; print('cuda:', torch.cuda.is_available())"   # expect True
+
+# each command on ONE line:
+python scripts/build_visual_embeddings.py --encoder_name dinov3 --encoder facebook/dinov3-vitb16-pretrain-lvd1689m --limit_images 100
+python scripts/build_visual_embeddings.py --encoder_name sam --encoder facebook/sam-vit-base --limit_images 50
+python scripts/build_visual_embeddings.py --encoder_name ibot --encoder $HOME/ibot_vitb16_pt22k.pth --limit_images 100
+exit
+```
+**What healthy output looks like:**
+- DINOv3 prints `registers=4 prefix=5 hidden=768`.
+- SAM runs without raising "Could not find a 768-d feature map".
+- iBOT prints `loaded N tensors ... hidden=768` with N in the hundreds.
+- All print per-tokenizer `seeded X/V (Y%)`. A modest % (concrete nouns) is normal.
+
+If SAM or iBOT complain, see [Troubleshooting](#troubleshooting) — both have a
+one-line diagnostic to send back.
+
+### Step 5 — full runs (login node)
+
+Each job encodes the whole dataset (~80k images) and produces all three
+tokenizer tables. Run all three encoders (they're independent jobs):
+
+```bash
+sbatch --export=ALL,HF_TOKEN,ENC=dinov3,ENC_ID=facebook/dinov3-vitb16-pretrain-lvd1689m --job-name=vemb-dinov3 slurm/build_visual_embeddings.slurm
+sbatch --export=ALL,HF_TOKEN,ENC=sam,ENC_ID=facebook/sam-vit-base --job-name=vemb-sam slurm/build_visual_embeddings.slurm
+sbatch --export=ALL,HF_TOKEN,ENC=ibot,ENC_ID=$HOME/ibot_vitb16_pt22k.pth --job-name=vemb-ibot slurm/build_visual_embeddings.slurm
+```
+Monitor:
+```bash
+squeue --me
+tail -f logs/visualemb_vemb-dinov3_*.out
+```
+Results land at `augustinian-babylm/visual-embeddings/<encoder>/<50k|75k|100k>`.
+sbatch jobs are unaffected by your SSH connection — you can log off while they run.
+
+---
+
+## Setup variations (different Snellius situations)
+
+- **Fresh interactive session each time.** The venv lives on `$TMPDIR` (node-local,
+  wiped when the session ends), so every new interactive session rebuilds it
+  (~2–3 min). The sbatch jobs rebuild it on their compute node automatically.
+- **Want a persistent venv** (avoid rebuilding): create it in `$HOME` instead —
+  `python -m venv $HOME/venvs/babylm` — and `source` that. Edit the SLURM files'
+  `VENV=` line to match. Costs home-quota (~few GB for torch); check `myquota`.
+- **Different partition/GPU.** If your project isn't on `gpu_a100`, change
+  `--partition` (and add it to the `sbatch` line). Check with `sinfo` or ask your
+  project admin. `gpu_h100` also works if allocated.
+- **`module load` name errors.** Module versions drift between maintenance windows.
+  If a load fails, run `module avail Python` / `module avail CUDA` and update the
+  three names in `slurm/build_visual_embeddings.slurm` (and train/eval slurm).
+- **Token via cache vs. export.** If you ran `hf auth login` once, you can drop
+  `HF_TOKEN` from the `--export` list — jobs read the cached token. Either works.
+- **iBOT host unreachable from compute nodes.** Already handled — Step 2 downloads
+  to `$HOME` and we pass the local path, so compute nodes never hit that host.
+
+---
+
+## Troubleshooting
+
+**SAM: "Could not find a 768-d feature map. Available shapes: [...]"**
+The pre-neck feature path differs in this transformers version. Send the printed
+shapes; it's a one-line fix in `SAMBackend._vit_patch_features`.
+
+**iBOT: "Only N tensors matched" / very low seeded %**
+The checkpoint key/prefix differs. Run and send the output:
+```bash
+python -c "import torch; sd=torch.load('$HOME/ibot_vitb16_pt22k.pth',map_location='cpu'); print(type(sd)); print(list(sd.keys())[:20])"
+```
+Also try `--ckpt_key student` (default is `teacher`, though the pt22k backbone
+file has no wrapper key so it usually doesn't matter).
+
+**404 on annotations.parquet**
+`--dataset_repo` is wrong. The correct one is `augustinian-babylm/augustinian_babylm`
+(already the default). Verify you can see it at
+huggingface.co/datasets/augustinian-babylm/augustinian_babylm.
+
+**401 Unauthorized**
+Token not set/exported, or not a member of the org. Re-check Step 3 and that the
+token has org access.
+
+**`bash: --encoder: command not found`**
+A multi-line paste split the command. Keep each `python ...` invocation on ONE
+line (or end continued lines with `\`).
+
+---
+
+# DeBERTa training & evaluation (reference)
+
+Already run for the random-init baselines; documented here for reproducibility
+and for the upcoming vision-init runs (same script + an embedding-init flag, TBD).
+
+### Hyperparameters (paper Table 3)
 
 | | |
 |---|---|
 | architecture | deberta-v3-base config; 768 hidden, 12 layers (`--preset base`) |
 | optimizer | AdamW, betas (0.9, 0.999), eps 1e-8 |
-| lr | **2e-4** (paper Table 3) |
+| lr | 2e-4 |
 | weight decay | 0.01 |
 | schedule | cosine, fixed 4000 warmup steps |
 | epochs | 50 |
 | batch | 256 effective, grad_acc 4 (= 64/device) |
 | MLM | 15% (80/10/10) |
 | context warmup | ctx 64 for epochs 0–4, ctx 128 from epoch 5 |
-| tokenizer | **required** — pass `--tokenizer augustinian-babylm/babylm-bpe-{50k,75k,100k}` |
+| tokenizer | required: `--tokenizer augustinian-babylm/babylm-bpe-{50k,75k,100k}` |
 
----
-
-## Running on Snellius — step by step
-
-### 1. Get an HF token
-On huggingface.co: Settings → Access Tokens → create a token with **write**
-access to the `augustinian-babylm` org (needed to read the private tokenizer and
-push the trained model). Copy it (`hf_...`).
-
-### 2. Log in to Snellius and clone the repo
-```bash
-ssh <username>@snellius.surf.nl
-cd $HOME
-git clone https://github.com/<you>/augustinian-babylm-training.git
-cd augustinian-babylm-training
-```
-
-### 3. Set your token in the environment
-```bash
-export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
-```
-(Don't hardcode it in the SLURM files — pass it through with `--export`.)
-
-### 4. (Recommended) smoke-test first — 1 epoch, tiny subset
-This catches setup/memory problems in ~minutes before you burn GPU hours.
-Grab a short interactive GPU session:
-```bash
-srun --partition=gpu_a100 --gpus=1 --cpus-per-task=8 --time=00:20:00 --pty bash
-# inside the allocation:
-module load 2024 Python/3.12.3-GCCcore-13.3.0 CUDA/12.6.0
-python -m venv $TMPDIR/venv_babylm && source $TMPDIR/venv_babylm/bin/activate
-pip install -q --upgrade pip
-pip install -q torch --index-url https://download.pytorch.org/whl/cu126
-pip install -q -r requirements.txt
-huggingface-cli login --token $HF_TOKEN
-python scripts/train_deberta_babylm.py \
-    --tokenizer augustinian-babylm/babylm-bpe-75k --preset base --debug
-exit
-```
-If that finishes and prints a perplexity, you're good.
-
-### 5. Submit the training jobs — one per vocab size
-`train.slurm` is parametrized by `$VOCAB`, so each size runs as an independent
-job from the same file. Submit all three:
+### Train (one job per vocab size)
 ```bash
 sbatch --export=ALL,HF_TOKEN,VOCAB=50k  --job-name=deberta-50k  slurm/train.slurm
 sbatch --export=ALL,HF_TOKEN,VOCAB=75k  --job-name=deberta-75k  slurm/train.slurm
 sbatch --export=ALL,HF_TOKEN,VOCAB=100k --job-name=deberta-100k slurm/train.slurm
 ```
-Watch them:
+Smoke-test first: `python scripts/train_deberta_babylm.py --tokenizer augustinian-babylm/babylm-bpe-75k --preset base --debug`
+
+### Evaluate
 ```bash
-squeue --me                          # all jobs, by name
-tail -f logs/train_deberta-75k_<jobid>.out
+sbatch --export=ALL,HF_TOKEN,VOCAB=75k --job-name=eval-75k slurm/eval.slurm
 ```
-Each is fully independent (its own GPU, its own node-local venv — so each pays
-the install time once). Outputs land in
-`$HOME/models/deberta-babylm-{50k,75k,100k}-base` and are pushed to
-`augustinian-babylm/deberta-base-{50k,75k,100k}` (private).
 
-### 6. Evaluate — same pattern, one per model
-```bash
-sbatch --export=ALL,HF_TOKEN,VOCAB=50k  --job-name=eval-50k  slurm/eval.slurm
-sbatch --export=ALL,HF_TOKEN,VOCAB=75k  --job-name=eval-75k  slurm/eval.slurm
-sbatch --export=ALL,HF_TOKEN,VOCAB=100k --job-name=eval-100k slurm/eval.slurm
-cat logs/eval_eval-75k_<jobid>.out
-```
-You'll get mask-fill predictions on sample sentences plus pseudo-perplexity and
-masked-token accuracy on the dev set, for each model.
-
----
-
-## Notes / gotchas
-- **`module load` versions drift.** If a module isn't found, run `module avail
-  Python` / `module avail CUDA` and update the names in the SLURM files.
-- **Memory.** Base size at 256/grad_acc 4 (= 64/device) fits an A100-80GB. If you
-  hit OOM, raise `--grad_acc` to 8.
-- **lr 1e-3 is a touch hot.** If the loss spikes in the first few hundred steps
-  instead of falling, drop to `--lr 5e-4`.
-- **Tokenizer loading.** We load with `AutoTokenizer`, not `DebertaV2Tokenizer`,
-  because the latter can't read our byte-level BPE on transformers 5.x.
-
-
-## Training-dynamics checkpoints (Pythia-style)
-Each training run also saves checkpoints at steps 0, 1, 2, 4, ..., 512, 1000,
-then every 5000 (`--dynamics_linear_every`, set 1000 for full Pythia density),
-plus the best-by-eval checkpoint. With `--push_to_hub`, the **final** model is on
-the repo's `main` branch and every intermediate is its own branch:
-
+### Training-dynamics checkpoints (Pythia-style)
+Each run saves checkpoints at steps 0,1,2,4,…,512,1000 then every 5000
+(`--dynamics_linear_every`), plus best-by-eval. With `--push_to_hub`, the final
+model is on `main` and each intermediate is its own branch:
 ```python
 from transformers import AutoModelForMaskedLM
-# final model:
-m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k")
-# a mid-training checkpoint:
-m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="step256")
-# the best-by-eval checkpoint:
-m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="best")
+m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k")                      # final
+m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="step256")  # mid-training
+m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="best")     # best eval
 ```
-Pass `--no_push_intermediates` to keep intermediates local (only final + best pushed).
+
+### Notes
+- **Memory:** base size at grad_acc 4 (64/device) fits A100-80GB. OOM → raise `--grad_acc` to 8.
+- **Tokenizer loading:** we use `AutoTokenizer`, not `DebertaV2Tokenizer` (the latter
+  can't read our byte-level BPE on transformers 5.x).
+- **Train-loss display:** the logged training loss reads higher than eval loss due to
+  grad-accumulation logging; judge progress by `eval_loss`. Not a bug.
