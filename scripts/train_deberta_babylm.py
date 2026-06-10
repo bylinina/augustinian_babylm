@@ -14,7 +14,7 @@ inside an srun/sbatch GPU allocation).
 
 ------------------------------------------------------------------------------
 Hyperparameters — from the paper's Table 3 (with context warmup 64 -> 128):
-  optimizer        AdamW, betas=(0.9, 0.999), eps=1e-8  (standard AdamW defaults;
+  optimizer        AdamW, betas=(0.9, 0.95), eps=1e-8  (standard AdamW defaults;
                    the paper says only "AdamW")
   lr               2e-4
   weight_decay     0.01  ("Decay" in the table)
@@ -109,7 +109,7 @@ def build_parser():
     p.add_argument("--warmup_ratio", type=float, default=0.01,
                    help="Used only if --warmup_steps < 0.")
     p.add_argument("--adam_beta1", type=float, default=0.9)
-    p.add_argument("--adam_beta2", type=float, default=0.999)
+    p.add_argument("--adam_beta2", type=float, default=0.95)
     p.add_argument("--mlm_prob", type=float, default=0.15)
     p.add_argument("--dropout", type=float, default=0.1)
     p.add_argument("--seed", type=int, default=0)
