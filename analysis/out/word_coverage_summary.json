@@ -1,0 +1,20 @@
+{
+  "corpus_types": 163099,
+  "corpus_tokens": 9923835,
+  "image_types": 25320,
+  "image_tokens": 2035246,
+  "coverage": {
+    "image_freq_ge_1": {
+      "type_coverage": 0.1006,
+      "token_coverage": 0.8494
+    },
+    "image_freq_ge_5": {
+      "type_coverage": 0.0478,
+      "token_coverage": 0.7659
+    },
+    "image_freq_ge_20": {
+      "type_coverage": 0.024,
+      "token_coverage": 0.6786
+    }
+  }
+}

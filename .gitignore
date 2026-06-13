@@ -2,3 +2,6 @@ logs/
 region_embeddings/
 *.bak
 __pycache__/
+analysis/bb24.train
+analysis/out/word_coverage.csv
+analysis/out/token_coverage_*.csv

@@ -1,0 +1,105 @@
+=== Top 50 corpus words with ZERO image-text support ===
+(frequent in training text, no visual grounding)
+  known                     corpus=4,582
+  asked                     corpus=4,097
+  i've                      corpus=3,790
+  told                      corpus=3,630
+  federal                   corpus=3,430
+  knew                      corpus=3,107
+  days                      corpus=2,915
+  however                   corpus=2,888
+  often                     corpus=2,796
+  gave                      corpus=2,686
+  rule                      corpus=2,680
+  began                     corpus=2,667
+  uh-huh                    corpus=2,578
+  history                   corpus=2,492
+  started                   corpus=2,457
+  seemed                    corpus=2,387
+  mind                      corpus=2,290
+  percent                   corpus=2,066
+  usually                   corpus=1,988
+  voice                     corpus=1,957
+  jon                       corpus=1,942
+  miles                     corpus=1,913
+  february                  corpus=1,912
+  million                   corpus=1,873
+  capital                   corpus=1,865
+  become                    corpus=1,841
+  understand                corpus=1,818
+  week                      corpus=1,804
+  costs                     corpus=1,796
+  although                  corpus=1,794
+  bomba                     corpus=1,790
+  agencies                  corpus=1,780
+  financial                 corpus=1,769
+  needed                    corpus=1,660
+  example                   corpus=1,658
+  sent                      corpus=1,640
+  lsc                       corpus=1,622
+  deal                      corpus=1,618
+  received                  corpus=1,606
+  saving                    corpus=1,599
+  provide                   corpus=1,594
+  bring                     corpus=1,559
+  analysis                  corpus=1,553
+  considered                corpus=1,541
+  happened                  corpus=1,517
+  couldn't                  corpus=1,514
+  agency                    corpus=1,514
+  reason                    corpus=1,507
+  speak                     corpus=1,501
+  months                    corpus=1,500
+
+=== Top 50 image-text words by image frequency ===
+(image_count, corpus_count)
+  a                         image=206,472  corpus=319,771
+  the                       image=96,722  corpus=605,108
+  of                        image=55,457  corpus=249,645
+  in                        image=44,262  corpus=200,397
+  with                      image=41,360  corpus=66,266
+  man                       image=40,276  corpus=30,004
+  white                     image=33,662  corpus=6,562
+  shirt                     image=29,260  corpus=3,785
+  on                        image=29,048  corpus=78,001
+  black                     image=28,232  corpus=5,641
+  people                    image=28,143  corpus=27,864
+  and                       image=26,470  corpus=253,275
+  blue                      image=23,579  corpus=4,485
+  woman                     image=21,867  corpus=13,670
+  red                       image=20,269  corpus=4,758
+  two                       image=19,587  corpus=21,684
+  to                        image=17,527  corpus=237,467
+  group                     image=14,176  corpus=5,582
+  green                     image=10,979  corpus=2,644
+  is                        image=10,812  corpus=147,839
+  girl                      image=10,807  corpus=7,131
+  an                        image=10,785  corpus=35,626
+  his                       image=10,202  corpus=49,304
+  men                       image=10,052  corpus=9,381
+  person                    image=9,192  corpus=6,312
+  brown                     image=9,180  corpus=2,131
+  young                     image=8,649  corpus=8,143
+  wearing                   image=8,329  corpus=6,200
+  yellow                    image=8,327  corpus=1,656
+  other                     image=7,832  corpus=14,736
+  boy                       image=7,801  corpus=7,924
+  chair                     image=7,499  corpus=1,068
+  one                       image=7,425  corpus=29,702
+  guy                       image=7,342  corpus=1,849
+  three                     image=7,002  corpus=8,165
+  closest                   image=6,786  corpus=100
+  table                     image=6,701  corpus=2,372
+  sitting                   image=6,657  corpus=5,611
+  orange                    image=6,363  corpus=1,076
+  at                        image=6,345  corpus=52,986
+  holding                   image=6,315  corpus=3,041
+  right                     image=6,171  corpus=8,446
+  standing                  image=5,985  corpus=4,463
+  it                        image=5,972  corpus=97,082
+  that                      image=5,924  corpus=100,618
+  behind                    image=5,918  corpus=2,664
+  her                       image=5,792  corpus=31,986
+  large                     image=5,678  corpus=4,442
+  their                     image=5,663  corpus=24,303
+  women                     image=5,652  corpus=4,931
