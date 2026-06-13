@@ -1,0 +1,5 @@
+concreteness_bin,n_types,type_coverage,token_coverage
+1-2 (abstract),4428,0.1122,0.954
+2-3,8914,0.1926,0.8483
+3-4,6406,0.3901,0.9206
+4-5 (concrete),6104,0.6746,0.9599

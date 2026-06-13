@@ -3,3 +3,4 @@ region_embeddings/
 *.bak
 __pycache__/
 analysis/bb24.train
+analysis/concreteness.txt

@@ -52,3 +52,54 @@ predicates, abstractions, or discourse structure (see `divergence_report.txt`).
   across regions), so they reflect annotation density, not concept diversity;
   the ~25k distinct image word-types is the honest breadth measure.
 - Sources differ ~5x in size; the scatter uses per-million rates, not raw counts.
+
+
+## Deep dive: what lacks visual support
+
+`coverage_deep.py` characterizes the ungrounded vocabulary along three axes
+(POS via spaCy, concreteness via Brysbaert et al. 2014 norms, corpus frequency);
+`extract_zero_support.py` dumps the complete frequency-sorted lists of
+units with zero image support. POS tagging used a ~15M-char corpus subsample
+(POS distribution is stable on a subsample).
+
+**Concreteness is the clearest signal.** Per-word concreteness correlates with
+being grounded at r=0.46, and type coverage rises monotonically across
+concreteness bins: 11% (abstract, 1-2) -> 19% -> 39% -> 67% (concrete, 4-5).
+A concrete word is ~6x more likely to have visual grounding than an abstract
+one. This is the quantitative form of the vision-init premise: vision grounds
+concrete vocabulary. Note the effect is a *type* phenomenon -- token coverage
+stays ~85-96% across all concreteness bins, because abstract words include some
+ultra-frequent items that appear in captions by chance.
+
+**By part of speech**, content classes show the low type coverage that matters:
+NOUN 32%, ADJ 26%, VERB 24%, ADV 17%, and proper nouns (PROPN) just 12% -- named
+entities are the least grounded. Function-word classes (DET, ADP, PRON, AUX,
+CCONJ) show ~100% *token* coverage but this is grounding-by-cooccurrence, not
+semantic grounding: "the" appears in nearly every caption without vision
+informing its meaning. Type coverage is therefore the honest measure of whether
+vision meaningfully informs an embedding; the high aggregate token-coverage
+figure (~87%) is inflated by these function words and should not be read as
+"87% of the vocabulary is visually grounded."
+
+**By frequency**, coverage falls off steeply for rare words: type coverage by
+corpus-frequency band is 3% (1-4 occurrences) -> 14% -> 33% -> 62% -> 90%
+(1000+). The frequent tokens that dominate training are seedable; the rare-token
+tail is almost entirely un-seeded.
+
+**Per tokenizer**, the fraction of corpus tokens with zero image support grows
+with vocab size: 62.3% (50k) / 70.9% (75k) / 76.2% (100k) -- larger vocabularies
+add rarer whole-word tokens absent from the (noun-phrase) image-text, so more of
+the embedding table is left at random init by Stage 2. Some zero-support tokens
+are structural (punctuation, whitespace, BPE artifacts like the space-prefix
+marker) that vision should not ground regardless.
+
+**Full lists:** `zero_support_words.csv` and `zero_support_tokens_{50k,75k,100k}.csv`
+(frequency-sorted; rerun `extract_zero_support.py --max_image_count N` for
+weakly-supported sets). Per-axis tables in `coverage_by_{pos,concreteness,freqband}.csv`
+and `deep_summary.json`; plots `coverage_by_*.png`.
+
+### Implication for vision-init
+Vision-init can meaningfully initialize the frequent, concrete, content-bearing
+slice of the embedding table and leaves the rare/abstract/proper-noun tail at
+random init -- more so for larger vocabularies. Whether that un-seeded tail
+matters is testable downstream via the checkpoint-dynamics eval.

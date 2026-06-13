@@ -1,0 +1,177 @@
+{
+  "concreteness_correlation_covered": 0.4558,
+  "pos_table": [
+    {
+      "pos": "NOUN",
+      "n_types": 18352,
+      "n_tokens": 1980752,
+      "type_coverage": 0.3177,
+      "token_coverage": 0.7822
+    },
+    {
+      "pos": "VERB",
+      "n_types": 9476,
+      "n_tokens": 1141523,
+      "type_coverage": 0.2442,
+      "token_coverage": 0.7325
+    },
+    {
+      "pos": "DET",
+      "n_types": 41,
+      "n_tokens": 1136231,
+      "type_coverage": 0.4634,
+      "token_coverage": 0.9999
+    },
+    {
+      "pos": "ADP",
+      "n_types": 97,
+      "n_tokens": 1105908,
+      "type_coverage": 0.7113,
+      "token_coverage": 0.9994
+    },
+    {
+      "pos": "PRON",
+      "n_types": 78,
+      "n_tokens": 819741,
+      "type_coverage": 0.6026,
+      "token_coverage": 0.9972
+    },
+    {
+      "pos": "AUX",
+      "n_types": 33,
+      "n_tokens": 703875,
+      "type_coverage": 0.8788,
+      "token_coverage": 0.9981
+    },
+    {
+      "pos": "ADJ",
+      "n_types": 5731,
+      "n_tokens": 698828,
+      "type_coverage": 0.2568,
+      "token_coverage": 0.8279
+    },
+    {
+      "pos": "PROPN",
+      "n_types": 14550,
+      "n_tokens": 506783,
+      "type_coverage": 0.1165,
+      "token_coverage": 0.5768
+    },
+    {
+      "pos": "ADV",
+      "n_types": 1603,
+      "n_tokens": 383123,
+      "type_coverage": 0.1703,
+      "token_coverage": 0.8524
+    },
+    {
+      "pos": "CCONJ",
+      "n_types": 12,
+      "n_tokens": 323200,
+      "type_coverage": 0.75,
+      "token_coverage": 0.9999
+    },
+    {
+      "pos": "PART",
+      "n_types": 10,
+      "n_tokens": 297651,
+      "type_coverage": 0.4,
+      "token_coverage": 0.9995
+    },
+    {
+      "pos": "SCONJ",
+      "n_types": 27,
+      "n_tokens": 208497,
+      "type_coverage": 0.6296,
+      "token_coverage": 0.9828
+    },
+    {
+      "pos": "NUM",
+      "n_types": 2173,
+      "n_tokens": 178881,
+      "type_coverage": 0.1519,
+      "token_coverage": 0.7472
+    },
+    {
+      "pos": "INTJ",
+      "n_types": 49,
+      "n_tokens": 61205,
+      "type_coverage": 0.5306,
+      "token_coverage": 0.9867
+    },
+    {
+      "pos": "X",
+      "n_types": 62,
+      "n_tokens": 2577,
+      "type_coverage": 0.0645,
+      "token_coverage": 0.4497
+    },
+    {
+      "pos": "PUNCT",
+      "n_types": 10,
+      "n_tokens": 531,
+      "type_coverage": 0.1,
+      "token_coverage": 0.8983
+    },
+    {
+      "pos": "SYM",
+      "n_types": 1,
+      "n_tokens": 1,
+      "type_coverage": 0.0,
+      "token_coverage": 0.0
+    }
+  ],
+  "concreteness_table": [
+    {
+      "concreteness_bin": "1-2 (abstract)",
+      "n_types": 4428,
+      "type_coverage": 0.1122,
+      "token_coverage": 0.954
+    },
+    {
+      "concreteness_bin": "2-3",
+      "n_types": 8914,
+      "type_coverage": 0.1926,
+      "token_coverage": 0.8483
+    },
+    {
+      "concreteness_bin": "3-4",
+      "n_types": 6406,
+      "type_coverage": 0.3901,
+      "token_coverage": 0.9206
+    },
+    {
+      "concreteness_bin": "4-5 (concrete)",
+      "n_types": 6104,
+      "type_coverage": 0.6746,
+      "token_coverage": 0.9599
+    }
+  ],
+  "freqband_table": [
+    {
+      "freq_band": "1-4",
+      "n_types": 115676,
+      "type_coverage": 0.03
+    },
+    {
+      "freq_band": "5-19",
+      "n_types": 27190,
+      "type_coverage": 0.1432
+    },
+    {
+      "freq_band": "20-99",
+      "n_types": 13052,
+      "type_coverage": 0.3329
+    },
+    {
+      "freq_band": "100-999",
+      "n_types": 6138,
+      "type_coverage": 0.615
+    },
+    {
+      "freq_band": "1000+",
+      "n_types": 1043,
+      "type_coverage": 0.8955
+    }
+  ]
+}
