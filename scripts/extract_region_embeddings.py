@@ -190,49 +190,18 @@ class SAMBackend:
         return feat.float().cpu().numpy()
 
     def encode(self, pil_image):
-        """Returns (patch_features[n,768], grid_hw, orig_hw, inputs) — inputs kept
-        so region prompting can reuse the processed image."""
-        import torch
+        """Returns (patch_features[n,768], grid_hw, orig_hw) -- same shape as the
+        patch-ViT backends, so SAM uses the identical cheap bbox-patch pooling
+        (one encode per image; no per-box mask forward)."""
         orig_w, orig_h = pil_image.size
         inputs = self.processor(pil_image, return_tensors="pt").to(self.device)
         feats = self._vit_patch_features(inputs["pixel_values"])
-        return feats, (self.grid, self.grid), (orig_h, orig_w), inputs
+        return feats, (self.grid, self.grid), (orig_h, orig_w)
 
-    def region_vector(self, encoded, bbox, pooler):
-        import numpy as np
-        import torch
-        feats, grid_hw, orig_hw, inputs = encoded
-        if bbox is None or (hasattr(bbox, "__len__") and len(bbox) == 0):
-            return pooler(feats)  # whole image
-        # bbox xywh (orig px) -> xyxy for SAM prompt
-        x, y, w, h = [float(v) for v in bbox]
-        boxes = [[[x, y, x + w, y + h]]]  # [image, box_batch, 4]
-        prompt = self.processor(
-            images=None, input_boxes=boxes,
-            original_sizes=inputs["original_sizes"],
-            reshaped_input_sizes=inputs.get("reshaped_input_sizes"),
-            return_tensors="pt").to(self.device)
-        with torch.inference_mode():
-            out = self.model(
-                pixel_values=inputs["pixel_values"],
-                input_boxes=prompt["input_boxes"],
-                multimask_output=False)
-        # mask back to original size, then to the patch grid
-        masks = self.processor.image_processor.post_process_masks(
-            out.pred_masks.cpu(), inputs["original_sizes"].cpu(),
-            inputs["reshaped_input_sizes"].cpu())
-        m = masks[0][0, 0].numpy()  # [orig_h, orig_w] bool/float
-        gh, gw = grid_hw
-        # downsample mask to grid by average-pool, threshold -> patch selection
-        import numpy as np
-        oh, ow = m.shape
-        ys = (np.arange(gh) * oh / gh).astype(int)
-        xs = (np.arange(gw) * ow / gw).astype(int)
-        grid_mask = m[np.ix_(ys, xs)] > 0.5
-        idxs = np.where(grid_mask.reshape(-1))[0]
-        if len(idxs) == 0:
-            return None  # mask didn't cover any patch; caller skips
-        return pooler(feats[idxs])
+    # SAM now uses the SAME cheap bbox-patch pooling as the patch-ViT backends
+    # (rectangular bbox -> patch indices -> pool). One encode per image; no
+    # per-box mask forward. Reuses PatchViTBackend.region_vector unchanged.
+    region_vector = PatchViTBackend.region_vector
 
 
 class IBOTTimmBackend:
@@ -326,33 +295,32 @@ BACKENDS = {"dinov3": PatchViTBackend, "ibot": IBOTTimmBackend, "sam": SAMBacken
 # ==========================================================================
 # Load unique images referenced by the grounding dataset
 # ==========================================================================
-def load_unique_images(dataset_repo, limit=0):
-    import pandas as pd
-    from huggingface_hub import hf_hub_download
+def stream_target_images(dataset_repo, uid_set, first_shard_only=False):
+    """Stream the image shards ONCE, yielding (uid, PIL.Image) for each uid in
+    uid_set as it is encountered (each uid only the first time). Holds at most
+    one decoded image in memory; stops early once all targets are seen. This
+    replaces the old "load every image into a dict" approach, which OOMed on the
+    full ~89k-image dataset and hung on small smoke tests (it scanned most shards
+    to find a few scattered uids)."""
     from datasets import load_dataset
     from PIL import Image
-    ann_path = hf_hub_download(dataset_repo, "annotations.parquet", repo_type="dataset")
-    ann = pd.read_parquet(ann_path, columns=["image_uid"])
-    uids = list(dict.fromkeys(ann["image_uid"].tolist()))
-    if limit:
-        uids = uids[:limit]
-    uid_set = set(uids)
-    print(f"Unique images: {len(uids):,}")
+    pattern = ("images/images-00000.parquet" if first_shard_only
+               else "images/images-*.parquet")
     imgs = load_dataset("parquet",
-                        data_files=f"hf://datasets/{dataset_repo}/images/images-*.parquet",
+                        data_files=f"hf://datasets/{dataset_repo}/{pattern}",
                         split="train", streaming=True)
-    found = {}
+    seen = set()
+    target = set(uid_set)
     for row in imgs:
         u = row["image_uid"]
-        if u in uid_set and u not in found:
+        if u in target and u not in seen:
             img = row["image"]
             if not isinstance(img, Image.Image):
                 img = Image.open(io.BytesIO(img["bytes"]))
-            found[u] = img.convert("RGB")
-            if len(found) == len(uid_set):
+            seen.add(u)
+            yield u, img.convert("RGB")
+            if len(seen) == len(target):
                 break
-    print(f"Resolved {len(found):,}/{len(uids):,} images")
-    return found
 
 
 # ==========================================================================
@@ -388,7 +356,22 @@ def build(args):
         rows_by_img[r.image_uid].append((i, r.bbox))
     print(f"Unique images referenced: {len(rows_by_img):,}")
 
-    images = load_unique_images(args.dataset_repo, args.limit_images)
+    # Which images do we actually need? If --limit_images, take the first K
+    # unique uids (in annotation order) and only target those.
+    all_uids = list(rows_by_img.keys())
+    if args.first_shard_only:
+        import pandas as pd
+        from huggingface_hub import hf_hub_download as _dl
+        _f = _dl(args.dataset_repo, "images/images-00000.parquet", repo_type="dataset")
+        _shard0 = set(pd.read_parquet(_f, columns=["image_uid"])["image_uid"])
+        cand = [u for u in all_uids if u in _shard0]
+        target_uids = set(cand[:args.limit_images] if args.limit_images else cand)
+        print(f"[first_shard_only] {len(target_uids)} target images from shard 0")
+    else:
+        target_uids = set(all_uids[:args.limit_images] if args.limit_images else all_uids)
+    print(f"Targeting {len(target_uids):,} images "
+          f"({'limited' if args.limit_images else 'full set'})")
+
     backend_cls = BACKENDS[args.encoder_name]
     backend = (backend_cls(args.encoder, device, ckpt_key=args.ckpt_key)
                if args.encoder_name == "ibot" else backend_cls(args.encoder, device))
@@ -398,16 +381,21 @@ def build(args):
     emb = np.zeros((N, H), dtype=np.float32)
     got = np.zeros((N,), dtype=bool)
 
-    for uid, rows in tqdm(rows_by_img.items(), desc="encoding+pooling"):
-        if uid not in images:
-            continue
-        encoded = backend.encode(images[uid])
-        for idx, bbox in rows:
+    # Stream images ONE at a time; encode, pool every row on that image, discard.
+    n_imgs = 0
+    for uid, image in tqdm(stream_target_images(args.dataset_repo, target_uids,
+                                                first_shard_only=args.first_shard_only),
+                           total=len(target_uids), desc="encoding+pooling"):
+        encoded = backend.encode(image)
+        for idx, bbox in rows_by_img[uid]:
             rv = backend.region_vector(encoded, bbox, pooler)
             if rv is None:
                 continue
             emb[idx] = rv
             got[idx] = True
+        n_imgs += 1
+        del image, encoded
+    print(f"Encoded {n_imgs:,}/{len(target_uids):,} targeted images")
 
     n_ok = int(got.sum())
     print(f"Embedded {n_ok:,}/{N:,} rows ({100*n_ok/N:.1f}%)")
@@ -474,6 +462,9 @@ def build_parser():
                         "(the row-aligned .npy is always written too).")
     p.add_argument("--limit_images", type=int, default=0)
     p.add_argument("--limit_rows", type=int, default=0)
+    p.add_argument("--first_shard_only", action="store_true",
+                   help="Smoke-test mode: read ONLY images-00000.parquet and "
+                        "target images found there, so no slow scan across shards.")
     p.add_argument("--push_to_hub", type=str, default=None)
     return p
 

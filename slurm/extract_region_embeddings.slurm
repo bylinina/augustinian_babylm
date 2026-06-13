@@ -40,7 +40,9 @@ if [ ! -d "$VENV" ]; then
     python -m venv "$VENV"
     source "$VENV/bin/activate"
     pip install -q --upgrade pip
-    pip install -q torch --index-url https://download.pytorch.org/whl/cu126
+    # torch+torchvision MUST come from the same cu126 index together;
+    # timm pulls torchvision and a PyPI/cu126 mismatch breaks vision imports.
+    pip install -q torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu126
     pip install -q -r requirements.txt
 else
     source "$VENV/bin/activate"
@@ -50,7 +52,7 @@ export HF_HOME="${TMPDIR:-/scratch-shared/$USER}/hf_cache"
 export HF_DATASETS_CACHE="$HF_HOME/datasets"
 [ -n "${HF_TOKEN:-}" ] && huggingface-cli login --token "$HF_TOKEN" || true
 
-srun python scripts/extract_region_embeddings.py \
+python scripts/extract_region_embeddings.py \
     --encoder_name "${ENC}" \
     --encoder "${ENC_ID}" \
     --out_dir "$HOME/region_embeddings" \

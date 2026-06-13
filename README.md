@@ -83,12 +83,13 @@ For each unique image: encode once. For each annotation row on it: pool the
 region (bbox → patches; whole image when no bbox) → one 768-d vector. Save raw,
 **no normalization, no tokenizer**.
 
-Three encoders (all ViT-B, 768-d):
+Three encoders (all ViT-B, 768-d). All three use the SAME region method: slice the image's patch features inside the bbox (whole image when no bbox) and mean-pool. For SAM we pool its pre-neck 768-d ViT features (not the 256-d post-neck map), so it is comparable to DINOv3/iBOT.
+
 
 | `ENC` | `ENC_ID` | path |
 |---|---|---|
 | `dinov3` | `facebook/dinov3-vitb16-pretrain-lvd1689m` | encode → slice patches in bbox → pool |
-| `sam` | `facebook/sam-vit-base` | bbox prompt → predicted mask → pool 768-d feats over mask |
+| `sam` | `facebook/sam-vit-base` | pre-neck 768-d ViT patch features → slice patches in bbox → pool |
 | `ibot` | local `.pth` (see Step 2) | timm loads ByteDance ViT-B/16 → slice patches → pool |
 
 Output per encoder, pushed to `augustinian-babylm/region-embeddings/<encoder>/`:
@@ -134,7 +135,7 @@ cd ~/augustinian_babylm
 module load 2024 Python/3.12.3-GCCcore-13.3.0 CUDA/12.6.0
 python -m venv $TMPDIR/venv_babylm && source $TMPDIR/venv_babylm/bin/activate
 pip install -q --upgrade pip
-pip install -q torch --index-url https://download.pytorch.org/whl/cu126
+pip install -q torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu126
 pip install -q -r requirements.txt
 export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
 python -c "import torch; print('cuda:', torch.cuda.is_available())"   # expect True
@@ -289,3 +290,24 @@ pipeline load these transformers-5.x-saved checkpoints.
 
 The older `slurm/eval.slurm` (mask-fill + pseudo-perplexity) is superseded for
 benchmark purposes by the `eval/` sweep above; it remains for quick sanity checks.
+
+
+### Stage 1 implementation notes
+
+- **Streaming image loader.** Images are streamed once from the dataset shards
+  and encoded on the fly (one image in memory at a time), so the full ~89k-image
+  run has flat memory use. The full run reads all shards; for a fast smoke test
+  use `--first_shard_only` (reads only `images-00000.parquet` and targets images
+  found there), e.g.:
+  `python scripts/extract_region_embeddings.py --encoder_name ibot --encoder $HOME/ibot_vitb16_pt22k.pth --first_shard_only --limit_images 3`
+- **Region pooling.** All three encoders use rectangular bbox-patch pooling:
+  the bbox is mapped to patch-grid indices and those patch features are
+  mean-pooled (whole image when the row has no bbox). "SAM" therefore means
+  SAM's ViT-B image encoder, bbox-pooled — not SAM segmentation.
+- **Environment.** torch and torchvision are pinned and installed together from
+  the cu126 index (timm pulls torchvision; a mixed cu126/PyPI install breaks
+  vision imports). The SLURM script runs the encoder with a plain `python` call
+  (no nested `srun`, which conflicts with CPU binding when submitted from inside
+  an interactive allocation).
+- **iBOT checkpoint key:** `--ckpt_key teacher` (default) loads the ByteDance
+  ViT-B/16 backbone correctly (~124 tensors).
