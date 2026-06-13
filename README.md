@@ -6,7 +6,7 @@ BabyLM DeBERTa project. Models follow the recipe in Lukas's
 using our byte-level BPE tokenizers from the private `augustinian-babylm` HF org.
 
 > **If you only need to run the visual embeddings:** jump to
-> [the README's Stage 1 section](the README's Stage 1 section) — it is fully
+> [the Stage 1 section below](#stage-1--per-row-visual-embeddings-extract_region_embeddingspy) — it is fully
 > self-contained and covers different Snellius setups. The summary below mirrors it.
 
 ---
@@ -16,16 +16,27 @@ using our byte-level BPE tokenizers from the private `augustinian-babylm` HF org
 ```
 .
 ├── scripts/
-│   ├── extract_region_embeddings.py # STAGE 1: per-row visual embeddings (Ece)
-│   ├── build_token_embeddings.py    # STAGE 2: region embeddings -> per-token table
-│   ├── train_deberta_babylm.py     # pretrain a DeBERTa MLM
-│   └── eval_deberta_babylm.py      # mask-fill samples + pseudo-perplexity
+│   ├── extract_region_embeddings.py  # STAGE 1: per-row visual embeddings (Ece)
+│   ├── build_visual_embeddings.py    # visual-embedding build helper
+│   ├── build_token_embeddings.py     # STAGE 2: region embeddings -> per-token table
+│   ├── train_deberta_babylm.py       # pretrain a DeBERTa MLM (+ Pythia checkpoints)
+│   ├── eval_deberta_babylm.py        # mask-fill + pseudo-perplexity (quick sanity)
+│   └── mint_submission_branches.py   # chck_NM branches as refs to stepN (optional)
 ├── slurm/
 │   ├── extract_region_embeddings.slurm
+│   ├── build_visual_embeddings.slurm
 │   ├── train.slurm
 │   └── eval.slurm
+├── eval/                             # BabyLM fast zero-shot dynamics sweep
+│   ├── eval_sweep.slurm              # SLURM array: one task per checkpoint
+│   ├── list_eval_targets.py          # enumerate (vocab, stepN) pairs from HF
+│   ├── collect.py                    # results tree -> long-format CSV
+│   ├── plot_dynamics.py              # CSV -> accuracy-vs-step plots
+│   ├── results_dynamics.csv          # flattened results
+│   ├── plots/                        # overview.png + per-task plots
+│   └── README.md
+├── RUNBOOK_visual_embeddings.md      # step-by-step for the visual part
 ├── requirements.txt
-├── the README's Stage 1 section    # step-by-step for the visual part (start here)
 └── README.md
 ```
 
