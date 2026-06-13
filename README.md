@@ -1,7 +1,7 @@
 # augustinian-babylm-training
 
 Training, evaluation, and **visual-embedding extraction** for the Augustinian
-BabyLM DeBERTa project. Models follow the recipe in Lukas's
+BabyLM DeBERTa project. Models follow the recipe in 
 [babylm25](https://github.com/Leukas/babylm25) repo (Table 3 hyperparameters),
 using our byte-level BPE tokenizers from the private `augustinian-babylm` HF org.
 
@@ -16,7 +16,7 @@ using our byte-level BPE tokenizers from the private `augustinian-babylm` HF org
 ```
 .
 ├── scripts/
-│   ├── extract_region_embeddings.py  # STAGE 1: per-row visual embeddings (Ece)
+│   ├── extract_region_embeddings.py  # STAGE 1: per-row visual embeddings 
 │   ├── build_visual_embeddings.py    # visual-embedding build helper
 │   ├── build_token_embeddings.py     # STAGE 2: region embeddings -> per-token table
 │   ├── train_deberta_babylm.py       # pretrain a DeBERTa MLM (+ Pythia checkpoints)
@@ -62,7 +62,7 @@ installed separately** with cluster-specific CUDA wheels (see setup below).
 
 We deliberately split this into two stages so they can evolve independently:
 
-> **Stage 1 (vision, GPU) — Ece runs this.** Produce one pooled VISUAL embedding
+> **Stage 1 (vision, GPU)** Produce one pooled VISUAL embedding
 > per annotation row: the whole-image embedding for sentence/caption rows, the
 > bbox-region embedding for description rows. **No tokenizer is involved.** Text
 > is saved alongside as metadata only. Output: one 768-d vector per row.
@@ -160,9 +160,6 @@ tail -f logs/regionemb_region-dinov3_*.out
 ```
 Results land at `augustinian-babylm/region-embeddings/<encoder>/`. sbatch jobs are
 independent of your SSH connection — you can log off while they run.
-
-**⭐ For Ece: Stage 1 is the whole job. Stop here once all three encoders have
-pushed their `region-embeddings/<encoder>/` outputs.**
 
 ---
 
