@@ -177,7 +177,12 @@ def build_parser():
     p.add_argument("--region_kind", type=str, default="both",
                    choices=["both", "region", "whole"],
                    help="Use bbox-region rows, whole-image rows, or both.")
-    p.add_argument("--seed_last_subword", action="store_true", default=True)
+    p.add_argument("--seed_last_subword", action="store_true", default=True,
+                   help="Attribute each row's vector only to the LAST subword of "
+                        "its text (head-noun heuristic). Default True.")
+    p.add_argument("--no-seed_last_subword", dest="seed_last_subword",
+                   action="store_false",
+                   help="Attribute each row's vector to ALL subwords of its text.")
     p.add_argument("--postprocess", action="store_true", default=True,
                    help="mean-center/L2/scale. Use --no-postprocess to skip.")
     p.add_argument("--no-postprocess", dest="postprocess", action="store_false")

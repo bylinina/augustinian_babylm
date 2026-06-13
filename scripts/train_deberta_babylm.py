@@ -131,6 +131,14 @@ def build_parser():
     p.add_argument("--save_steps", type=int, default=1000)
     p.add_argument("--num_workers", type=int, default=4)
     p.add_argument("--fp16", action="store_true", help="Force fp16 (else bf16 if available).")
+    p.add_argument("--init_embeddings", type=str, default=None,
+                   help="HF dataset repo with Stage-2 token embeddings "
+                        "(e.g. augustinian-babylm/token-embeddings). If set, "
+                        "seeded rows of the input embedding are overwritten.")
+    p.add_argument("--init_encoder", type=str, default="dinov3",
+                   help="which encoder's E_init to use (dinov3/sam/ibot).")
+    p.add_argument("--init_tag", type=str, default="50k",
+                   help="tokenizer tag for the E_init path (e.g. 50k).")
     p.add_argument("--push_to_hub", type=str, default=None,
                    help="Optional repo id to push the trained model to, e.g. "
                         "augustinian-babylm/deberta-base-50k")
@@ -272,6 +280,51 @@ def build_model(args, tokenizer):
 
 
 # ==========================================================================
+# Vision embedding init: overwrite ONLY seeded rows of the input embedding
+# with the Stage-2 token-embedding table; unseeded rows keep the model's
+# random init. Must run AFTER build_model (so random init exists) and AFTER
+# set_seed (so that random init is reproducible / identical to the baseline).
+# ==========================================================================
+def apply_vision_init(model, args):
+    import numpy as np
+    import torch
+    from huggingface_hub import snapshot_download
+    from safetensors.numpy import load_file
+
+    sub = f"{args.init_encoder}/{args.init_tag}"
+    local = snapshot_download(args.init_embeddings, repo_type="dataset",
+                              allow_patterns=[f"{sub}/E_init.safetensors"])
+    data = load_file(f"{local}/{sub}/E_init.safetensors")
+    E = data["embeddings"]                      # [V, H], unseeded rows are zero
+    seeded = data["seeded_mask"].astype(bool)   # [V]
+
+    emb = model.get_input_embeddings()
+    w = emb.weight
+    if tuple(w.shape) != tuple(E.shape):
+        raise SystemExit(f"embedding shape {tuple(w.shape)} != E_init {tuple(E.shape)} "
+                         f"-- wrong tokenizer/tag for this model?")
+
+    rand_std = float(w.data.std().item())
+    seed_std = float(E[seeded].std()) if seeded.any() else 0.0
+    seeded_t = torch.from_numpy(seeded)
+    E_t = torch.from_numpy(E).to(w.dtype)
+    with torch.no_grad():
+        w.data[seeded_t] = E_t[seeded_t]
+    # if input/output embeddings are tied, this propagates to the MLM head;
+    # verify the tie so we don't silently leave the decoder randomly init'd.
+    out = model.get_output_embeddings()
+    tied = (out is not None and out.weight.data_ptr() == w.data_ptr())
+    print(f"[vision-init] {args.init_encoder}/{args.init_tag}: seeded "
+          f"{int(seeded.sum()):,}/{len(seeded):,} rows | seeded std {seed_std:.4f} "
+          f"| model random-init std {rand_std:.4f} | output tied={tied}")
+    if not tied and out is not None:
+        with torch.no_grad():
+            out.weight.data[seeded_t] = E_t[seeded_t]
+        print("[vision-init] output embeddings NOT tied -> also overwrote decoder rows")
+    return model
+
+
+# ==========================================================================
 # Training (HF Trainer; reproduces Lukas's optimizer + cosine schedule + seqlen warmup)
 # ==========================================================================
 def train(args):
@@ -288,6 +341,8 @@ def train(args):
     tokenizer = AutoTokenizer.from_pretrained(args.tokenizer)
     ds = load_text_dataset(args.train_url, args.valid_url, tokenizer, workdir, args.debug)
     model = build_model(args, tokenizer)
+    if args.init_embeddings:
+        model = apply_vision_init(model, args)
 
     collator = DataCollatorForLanguageModeling(
         tokenizer=tokenizer, mlm=True, mlm_probability=args.mlm_prob)
