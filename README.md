@@ -37,7 +37,8 @@ installed separately** with cluster-specific CUDA wheels (see setup below).
 ## What's already done vs. what's next
 
 - **Done:** three BPE tokenizers (`augustinian-babylm/babylm-bpe-{50k,75k,100k}`)
-  and three random-init DeBERTa baselines (`augustinian-babylm/deberta-base-{50k,75k,100k}`).
+  and three trained DeBERTa baselines (`augustinian-babylm/deberta-base-{50k,75k,100k}`),
+  each with Pythia-style per-step checkpoints on HF branches (see Training & evaluation below).
 - **Grounding dataset:** `augustinian-babylm/augustinian_babylm` (HF dataset, private)
   — `annotations.parquet` (image_uid, bbox, text, ...) + `images/` parquet shards.
 - **Next (this is what the visual scripts do):** build per-token *visual*
@@ -221,11 +222,11 @@ and for the upcoming vision-init runs (same script + an embedding-init flag, TBD
 | | |
 |---|---|
 | architecture | deberta-v3-base config; 768 hidden, 12 layers (`--preset base`) |
-| optimizer | AdamW, betas (0.9, 0.999), eps 1e-8 |
+| optimizer | AdamW, betas (0.9, 0.95), eps 1e-8 |
 | lr | 2e-4 |
 | weight decay | 0.01 |
 | schedule | cosine, fixed 4000 warmup steps |
-| epochs | 50 |
+| epochs | 10 (~10M words, strict-small) |
 | batch | 256 effective, grad_acc 4 (= 64/device) |
 | MLM | 15% (80/10/10) |
 | context warmup | ctx 64 for epochs 0–4, ctx 128 from epoch 5 |
@@ -245,8 +246,8 @@ sbatch --export=ALL,HF_TOKEN,VOCAB=75k --job-name=eval-75k slurm/eval.slurm
 ```
 
 ### Training-dynamics checkpoints (Pythia-style)
-Each run saves checkpoints at steps 0,1,2,4,…,512,1000 then every 5000
-(`--dynamics_linear_every`), plus best-by-eval. With `--push_to_hub`, the final
+Each run saves checkpoints at steps 0,1,2,4,…,512,1000 then every 1000
+(`--dynamics_linear_every 1000`), plus best-by-eval. With `--push_to_hub`, the final
 model is on `main` and each intermediate is its own branch:
 ```python
 from transformers import AutoModelForMaskedLM
@@ -261,3 +262,19 @@ m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", 
   can't read our byte-level BPE on transformers 5.x).
 - **Train-loss display:** the logged training loss reads higher than eval loss due to
   grad-accumulation logging; judge progress by `eval_loss`. Not a bug.
+
+
+### Checkpoint evaluation (BabyLM fast zero-shot dynamics)
+
+All training checkpoints of the three baselines are evaluated on the BabyLM 2026
+strict-small fast zero-shot tasks (blimp, blimp-supplement, ewok, entity_tracking,
+reading), scored as masked LMs (`mlm` backend). The sweep, collector, and plotting
+scripts live in [`eval/`](eval/) -- see [`eval/README.md`](eval/README.md) for the
+full procedure. Output: `eval/results_dynamics.csv` (long-format: vocab, step,
+task, section, item, value) and `eval/plots/` (accuracy vs. training step, per
+task, per vocab). Evaluation uses our patched fork of `babylm-eval`
+(github.com/bylinina/babylm-eval); the patches let the transformers-4.x eval
+pipeline load these transformers-5.x-saved checkpoints.
+
+The older `slurm/eval.slurm` (mask-fill + pseudo-perplexity) is superseded for
+benchmark purposes by the `eval/` sweep above; it remains for quick sanity checks.
