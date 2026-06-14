@@ -25,6 +25,14 @@ module purge
 module load 2024 Python/3.12.3-GCCcore-13.3.0 CUDA/12.6.0
 source "$VENV/bin/activate"
 
+# --- HF auth: eval downloads PRIVATE model repos; carry the token explicitly.
+# Submit with:  sbatch --array=... --export=ALL,HF_TOKEN eval_sweep.slurm
+if [ -n "${HF_TOKEN:-}" ]; then
+    hf auth login --token "$HF_TOKEN" 2>/dev/null \
+        || huggingface-cli login --token "$HF_TOKEN" 2>/dev/null || true
+    export HF_TOKEN
+fi
+
 LINE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" eval_targets.txt)
 REPO=$(echo "$LINE" | awk '{print $1}')
 BRANCH=$(echo "$LINE" | awk '{print $2}')
