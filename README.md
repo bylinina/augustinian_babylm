@@ -310,17 +310,21 @@ benchmark purposes by the `eval/` sweep above; it remains for quick sanity check
   ViT-B/16 backbone correctly (~124 tensors).
 
 
+
 ### Vision-init results (50k)
 
-Comparing the random-init baseline against three vision-initialized 50k models
-(DINOv3/SAM/iBOT embeddings seeding ~37% of the token table), effects are small
-and mostly wash out by convergence -- with one clear exception: **entity tracking
-shows a large early-training advantage for all three vision inits** (~42-44% vs.
-~25% baseline at step ~1000), narrowing through training. BLiMP is a wash (~68-69%
-all runs); EWoK and supplement show small, mixed differences. No encoder dominates.
-The pattern fits the Stage 1.5 coverage analysis: vision-init helps where grounded
-semantics matter (entity tracking) and not on purely syntactic tasks (BLiMP).
+Random-init baseline vs. three vision-initialized 50k models (DINOv3/SAM/iBOT
+embeddings seeding the same ~37% of the token table). **The language-task effects
+are within noise** -- BLiMP is a clean wash (finals 68.4 vs. 68.5–69.3, encoder
+spread 0.7 pts; the only positive deltas occur at initialization), and
+supplement/EWoK show small, inconsistent differences. **The one notable signal is
+on entity tracking**, where all three encoders spike to ~+17 pts over baseline at
+step ~1000 -- but this is localized to that checkpoint (early-phase mean only
+~+1.7) and does not yield a robust final gain. No encoder dominates. The pattern
+fits the Stage 1.5 coverage analysis: vision-init moves the curve only on the
+state/semantics task, not on syntax. Single seed per run; sub-~3-pt differences
+should not be over-interpreted.
 
 ![vision-init vs baseline](eval/plots/visioninit_overview.png)
 
-Full breakdown and per-task figures in [`eval/README.md`](eval/README.md#results-vision-init-vs-baseline-50k).
+Full breakdown, delta table, and per-task figures: [`eval/README.md`](eval/README.md#results-vision-init-vs-baseline-50k).

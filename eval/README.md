@@ -88,48 +88,68 @@ Anyone on transformers 4.x loading these repos needs the same fallback.
 - plots/overview.png is the headline figure: accuracy vs step, per task, per vocab.
 
 
+
 ## Results: vision-init vs baseline (50k)
 
 Four 50k models, identical training except embedding initialization: a random-init
-baseline and three vision-init runs whose seeded embedding rows come from DINOv3,
-SAM, and iBOT region embeddings (same 37% seeded mask in all three; only the
-seeded *values* differ). Fast zero-shot accuracy vs. training step:
+baseline and three vision-init runs seeding the same 37% of token rows from DINOv3,
+SAM, and iBOT region embeddings (same seeded mask; only the seeded *values* differ).
 
 ![vision-init vs baseline](plots/visioninit_overview.png)
 
-**Summary: effects are small and mostly wash out by convergence, with one clear
-exception on entity tracking.**
+**Summary: no robust effect on the language tasks; a localized entity-tracking
+spike at step ~1000; no encoder dominates.** Deltas below are vision-init minus
+baseline (accuracy points), averaged over checkpoints in each training phase.
 
-- **Entity tracking** shows the strongest signal: a large *early-training*
-  advantage for all three vision inits -- ~42-44% at step ~1000 vs. ~25% for the
-  baseline (~17 points). The gap narrows through training and final accuracy is
-  noisy/comparable (~31-33% vs. 31%), so the effect is a faster early rise rather
-  than a better endpoint. Notably it is consistent across all three encoders.
-- **BLiMP** is effectively a wash: final ~68-69% for all four (baseline 68.4;
-  dinov3 69.0, sam 69.3, ibot 68.5), within noise. A small dinov3 early edge
-  (57.0 vs. 56.0 at step ~1k) disappears by mid-training.
-- **EWoK** sits near chance for all (baseline also ~50), as in the baseline study;
-  SAM ends slightly higher (53.0 vs. 49.5) but on a task where the baseline is at
-  chance, so this is weak.
-- **Supplement** shows an early *disadvantage* for vision-init (~46-47% vs. 53.6%
-  at step ~1k) that mostly recovers; final is mixed (sam/ibot 54.4 vs. baseline
-  53.2; dinov3 lower at 49.6).
+| task | encoder | early ≤1k | mid 1k–8k | late >8k | peak (step) | final spread* |
+|------|---------|----------:|----------:|---------:|------------:|---------------:|
+| blimp | dinov3 | +0.4 | -0.0 | +0.2 | +2.3 (s0) | 0.7 pts |
+| | sam | -0.1 | -0.4 | +0.4 | +2.1 (s256) | |
+| | ibot | +0.3 | -0.5 | +0.2 | +2.6 (s16) | |
+| supplement | dinov3 | -0.8 | +0.5 | -3.3 | +6.0 (s64) | 4.8 pts |
+| | sam | +1.9 | -0.3 | +0.8 | +6.8 (s16) | |
+| | ibot | -2.8 | +0.5 | -0.1 | +5.6 (s128) | |
+| ewok | dinov3 | -1.6 | +0.6 | +0.4 | +1.9 (s1000) | 3.2 pts |
+| | sam | -3.1 | +0.2 | +1.9 | +1.3 (s2000) | |
+| | ibot | -1.9 | -0.4 | +0.3 | +0.6 (s1000) | |
+| entity_tracking | dinov3 | +1.7 | +0.2 | +4.8 | **+16.9 (s1000)** | 2.5 pts |
+| | sam | +1.6 | +2.1 | +1.6 | **+16.7 (s1000)** | |
+| | ibot | +1.8 | +1.6 | -0.5 | **+18.5 (s1000)** | |
 
-**No encoder dominates.** Differences among DINOv3/SAM/iBOT are within noise on most
-tasks; SAM is marginally best on a few final language-task numbers. Since all three
-share the identical seeded mask, any differences come purely from the quality of
-each encoder's visual features, not from coverage.
+*final spread = range of final accuracy across the three encoders (a noise proxy).
 
-**Interpretation.** The clearest effect appears on entity tracking -- the most
-semantics/state-oriented of the tasks -- and as a head-start that training erodes,
-while purely syntactic BLiMP is unaffected. This is consistent with the Stage 1.5
-coverage finding that vision grounds concrete, content-bearing vocabulary rather
-than syntactic or function-word structure: vision-init helps where grounded
-semantics matter, and washes out where the signal is syntactic or where the model
-quickly learns the relevant distribution from text alone.
+**BLiMP -- clean wash.** Phase-mean deltas are within ±0.5 pts everywhere; the only
+positive peaks (+2 to +3) occur at step 0–256, i.e. at initialization before
+training acts. Finals: baseline 68.4 vs. 68.5–69.3 (spread 0.7 pts). Vision-init
+does not change syntactic learning.
+
+**Entity tracking -- a sharp spike at step 1000, not a sustained phase.** All three
+encoders jump to ~+17 pts over baseline at exactly step 1000 (baseline ~25%,
+vision ~42–44%), but the early *phase* means are only ~+1.7, so the effect is
+localized to that checkpoint rather than a broad early advantage. It does not
+translate into a robust endpoint: late-phase means are +4.8 / +1.6 / -0.5 and the
+final cross-encoder spread (2.5 pts) is comparable to any residual gain. Entity
+tracking was also the noisiest task in the baseline study, so part of the spike may
+be measurement variance on a single seed.
+
+**Supplement / EWoK -- small and inconsistent.** No consistent early effect (e.g.
+supplement early delta is +1.9 for SAM but -2.8 for iBOT), and final differences
+sit within the cross-encoder spread (4.8 / 3.2 pts). SAM ends marginally highest on
+both, but on EWoK the baseline itself is at chance (~50).
+
+**No encoder dominates.** On every task the final cross-encoder spread is comparable
+to or larger than any encoder's gain over baseline, so DINOv3/SAM/iBOT differences
+are within noise. Since all three share the identical seeded mask, any differences
+reflect feature quality, not coverage.
+
+**Interpretation.** The one place vision-init clearly moves the curve is entity
+tracking -- the most state/semantics-oriented task -- and only transiently, while
+purely syntactic BLiMP is untouched. This is consistent with the Stage 1.5 coverage
+finding that vision grounds concrete, content-bearing vocabulary rather than
+syntactic structure. Caveat: single seed per run; differences under ~2–3 pts (i.e.
+all language-task effects) should not be over-interpreted. The entity-tracking
+step-1000 spike is the largest signal but is localized and partly noise-prone --
+multiple seeds would be needed to confirm it.
 
 Per-task figures: `plots/visioninit_{blimp,supplement,ewok,entity_tracking}_fast.png`.
-Underlying data: `results_dynamics.csv` (columns vocab, init, step, task, section,
-item, value). Caveat: single seed per run, so small final-accuracy differences
-(<~1-2 pts) should not be over-interpreted; the entity-tracking early gap is the
-robust effect.
+Data: `results_dynamics.csv` (vocab, init, step, task, section, item, value).
