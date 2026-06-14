@@ -86,3 +86,50 @@ Anyone on transformers 4.x loading these repos needs the same fallback.
   position), so per-checkpoint eval runs ~15 min; the array --time has headroom.
   If tasks TIMEOUT, raise --time in eval_sweep.slurm.
 - plots/overview.png is the headline figure: accuracy vs step, per task, per vocab.
+
+
+## Results: vision-init vs baseline (50k)
+
+Four 50k models, identical training except embedding initialization: a random-init
+baseline and three vision-init runs whose seeded embedding rows come from DINOv3,
+SAM, and iBOT region embeddings (same 37% seeded mask in all three; only the
+seeded *values* differ). Fast zero-shot accuracy vs. training step:
+
+![vision-init vs baseline](plots/visioninit_overview.png)
+
+**Summary: effects are small and mostly wash out by convergence, with one clear
+exception on entity tracking.**
+
+- **Entity tracking** shows the strongest signal: a large *early-training*
+  advantage for all three vision inits -- ~42-44% at step ~1000 vs. ~25% for the
+  baseline (~17 points). The gap narrows through training and final accuracy is
+  noisy/comparable (~31-33% vs. 31%), so the effect is a faster early rise rather
+  than a better endpoint. Notably it is consistent across all three encoders.
+- **BLiMP** is effectively a wash: final ~68-69% for all four (baseline 68.4;
+  dinov3 69.0, sam 69.3, ibot 68.5), within noise. A small dinov3 early edge
+  (57.0 vs. 56.0 at step ~1k) disappears by mid-training.
+- **EWoK** sits near chance for all (baseline also ~50), as in the baseline study;
+  SAM ends slightly higher (53.0 vs. 49.5) but on a task where the baseline is at
+  chance, so this is weak.
+- **Supplement** shows an early *disadvantage* for vision-init (~46-47% vs. 53.6%
+  at step ~1k) that mostly recovers; final is mixed (sam/ibot 54.4 vs. baseline
+  53.2; dinov3 lower at 49.6).
+
+**No encoder dominates.** Differences among DINOv3/SAM/iBOT are within noise on most
+tasks; SAM is marginally best on a few final language-task numbers. Since all three
+share the identical seeded mask, any differences come purely from the quality of
+each encoder's visual features, not from coverage.
+
+**Interpretation.** The clearest effect appears on entity tracking -- the most
+semantics/state-oriented of the tasks -- and as a head-start that training erodes,
+while purely syntactic BLiMP is unaffected. This is consistent with the Stage 1.5
+coverage finding that vision grounds concrete, content-bearing vocabulary rather
+than syntactic or function-word structure: vision-init helps where grounded
+semantics matter, and washes out where the signal is syntactic or where the model
+quickly learns the relevant distribution from text alone.
+
+Per-task figures: `plots/visioninit_{blimp,supplement,ewok,entity_tracking}_fast.png`.
+Underlying data: `results_dynamics.csv` (columns vocab, init, step, task, section,
+item, value). Caveat: single seed per run, so small final-accuracy differences
+(<~1-2 pts) should not be over-interpreted; the entity-tracking early gap is the
+robust effect.
