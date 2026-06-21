@@ -23,7 +23,7 @@ VENV="${TMPDIR:-/scratch-shared/$USER}/venv_build"
 python -m venv "$VENV"
 source "$VENV/bin/activate"
 pip install -q --upgrade pip
-pip install -q -U numpy pandas transformers huggingface_hub safetensors tqdm
+pip install -q -U numpy pandas pyarrow transformers huggingface_hub safetensors tqdm
 
 export HF_HOME="${TMPDIR:-/scratch-shared/$USER}/hf_cache"
 [ -n "${HF_TOKEN:-}" ] && huggingface-cli login --token "$HF_TOKEN" || true
