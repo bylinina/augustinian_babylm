@@ -15,6 +15,16 @@ import csv
 import re
 from pathlib import Path
 
+def parse_model_name(model):
+    """deberta-base-50k -> (vocab=50k, init=baseline);
+       deberta-base-50k-dinov3 -> (vocab=50k, init=dinov3)."""
+    rest = model.replace("deberta-base-", "")
+    parts = rest.split("-", 1)
+    vocab = parts[0]
+    init = parts[1] if len(parts) > 1 else "baseline"
+    return vocab, init
+
+
 SECTION_MAP = {
     "FIELD ACCURACY": "field",
     "UID ACCURACY": "uid",
@@ -58,16 +68,16 @@ def main():
             "*/*/zero_shot/mlm/*/*/best_temperature_report.txt")):
         model, rev = report.parts[-7], report.parts[-6]
         task = report.parts[-2]
-        vocab = model.replace("deberta-base-", "")
+        vocab, init = parse_model_name(model)
         ms = re.fullmatch(r"step(\d+)", rev)
         step = int(ms.group(1)) if ms else -1
         for section, item, value in parse_report(report):
-            out_rows.append((vocab, step, task, section, item, value))
+            out_rows.append((vocab, init, step, task, section, item, value))
 
     # reading task
     for rdir in sorted(args.results_dir.glob("*/*/zero_shot/mlm/reading")):
         model, rev = rdir.parts[-5], rdir.parts[-4]
-        vocab = model.replace("deberta-base-", "")
+        vocab, init = parse_model_name(model)
         ms = re.fullmatch(r"step(\d+)", rev)
         step = int(ms.group(1)) if ms else -1
         rep = rdir / "report.txt"
@@ -76,23 +86,23 @@ def main():
                 m = re.match(r"(.+?) SCORE:\s*([-\d.]+)$", line.strip())
                 if m:
                     item = m.group(1).strip().lower().replace(" ", "_")
-                    out_rows.append((vocab, step, "reading", "score",
+                    out_rows.append((vocab, init, step, "reading", "score",
                                      item, float(m.group(2))))
         cor = rdir / "correlations.txt"
         if cor.exists():
             for line in cor.read_text().splitlines():
                 m = re.match(r"(\S+)\s+([-\d.]+)$", line.strip())
                 if m:
-                    out_rows.append((vocab, step, "reading", "correlation",
+                    out_rows.append((vocab, init, step, "reading", "correlation",
                                      m.group(1), float(m.group(2))))
 
     out_rows.sort()
     with open(args.out, "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["vocab", "step", "task", "section", "item", "value"])
+        w.writerow(["vocab", "init", "step", "task", "section", "item", "value"])
         w.writerows(out_rows)
     print(f"wrote {args.out}: {len(out_rows)} rows from "
-          f"{len(set((r[0], r[1]) for r in out_rows))} checkpoints")
+          f"{len(set((r[0], r[1], r[2]) for r in out_rows))} checkpoints")
 
 
 if __name__ == "__main__":
