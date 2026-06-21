@@ -4,10 +4,11 @@ Excludes `main` and `best` (best duplicates some stepN)."""
 import re
 from huggingface_hub import HfApi
 
-VOCABS = ["50k", "75k", "100k"]
+# baseline repos (all vocabs) + vision-init variants (50k, per encoder)
+REPOS = [f"augustinian-babylm/deberta-base-{v}" for v in ["50k", "75k", "100k"]]
+REPOS += [f"augustinian-babylm/deberta-base-{v}-{e}" for v in ["50k", "75k", "100k"] for e in ["dinov3", "sam", "ibot"]]
 api = HfApi()
-for v in VOCABS:
-    repo = f"augustinian-babylm/deberta-base-{v}"
+for repo in REPOS:
     refs = api.list_repo_refs(repo, repo_type="model")
     steps = sorted(
         int(m.group(1)) for b in refs.branches
