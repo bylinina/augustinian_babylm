@@ -64,10 +64,12 @@ def main():
     out_rows = []
 
     # four ranking tasks
-    for report in sorted(args.results_dir.glob(
-            "*/*/zero_shot/mlm/*/*/best_temperature_report.txt")):
-        model, rev = report.parts[-7], report.parts[-6]
-        task = report.parts[-2]
+    for report in sorted(args.results_dir.rglob(
+            "zero_shot/mlm/*/*/best_temperature_report.txt")):
+        parts = report.parts
+        zi = parts.index("zero_shot")
+        model, rev = parts[zi - 2], parts[zi - 1]
+        task = parts[-2]
         vocab, init = parse_model_name(model)
         ms = re.fullmatch(r"step(\d+)", rev)
         step = int(ms.group(1)) if ms else -1
@@ -75,8 +77,10 @@ def main():
             out_rows.append((vocab, init, step, task, section, item, value))
 
     # reading task
-    for rdir in sorted(args.results_dir.glob("*/*/zero_shot/mlm/reading")):
-        model, rev = rdir.parts[-5], rdir.parts[-4]
+    for rdir in sorted(args.results_dir.rglob("zero_shot/mlm/reading")):
+        parts = rdir.parts
+        zi = parts.index("zero_shot")
+        model, rev = parts[zi - 2], parts[zi - 1]
         vocab, init = parse_model_name(model)
         ms = re.fullmatch(r"step(\d+)", rev)
         step = int(ms.group(1)) if ms else -1
