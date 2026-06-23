@@ -1,0 +1,7 @@
+boolq	2	16	10	accuracy
+multirc	2	16	10	accuracy
+rte	2	32	10	accuracy
+wsc	2	32	30	accuracy
+mrpc	2	32	10	f1
+qqp	2	32	10	f1
+mnli	3	32	10	accuracy
