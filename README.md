@@ -328,3 +328,30 @@ should not be over-interpreted.
 ![vision-init vs baseline](eval/plots/visioninit_overview.png)
 
 Full breakdown, delta table, and per-task figures: [`eval/README.md`](eval/README.md#results-vision-init-vs-baseline-50k).
+
+
+### Vision-init results: cross-vocabulary (75k & 100k)
+
+Extending the 50k analysis above to all three vocabulary sizes. We pretrain DeBERTa-v3-base models on the BabyLM strict-small corpus (~10M words) at three BPE vocabulary sizes (50k, 75k, 100k), each in four initialization conditions: a random-init **baseline** and three **vision-initialized** variants whose word embeddings are seeded from visual grounding data via three encoders (DINOv3 ViT-B, iBOT ViT-B/16, SAM ViT-B; SAM region features are pooled over bounding-box patches). All models use Pythia-style log-linear checkpoint spacing and are scored on the BabyLM fast-eval suite (BLiMP, BLiMP-Supplement, EWoK, entity tracking) across the full training trajectory.
+
+The fast-eval CSV (`eval/results_dynamics.csv`) and trajectory plots (`eval/plots*/`) back the summary below.
+
+#### Findings
+
+**BLiMP is a wash across all vocabularies and encoders.** Final-checkpoint best-encoder gains over baseline are small and inconsistent in sign (+0.9 at 50k, -0.8 at 75k, +1.7 at 100k), with no encoder reliably ahead. Vision initialization does not affect syntactic competence at any vocabulary size.
+
+**The entity-tracking transient is a 50k phenomenon that does not survive vocabulary scaling.** At 50k, the mean encoder-minus-baseline delta peaks at **+17.4 points at step 1000** (all three encoders participate). At 75k and 100k the corresponding early-training peaks are **+1.0 and +1.7 points** -- effectively absent, with no shared direction across encoders. The single-panel overlay (`eval/plots/entity_overlay.png`) shows the three vocabularies' deltas side by side.
+
+**Final entity-tracking gains are small and positive at all scales.** Best-encoder final-checkpoint deltas are +2.5 (50k), +1.7 (75k), +2.3 (100k) -- persistent but modest, and within the range attributable to run-to-run variance (these are single-seed runs).
+
+**EWoK and supplement effects are small and inconsistent.** No clean vision-init signal emerges on either task at any vocabulary size.
+
+**No encoder dominates.** The leading encoder rotates across tasks and vocabularies; none is consistently best.
+
+#### Interpretation: the effect tracks the seedable fraction
+
+The pattern is consistent with vision initialization affecting semantic/state representations while leaving syntax untouched, modulated by the fraction of the vocabulary that receives a grounded embedding. The seedable fraction (type coverage: share of corpus word types appearing in the grounding data, image frequency >= 1) falls steadily with vocabulary size -- 37.7% at 50k, 29.1% at 75k, 23.8% at 100k -- while token-level coverage stays nearly flat (88.0% / 87.3% / 86.9%) because the most frequent words remain grounded as the vocabulary grows. The disappearance of the entity-tracking spike as vocabulary increases mirrors this thinning seedable fraction: the transient appears where a larger share of the vocabulary carries grounded initialization, and washes out as that share drops.
+
+![entity-tracking vision-init effect by vocabulary](eval/plots/entity_overlay.png)
+
+> Note: these are single-seed point estimates. The 50k entity-tracking spike is robust (all three encoders, two adjacent checkpoint intervals); the small final-checkpoint deltas are not separable from seed variance without replication.
