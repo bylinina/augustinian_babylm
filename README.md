@@ -1,13 +1,53 @@
-# augustinian-babylm-training
+# augustinian-babylm
 
-Training, evaluation, and **visual-embedding extraction** for the Augustinian
-BabyLM DeBERTa project. Models follow the recipe in 
-[babylm25](https://github.com/Leukas/babylm25) repo (Table 3 hyperparameters),
-using our byte-level BPE tokenizers from the private `augustinian-babylm` HF org.
+Does initializing word embeddings from **visual grounding** help a small language
+model? This repo pretrains DeBERTa-v3-base models on the BabyLM strict-small
+corpus (~10M words) and compares random-initialized baselines against
+**vision-initialized** variants whose embeddings are seeded from image features,
+across three BPE vocabulary sizes (50k / 75k / 100k) and three vision encoders
+(DINOv3, iBOT, SAM). Models follow the [babylm25](https://github.com/Leukas/babylm25)
+recipe (Table 3 hyperparameters) with our byte-level BPE tokenizers from the
+private `augustinian-babylm` HF org.
 
-> **If you only need to run the visual embeddings:** jump to
-> [the Stage 1 section below](#stage-1--per-row-visual-embeddings-extract_region_embeddingspy) — it is fully
-> self-contained and covers different Snellius setups. The summary below mirrors it.
+The full evaluation, coverage analysis, and reproduce instructions are below;
+detailed eval tables live in [`eval/README.md`](eval/README.md) and the
+text-vs-image coverage study in [`analysis/README.md`](analysis/README.md).
+
+---
+
+## Results so far
+
+Across three vocabulary sizes × three encoders, scored on the BabyLM fast-eval
+suite over the full training trajectory:
+
+- **BLiMP is a wash.** Final-checkpoint best-encoder deltas vs. baseline are small
+  and inconsistent in sign (+0.9 at 50k, −0.8 at 75k, +1.7 at 100k). Vision
+  initialization does not affect syntactic competence at any vocabulary size.
+- **The entity-tracking spike is a 50k phenomenon.** At 50k the mean
+  encoder-minus-baseline delta peaks at **+17.4 pts at step 1000** (all three
+  encoders). At 75k and 100k the corresponding peaks are +1.0 and +1.7 pts —
+  effectively absent. See `eval/plots/entity_overlay.png`.
+- **Final gains are small and positive but within noise.** Best-encoder
+  entity-tracking finals: +2.5 / +1.7 / +2.3 pts (single-seed; not separable from
+  seed variance).
+- **EWoK / supplement: small and inconsistent. No encoder dominates** — the
+  leading encoder rotates across tasks and vocabularies.
+
+**The effect tracks the seedable fraction.** The share of corpus word *types*
+that receive a grounded embedding falls with vocabulary size — 37.7% (50k) →
+29.1% (75k) → 23.8% (100k) — while token-level coverage stays ~87% (common words
+stay grounded). The entity-tracking spike disappearing as vocabulary grows mirrors
+this thinning seedable fraction. Full coverage analysis:
+[`analysis/README.md`](analysis/README.md). Full delta tables:
+[`eval/README.md`](eval/README.md).
+
+> **In progress:** the full zero-shot battery (BLiMP, Supplement, EWoK, Entity
+> Tracking, COMPS, Reading) and GLUE/SuperGLUE fine-tuning over 24 selected
+> checkpoints are currently running; results and the official-baseline comparison
+> will be added here when complete.
+
+> Single-seed caveat: the 50k spike is robust (all three encoders, two adjacent
+> checkpoints); sub-~3-pt differences elsewhere should not be over-interpreted.
 
 ---
 
@@ -16,119 +56,85 @@ using our byte-level BPE tokenizers from the private `augustinian-babylm` HF org
 ```
 .
 ├── scripts/
-│   ├── extract_region_embeddings.py  # STAGE 1: per-row visual embeddings 
-│   ├── build_visual_embeddings.py    # visual-embedding build helper
-│   ├── build_token_embeddings.py     # STAGE 2: region embeddings -> per-token table
+│   ├── extract_region_embeddings.py  # Stage 1: per-row visual embeddings (GPU)
+│   ├── build_token_embeddings.py     # Stage 2: region embeddings -> per-token table (CPU)
 │   ├── train_deberta_babylm.py       # pretrain a DeBERTa MLM (+ Pythia checkpoints)
-│   ├── eval_deberta_babylm.py        # mask-fill + pseudo-perplexity (quick sanity)
-│   └── mint_submission_branches.py   # chck_NM branches as refs to stepN (optional)
+│   └── eval_deberta_babylm.py        # mask-fill + pseudo-perplexity (quick sanity)
 ├── slurm/
-│   ├── extract_region_embeddings.slurm
-│   ├── build_visual_embeddings.slurm
-│   ├── train.slurm
-│   └── eval.slurm
-├── eval/                             # BabyLM fast zero-shot dynamics sweep
-│   ├── eval_sweep.slurm              # SLURM array: one task per checkpoint
-│   ├── list_eval_targets.py          # enumerate (vocab, stepN) pairs from HF
+│   ├── extract_region_embeddings.slurm   # Stage 1 (one job per encoder)
+│   ├── build_tables.slurm                # Stage 2 (all encoder x vocab tables, CPU)
+│   ├── train.slurm                       # train ONE baseline (param: VOCAB)
+│   ├── train_visioninit.slurm            # train ONE vision-init model (param: VOCAB, ENCODER)
+│   ├── full_zeroshot.slurm               # full zero-shot battery over selected checkpoints
+│   ├── glue_finetune.slurm               # GLUE/SuperGLUE fine-tuning array
+│   └── eval_launch.slurm                 # regenerate targets + submit eval sweep
+├── eval/                             # checkpoint-dynamics + full eval
+│   ├── eval_sweep.slurm              # fast zero-shot sweep (one task per checkpoint)
+│   ├── list_eval_targets.py          # enumerate (vocab, init, stepN) pairs from HF
 │   ├── collect.py                    # results tree -> long-format CSV
-│   ├── plot_dynamics.py              # CSV -> accuracy-vs-step plots
-│   ├── results_dynamics.csv          # flattened results
-│   ├── plots/                        # overview.png + per-task plots
+│   ├── plot_dynamics.py              # per-vocab dynamics plots
+│   ├── plot_entity_overlay.py        # single-panel cross-vocab entity-tracking overlay
+│   ├── full_eval_targets.txt         # 24 selected checkpoints (2 per config)
+│   ├── glue_params.tsv, glue_targets.txt  # GLUE task recipes + 168 fine-tune targets
+│   ├── results_dynamics.csv          # flattened fast-eval results
+│   ├── plots*/                       # trajectory figures + entity overlay
+│   └── README.md                     # eval procedure + detailed result tables
+├── analysis/                         # Stage 1.5: text-vs-image coverage study
 │   └── README.md
-├── RUNBOOK_visual_embeddings.md      # step-by-step for the visual part
+├── run_75k_100k.sh                   # fire-and-forget: build tables -> train -> eval
 ├── requirements.txt
 └── README.md
 ```
 
-All Python scripts auto-install their Python deps on first run; **torch is
-installed separately** with cluster-specific CUDA wheels (see setup below).
+All Python scripts auto-install their deps on first run; **torch is installed
+separately** with cluster-specific CUDA wheels (see Setup below).
 
 ---
 
-## What's already done vs. what's next
+## Reproduce the pipeline
 
-- **Done:** three BPE tokenizers (`augustinian-babylm/babylm-bpe-{50k,75k,100k}`)
-  and three trained DeBERTa baselines (`augustinian-babylm/deberta-base-{50k,75k,100k}`),
-  each with Pythia-style per-step checkpoints on HF branches (see Training & evaluation below).
-- **Grounding dataset:** `augustinian-babylm/augustinian_babylm` (HF dataset, private)
-  — `annotations.parquet` (image_uid, bbox, text, ...) + `images/` parquet shards.
-- **Next (this is what the visual scripts do):** build per-token *visual*
-  embedding tables from three vision encoders × three tokenizers, to initialize
-  DeBERTa embeddings from vision instead of random Gaussian.
+The pipeline runs in six stages. Prerequisites and Stage 1 setup are detailed;
+later stages assume the same Snellius + HF setup.
 
----
+### Prerequisites (one time)
 
-# ▶ Visual embeddings — TWO SEPARATE STAGES
-
-We deliberately split this into two stages so they can evolve independently:
-
-> **Stage 1 (vision, GPU)** Produce one pooled VISUAL embedding
-> per annotation row: the whole-image embedding for sentence/caption rows, the
-> bbox-region embedding for description rows. **No tokenizer is involved.** Text
-> is saved alongside as metadata only. Output: one 768-d vector per row.
->
-> **Stage 2 (tokenizer, CPU) — done later, by us.** Map those row-level
-> region/sentence embeddings to a per-TOKEN embedding table for a given
-> tokenizer. Averaging is the default, but this is exactly the part we want to
-> experiment with, so it is kept separate and cheap (no GPU, no re-encoding).
-
-Keeping them apart means we can try many token-construction strategies on the
-SAME Stage 1 vectors without ever re-running the expensive encoders.
-
----
-
-## STAGE 1 — per-row visual embeddings  (`extract_region_embeddings.py`)
-
-For each unique image: encode once. For each annotation row on it: pool the
-region (bbox → patches; whole image when no bbox) → one 768-d vector. Save raw,
-**no normalization, no tokenizer**.
-
-Three encoders (all ViT-B, 768-d). All three use the SAME region method: slice the image's patch features inside the bbox (whole image when no bbox) and mean-pool. For SAM we pool its pre-neck 768-d ViT features (not the 256-d post-neck map), so it is comparable to DINOv3/iBOT.
-
-
-| `ENC` | `ENC_ID` | path |
-|---|---|---|
-| `dinov3` | `facebook/dinov3-vitb16-pretrain-lvd1689m` | encode → slice patches in bbox → pool |
-| `sam` | `facebook/sam-vit-base` | pre-neck 768-d ViT patch features → slice patches in bbox → pool |
-| `ibot` | local `.pth` (see Step 2) | timm loads ByteDance ViT-B/16 → slice patches → pool |
-
-Output per encoder, pushed to `augustinian-babylm/region-embeddings/<encoder>/`:
-`region_embeddings.parquet` = **every column of the original annotations** (uid,
-source, image_uid, bbox, text, category, n_annotations, provenance, ...) for the
-rows that were embedded, plus `is_region` and an `embedding` column — i.e. the
-annotations table with embeddings appended. A row-aligned `region_embeddings.npy`
-([N,768]) is also written for fast array loading, plus `config.json`.
-
-### Step 0 — prerequisites (one time)
-1. HF account that is a **member of `augustinian-babylm`** with read+write; make a
+1. HF account that is a **member of `augustinian-babylm`** (read+write); make a
    token at huggingface.co → Settings → Access Tokens.
 2. Snellius GPU access (partition `gpu_a100` assumed; adjust if different).
+3. Clone:
+   ```bash
+   ssh <username>@snellius.surf.nl
+   cd $HOME && git clone https://github.com/bylinina/augustinian_babylm.git
+   cd augustinian_babylm
+   ```
+4. HF token — **must be exported in the same shell you `sbatch` from**:
+   ```bash
+   export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
+   echo ${HF_TOKEN:0:5}        # expect hf_xx
+   ```
+   (Or `hf auth login` once to cache it. Note: we carry `HF_TOKEN` explicitly via
+   `--export=ALL,HF_TOKEN` throughout, since cached tokens have failed silently.)
 
-### Step 1 — clone (Snellius login node)
-```bash
-ssh <username>@snellius.surf.nl
-cd $HOME
-git clone https://github.com/bylinina/augustinian_babylm.git augustinian_babylm     
-cd augustinian_babylm
-```
+Inputs already on HF: the three tokenizers
+(`augustinian-babylm/babylm-bpe-{50k,75k,100k}`) and the grounding dataset
+(`augustinian-babylm/augustinian_babylm`: `annotations.parquet` + `images/`
+shards).
 
-### Step 2 — download the iBOT checkpoint (one time, login node)
-DINOv3 and SAM download themselves. iBOT does not:
+### Stage 1 — per-row visual embeddings (GPU)
+
+`extract_region_embeddings.py` encodes each unique image once, then pools the
+region (bbox → patches; whole image when no bbox) into one 768-d vector per
+annotation row. **No normalization, no tokenizer.** Three encoders (all ViT-B,
+768-d), all using identical bbox-patch pooling — "SAM" means SAM's ViT-B image
+encoder bbox-pooled (pre-neck 768-d features), **not** SAM segmentation.
+
+One-time: download the iBOT checkpoint (DINOv3/SAM self-download):
 ```bash
 wget https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vitb_16_pt22k/checkpoint_student.pth -O $HOME/ibot_vitb16_pt22k.pth
-ls -lh $HOME/ibot_vitb16_pt22k.pth      # ~327 MB
 ```
-(One line. If unreachable, download on a laptop and `scp` to `$HOME`.)
+(~327 MB. If unreachable from the cluster, download on a laptop and `scp` to `$HOME`.)
 
-### Step 3 — HF token
-```bash
-export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
-echo ${HF_TOKEN:0:5}        # hf_xx
-```
-Must be exported in the same shell you `sbatch` from. (Or run `hf auth login`
-once to cache it permanently.)
-
-### Step 4 — smoke-test each encoder (interactive GPU, ~15 min)
+Smoke-test each encoder (interactive GPU, ~15 min) before the full run:
 ```bash
 srun --partition=gpu_a100 --gpus=1 --cpus-per-task=8 --time=00:30:00 --pty bash
 cd ~/augustinian_babylm
@@ -138,220 +144,124 @@ pip install -q --upgrade pip
 pip install -q torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu126
 pip install -q -r requirements.txt
 export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
-python -c "import torch; print('cuda:', torch.cuda.is_available())"   # expect True
-
 # each on ONE line:
 python scripts/extract_region_embeddings.py --encoder_name dinov3 --encoder facebook/dinov3-vitb16-pretrain-lvd1689m --limit_images 100
 python scripts/extract_region_embeddings.py --encoder_name sam --encoder facebook/sam-vit-base --limit_images 50
 python scripts/extract_region_embeddings.py --encoder_name ibot --encoder $HOME/ibot_vitb16_pt22k.pth --limit_images 100
 exit
 ```
-Healthy output: DINOv3 prints `registers=4 prefix=5 hidden=768`; SAM does not
-raise the "768-d feature map" error; iBOT prints `loaded N tensors ... hidden=768`
-with N in the hundreds; each ends with `Embedded X/N rows`. See Troubleshooting.
 
-### Step 5 — full runs (login node) — one per encoder
+Full runs (login node, one job per encoder):
 ```bash
 sbatch --export=ALL,HF_TOKEN,ENC=dinov3,ENC_ID=facebook/dinov3-vitb16-pretrain-lvd1689m --job-name=region-dinov3 slurm/extract_region_embeddings.slurm
 sbatch --export=ALL,HF_TOKEN,ENC=sam,ENC_ID=facebook/sam-vit-base --job-name=region-sam slurm/extract_region_embeddings.slurm
 sbatch --export=ALL,HF_TOKEN,ENC=ibot,ENC_ID=$HOME/ibot_vitb16_pt22k.pth --job-name=region-ibot slurm/extract_region_embeddings.slurm
-squeue --me
-tail -f logs/regionemb_region-dinov3_*.out
 ```
-Results land at `augustinian-babylm/region-embeddings/<encoder>/`. sbatch jobs are
-independent of your SSH connection — you can log off while they run.
+Output → `augustinian-babylm/region-embeddings/<encoder>/` (`region_embeddings.parquet`
++ `.npy` + `config.json`). Jobs are independent of your SSH session.
 
----
+### Stage 2 — per-token embedding tables (CPU)
 
-## STAGE 2 — per-token table  (`build_token_embeddings.py`)  [later, no GPU]
-
-Reads Stage 1's per-row embeddings + a tokenizer and aggregates them into a
-`[V, 768]` table (default: average each token over the rows whose text contains
-it; `--seed_last_subword` attributes a row to its last subword). Then optional
-postprocessing (mean-center → L2 → ×0.55 → std≈0.02). Runs on CPU in minutes.
-
+`build_token_embeddings.py` reads Stage 1's per-row embeddings + a tokenizer and
+aggregates them into a `[V, 768]` table (default: average each token over the rows
+whose text contains it), then postprocesses (mean-center → L2 → ×0.55 → std≈0.02).
+CPU, minutes. `build_tables.slurm` runs all encoder × vocab combinations serially
+(serial avoids the parallel-download cache corruption we hit):
 ```bash
-python scripts/build_token_embeddings.py     --region_repo augustinian-babylm/region-embeddings --encoder_name dinov3     --tokenizer augustinian-babylm/babylm-bpe-75k --tokenizer_tag 75k     --push_to_hub augustinian-babylm/token-embeddings
+sbatch --export=ALL,HF_TOKEN slurm/build_tables.slurm
 ```
-Swap `--aggregator`, `--region_kind {both,region,whole}`, `--seed_last_subword`,
-or `--no-postprocess` to experiment. Output:
-`augustinian-babylm/token-embeddings/<encoder>/<tag>/` with `E_init.safetensors`
-(+`seeded_mask`), `E_raw.safetensors`, `coverage.parquet`.
-
----
-
-## Setup variations (different Snellius situations)
-
-- **Fresh interactive session each time.** The venv lives on `$TMPDIR` (node-local,
-  wiped at session end), so each interactive session rebuilds it (~2–3 min). sbatch
-  jobs rebuild it on their compute node automatically.
-- **Persistent venv:** create it in `$HOME` (`python -m venv $HOME/venvs/babylm`),
-  `source` that, and edit the `VENV=` line in the SLURM files. Costs home quota
-  (~few GB); check `myquota`.
-- **Different partition/GPU:** change `--partition` (and add it to the sbatch line).
-  Check `sinfo` or ask your project admin. `gpu_h100` works if allocated.
-- **`module load` name errors:** versions drift. Run `module avail Python` /
-  `module avail CUDA` and update the names in the SLURM files.
-- **Token via cache vs export:** after `hf auth login` once, you can drop `HF_TOKEN`
-  from `--export`; jobs read the cached token.
-- **iBOT host unreachable from compute nodes:** handled — Step 2 downloads to `$HOME`
-  and we pass the local path, so compute nodes never touch that host.
-
----
-
-## Troubleshooting
-
-**SAM: "Could not find a 768-d feature map. Available shapes: [...]"** — send the
-printed shapes; one-line fix in `SAMBackend._vit_patch_features`.
-
-**iBOT: "Only N tensors matched" / very low embedded %** — checkpoint key/prefix
-differs. Send:
+Or one table manually (to experiment with `--aggregator`, `--region_kind`,
+`--seed_last_subword`, `--no-postprocess`):
 ```bash
-python -c "import torch; sd=torch.load('$HOME/ibot_vitb16_pt22k.pth',map_location='cpu'); print(type(sd)); print(list(sd.keys())[:20])"
+python scripts/build_token_embeddings.py \
+    --region_repo augustinian-babylm/region-embeddings --encoder_name dinov3 \
+    --tokenizer augustinian-babylm/babylm-bpe-75k --tokenizer_tag 75k \
+    --no-seed_last_subword --scale 0.55 \
+    --push_to_hub augustinian-babylm/token-embeddings
 ```
-and try `--ckpt_key student`.
+Output → `augustinian-babylm/token-embeddings/<encoder>/<tag>/`.
+**Note:** the published tables use `--no-seed_last_subword` (all-subword
+attribution); rebuild with the same flag for comparability.
 
-**404 on annotations.parquet** — `--dataset_repo` wrong; correct default is
-`augustinian-babylm/augustinian_babylm`.
+### Stage 3 — train
 
-**401 Unauthorized** — token not set/exported, or not an org member.
-
-**`bash: --encoder: command not found`** — a multi-line paste split the command;
-keep each `python ...` on ONE line (or end lines with `\`).
-
----
-
-# DeBERTa training & evaluation (reference)
-
-Already run for the random-init baselines; documented here for reproducibility
-and for the upcoming vision-init runs (same script + an embedding-init flag, TBD).
-
-### Hyperparameters (paper Table 3)
-
-| | |
-|---|---|
-| architecture | deberta-v3-base config; 768 hidden, 12 layers (`--preset base`) |
-| optimizer | AdamW, betas (0.9, 0.95), eps 1e-8 |
-| lr | 2e-4 |
-| weight decay | 0.01 |
-| schedule | cosine, fixed 4000 warmup steps |
-| epochs | 10 (~10M words, strict-small) |
-| batch | 256 effective, grad_acc 4 (= 64/device) |
-| MLM | 15% (80/10/10) |
-| context warmup | ctx 64 for epochs 0–4, ctx 128 from epoch 5 |
-| tokenizer | required: `--tokenizer augustinian-babylm/babylm-bpe-{50k,75k,100k}` |
-
-### Train (one job per vocab size)
+**Baselines** (one job per vocab; random init):
 ```bash
 sbatch --export=ALL,HF_TOKEN,VOCAB=50k  --job-name=deberta-50k  slurm/train.slurm
 sbatch --export=ALL,HF_TOKEN,VOCAB=75k  --job-name=deberta-75k  slurm/train.slurm
 sbatch --export=ALL,HF_TOKEN,VOCAB=100k --job-name=deberta-100k slurm/train.slurm
 ```
-Smoke-test first: `python scripts/train_deberta_babylm.py --tokenizer augustinian-babylm/babylm-bpe-75k --preset base --debug`
 
-### Evaluate
+**Vision-init** (one job per vocab × encoder; pulls the Stage 2 table):
 ```bash
-sbatch --export=ALL,HF_TOKEN,VOCAB=75k --job-name=eval-75k slurm/eval.slurm
+sbatch --export=ALL,HF_TOKEN,VOCAB=75k,ENCODER=dinov3 --job-name=vi-75k-dinov3 slurm/train_visioninit.slurm
+# ... repeat for each (VOCAB in 50k/75k/100k) x (ENCODER in dinov3/sam/ibot)
 ```
 
-### Training-dynamics checkpoints (Pythia-style)
-Each run saves checkpoints at steps 0,1,2,4,…,512,1000 then every 1000
-(`--dynamics_linear_every 1000`), plus best-by-eval. With `--push_to_hub`, the final
-model is on `main` and each intermediate is its own branch:
+Or run the **whole vision-init pipeline unattended** for 75k+100k — builds the six
+token tables, trains the six models (each `afterok` the build), then launches the
+eval sweep, as one dependency chain:
+```bash
+bash run_75k_100k.sh      # HF_TOKEN must be live in the shell first
+```
+
+Each run saves Pythia-style checkpoints (steps 0,1,2,4,…,512,1000 then every 1000)
+plus a `best`-by-eval branch. With `--push_to_hub`, the final model is on `main`,
+intermediates are branches:
 ```python
 from transformers import AutoModelForMaskedLM
-m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k")                      # final
-m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="step256")  # mid-training
-m = AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="best")     # best eval
+AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k")                       # final
+AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k-dinov3", revision="step256")  # mid-training
+AutoModelForMaskedLM.from_pretrained("augustinian-babylm/deberta-base-50k", revision="best")      # best eval
 ```
+Vision-init repos are `deberta-base-{vocab}-{encoder}`; baselines are
+`deberta-base-{vocab}`.
 
-### Notes
-- **Memory:** base size at grad_acc 4 (64/device) fits A100-80GB. OOM → raise `--grad_acc` to 8.
-- **Tokenizer loading:** we use `AutoTokenizer`, not `DebertaV2Tokenizer` (the latter
-  can't read our byte-level BPE on transformers 5.x).
-- **Train-loss display:** the logged training loss reads higher than eval loss due to
-  grad-accumulation logging; judge progress by `eval_loss`. Not a bug.
+Key hyperparameters (paper Table 3): deberta-v3-base config (768 hidden, 12
+layers), AdamW (0.9, 0.95), lr 2e-4, weight decay 0.01, cosine schedule with 4000
+warmup steps, 10 epochs, batch 256 (grad_acc 4 = 64/device), 15% MLM, context
+warmup (ctx 64 epochs 0–4, ctx 128 from epoch 5). OOM → raise `--grad_acc` to 8.
 
+### Stage 4 — evaluate
 
-### Checkpoint evaluation (BabyLM fast zero-shot dynamics)
+Fast zero-shot dynamics over all checkpoints (the headline result above), and the
+full battery + GLUE over selected checkpoints, run through our eval fork
+[`bylinina/babylm-eval`](https://github.com/bylinina/babylm-eval) (compat patches
+for loading transformers-5.x-saved checkpoints, incl. the tokenizer fallback,
+are committed there). Full procedure, the 24-checkpoint selection, and detailed
+result tables: [`eval/README.md`](eval/README.md).
 
-All training checkpoints of the three baselines are evaluated on the BabyLM 2026
-strict-small fast zero-shot tasks (blimp, blimp-supplement, ewok, entity_tracking,
-reading), scored as masked LMs (`mlm` backend). The sweep, collector, and plotting
-scripts live in [`eval/`](eval/) -- see [`eval/README.md`](eval/README.md) for the
-full procedure. Output: `eval/results_dynamics.csv` (long-format: vocab, step,
-task, section, item, value) and `eval/plots/` (accuracy vs. training step, per
-task, per vocab). Evaluation uses our patched fork of `babylm-eval`
-(github.com/bylinina/babylm-eval); the patches let the transformers-4.x eval
-pipeline load these transformers-5.x-saved checkpoints.
+### Stage 5 — coverage analysis
 
-The older `slurm/eval.slurm` (mask-fill + pseudo-perplexity) is superseded for
-benchmark purposes by the `eval/` sweep above; it remains for quick sanity checks.
+`analysis/` characterizes how much of the text corpus is groundable in the
+image-text (the seedable-fraction story behind the results). All CPU.
+See [`analysis/README.md`](analysis/README.md).
 
+---
 
-### Stage 1 implementation notes
+## Setup variations (Snellius)
 
-- **Streaming image loader.** Images are streamed once from the dataset shards
-  and encoded on the fly (one image in memory at a time), so the full ~89k-image
-  run has flat memory use. The full run reads all shards; for a fast smoke test
-  use `--first_shard_only` (reads only `images-00000.parquet` and targets images
-  found there), e.g.:
-  `python scripts/extract_region_embeddings.py --encoder_name ibot --encoder $HOME/ibot_vitb16_pt22k.pth --first_shard_only --limit_images 3`
-- **Region pooling.** All three encoders use rectangular bbox-patch pooling:
-  the bbox is mapped to patch-grid indices and those patch features are
-  mean-pooled (whole image when the row has no bbox). "SAM" therefore means
-  SAM's ViT-B image encoder, bbox-pooled — not SAM segmentation.
-- **Environment.** torch and torchvision are pinned and installed together from
-  the cu126 index (timm pulls torchvision; a mixed cu126/PyPI install breaks
-  vision imports). The SLURM script runs the encoder with a plain `python` call
-  (no nested `srun`, which conflicts with CPU binding when submitted from inside
-  an interactive allocation).
-- **iBOT checkpoint key:** `--ckpt_key teacher` (default) loads the ByteDance
-  ViT-B/16 backbone correctly (~124 tensors).
+- **Venv lifetime.** The training venv lives on `$TMPDIR` (node-local, wiped at job
+  end), so jobs rebuild it (~2–3 min). For a persistent venv, create it in `$HOME`
+  and edit the `VENV=` line in the SLURM files (costs home quota; check `myquota`).
+- **Different partition/GPU.** Change `--partition` (check `sinfo`); `gpu_h100`
+  works if allocated. CPU-only jobs (Stage 2, eval-launch) use `genoa`.
+- **`module load` name errors.** Versions drift — run `module avail Python` /
+  `module avail CUDA` and update names in the SLURM files.
+- **Firewall / access from abroad.** Snellius blocks SSH from non-Dutch-academic
+  IPs; use the CUA portal IP whitelist, the doornode jump host, or your
+  university VPN (see SURF docs).
 
+## Troubleshooting
 
-
-### Vision-init results (50k)
-
-Random-init baseline vs. three vision-initialized 50k models (DINOv3/SAM/iBOT
-embeddings seeding the same ~37% of the token table). **The language-task effects
-are within noise** -- BLiMP is a clean wash (finals 68.4 vs. 68.5–69.3, encoder
-spread 0.7 pts; the only positive deltas occur at initialization), and
-supplement/EWoK show small, inconsistent differences. **The one notable signal is
-on entity tracking**, where all three encoders spike to ~+17 pts over baseline at
-step ~1000 -- but this is localized to that checkpoint (early-phase mean only
-~+1.7) and does not yield a robust final gain. No encoder dominates. The pattern
-fits the Stage 1.5 coverage analysis: vision-init moves the curve only on the
-state/semantics task, not on syntax. Single seed per run; sub-~3-pt differences
-should not be over-interpreted.
-
-![vision-init vs baseline](eval/plots/visioninit_overview.png)
-
-Full breakdown, delta table, and per-task figures: [`eval/README.md`](eval/README.md#results-vision-init-vs-baseline-50k).
-
-
-### Vision-init results: cross-vocabulary (75k & 100k)
-
-Extending the 50k analysis above to all three vocabulary sizes. We pretrain DeBERTa-v3-base models on the BabyLM strict-small corpus (~10M words) at three BPE vocabulary sizes (50k, 75k, 100k), each in four initialization conditions: a random-init **baseline** and three **vision-initialized** variants whose word embeddings are seeded from visual grounding data via three encoders (DINOv3 ViT-B, iBOT ViT-B/16, SAM ViT-B; SAM region features are pooled over bounding-box patches). All models use Pythia-style log-linear checkpoint spacing and are scored on the BabyLM fast-eval suite (BLiMP, BLiMP-Supplement, EWoK, entity tracking) across the full training trajectory.
-
-The fast-eval CSV (`eval/results_dynamics.csv`) and trajectory plots (`eval/plots*/`) back the summary below.
-
-#### Findings
-
-**BLiMP is a wash across all vocabularies and encoders.** Final-checkpoint best-encoder gains over baseline are small and inconsistent in sign (+0.9 at 50k, -0.8 at 75k, +1.7 at 100k), with no encoder reliably ahead. Vision initialization does not affect syntactic competence at any vocabulary size.
-
-**The entity-tracking transient is a 50k phenomenon that does not survive vocabulary scaling.** At 50k, the mean encoder-minus-baseline delta peaks at **+17.4 points at step 1000** (all three encoders participate). At 75k and 100k the corresponding early-training peaks are **+1.0 and +1.7 points** -- effectively absent, with no shared direction across encoders. The single-panel overlay (`eval/plots/entity_overlay.png`) shows the three vocabularies' deltas side by side.
-
-**Final entity-tracking gains are small and positive at all scales.** Best-encoder final-checkpoint deltas are +2.5 (50k), +1.7 (75k), +2.3 (100k) -- persistent but modest, and within the range attributable to run-to-run variance (these are single-seed runs).
-
-**EWoK and supplement effects are small and inconsistent.** No clean vision-init signal emerges on either task at any vocabulary size.
-
-**No encoder dominates.** The leading encoder rotates across tasks and vocabularies; none is consistently best.
-
-#### Interpretation: the effect tracks the seedable fraction
-
-The pattern is consistent with vision initialization affecting semantic/state representations while leaving syntax untouched, modulated by the fraction of the vocabulary that receives a grounded embedding. The seedable fraction (type coverage: share of corpus word types appearing in the grounding data, image frequency >= 1) falls steadily with vocabulary size -- 37.7% at 50k, 29.1% at 75k, 23.8% at 100k -- while token-level coverage stays nearly flat (88.0% / 87.3% / 86.9%) because the most frequent words remain grounded as the vocabulary grows. The disappearance of the entity-tracking spike as vocabulary increases mirrors this thinning seedable fraction: the transient appears where a larger share of the vocabulary carries grounded initialization, and washes out as that share drops.
-
-![entity-tracking vision-init effect by vocabulary](eval/plots/entity_overlay.png)
-
-> Note: these are single-seed point estimates. The 50k entity-tracking spike is robust (all three encoders, two adjacent checkpoint intervals); the small final-checkpoint deltas are not separable from seed variance without replication.
+- **SAM "Could not find a 768-d feature map"** — send the printed shapes; one-line
+  fix in `SAMBackend._vit_patch_features`.
+- **iBOT "Only N tensors matched" / low embedded %** — checkpoint key/prefix
+  differs; default `--ckpt_key teacher` loads ~124 tensors correctly.
+- **401 Unauthorized** — token not exported, or not an org member.
+- **`bash: --encoder: command not found`** — a multi-line paste split the command;
+  keep each `python ...` on ONE line (or end lines with `\`).
+- **`torchvision::nms` / vision import crash** — torch and torchvision must come
+  from the *same* cu126 index; pin them together.
+- **Tokenizer `TokenizersBackend` not recognized (eval)** — fixed in the
+  `bylinina/babylm-eval` fork via `PreTrainedTokenizerFast` fallback.
