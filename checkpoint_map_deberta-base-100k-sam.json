@@ -1,0 +1,154 @@
+{
+  "chck_1M": {
+    "target_words": 1000000,
+    "ideal_step": 259,
+    "mapped_step": 256,
+    "mapped_branch": "step256",
+    "words_at_mapped_step": 986986,
+    "relative_word_error": 0.013
+  },
+  "chck_2M": {
+    "target_words": 2000000,
+    "ideal_step": 519,
+    "mapped_step": 512,
+    "mapped_branch": "step512",
+    "words_at_mapped_step": 1973972,
+    "relative_word_error": 0.013
+  },
+  "chck_3M": {
+    "target_words": 3000000,
+    "ideal_step": 778,
+    "mapped_step": 1000,
+    "mapped_branch": "step1000",
+    "words_at_mapped_step": 3855414,
+    "relative_word_error": 0.2851
+  },
+  "chck_4M": {
+    "target_words": 4000000,
+    "ideal_step": 1038,
+    "mapped_step": 1000,
+    "mapped_branch": "step1000",
+    "words_at_mapped_step": 3855414,
+    "relative_word_error": 0.0361
+  },
+  "chck_5M": {
+    "target_words": 5000000,
+    "ideal_step": 1297,
+    "mapped_step": 1000,
+    "mapped_branch": "step1000",
+    "words_at_mapped_step": 3855414,
+    "relative_word_error": 0.2289
+  },
+  "chck_6M": {
+    "target_words": 6000000,
+    "ideal_step": 1556,
+    "mapped_step": 2000,
+    "mapped_branch": "step2000",
+    "words_at_mapped_step": 7710828,
+    "relative_word_error": 0.2851
+  },
+  "chck_7M": {
+    "target_words": 7000000,
+    "ideal_step": 1816,
+    "mapped_step": 2000,
+    "mapped_branch": "step2000",
+    "words_at_mapped_step": 7710828,
+    "relative_word_error": 0.1015
+  },
+  "chck_8M": {
+    "target_words": 8000000,
+    "ideal_step": 2075,
+    "mapped_step": 2000,
+    "mapped_branch": "step2000",
+    "words_at_mapped_step": 7710828,
+    "relative_word_error": 0.0361
+  },
+  "chck_9M": {
+    "target_words": 9000000,
+    "ideal_step": 2334,
+    "mapped_step": 2000,
+    "mapped_branch": "step2000",
+    "words_at_mapped_step": 7710828,
+    "relative_word_error": 0.1432
+  },
+  "chck_10M": {
+    "target_words": 10000000,
+    "ideal_step": 2594,
+    "mapped_step": 3000,
+    "mapped_branch": "step3000",
+    "words_at_mapped_step": 11566241,
+    "relative_word_error": 0.1566
+  },
+  "chck_20M": {
+    "target_words": 20000000,
+    "ideal_step": 5188,
+    "mapped_step": 5000,
+    "mapped_branch": "step5000",
+    "words_at_mapped_step": 19277069,
+    "relative_word_error": 0.0361
+  },
+  "chck_30M": {
+    "target_words": 30000000,
+    "ideal_step": 7781,
+    "mapped_step": 8000,
+    "mapped_branch": "step8000",
+    "words_at_mapped_step": 30843310,
+    "relative_word_error": 0.0281
+  },
+  "chck_40M": {
+    "target_words": 40000000,
+    "ideal_step": 10375,
+    "mapped_step": 10000,
+    "mapped_branch": "step10000",
+    "words_at_mapped_step": 38554138,
+    "relative_word_error": 0.0361
+  },
+  "chck_50M": {
+    "target_words": 50000000,
+    "ideal_step": 12969,
+    "mapped_step": 13000,
+    "mapped_branch": "step13000",
+    "words_at_mapped_step": 50120379,
+    "relative_word_error": 0.0024
+  },
+  "chck_60M": {
+    "target_words": 60000000,
+    "ideal_step": 15563,
+    "mapped_step": 16000,
+    "mapped_branch": "step16000",
+    "words_at_mapped_step": 61686620,
+    "relative_word_error": 0.0281
+  },
+  "chck_70M": {
+    "target_words": 70000000,
+    "ideal_step": 18156,
+    "mapped_step": 18000,
+    "mapped_branch": "step18000",
+    "words_at_mapped_step": 69397448,
+    "relative_word_error": 0.0086
+  },
+  "chck_80M": {
+    "target_words": 80000000,
+    "ideal_step": 20750,
+    "mapped_step": 21000,
+    "mapped_branch": "step21000",
+    "words_at_mapped_step": 80963689,
+    "relative_word_error": 0.012
+  },
+  "chck_90M": {
+    "target_words": 90000000,
+    "ideal_step": 23344,
+    "mapped_step": 23000,
+    "mapped_branch": "step23000",
+    "words_at_mapped_step": 88674516,
+    "relative_word_error": 0.0147
+  },
+  "chck_100M": {
+    "target_words": 100000000,
+    "ideal_step": 25938,
+    "mapped_step": 25740,
+    "mapped_branch": "step25740",
+    "words_at_mapped_step": 99238350,
+    "relative_word_error": 0.0076
+  }
+}

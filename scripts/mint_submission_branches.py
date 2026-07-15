@@ -39,7 +39,8 @@ def build_targets(total_words):
         + [k * 10_000_000 for k in range(1, 11)]
         + [k * 100_000_000 for k in range(2, 11)]
     )
-    return [w for w in targets if w <= total_words]
+    # allow slight overshoot (e.g. chck_100M when training saw 99.2M words)
+    return [w for w in targets if w <= total_words * 1.02]
 
 
 def main():

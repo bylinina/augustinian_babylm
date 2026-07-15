@@ -53,7 +53,7 @@ python -m evaluation_pipeline.finetune.run \
     --num_epochs "$EP" \
     --sequence_length 512 \
     --results_dir "results" \
-    --metrics accuracy f1 mcc \
+    --metrics $([ "$NL" = "3" ] && echo "accuracy" || echo "accuracy f1 mcc") \
     --metric_for_valid "$METRIC" \
     --seed 42 \
     --padding_side left \

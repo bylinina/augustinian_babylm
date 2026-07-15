@@ -252,3 +252,40 @@ composite. Harness: `slurm/full_zeroshot.slurm` (24 targets) and
 These runs are currently in progress. Results, the cross-vocab full-battery
 profile, and the comparison against the official GPT-BERT baseline (published
 masked-focus 10M numbers) will be added here when complete.
+
+## 2026 leaderboard-format evaluation: runbook
+
+One-time setup (login node):
+1. Fork: `~/babylm-eval` = bylinina/babylm-eval, synced with babylm-org upstream
+   (`git fetch upstream && git merge upstream/main`). Compat patches must be present
+   (AoA + zero-shot + finetune tokenizer fallbacks).
+2. Venv (scratch purges it — rebuild when missing, don't repair):
+   `module load 2024 Python/3.12.3-GCCcore-13.3.0 CUDA/12.6.0`
+   `python -m venv /scratch-shared/$USER/babylm-eval/venv_eval` + activate
+   `pip install torch==2.7.0 --index-url https://download.pytorch.org/whl/cu126`
+   `pip install -r strict/requirements.txt`
+3. Eval data (from `~/babylm-eval/strict`, venv active, HF_TOKEN exported):
+   `python -m scripts.download_evals`
+   `python -m evaluation_pipeline.global_piqa.dl`   # separate downloader!
+4. Checkpoint branches (once per model repo):
+   `python scripts/mint_submission_branches.py --repo augustinian-babylm/<model> \
+     --corpus_words 9923835 --steps_per_epoch 2574 --epochs 10`
+
+Per model (ALWAYS `export HF_TOKEN=... && echo ${HF_TOKEN:0:6}` first; submit from
+a clean login shell):
+   `sbatch --export=ALL,HF_TOKEN,MODEL=augustinian-babylm/<model> \
+     --job-name=full-<model> ~/augustinian_babylm/eval/eval_2026_full_rerun.slurm`
+   ~10-14h. Preflight fails fast on missing data; each stage verifies its outputs.
+   Everything evaluates revision `main` (leaderboard convention; global_piqa hardcodes
+   it; verified vs late checkpoints: differences within noise).
+
+Collate (login node, venv active):
+   `bash scripts/collate_preds.sh augustinian-babylm/<model> mlm strict-small`
+   -> results/<model>/all_full_preds_and_fast_scores_mlm.json  (upload-ready)
+
+Compare against the live leaderboard:
+   `python ~/augustinian_babylm/eval/compare_leaderboard.py --results_dir results`
+
+Gotchas: AoA fits are unseeded (scores near p=0.1 can flip; AoA=0.0 means p>0.1 by
+design); global_piqa is n=100 (±10pt noise); tqdm goes to .err; sbatch never from
+inside an srun allocation.
