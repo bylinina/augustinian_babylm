@@ -1,72 +1,141 @@
 # augustinian-babylm: vision-initialized word embeddings for small LMs
 
-Does initializing word embeddings from **visual grounding** help a small
-language model? We pretrain DeBERTa-v3-base models on a BabyLM
-strict-small corpus (`bb24.train`, ~10M words) and compare random-init
-baselines against **vision-initialized** variants whose embeddings for
-visually grounded vocabulary are seeded from image-region features —
-across three BPE vocabularies (50k/75k/100k) and three vision encoders
-(DINOv3, SAM, iBOT; bbox-patch pooling). Only ~24–38% of word types (by
-vocabulary size) receive a visual seed; the rest keep random init.
+## What this project does
+
+Language models normally start training with **random word embeddings** —
+the vector for "banana" initially carries no information at all; everything
+must be learned from text. We test a simple intervention: **before training
+starts, give visually grounded words embeddings derived from images.**
+Concretely, for every word that appears labeling image regions in visual
+grounding datasets (Flickr30k Entities, RefCOCO/g/+, THINGS), we average a
+vision encoder's features over those regions and use the (projected, scaled)
+result as that word's initial embedding. Words without image support keep
+the usual random init.
+
+The question: **does a small language model trained on little text
+(~10M words, the BabyLM "strict-small" budget) learn better if part of its
+vocabulary starts with visual knowledge instead of noise?**
+
+Setup: DeBERTa-v3-base models trained on `bb24.train` (~10M words), 10
+epochs, comparing random-init baselines against vision-initialized variants
+— across three BPE vocabulary sizes (50k / 75k / 100k) and three vision
+encoders (DINOv3, SAM, iBOT), i.e. 3 baselines + 9 vision-init models.
+Depending on vocabulary size, only ~24–38% of word *types* receive a visual
+seed (the rest of the vocabulary has no image support); seeded words skew
+strongly toward concrete nouns.
+
+## How to read the results
+
+Almost everything below is measured with **minimal pairs**: the model sees
+two sentences differing in exactly one word — one true ("The banana is
+yellow"), one false ("The television is yellow") — and is scored correct if
+it assigns the true sentence higher probability (for masked LMs, computed
+as pseudo-log-likelihood: mask each token in turn, sum the log-probability
+of the original token). Chance is 50%. No fine-tuning, no generation.
+
+A **delta** is always *vision-init minus baseline* accuracy, in points.
+Since we have only one training run per configuration (no seed variance
+estimate), single deltas of a point or two are not individually meaningful;
+what we lean on instead is **sign-consistency**: if a task's delta is
+positive in all 9 encoder×vocabulary combinations independently, that
+pattern is very unlikely under a no-effect null even when each delta is
+small.
+
+For the targeted benchmark we additionally use:
+- **Difference-in-differences (DiD)**: the advantage on *seeded* words
+  minus the advantage on *unseeded* words, computed **within the same
+  corpus-frequency bin**. This isolates the word-specific effect of the
+  intervention from confounds — if vision-init helped via some global
+  mechanism (better optimization, luckier init), it would help seeded and
+  unseeded words equally, and the DiD would be zero.
+- **A placebo cell**: items where *neither* the original word *nor* the
+  swapped-in word ever received a visual seed. On these items the two
+  models are, with respect to the intervention, identical — so their delta
+  should be zero. If it is, any effect elsewhere is attributable to the
+  seeding.
+- **McNemar's test**: a paired significance test that only counts items
+  where the two models *disagree* (one correct, the other not) — the
+  appropriate test when both models answer the same items.
 
 ## Key results
 
 **Visual initialization helps exactly where visual information should
 matter — and nowhere else.**
 
-**1. Official BabyLM 2026 evaluation.** Across all 9 encoder x vocabulary
-combinations, the only consistently positive zero-shot task is **COMPS**
-— conceptual property knowledge of objects (+1.3 mean, positive 9/9;
-GLUE also +1.1 at 9/9). Within COMPS the gain concentrates in the
-property-knowledge conditions (`base` +1.4, `wugs` +3.7, both 9/9) and
-vanishes under distractors. Syntax (BLiMP) is flat; supplement slightly
-negative.
+### 1. Official BabyLM 2026 evaluation
+
+Across all 9 encoder × vocabulary combinations, the only consistently
+positive zero-shot task is **COMPS** — a benchmark testing knowledge of
+object properties ("a sparrow has wings") and its inheritance to novel
+concepts (+1.3 mean, positive 9/9; GLUE fine-tuning also +1.1 at 9/9).
+Within COMPS the gain sits in the property-knowledge conditions (`base`
++1.4, `wugs` +3.7, both 9/9) and vanishes when distractor sentences are
+inserted. Syntax (BLiMP) is flat; BLiMP-supplement slightly negative.
+That is: the general-purpose evaluation shows a gain precisely on its one
+object-property task, and nowhere else.
 
 ![official deltas](eval/plots/official_deltas.png)
 
-**2. VP-Swap: a targeted visual-property probe.** We construct a
-minimal-pair benchmark from our own training corpus
-([`eval/vpswap_bb24/`](eval/vpswap_bb24/)): does the model prefer "The
-banana is yellow" over "The television is yellow"? — 7,416 items over
-color/material/size/shape, frequency-binned, each noun tagged by whether
-it received a visual seed. Comparing the best vision-init model
-(75k-SAM) to its baseline:
+### 2. VP-Swap: a targeted visual-property probe
 
-- **Persistent advantage**: vision-init leads at every checkpoint from
-  1M words on, peaking mid-training (+3.5) and retaining +1.9 at 100M
-  (McNemar z = 3.75). Untrained checkpoints score 0.49–0.50 (clean probe).
+If vision-init injects visual knowledge, the cleanest place to look for it
+is a benchmark that *asks about visual properties*. No such benchmark
+exists for our corpus, so we built one ([`eval/vpswap_bb24/`](eval/vpswap_bb24/)),
+following EgoBabyVLM's VP-Swap protocol: 7,416 minimal-pair items over
+four properties (color, material, size, shape), constructed from our own
+training corpus so that every item carries the noun's **corpus frequency**
+(how often the model saw it in training) and its **seeded status**
+(whether it received a visual embedding). Sentences rotate over four
+syntactic frames (e.g. "A femur is white" vs "She picked up the white
+femur") so the effect can be checked for robustness to sentence form.
+
+Comparing the best vision-init model (75k-SAM) to its same-vocabulary
+baseline over the whole training trajectory:
+
+- **Persistent advantage.** Vision-init leads at every checkpoint from 1M
+  words on, peaking mid-training (+3.5 pts) and retaining +1.9 at 100M
+  (McNemar z = 3.75, p ≈ 0.0002). Untrained checkpoints score 0.49–0.50 —
+  the probe itself is unbiased.
 
 ![vpswap trajectory](eval/plots/vpswap_trajectory.png)
 
-- **Word-specific and causally tied to the seeding**: at matched
-  corpus frequency, the advantage holds for seeded nouns and not for
-  unseeded ones (DiD positive in every measurable bin). In the 2x2 by
-  (original-word seeded x swap-word seeded), the never-touched placebo
-  cell is exactly null mid-training (+0.000) — and late training shows
-  the effect cutting both ways: a seeded *swap* word makes the wrong
-  sentence more plausible (−0.057), the same knowledge seen from the
-  other side.
+- **Word-specific, causally tied to the seeding.** At matched corpus
+  frequency, the advantage holds for seeded nouns and is absent-to-negative
+  for unseeded ones — the DiD is positive in every measurable frequency
+  bin. The 2×2 below splits items by whether the *original* noun and the
+  *swapped-in* noun were seeded: mid-training, the placebo cell
+  (neither seeded) is exactly **+0.000**, while every cell containing a
+  seeded word moves. By end of training the effect visibly cuts both ways:
+  when the swapped-in word is the seeded one, the vision model finds the
+  *wrong* sentence more plausible (−0.057) — the same injected knowledge,
+  operating from the other side of the pair.
 
 ![vpswap 2x2](eval/plots/vpswap_2x2.png)
 
-- Effect present in 3 of 4 syntactic frames (copular reverses, noted);
-  concentrated in mid/high-frequency bins — the low-frequency tail is at
-  floor for both models at this corpus size.
+- The effect appears in 3 of 4 syntactic frames (the short copular frame
+  reverses; noted, unexplained) and concentrates in mid/high-frequency
+  words — at this corpus size, low-frequency items are at chance for both
+  models, leaving no room for a difference.
 
 Full tables: [`eval/official_results.md`](eval/official_results.md),
 [`eval/vpswap_results.md`](eval/vpswap_results.md).
 
-**Why the effect is invisible in aggregate scores:** our coverage
-analysis ([`analysis/`](analysis/)) shows the seedable fraction of word
-*types* falls 37.7% → 29.1% → 23.8% across vocabularies and skews
-strongly concrete (r = 0.46 with concreteness); syntax-heavy benchmarks
-never look where the effect lives.
+### Why aggregate scores miss this
 
-**Limitations.** Single seed per training run; VP-Swap is LLM-generated
-(generator: claude-sonnet-4-6; judge: claude-haiku-4-5) and inherits the
-generator's property notions; the copular-frame reversal is unexplained;
-entity-tracking scores under MLM pseudo-likelihood are artifact-prone and
-excluded from interpretation (diagnosis:
+Our coverage analysis ([`analysis/`](analysis/)) shows why the effect is
+invisible in headline numbers: the seedable fraction of word types falls
+37.7% → 29.1% → 23.8% across vocabulary sizes and skews strongly concrete
+(r = 0.46 with concreteness norms). Benchmarks dominated by syntax and
+function words simply never query the part of the vocabulary the
+intervention touches.
+
+### Limitations
+
+Single training run per configuration (no seed variance); VP-Swap is
+LLM-generated (generator: claude-sonnet-4-6; judge: claude-haiku-4-5) and
+inherits the generator's notion of typical properties; the copular-frame
+reversal is unexplained; entity-tracking scores under MLM pseudo-likelihood
+are artifact-prone and excluded from interpretation (diagnosis:
 [`docs/entity_tracking_artifact.md`](docs/entity_tracking_artifact.md)).
 
 ## Repository map
@@ -82,21 +151,18 @@ excluded from interpretation (diagnosis:
 ## Reproduction pipeline
 
 Environment: Snellius (SLURM, A100) or any CUDA machine; HF org
-`augustinian-babylm` hosts tokenizers, grounding embeddings, and all
-model checkpoints (stepN + chck_*M revisions). Steps, in order:
+`augustinian-babylm` hosts tokenizers, grounding embeddings, and all model
+checkpoints (stepN + chck_*M revisions). Steps, in order:
 
-1. **Region embeddings** from grounding datasets (Flickr30k Entities,
-   RefCOCO/g/+, THINGS) per encoder:
+1. **Region embeddings** from grounding datasets, per encoder:
    `scripts/extract_region_embeddings.py` / `slurm/extract_region_embeddings.slurm`
-   -> HF `augustinian-babylm/region-embeddings`
+   → HF `augustinian-babylm/region-embeddings`
 2. **Token embedding tables** per (vocab, encoder):
    `scripts/build_token_embeddings.py` / `slurm/build_tables.slurm`
-   -> HF `augustinian-babylm/token-embeddings` (E_init + seeded mask;
-   unseeded rows are overwritten by model init at load)
+   → HF `augustinian-babylm/token-embeddings` (E_init + seeded mask)
 3. **Training** (babylm25 Table-3 recipe, 10 epochs):
-   baselines `slurm/train.slurm`; vision-init `slurm/train_visioninit.slurm`
-   (`--init_embeddings/--init_encoder/--init_tag`); batch driver
-   `run_75k_100k.sh` -> HF `deberta-base-{vocab}[-{encoder}]`
+   baselines `slurm/train.slurm`; vision-init `slurm/train_visioninit.slurm`;
+   batch driver `run_75k_100k.sh` → HF `deberta-base-{vocab}[-{encoder}]`
 4. **Coverage analysis**: `analysis/` (see its README)
 5. **Official evaluation + leaderboard comparison**: `eval/README.md` §A
 6. **VP-Swap construction + evaluation**: `eval/README.md` §B

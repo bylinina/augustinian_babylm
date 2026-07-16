@@ -19,6 +19,10 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import sys
+sys.path.insert(0, str(Path(__file__).parent))
+from plot_style import setup, INK, BLUE, GRAY, RED, GREEN
+setup()
 
 ENCODERS = ("sam", "dinov3", "ibot")
 VOCABS = ("50k", "75k", "100k")
@@ -121,21 +125,28 @@ def main() -> None:
         print(f"  {t:16s} mean {mean:+6.2f}  positive {pos}/{len(ds)}")
         names.append(t); means.append(mean); poss.append(pos)
 
-    fig, ax = plt.subplots(figsize=(8, 4.2))
-    colors = ["tab:green" if p == 9 else "tab:blue" if m > 0 else "tab:red"
+    fig, ax = plt.subplots(figsize=(7.2, 3.8))
+    disp = [n.replace("entity_tracking", "entity tracking") for n in names]
+    colors = [GREEN if p == 9 else (BLUE if m > 0 else RED)
               for m, p in zip(means, poss)]
-    ax.bar(names, means, color=colors)
-    for i, (m, p) in enumerate(zip(means, poss)):
-        ax.text(i, m + (0.05 if m >= 0 else -0.12), f"{p}/9",
-                ha="center", fontsize=9)
-    ax.axhline(0, color="grey", lw=0.8)
-    ax.set_ylabel("mean delta (vision − baseline, pts)")
-    ax.set_title("Official BabyLM eval: vision-init deltas by task\n"
-                 "(green = positive in all 9 encoder×vocab combinations)")
-    ax.tick_params(axis="x", rotation=15)
-    ax.grid(alpha=0.3, axis="y")
+    y = range(len(disp))[::-1]
+    ax.barh(list(y), means, color=colors, height=0.6)
+    for yi, m, p in zip(y, means, poss):
+        ax.text(m + (0.03 if m >= 0 else -0.03), yi, f"{p}/9",
+                va="center", ha="left" if m >= 0 else "right",
+                fontsize=9, color=INK)
+    ax.set_yticks(list(y), disp)
+    ax.axvline(0, color=INK, lw=0.8)
+    ax.set_xlabel("mean delta (vision − baseline, pts)")
+    ax.set_title("Official BabyLM eval: vision-init deltas by task",
+                 loc="left")
+    ax.text(0.0, 1.02, "green = positive in all 9 encoder×vocab "
+            "combinations", transform=ax.transAxes, fontsize=8.5,
+            color=GRAY, va="bottom")
+    ax.margins(x=0.15)
+    ax.grid(axis="y", visible=False)
     fig.tight_layout()
-    fig.savefig(args.plots_dir / "official_deltas.png", dpi=150)
+    fig.savefig(args.plots_dir / "official_deltas.png")
     plt.close(fig)
 
     # ---- subtask drill-down for comps + ewok ----
