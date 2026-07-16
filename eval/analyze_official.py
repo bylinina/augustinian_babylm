@@ -138,11 +138,10 @@ def main() -> None:
     ax.set_yticks(list(y), disp)
     ax.axvline(0, color=INK, lw=0.8)
     ax.set_xlabel("mean delta (vision − baseline, pts)")
-    ax.set_title("Official BabyLM eval: vision-init deltas by task",
-                 loc="left")
-    ax.text(0.0, 1.02, "green = positive in all 9 encoder×vocab "
-            "combinations", transform=ax.transAxes, fontsize=8.5,
-            color=GRAY, va="bottom")
+    ax.set_title("Official BabyLM eval: vision-init deltas by task\n"
+                 "green = positive in all 9 encoder\u00d7vocab combinations",
+                 loc="left", fontsize=11.5)
+    ax.title.set_linespacing(1.4)
     ax.margins(x=0.15)
     ax.grid(axis="y", visible=False)
     fig.tight_layout()

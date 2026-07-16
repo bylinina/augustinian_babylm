@@ -102,7 +102,7 @@ def main() -> None:
     ax1.plot(ws, [t[2] for t in traj], "o--", ms=4, lw=1.5,
              label="baseline", color=GRAY)
     ax1.axhline(0.5, color=GRAY, lw=0.8, ls=":")
-    ax1.text(ws[-1], 0.502, "chance", ha="right", va="bottom",
+    ax1.text(ws[0], 0.502, "chance", ha="left", va="bottom",
              fontsize=8.5, color=GRAY)
     ax1.set_xlabel("words seen (M)"); ax1.set_ylabel("VP-Swap accuracy")
     ax1.legend(loc="lower right")
