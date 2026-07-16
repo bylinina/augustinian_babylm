@@ -1,0 +1,865 @@
+0|VISUAL|roundhouse|He photographed the red roundhouse|24|webcam|She adjusted the black webcam.|23
+0|VISUAL|denture|The denture, which was pink and white, sat in a glass of water|4|dishtowel|The dishtowel, which was white, hung from the oven handle.|4
+0|VISUAL|kale|She harvested the dark green kale|29|tab|He opened the clear tab.|20
+0|VISUAL|eggnog|There was a creamy yellow eggnog in the glass|26|kale|There were dark green kale leaves in the bowl.|22
+0|VISUAL|battlewagon|There was a grey battlewagon anchored in the harbor|17|wormwood|There were green wormwood plants growing in the field.|17
+0|VISUAL|loveseat|There was a beige loveseat in the corner of the room|18|matchbox|There was a red matchbox sitting on the shelf.|16
+0|VISUAL|footboard|A footboard is brown|2|icecap|An icecap is white.|3
+0|VISUAL|pickaxe|He swung the silver pickaxe into the rock face|20|rind|She peeled away the green rind of the watermelon.|26
+0|VISUAL|riverboat|The riverboat, which was white, paddled slowly down the Mississippi|4|welt|The welt, which was red, stood out on his skin.|4
+0|VISUAL|whey|She poured the milky-white whey into the bowl|27|zipper|He fastened the silver zipper on his jacket.|23
+0|VISUAL|clef|There was a black clef printed on the sheet of music|18|thermostat|There was a white thermostat mounted on the wall.|18
+0|VISUAL|platelet|She observed the colorless platelet|27|tab|He reached for the white tab.|25
+0|VISUAL|handbrake|The handbrake, which was black, held the car on the slope|4|toffee|The toffee, which was golden-brown, stuck to his teeth.|4
+0|VISUAL|micrometer|There was a silver micrometer in the engineers toolbox|19|sketchbook|There was a white sketchbook on the artists desk.|18
+0|VISUAL|nightshirt|He folded the white nightshirt|20|noisemaker|The child shook the red noisemaker.|24
+0|VISUAL|sketchpad|There was a white sketchpad on the desk|18|thermostat|There was a beige thermostat on the wall.|18
+0|VISUAL|eggroll|An eggroll is golden brown|3|washbowl|A washbowl is white.|2
+0|VISUAL|bathrobe|She stepped out of the shower and put on the white bathrobe|51|coverall|He grabbed the blue coverall before heading to the garage.|20
+0|VISUAL|goatskin|There was a tan goatskin draped over the chair|16|hibachi|There was a black hibachi sitting on the patio.|18
+0|VISUAL|dishtowel|The dishtowel, which was white, hung from the oven handle|4|negligee|The negligee, which was black, lay across the bed.|4
+0|VISUAL|hibachi|The hibachi, which was black, sat on the patio|4|nightwear|The nightwear, which was white, was folded on the bed.|4
+0|VISUAL|sketchbook|There was a white sketchbook in her bag|18|underpants|There were white underpants in the drawer.|17
+0|VISUAL|borax|There was a white powdery residue of borax on the shelf|37|spigot|There was a silver spigot attached to the wall.|19
+0|VISUAL|inhaler|The inhaler, which was blue, sat on the nightstand|4|welt|The welt, which was red, rose on his arm.|4
+0|VISUAL|nightdress|There was a white nightdress hanging on the door|18|pickaxe|There was a silver pickaxe resting against the wall.|19
+0|VISUAL|flagstone|The flagstone, which was grey, lined the garden path|4|payphone|The payphone, which was red, stood on the street corner.|4
+0|VISUAL|garbanzo|She poured the beige garbanzo beans into the pot|21|sunroof|He slid open the transparent sunroof to feel the breeze.|29
+0|VISUAL|bathrobe|She hung up the white bathrobe|22|doorpost|He painted the brown doorpost.|21
+0|VISUAL|condiment|Mustard, which is yellow, is a popular condiment|39|stovepipe|The stovepipe, which was black, rose through the ceiling.|4
+0|VISUAL|inhaler|There was a blue inhaler sitting on the pharmacy counter|17|shoelace|There was a white shoelace threaded through the eyelet.|18
+0|VISUAL|placenta|The placenta, which was dark red, was delivered after the baby|4|sketchbook|The sketchbook, which was white, sat on the desk.|4
+0|VISUAL|dishtowel|She grabbed the white dishtowel from the counter|22|thumbscrew|He tightened the silver thumbscrew carefully.|24
+0|VISUAL|carpetbag|He packed his belongings into the brown carpetbag|40|defibrillator|The paramedic grabbed the yellow defibrillator.|33
+0|VISUAL|loveseat|She sank into the beige loveseat|24|sirloin|He sliced into the red sirloin.|23
+0|VISUAL|puffball|There was a white puffball growing in the field|18|signboard|There was a yellow signboard hanging outside the shop.|19
+0|VISUAL|dishtowel|The dishtowel, which was white, hung from the oven handle|4|shoelace|The shoelace, which was white, ran through the eyelets of the sneaker.|4
+0|VISUAL|dishware|She carefully arranged the white dishware on the table|33|stepstool|He climbed onto the brown stepstool to reach the shelf.|26
+0|VISUAL|lollypop|The lollypop, which was red, sat on the counter|4|prosthesis|The prosthesis, which was beige, was stored in the case.|4
+0|VISUAL|earplugs|There were orange earplugs in his bag|18|slat|There was a brown slat on the blind.|18
+0|VISUAL|coverall|The worker wore the white coverall|26|seismograph|The scientist consulted the black seismograph.|34
+0|VISUAL|kale|She added the dark green kale to her smoothie|25|nightstand|He placed his phone on the brown nightstand.|33
+0|VISUAL|goatskin|The goatskin, which was tan, was stretched across the drum|4|loveseat|The loveseat, which was beige, sat in the corner of the room.|4
+0|VISUAL|putty|He pressed into the grey putty|25|whey|She poured the pale-yellow whey.|27
+0|VISUAL|kale|She harvested the dark green kale|29|lanyard|He clipped on the yellow lanyard.|25
+0|VISUAL|curbstone|She tripped over the gray curbstone|26|garbanzo|He added the beige garbanzo to the soup.|19
+0|VISUAL|rind|The rind, which is orange, covered the outside of the fruit|4|tollbooth|The tollbooth, which is yellow, stood at the entrance to the bridge.|4
+0|VISUAL|nightdress|She wore the white nightdress|19|signboard|He read the black signboard.|18
+0|VISUAL|seawall|The seawall, which was grey, stretched along the shoreline|4|towline|The towline, which was yellow, was coiled on the deck.|4
+0|VISUAL|rosebush|There was a red rosebush growing in the garden|16|wormwood|There was a grey-green wormwood plant in the field.|23
+0|VISUAL|rhinestone|She glued the clear rhinestone onto the fabric|20|seawall|The engineer inspected the gray seawall after the storm.|32
+0|VISUAL|payphone|The payphone, which was silver, stood on the corner|4|pinwheel|The pinwheel, which was multicolored, spun in the breeze.|4
+0|VISUAL|handset|There was a black handset sitting on the desk|18|seawall|There was a grey seawall standing along the shore.|17
+0|VISUAL|dartboard|The dartboard, which was black and red, hung on the pub wall|4|ripcord|The ripcord, which was yellow, was pulled by the skydiver.|4
+0|VISUAL|hatbox|The hatbox, which was grey, sat on the shelf|4|horsehair|The horsehair, which was black, was woven tightly together.|4
+0|VISUAL|mailbag|There was a brown leather mailbag sitting on the counter|26|oxcart|There was a wooden oxcart with its natural tan-brown finish parked in the field.|19
+0|VISUAL|oxcart|The oxcart, which was brown, creaked along the dusty road|4|sandbar|The sandbar, which was tan, stretched across the river.|4
+0|VISUAL|bonbon|The bonbon, which was pink, sat in the candy dish|4|sketchpad|The sketchpad, which was white, rested on the easel.|4
+0|VISUAL|dartboard|There was a black and white dartboard hanging on the wall|28|grout|There was grey grout between the bathroom tiles.|15
+0|VISUAL|nightstand|The nightstand, which was brown, held a glass of water|4|nightwear|The nightwear, which was white, had been folded neatly.|4
+0|VISUAL|garbanzo|There was a beige garbanzo in the bowl|18|sandbar|There was a tan sandbar beneath the shallow water.|16
+0|VISUAL|curbstone|The curbstone, which was grey, lined the edge of the street|4|riverboat|The riverboat, which was white, traveled along the Mississippi.|4
+0|VISUAL|doorframe|The doorframe, which was white, stood at the entrance of the house|4|granola|The granola, which was golden brown, sat in the bowl.|4
+0|VISUAL|gumball|There was a colorful gumball in the machine|21|nightwear|There was a white nightwear set in the drawer.|18
+0|VISUAL|catheter|The catheter, which was clear, was inserted carefully by the nurse|4|teakwood|The teakwood, which was golden-brown, had been used to craft the furniture.|4
+0|VISUAL|borax|He poured the white borax into the mixture|20|sprayer|She filled the yellow sprayer with water.|22
+0|VISUAL|matchbox|She struck the red matchbox|19|negligee|She folded the pink negligee.|20
+0|VISUAL|doorpost|The doorpost, which was white, framed the entrance to the house|4|nightstand|The nightstand, which was brown, stood beside the bed.|4
+1|VISUAL|smoothie|A smoothie is green|2|stalagmite|A stalagmite is grey.|2
+1|VISUAL|birdhouse|She built the brown birdhouse|20|router|He configured the black router.|24
+1|VISUAL|kebab|There was a golden-brown kebab rotating on the spit|25|swatch|There was a multicolored swatch hanging in the paint shop.|25
+1|VISUAL|guardroom|The guardroom, which was grey, stood at the entrance to the barracks|4|keyhole|The keyhole, which was brass-colored, gleamed on the old door.|4
+1|VISUAL|playbook|The coach carried the brown playbook|28|zucchini|The chef sliced the green zucchini.|26
+1|VISUAL|toothpick|She grabbed the tan toothpick from the dispenser|20|woodblock|He carved into the brown woodblock with his tools.|25
+1|VISUAL|balsam|The balsam, which was green, grew thickly along the forest floor|4|earpiece|The earpiece, which was black, sat beside the telephone.|4
+1|VISUAL|caboose|The caboose, which was red, sat at the end of the train|4|sludge|The sludge, which was brown, settled at the bottom of the tank.|4
+1|VISUAL|guidebook|A guidebook is blue|2|scalpel|A scalpel is silver.|2
+1|VISUAL|phlegm|He coughed up the yellow-green phlegm|31|sextant|The navigator checked the brass sextant.|32
+1|VISUAL|diskette|The diskette, which was black, held only a small amount of data|4|eraser|The eraser, which was pink, sat at the end of the pencil.|4
+1|VISUAL|hearse|There was a black hearse parked outside the funeral home|18|washtub|There was a silver washtub sitting on the porch.|19
+1|VISUAL|letterhead|The letterhead, which was white, appeared at the top of the page|4|outhouse|The outhouse, which was brown, stood at the edge of the yard.|4
+1|VISUAL|jetliner|There was a white jetliner flying overhead|18|tailcoat|There was a black tailcoat hanging in the wardrobe.|18
+1|VISUAL|pantsuit|She wore the navy pantsuit|18|radish|He pulled up the red radish.|21
+1|VISUAL|artichoke|There was a green artichoke on the counter|18|compactor|There was a grey compactor in the junkyard.|17
+1|VISUAL|kebab|There was a golden-brown kebab sizzling on the grill|25|statuette|There was a bronze statuette displayed on the shelf.|19
+1|VISUAL|cleanser|The cleanser, which was white, sat on the bathroom shelf|4|eyelash|The eyelash, which was black, rested on her cheek.|4
+1|VISUAL|bullhorn|He grabbed the black bullhorn|21|quiche|She sliced into the golden quiche.|27
+1|VISUAL|forklift|He operated the yellow forklift|23|sickle|She swung the silver sickle.|21
+1|VISUAL|lunchbox|The lunchbox, which was red, sat on the kitchen counter|4|mascara|The mascara, which was black, stood upright in the makeup bag.|4
+1|VISUAL|handlebar|He gripped the silver handlebar|22|maypole|The children danced around the white maypole.|37
+1|VISUAL|balsam|The balsam, which was green, swayed in the mountain breeze|4|eraser|The eraser, which was pink, sat at the end of the pencil.|4
+1|VISUAL|diskette|There was a black diskette on the desk|18|raceway|There was a grey raceway along the wall.|17
+1|VISUAL|cleanser|The cleanser, which was white, sat on the bathroom shelf|4|shortcake|The shortcake, which was golden, rested on the dessert plate.|4
+1|VISUAL|birdseed|She scattered the brown birdseed across the lawn|24|grindstone|He pressed the blade against the gray grindstone.|38
+1|VISUAL|buzzer|The buzzer, which was red, sounded at the end of the game|4|futon|The futon, which was beige, sat against the wall.|4
+1|VISUAL|alternator|An alternator is silver|3|lyre|A lyre is golden.|2
+1|VISUAL|pimento|There was a red pimento in the bowl|16|sackcloth|There was a grey sackcloth on the floor.|17
+1|VISUAL|knapsack|The knapsack, which was green, hung from both of his shoulders|4|shard|The shard, which was transparent, cut into her foot.|4
+1|VISUAL|playbook|The coach carried the brown playbook|28|tarmac|The plane taxied along the black tarmac.|33
+1|VISUAL|workbench|The workbench, which was brown, held an assortment of tools|4|wristwatch|The wristwatch, which was silver, sat in the display case.|4
+1|VISUAL|pomegranate|There was a red pomegranate on the counter|16|tailcoat|There was a black tailcoat hanging in the wardrobe.|18
+1|VISUAL|dumpling|She bit into the pale beige dumpling|28|mascara|She applied the black mascara.|22
+1|VISUAL|boxcar|There was a brown boxcar sitting on the railway tracks|18|wristwatch|There was a silver wristwatch lying on the dresser.|19
+1|VISUAL|ashtray|The ashtray, which was grey, sat on the table|4|pacemaker|The pacemaker, which was silver, was implanted in his chest.|4
+1|VISUAL|jawbreaker|The jawbreaker, which was red, sat in the candy dish|4|quiche|The quiche, which was golden, rested on the kitchen counter.|4
+1|VISUAL|jukebox|He dropped a coin into the chrome jukebox|34|phlegm|The doctor examined the yellow phlegm.|31
+1|VISUAL|birdseed|There were brown and grey birdseed pieces in the bag|26|seedling|There was a green seedling pushing up through the soil.|18
+1|VISUAL|gyro|There was a golden-brown gyro sitting on the counter|25|hacksaw|There was a silver hacksaw hanging in the garage.|19
+1|VISUAL|buzzer|There was a black buzzer on the wall|18|omelet|There was a yellow omelet in the pan.|19
+1|VISUAL|artichoke|The artichoke, which is green, sat on the cutting board|4|pimento|The pimento, which is red, was stuffed inside the olive.|4
+1|VISUAL|camcorder|There was a black camcorder sitting on the shelf|18|spool|There was a brown spool of thread in the drawer.|18
+1|VISUAL|moccasin|The moccasin, which was brown, sat by the door|4|separator|The separator, which was white, divided the sections of the tray.|4
+1|VISUAL|eardrum|The eardrum, which is pinkish-translucent, vibrates when sound waves strike it|4|toga|The toga, which was white, was draped around the senators body.|4
+1|VISUAL|eraser|An eraser is pink|3|hacksaw|A hacksaw is silver.|2
+1|VISUAL|guardhouse|The guardhouse, which was white, stood at the entrance to the base|4|sheetrock|The sheetrock, which was white, was stacked against the wall.|4
+1|VISUAL|brownstone|A brownstone is brown|2|buzzer|A buzzer is white.|2
+1|VISUAL|briar|The hunter pushed through the brown briar|36|pomegranate|She sliced open the red pomegranate.|24
+1|VISUAL|bedpan|The bedpan, which was silver, sat on the shelf|4|pimento|The pimento, which was red, lay in the jar.|4
+1|VISUAL|lamppost|She leaned against the grey lamppost|28|pigtail|She tugged on her blonde pigtail.|25
+1|VISUAL|posy|The posy, which was pink, sat in her hand|4|tarmac|The tarmac, which was black, stretched along the road.|4
+1|VISUAL|letterhead|The letterhead, which was white, appeared at the top of the formal document|4|smokestack|The smokestack, which was grey, rose above the factory roof.|4
+1|VISUAL|lightbulb|The lightbulb, which was yellow, flickered on the ceiling|4|pimento|The pimento, which was red, sat in the jar.|4
+1|VISUAL|cornbread|She pulled apart the golden cornbread|28|guidebook|He flipped through the yellow guidebook.|30
+1|VISUAL|artichoke|There was a green artichoke on the counter|18|hatchback|There was a silver hatchback parked outside.|19
+1|VISUAL|handlebar|A handlebar is silver|2|pomegranate|A pomegranate is red.|2
+1|VISUAL|mascara|She smudged the black mascara|22|stopwatch|He clicked the silver stopwatch.|22
+1|VISUAL|bluebook|The bluebook, which is blue, is used for writing exam answers|4|workbench|The workbench, which is brown, held the carpenters tools.|4
+1|VISUAL|handlebar|The handlebar, which was silver, gleamed in the sunlight|4|phlegm|The phlegm, which was clear, dripped slowly.|4
+1|VISUAL|pillbox|The pillbox, which was white, sat on the bathroom shelf|4|scoreboard|The scoreboard, which was black, displayed the final score.|4
+1|VISUAL|boathouse|There was a red boathouse at the edge of the lake|16|tarmac|There was a black tarmac road leading through the town.|18
+1|VISUAL|diskette|The diskette, which was black, held only a small amount of data|4|radish|The radish, which was red, sat in the vegetable garden.|4
+1|VISUAL|camcorder|The camcorder, which was black, sat on the shelf|4|shears|The shears, which were silver, lay on the workbench.|4
+2|VISUAL|blacktop|There was a black blacktop outside the school|18|topsoil|There was a dark brown topsoil in the garden bed.|23
+2|VISUAL|carrot|The carrot, which was orange, sat in the vegetable patch|4|sorbet|The sorbet, which was lemon yellow, melted in the bowl.|4
+2|VISUAL|bookshelf|There was a brown bookshelf against the wall|18|bowtie|There was a black bowtie on the mannequin.|18
+2|VISUAL|entranceway|There was a brown entranceway leading into the old building|18|grillwork|There was a black grillwork fitted across the window.|18
+2|VISUAL|incubator|The newborn was placed in the clear incubator|36|tux|The penguin waddled around in its black tux.|40
+2|VISUAL|bodice|The bodice, which was black, was displayed in the shop window|4|sauerkraut|The sauerkraut, which was pale yellow, sat in the jar on the shelf.|4
+2|VISUAL|bandstand|A bandstand is white|2|scythe|A scythe is silver.|2
+2|VISUAL|forceps|He gripped the silver forceps|22|rosary|She clutched the brown rosary.|23
+2|VISUAL|playpen|There was a colorful playpen in the corner of the room|21|stethoscope|There was a silver stethoscope hanging around the doctors neck.|19
+2|VISUAL|bookshelf|The bookshelf, which was brown, held dozens of novels|4|sherbet|The sherbet, which was orange, melted quickly in the summer heat.|4
+2|VISUAL|amplifier|There was a black amplifier on the stage|18|socket|There was a white socket on the wall.|18
+2|VISUAL|strainer|A strainer is silver|2|uterus|A uterus is pink.|2
+2|VISUAL|lozenge|The lozenge, which was red, dissolved on her tongue|4|syringe|The syringe, which was clear, rested on the medical tray.|4
+2|VISUAL|bowtie|He straightened his black bowtie|26|utensil|She placed the silver utensil on the table.|22
+2|VISUAL|keg|He rolled the brown keg across the floor|20|trouser|She folded the grey trouser neatly on the chair.|20
+2|VISUAL|almanac|He consulted the brown almanac|23|goblet|She raised the golden goblet.|22
+2|VISUAL|entranceway|There was a brown entranceway at the front of the house|18|strainer|There was a silver strainer sitting on the kitchen counter.|19
+2|VISUAL|cinder|A cinder, which is black, sat at the edge of the fireplace|2|fingernail|A fingernail, which is pink, protruded from her sleeve.|2
+2|VISUAL|cookware|She arranged the silver cookware on the shelf|24|limes|He squeezed the green limes into the bowl.|22
+2|VISUAL|bulkhead|The bulkhead, which was grey, divided the ships compartments|4|topaz|The topaz, which was yellow, sat in the jewellers display case.|4
+2|VISUAL|incubator|She placed the baby inside the transparent incubator|43|turntable|He carefully lifted the needle onto the black turntable.|46
+2|VISUAL|rosary|The rosary, which was black, hung from her fingers|4|syringes|The syringes, which were transparent, were arranged on the tray.|4
+2|VISUAL|airship|An airship is silver|3|flagpole|A flagpole is grey.|2
+2|VISUAL|footstool|The footstool, which was brown, sat in front of the armchair|4|ventilator|The ventilator, which was white, hummed quietly in the hospital room.|4
+2|VISUAL|teaspoon|The teaspoon, which was silver, sat on the saucer|4|topsoil|The topsoil, which was dark brown, covered the garden bed.|4
+2|VISUAL|butternut|The butternut, which is tan, fell from the tree|4|popsicle|The popsicle, which was red, melted in the sun.|4
+2|VISUAL|chalice|She drank from the golden chalice|26|forceps|The surgeon gripped the silver forceps.|31
+2|VISUAL|canister|There was a silver canister on the shelf|19|cannonball|There was a black cannonball in the museum.|18
+2|VISUAL|brig|The brig, which was grey, confined the sailor for a week|4|popsicle|The popsicle, which was red, melted in the summer heat.|4
+2|VISUAL|cobweb|She brushed away the grey cobweb|26|teaspoon|He measured out the silver teaspoon.|27
+2|VISUAL|loudspeaker|The loudspeaker, which was black, sat in the corner of the room|4|vial|The vial, which was clear, rested on the laboratory shelf.|4
+2|VISUAL|candelabra|She placed the golden candelabra on the dining table|22|scabbard|The knight slid his sword into the brown scabbard.|41
+2|VISUAL|guava|The guava, which is green on the outside and pink on the inside, is a popular tropical fruit|4|sarong|The sarong, which is often brightly multicolored, is wrapped around the body as a garment.|4
+2|VISUAL|corset|The corset, which was black, cinched her waist tightly|4|scabbard|The scabbard, which was brown, hung at the soldiers side.|4
+2|VISUAL|flan|The flan, which was golden-brown, sat cooling on the kitchen counter|4|nameplate|The nameplate, which was silver, hung on the office door.|4
+2|VISUAL|panties|There were white panties in the drawer|17|sarong|There was a colorful sarong on the beach.|21
+2|VISUAL|fingernail|The fingernail, which is pinkish-white, grew slowly over the week|4|flagpole|The flagpole, which is silver, stood outside the building.|4
+2|VISUAL|bratwurst|A bratwurst is brown|2|strainer|A strainer is silver.|2
+2|VISUAL|bandstand|The musician performed on the white bandstand|36|incubator|The scientist placed the sample inside the transparent incubator.|55
+2|VISUAL|blowpipe|The blowpipe, which was brown, was used by the hunter to launch a dart|4|urinal|The urinal, which was white, was mounted on the bathroom wall.|4
+2|VISUAL|panties|She folded the white panties|21|timepiece|He glanced at the silver timepiece.|25
+2|VISUAL|airship|The airship, which was silver, drifted slowly across the sky|4|sideboard|The sideboard, which was brown, stood against the wall.|4
+2|VISUAL|lozenge|He unwrapped the red lozenge|21|opal|She admired the milky opal.|22
+2|VISUAL|skewer|There was a silver skewer on the grill|19|underclothing|There was white underclothing in the drawer.|16
+2|VISUAL|jackhammer|The jackhammer, which was yellow, sat on the construction site|4|raisin|The raisin, which was dark brown, rested in the bowl.|4
+2|VISUAL|flan|The flan, which was golden-yellow, sat cooling on the kitchen counter|4|gramophone|The gramophone, which was black, stood in the corner of the room.|4
+2|VISUAL|amplifier|An amplifier is black|3|syringe|A syringe is transparent.|2
+2|VISUAL|capsule|The capsule, which was clear, contained the medication|4|strainer|The strainer, which was silver, sat in the kitchen sink.|4
+2|VISUAL|husk|She removed the tan husk|20|pretzel|He snacked on the golden-brown pretzel.|31
+2|VISUAL|fender|There was a chrome silver fender on the car|26|syringes|There were transparent syringes in the medical kit.|23
+2|VISUAL|amplifier|The amplifier, which was black, sat on the studio shelf|4|lifeboat|The lifeboat, which was orange, bobbed on the waves.|4
+2|VISUAL|loudspeaker|She turned up the volume on the black loudspeaker|38|scanner|He placed the document into the white scanner.|38
+2|VISUAL|gramophone|There was a black gramophone in the corner of the room|18|panties|There were white panties in the drawer.|17
+2|VISUAL|blacktop|The blacktop, which was black, stretched across the parking lot|4|risotto|The risotto, which was yellow, sat steaming in the bowl.|4
+2|VISUAL|bullring|The bullring, which was golden sand-coloured, roared with the sound of the crowd|4|satchel|The satchel, which was brown, sat beside the school desk.|4
+2|VISUAL|drapery|The drapery, which was red, hung across the stage|4|loudspeaker|The loudspeaker, which was black, sat on the shelf.|4
+2|VISUAL|playpen|There was a colorful playpen in the corner of the room|21|skewer|There was a silver skewer resting on the grill.|19
+2|VISUAL|dividers|She organized her papers using the silver dividers|42|popsicle|The child licked the orange popsicle.|28
+2|VISUAL|banister|There was a brown banister running along the staircase|18|toboggan|There was a red toboggan sitting in the snow.|16
+2|VISUAL|footstool|The footstool, which was brown, sat in front of the armchair|4|hayloft|The hayloft, which was red, loomed above the farmyard.|4
+2|VISUAL|checkerboard|She placed her piece on the black-and-white checkerboard|44|grillwork|He admired the black grillwork.|21
+2|VISUAL|clove|The clove, which is brown, was added to the recipe|4|earring|The earring, which was gold, sat on the dresser.|4
+2|VISUAL|lampshade|She switched on the white lampshade|26|strainer|He washed the silver strainer.|21
+2|VISUAL|beanbags|She tossed the colorful beanbags across the room|24|canister|He grabbed the silver canister from the shelf.|22
+2|VISUAL|airstrip|There was a grey airstrip cutting through the landscape|17|chessboard|There were black and white squares on the chessboard.|42
+2|VISUAL|skewer|The skewer, which was silver, pierced the meat|4|windbreaker|The windbreaker, which was blue, hung on the hook.|4
+2|VISUAL|smokehouse|There was a brown smokehouse at the edge of the farm|18|teepee|There was a tan teepee standing on the open plain.|16
+2|VISUAL|guava|The guava, which was green, sat on the counter|4|tumbler|The tumbler, which was clear, stood on the shelf.|4
+2|VISUAL|blacktop|There was a black blacktop outside the school|18|worksheet|There was a white worksheet on the desk.|18
+2|VISUAL|polygraph|The polygraph, which was black, hummed quietly during the interrogation|4|skewer|The skewer, which was silver, sat beside the raw meat.|4
+2|VISUAL|sandal|A sandal is tan|2|timepiece|A timepiece is silver.|2
+3|VISUAL|seaweed|There was green seaweed washed up on the shore|16|spade|There was a brown spade leaning against the shed.|18
+3|VISUAL|donut|A donut is golden-brown|2|lawnmower|A lawnmower is green.|2
+3|VISUAL|biscuit|There was a pale golden-brown biscuit on the plate|30|stationery|There was white stationery on the desk.|16
+3|VISUAL|cymbals|The cymbals, which were golden, crashed together loudly|4|tripod|The tripod, which was black, stood in the corner of the room.|4
+3|VISUAL|burrito|She unwrapped the golden-brown burrito|31|printout|He collected the white printout.|23
+3|VISUAL|capes|There were brown capes hanging in the costume shop|17|gutter|There was a dark grey gutter running along the edge of the roof.|22
+3|VISUAL|blimp|The blimp, which was grey, drifted slowly across the sky|4|stationery|The stationery, which was white, sat in the desk drawer.|4
+3|VISUAL|tongs|There were silver tongs on the counter|18|vestibule|There was a beige vestibule at the entrance.|18
+3|VISUAL|chalet|The chalet, which was brown, sat at the foot of the mountain|4|wok|The wok, which was black, rested on the stove.|4
+3|VISUAL|locket|She wore the gold locket around her neck|18|pallet|The worker stacked boxes onto the brown pallet.|40
+3|VISUAL|pecan|There was a brown pecan sitting on the counter|18|pulley|There was a gray pulley attached to the ceiling.|17
+3|VISUAL|gavel|The gavel, which was brown, struck the sound block|4|teacup|The teacup, which was white, sat on the saucer.|4
+3|VISUAL|snowsuit|She zipped up her white snowsuit|24|windshield|He scraped ice from the transparent windshield.|36
+3|VISUAL|cymbals|The cymbals, which were golden, crashed together loudly|4|raincoat|The raincoat, which was yellow, hung by the door.|4
+3|VISUAL|holster|He drew his pistol from the brown holster|34|windshield|The driver peered through the clear windshield.|36
+3|VISUAL|clipboard|There was a brown clipboard on the desk|18|stub|There was a yellow stub in the ticket holder.|19
+3|VISUAL|breadfruit|The breadfruit, which was green, hung from the branch|4|propeller|The propeller, which was silver, spun rapidly.|4
+3|VISUAL|washstand|There was a white washstand in the corner of the room|18|windowsill|There was a brown windowsill beneath the glass.|18
+3|VISUAL|poncho|The poncho, which was brown, hung on the hook|4|shamrock|The shamrock, which was green, sat in the soil.|4
+3|VISUAL|kennel|He built a brown kennel for the dog|17|tripod|She steadied the silver tripod before taking the photograph.|24
+3|VISUAL|chevron|There was an orange chevron on the road sign|20|pebble|There was a grey pebble on the ground.|17
+3|VISUAL|blender|The blender, which was white, sat on the kitchen counter|4|overpass|The overpass, which was grey, stretched across the highway.|4
+3|VISUAL|sandcastle|There was a beige sandcastle on the beach|18|turtleneck|There was a black turtleneck in the drawer.|18
+3|VISUAL|pea|The pea, which was green, sat on the plate|4|steeple|The steeple, which was grey, rose above the town.|4
+3|VISUAL|bugle|A bugle is brass-yellow|2|latte|A latte is light brown.|2
+3|VISUAL|crossbow|He aimed the brown crossbow at the target|19|pear|She bit into the yellow-green pear.|30
+3|VISUAL|pacifier|There was a pink pacifier in the babys mouth|17|stubble|There was grey stubble on his face.|15
+3|VISUAL|refinery|The refinery, which was silver, dominated the industrial skyline|4|shroud|The shroud, which was white, was laid carefully over the body.|4
+3|VISUAL|gel|A gel is clear|2|pendant|A pendant is gold.|2
+3|VISUAL|pajama|There was a blue pajama folded on the shelf|17|videotape|There was a black videotape sitting on the counter.|18
+3|VISUAL|steeple|The steeple, which was grey, rose above the village rooftops|4|washstand|The washstand, which was brown, stood in the corner of the room.|4
+3|VISUAL|bugle|There was a brass-golden bugle resting on the shelf|25|stubble|There was a pale golden stubble covering the harvested field.|24
+3|VISUAL|latch|The latch, which was silver, held the gate shut|4|pebble|The pebble, which was grey, sat on the ground.|4
+3|VISUAL|donut|A donut is golden-brown|2|trashcan|A trashcan is gray.|2
+3|VISUAL|folder|There was a yellow folder on the desk|19|tombstone|There was a grey tombstone in the cemetery.|17
+3|VISUAL|gavel|The gavel, which was brown, struck the sound block|4|steeple|The steeple, which was white, rose above the church.|4
+3|VISUAL|stickers|She peeled off the white stickers|25|storehouse|He entered the gray storehouse.|20
+3|VISUAL|burrito|There was a golden-brown burrito on the counter|25|pacifier|There was a pale pink pacifier in the crib.|22
+3|VISUAL|limo|There was a black limo parked outside the hotel|18|webbing|There was a green webbing strap holding the pack together.|18
+3|VISUAL|blimp|The silver blimp floated overhead|11|storehouse|The gray storehouse stood at the edge of the yard.|9
+3|VISUAL|acorn|There was a brown acorn on the ground|18|pendant|There was a golden pendant around her neck.|19
+3|VISUAL|tombstone|He leaned against the grey tombstone|27|wineglass|She raised the clear wineglass.|21
+3|VISUAL|penthouse|There was a grey penthouse at the top of the skyscraper|17|sapling|There was a green sapling growing in the soil.|18
+3|VISUAL|breezeway|The breezeway, which was beige, connected the garage to the house|4|graphite|The graphite, which was gray, sat in the artists supply box.|4
+3|VISUAL|acorn|She found a brown acorn on the ground|18|motorboat|He steered the white motorboat across the lake.|21
+3|VISUAL|mixer|The mixer, which was silver, sat on the kitchen counter|4|pulley|The pulley, which was grey, was attached to the ceiling.|4
+3|VISUAL|faucet|She turned the silver faucet to wash her hands|22|overpass|The car drove beneath the gray overpass.|31
+3|VISUAL|dipper|There was a brown dipper perched by the stream|18|steeple|There was a grey steeple rising above the town.|17
+3|VISUAL|spatula|The spatula, which was black, rested on the kitchen counter|4|tinsel|The tinsel, which was silver, hung from the branches.|4
+3|VISUAL|sapling|There was a green sapling growing in the garden|18|spades|There were brown spades leaning against the shed wall.|17
+3|VISUAL|chevron|The chevron, which was orange, marked the road ahead|4|twine|The twine, which was brown, sat on the shelf.|4
+3|VISUAL|houseboat|A houseboat is white|2|lever|A lever is gray.|2
+3|VISUAL|latte|A latte is brown|2|mixer|A mixer is silver.|2
+3|VISUAL|doughnut|She grabbed the golden doughnut|23|transmitter|He installed the black transmitter.|23
+3|VISUAL|gavel|He struck the brown gavel|20|waistcoat|He straightened his black waistcoat.|26
+3|VISUAL|honeydew|There was a green honeydew on the counter|18|joystick|There was a gray joystick on the desk.|17
+3|VISUAL|cymbals|The cymbals, which were gold, crashed together loudly|4|flannels|The flannels, which were grey, hung on the towel rail.|4
+3|VISUAL|locket|A locket is gold|2|mushroom|A mushroom is brown.|2
+3|VISUAL|faucet|She turned off the silver faucet|26|pajama|He folded his blue pajama.|19
+3|VISUAL|honeydew|The honeydew, which was pale green, sat on the kitchen counter|4|tongs|The tongs, which were silver, rested beside the grill.|4
+3|VISUAL|breadfruit|The breadfruit, which was green, hung from the branch|4|headset|The headset, which was black, sat on the desk.|4
+3|VISUAL|leotard|She wore a black leotard|17|medallion|The pirate displayed a gold medallion.|28
+3|VISUAL|fir|She walked beneath the green fir|29|petticoat|She lifted her white petticoat.|21
+3|VISUAL|corkscrew|The corkscrew, which was silver, sat in the kitchen drawer|4|radiator|The radiator, which was white, stood beneath the window.|4
+3|VISUAL|houseboat|A houseboat is white|2|pocketbook|A pocketbook is brown.|2
+3|VISUAL|kennel|He built a brown kennel for his dog|17|lawnmower|The mechanic repaired the green lawnmower.|32
+3|VISUAL|appliance|The appliance, which was white, hummed quietly in the kitchen|4|hinge|The hinge, which was silver, held the door firmly in place.|4
+3|VISUAL|tongs|She grabbed the silver tongs|23|wrapper|He discarded the clear wrapper.|23
+3|VISUAL|cantaloupe|The cantaloupe, which is orange, sat on the kitchen counter|4|doughnut|The doughnut, which is golden brown, rested on the plate.|4
+3|VISUAL|atrium|An atrium is often beige or cream|3|locket|A locket is gold.|2
+3|VISUAL|binder|The binder, which was black, sat on the desk|4|knoll|The knoll, which was green, rose gently from the landscape.|4
+3|VISUAL|pantaloons|He wore the blue pantaloons|17|switchboard|The operator sat at the grey switchboard.|29
+3|VISUAL|biscuit|There was a golden-brown biscuit on the plate|25|levers|There were silver levers on the machine.|18
+3|VISUAL|sock|The sock, which was white, sat in the drawer|4|stairwell|The stairwell, which was beige, echoed with footsteps.|4
+3|VISUAL|hinge|There was a silver hinge on the door|19|honeydew|There was a green honeydew on the counter.|18
+3|VISUAL|bran|She poured the golden-brown bran into the bowl|28|teacup|He carefully held the white teacup.|28
+3|VISUAL|faucet|The faucet, which is silver, dripped steadily into the sink|4|headgear|The headgear, which is red, sat in the corner of the boxing gym.|4
+3|VISUAL|leotard|She wore the black leotard|19|spatula|He flipped with the silver spatula.|27
+3|VISUAL|gazebo|He sat beneath the white gazebo|25|gutter|The repairman cleared the grey gutter.|31
+3|VISUAL|gourd|A gourd is green|2|teacup|A teacup is white.|2
+3|VISUAL|pocketbook|The pocketbook, which was brown, sat on the counter|4|sapling|The sapling, which was green, stood in the soil.|4
+3|VISUAL|watchtower|A watchtower is brown|2|windshield|A windshield is clear.|2
+3|VISUAL|hangar|He walked into the gray hangar|24|wineglass|She lifted the clear wineglass.|21
+3|VISUAL|faucet|There was a silver faucet attached to the sink|19|gel|There was a clear gel inside the bottle.|18
+3|VISUAL|bale|The bale, which was golden, sat in the field|4|hangar|The hangar, which was grey, stood at the edge of the airfield.|4
+3|VISUAL|canteen|The canteen, which was silver, hung from the soldiers belt|4|flagstaff|The flagstaff, which was brown, stood at the entrance to the building.|4
+3|VISUAL|compressor|The compressor, which was yellow, sat in the garage|4|mandolin|The mandolin, which was brown, hung on the wall.|4
+3|VISUAL|dipper|The dipper, which is dark blue and white, darted across the stream|4|turnip|The turnip, which is purple and white, sat in the garden.|4
+3|VISUAL|chandelier|The chandelier, which was gold, hung from the ceiling|4|kennel|The kennel, which was brown, sat in the backyard.|4
+3|VISUAL|clipboard|There was a brown clipboard on the desk|18|sandcastle|There was a beige sandcastle on the beach.|18
+3|VISUAL|raincoat|He pulled on the yellow raincoat|24|stubble|The farmer ran his hand across his grey stubble.|40
+3|VISUAL|eaves|The eaves, which were brown, jutted out over the porch|4|wok|The wok, which was black, sat on the stove.|4
+4|VISUAL|bookcase|She placed her books on the brown bookcase|34|textbook|He studied from the white textbook.|26
+4|VISUAL|breeches|There were brown breeches hanging in the wardrobe|17|napkin|There was a white napkin folded on the table.|18
+4|VISUAL|drawbridge|The drawbridge, which was brown, creaked as it slowly lowered|4|timer|The timer, which was white, beeped loudly when it finished counting down.|4
+4|VISUAL|herb|He crushed the green herb|21|pulp|She squeezed the white pulp.|23
+4|VISUAL|sponge|There was a yellow sponge sitting on the kitchen counter|19|suspenders|There were black suspenders hanging on the rack.|17
+4|VISUAL|cookbook|She reached for the red cookbook|24|windmill|He photographed the grey windmill.|25
+4|VISUAL|ornament|There was a red ornament hanging on the tree|16|turret|There was a grey turret rising above the castle walls.|17
+4|VISUAL|dune|The dune, which was tan, stretched across the desert|4|townhouse|The townhouse, which was red brick, stood on the street.|4
+4|VISUAL|glacier|There was a blue-white glacier carving through the valley|23|lingerie|There was pink lingerie displayed in the shop window.|15
+4|VISUAL|daggers|He pulled out the silver daggers|25|spaceship|The gray spaceship landed on the launchpad.|9
+4|VISUAL|altarpiece|She knelt before the golden altarpiece|28|kimono|She carefully hung the white kimono.|29
+4|VISUAL|mulch|There was a brown mulch spread across the garden bed|18|typewriter|There was a black typewriter sitting on the desk.|18
+4|VISUAL|awning|The awning, which was red and white striped, shaded the shopfront|4|modem|The modem, which was black, sat on the desk.|4
+4|VISUAL|crepe|She flipped the pale yellow crepe|28|pitchfork|He grabbed the silver pitchfork.|22
+4|VISUAL|hydrant|There was a red hydrant on the corner of the street|16|textbook|There was a yellow textbook sitting on the desk.|19
+4|VISUAL|handgun|The handgun, which was black, was found at the scene|4|rotunda|The rotunda, which was white, stood at the center of the building.|4
+4|VISUAL|bedding|She smoothed out the white bedding|27|modem|He plugged in the black modem.|24
+4|VISUAL|dinghy|There was a grey rubber dinghy bobbing on the water|24|vat|There was a large brown wooden vat in the brewery.|31
+4|VISUAL|checkbook|The checkbook, which was blue, sat on the desk|4|ore|The ore, which was gray, filled the mine cart.|4
+4|VISUAL|clips|There were silver clips on the desk|18|trapeze|There was a red trapeze hanging in the circus tent.|16
+4|VISUAL|antenna|An antenna is silver|3|cauliflower|A cauliflower is white.|2
+4|VISUAL|pineapple|She bit into the yellow pineapple|24|twig|He snapped the brown twig.|21
+4|VISUAL|morsel|The morsel, which was brown, sat on the plate|4|noodles|The noodles, which were yellow, filled the bowl.|4
+4|VISUAL|crackers|She placed the pale yellow crackers on the plate|27|sarcophagi|The archaeologists uncovered the grey sarcophagi.|38
+4|VISUAL|clover|She walked through the green clover|29|cubicle|He sat down in the gray cubicle.|24
+4|VISUAL|cello|The cello, which was brown, stood in the corner|4|yogurt|The yogurt, which was white, sat in the container.|4
+4|VISUAL|handgun|He holstered the black handgun|23|morsel|The bird swallowed the brown morsel.|29
+4|VISUAL|cradle|There was a white cradle in the nursery|18|fin|There was a grey fin cutting through the water.|17
+4|VISUAL|archway|The archway, which was brown, framed the entrance to the garden|4|armchair|The armchair, which was brown, sat in the corner of the room.|4
+4|VISUAL|handbook|She consulted the blue handbook|23|mannequin|The designer adjusted the pale mannequin.|31
+4|VISUAL|oats|There were golden oats swaying in the field|18|wreath|There was a green wreath hanging on the door.|18
+4|VISUAL|boomerang|The boomerang, which was brown, spun through the air|4|mitt|The mitt, which was tan, sat in the dugout.|4
+4|VISUAL|mannequin|The mannequin, which was beige, stood in the shop window|4|pancake|The pancake, which was golden brown, sat on the plate.|4
+4|VISUAL|blackboard|A blackboard is black|2|shrub|A shrub is green.|2
+4|VISUAL|glacier|The glacier, which was blue, carved slowly through the valley|4|ledger|The ledger, which was black, sat unopened on the desk.|4
+4|VISUAL|cartridge|He loaded the brass cartridge into the rifle|20|gingerbread|The child eagerly ate the brown gingerbread.|32
+4|VISUAL|ledger|The ledger, which was black, sat on the accountants desk|4|nugget|The nugget, which was gold, was discovered by the prospector.|4
+4|VISUAL|anvil|An anvil is dark gray|3|nickel|A nickel is silver.|2
+4|VISUAL|bridle|There was a brown bridle hanging on the stable wall|18|turf|There was green turf spread across the playing field.|16
+4|VISUAL|cot|She placed the baby in the white cot|33|rotunda|The architect admired the beige rotunda.|32
+4|VISUAL|flatiron|There was a silver flatiron on the ironing board|19|mantel|There was a white mantel above the fireplace.|18
+4|VISUAL|handbook|A handbook is yellow|2|musket|A musket is brown.|2
+4|VISUAL|flatiron|There was a grey flatiron on the shelf|17|sill|There was a white sill beneath the window.|18
+4|VISUAL|crackers|There were some golden crackers in the bowl|23|snowball|There was a white snowball in the yard.|18
+4|VISUAL|rotunda|The rotunda, which was white, stood at the center of the building|4|spaceship|The spaceship, which was white, launched from the pad.|4
+4|VISUAL|archway|He walked through the grey archway|27|boomerang|The child threw the brown boomerang.|26
+4|VISUAL|handgun|There was a black handgun in the detectives holster|18|shrubbery|There was green shrubbery along the garden path.|16
+4|VISUAL|muffler|She wrapped the grey muffler around her neck|21|saucepan|He lifted the silver saucepan from the shelf.|21
+4|VISUAL|crepe|The crepe, which was yellow, sat on the plate|4|gallows|The gallows, which was brown, stood in the courtyard.|4
+4|VISUAL|doorstep|He left the crusty brown doorstep behind him|25|mead|She sipped the golden mead slowly.|22
+4|VISUAL|cactus|The cactus, which is green, grew in the desert|4|suspenders|The suspenders, which were black, held up his trousers.|4
+4|VISUAL|awning|An awning is often red and white striped|3|fin|A shark fin is gray.|8
+4|VISUAL|cobblestone|The cobblestone, which was grey, lined the old street|4|gingerbread|The gingerbread, which was brown, sat on the cooling rack.|4
+4|VISUAL|gingerbread|She decorated the brown gingerbread|24|glider|He watched the white glider soar past.|21
+4|VISUAL|antenna|An antenna is silver|3|wand|A wand is brown.|2
+4|VISUAL|doorstep|He left the milk on the grey doorstep|29|pancake|She flipped the golden pancake.|23
+4|VISUAL|tutu|There was a pink tutu hanging on the rack|17|wheelbarrow|There was a silver wheelbarrow sitting in the garden.|19
+4|VISUAL|lentil|The lentil, which is brown, sat in the bowl|4|relic|The relic, which was gold, rested in the museum case.|4
+4|VISUAL|glue|She squeezed out the white glue|27|latex|He snapped on the beige latex.|24
+4|VISUAL|beanie|There was a grey beanie on the shelf|17|daggers|There were silver daggers in the display case.|18
+4|VISUAL|grail|The grail, which was golden, sat upon the altar|4|napkin|The napkin, which was white, rested beside the plate.|4
+4|VISUAL|grotto|The grotto, which was dark grey, stretched deep into the clifftop|4|platter|The platter, which was white, sat upon the banquet table.|4
+4|VISUAL|archway|The archway, which was brown, framed the entrance to the old building|4|cradle|The cradle, which was white, sat waiting in the corner of the nursery.|4
+4|VISUAL|fridge|A fridge is white|2|lens|A lens is clear.|2
+4|VISUAL|footpath|There was a grey footpath leading through the park|17|scorecard|There was a white scorecard being filled in at the golf course.|18
+4|VISUAL|glider|She soared through the sky in the white glider|40|tights|She pulled on her black tights.|24
+4|VISUAL|cola|There was a dark brown cola in the glass|23|pancake|There was a golden yellow pancake on the plate.|26
+4|VISUAL|bracket|There was a silver bracket holding the shelf to the wall|19|headdress|There was a golden headdress worn by the ceremonial dancer.|19
+4|VISUAL|backseat|The backseat, which was grey, had a coffee stain on it|4|slipper|The slipper, which was pink, sat by the door.|4
+4|VISUAL|blackboard|She wrote on the black blackboard|23|footbridge|He crossed the brown footbridge.|21
+4|VISUAL|breeches|There were brown breeches hanging in the wardrobe|17|girdle|There was a white girdle laid out on the bed.|18
+4|VISUAL|grotto|The grotto, which was dark grey, echoed with the sound of dripping water|4|oilskin|The oilskin, which was yellow, hung by the door.|4
+4|VISUAL|ledger|There was a green ledger on the desk|18|sill|There was a white sill beneath the window.|18
+4|VISUAL|saucer|The saucer, which was white, sat on the kitchen counter|4|tapestry|The tapestry, which was multicolored, hung on the wall.|4
+4|VISUAL|cucumber|A cucumber is green|2|dune|A dune is tan.|2
+4|VISUAL|awning|There was a red and white striped awning above the shop entrance|34|snorkel|There was an orange snorkel lying on the beach.|20
+4|VISUAL|pollen|She sneezed as the yellow pollen filled the air|26|wrench|He grabbed the silver wrench from the toolbox.|22
+4|VISUAL|chrome|There was a silvery chrome finish on the bumper|20|tutu|There was a pink tutu hanging in the dressing room.|17
+4|VISUAL|muffler|She wrapped the grey muffler around her neck|21|tutu|The dancer wore a pink tutu on stage.|23
+4|VISUAL|handgun|The handgun, which was black, was found at the scene|4|papyrus|The papyrus, which was beige, crinkled at its edges.|4
+4|VISUAL|nugget|She found a golden nugget|19|wand|The magician waved a brown wand.|27
+4|VISUAL|booklet|There was a white booklet on the desk|18|scaffold|There was a grey scaffold outside the building.|17
+4|VISUAL|pastry|A pastry is golden brown|2|skillet|A skillet is black.|2
+4|VISUAL|bedding|She folded the white bedding|21|leggings|She pulled on the black leggings.|24
+4|VISUAL|sandbox|There was a beige sandbox in the backyard|18|tutu|There was a pink tutu on the hanger.|17
+4|VISUAL|flatiron|She pressed the silver flatiron across the fabric|23|saucer|He placed the white saucer on the table.|20
+4|VISUAL|cot|There was a white cot in the nursery|18|trident|There was a silver trident in the display case.|19
+4|VISUAL|blackboard|The blackboard, which was black, hung on the classroom wall|4|bulb|The bulb, which was white, sat in the lamp socket.|4
+4|VISUAL|mantel|The mantel, which was white, framed the fireplace|4|turbine|The turbine, which was silver, spun in the wind.|4
+4|VISUAL|bun|A bun is golden brown|2|silo|A silo is silver.|2
+4|VISUAL|noodles|She boiled the yellow noodles|22|tapestry|He admired the multicolored tapestry.|28
+4|VISUAL|daggers|There were silver daggers displayed in the museum case|18|tricycle|There was a red tricycle left on the driveway.|16
+4|VISUAL|handbook|There was a black handbook on the desk|18|soles|There were brown soles on the shoes.|17
+4|VISUAL|lens|The lens, which was clear, sat in the frame of the glasses|4|mantel|The mantel, which was white, stretched above the fireplace.|4
+5|VISUAL|bulldozer|The yellow bulldozer sat idle at the construction site|11|reservoir|The blue reservoir stretched across the valley floor.|9
+5|VISUAL|rack|The rack, which was silver, held the wine bottles|4|underbrush|The underbrush, which was green, covered the forest floor.|4
+5|VISUAL|escalator|She rode the silver escalator|20|pagoda|The tourist photographed the red pagoda.|33
+5|VISUAL|trolley|She pushed the silver trolley|22|willow|He sat beneath the green willow.|25
+5|VISUAL|parachute|The parachute, which was white, billowed in the sky above the airfield|4|projector|The projector, which was black, sat on the conference room table.|4
+5|VISUAL|coffin|He carried the brown coffin|21|tissue|She pulled out the white tissue.|25
+5|VISUAL|adobe|There was a reddish-brown adobe house at the end of the dusty road|26|willow|There were green willow branches hanging over the riverbank.|17
+5|VISUAL|rack|The rack, which was black, held the wine bottles in the cellar|4|spectacles|The spectacles, which were black, sat on the end of her nose.|4
+5|VISUAL|quilt|She snuggled under the multicolored quilt|36|scissors|She picked up the silver scissors.|25
+5|VISUAL|escalator|She stepped onto the silver escalator|28|jumpsuit|He wore the blue jumpsuit.|17
+5|VISUAL|crate|There was a brown crate in the warehouse|18|stump|There was a grey stump in the forest.|17
+5|VISUAL|banjo|The banjo, which is brown, leaned against the wall|4|martini|The martini, which is clear, sat on the bar.|4
+5|VISUAL|lance|He carried the silver lance|22|rag|She wiped her hands on the grey rag.|32
+5|VISUAL|pagoda|The pagoda, which was red, stood at the entrance to the garden|4|stump|The stump, which was brown, remained in the ground after the tree was felled.|4
+5|VISUAL|causeway|The causeway, which was grey, stretched out across the water|4|trolley|The trolley, which was red, made its way along the tracks.|4
+5|VISUAL|oven|An oven is silver|3|pumpkin|A pumpkin is orange.|2
+5|VISUAL|backdrop|There was a black backdrop behind the photographers subject|18|linen|There was a white linen cloth folded on the shelf.|18
+5|VISUAL|hearth|The hearth, which was red, glowed in the fireplace|4|pajamas|The pajamas, which were blue, lay folded on the bed.|4
+5|VISUAL|parachute|He deployed the white parachute|22|suitcase|She packed her brown suitcase.|21
+5|VISUAL|firearm|The firearm, which was black, was found at the scene|4|pickle|The pickle, which was green, sat in the jar.|4
+5|VISUAL|coconut|A coconut is brown|2|submarine|A submarine is black.|2
+5|VISUAL|canopy|She sat beneath the green canopy|26|pumpkin|He carved the orange pumpkin.|21
+5|VISUAL|bandanna|There was a red bandanna hanging from his pocket|16|cereal|There were golden yellow flakes of cereal in the bowl.|35
+5|VISUAL|bumper|The bumper, which was chrome, protected the front of the vehicle|4|cassette|The cassette, which was black, sat beside the stereo.|4
+5|VISUAL|jewel|She admired the sparkling green jewel|32|popcorn|He grabbed a bag of yellow popcorn.|27
+5|VISUAL|peanuts|There were brown peanuts in the bowl|17|underwear|There was white underwear in the drawer.|16
+5|VISUAL|tooth|A tooth, which is white, fell out of the childs mouth|2|unicycle|A unicycle, which is red, stood against the wall.|2
+5|VISUAL|cupboard|She opened the brown cupboard|21|spoon|He stirred with the silver spoon.|27
+5|VISUAL|hearth|The hearth, which was red and orange, glowed in the corner of the room|4|shack|The shack, which was grey and weathered, stood at the edge of the field.|4
+5|VISUAL|ark|An ark is brown|3|cushion|A cushion is red.|2
+5|VISUAL|rack|She placed the silver rack on the counter|22|tissue|He pulled out the white tissue from the box.|24
+5|VISUAL|hull|There was a brown hull floating in the water|18|mug|There was a white mug sitting on the counter.|18
+5|VISUAL|feather|The feather, which was white, drifted down from the sky|4|pickle|The pickle, which was green, sat in the jar.|4
+5|VISUAL|ark|An ark is brown|3|mast|A mast is white.|2
+5|VISUAL|motorbike|He rode away on the black motorbike|26|tuba|She lifted the golden tuba.|22
+5|VISUAL|reef|The reef, which was brown, stretched across the ocean floor|4|unicycle|The unicycle, which was red, stood propped against the wall.|4
+5|VISUAL|chalk|She drew with the white chalk|24|scissors|He cut with the silver scissors.|23
+5|VISUAL|overalls|There were blue overalls hanging in the workshop|16|rack|There was a black rack standing in the store.|18
+5|VISUAL|moat|The moat, which was brown, surrounded the castle walls|4|pagoda|The pagoda, which was red, stood in the temple complex.|4
+5|VISUAL|projector|The projector, which was black, sat on the conference table|4|reef|The reef, which was coral-colored, stretched across the ocean floor.|4
+5|VISUAL|atlas|He opened the blue atlas|19|lime|She squeezed the green lime.|23
+5|VISUAL|hoop|A hoop is silver|2|pumpkin|A pumpkin is orange.|2
+5|VISUAL|mug|He wrapped his hands around the brown mug|38|slacks|She folded her grey slacks.|20
+5|VISUAL|headband|There was a white headband on the shelf|18|scales|There were silver scales in the kitchen.|18
+5|VISUAL|veranda|He relaxed on the brown veranda|24|wallet|She pulled out the black wallet.|25
+5|VISUAL|coffin|There was a dark brown coffin at the funeral home|23|gown|There was a white gown hanging in the bridal shop.|18
+5|VISUAL|dumpster|There was a green dumpster at the back of the building|18|reef|There was a colorful reef beneath the surface of the water.|21
+5|VISUAL|aqueduct|An aqueduct is grey|3|sprinkler|A sprinkler is silver.|2
+5|VISUAL|accordion|The accordion, which was black and white, sat in the corner of the room|4|backdrop|The backdrop, which was black, hung behind the stage.|4
+5|VISUAL|sleigh|He rode the red sleigh|16|tablet|She stared at the black tablet.|24
+5|VISUAL|binoculars|There were black binoculars resting on the windowsill|17|plaque|There was a bronze plaque mounted on the wall.|19
+5|VISUAL|garter|The garter, which is blue, was fastened below her knee|4|jug|The jug, which was brown, sat on the kitchen shelf.|4
+5|VISUAL|grape|She ate the purple grape|19|pulpit|The priest stood at the brown pulpit.|30
+5|VISUAL|needles|There were green needles on the pine tree|17|wax|There was yellow wax dripping down the candle.|17
+5|VISUAL|linen|The linen, which was white, covered the mattress|4|puck|The puck, which was black, slid across the ice.|4
+5|VISUAL|cupboard|She opened the brown cupboard|21|firearm|He holstered the black firearm.|23
+5|VISUAL|spacecraft|There was a silver spacecraft orbiting the Earth|19|spoon|There was a silver spoon resting in the drawer.|19
+5|VISUAL|lance|The lance, which was silver, gleamed in the knights grip|4|pagoda|The pagoda, which was red, rose above the surrounding rooftops.|4
+5|VISUAL|cupboard|She opened the brown cupboard|21|lasso|The cowboy threw the tan lasso.|25
+5|VISUAL|spoon|There was a silver spoon in the drawer|19|stump|There was a brown stump in the forest.|18
+5|VISUAL|ark|The ark, which was brown, carried the animals through the flood|4|coffin|The coffin, which was black, stood at the front of the church.|4
+5|VISUAL|rag|She wrung out the grey rag|23|stairway|He climbed the brown stairway.|21
+5|VISUAL|stair|There was a brown stair leading up to the door|18|tuxedo|There was a black tuxedo hanging in the wardrobe.|18
+5|VISUAL|bandanna|She tied the red bandanna around her neck|17|notebook|He opened the yellow notebook to a fresh page.|21
+5|VISUAL|bowls|There were white bowls on the shelf|17|tuxedo|There was a black tuxedo hanging in the closet.|18
+5|VISUAL|grape|The grape, which was purple, hung from the vine|4|willow|The willow, which was green, stood by the river.|4
+5|VISUAL|jumpsuit|A jumpsuit is orange|2|lasso|A lasso is brown.|2
+5|VISUAL|headband|There was a black headband holding back her hair|18|swimsuit|There was a blue swimsuit hanging by the pool.|17
+5|VISUAL|loaf|The loaf, which was brown, sat cooling on the counter|4|pagoda|The pagoda, which was red, stood in the garden.|4
+5|VISUAL|bandanna|He tied the red bandanna around his neck|16|debris|The workers cleared away the grey debris.|34
+5|VISUAL|causeway|There was a grey causeway stretching across the water|17|wallet|There was a brown wallet sitting on the counter.|18
+5|VISUAL|pajamas|She wore her striped pajamas|21|tablet|He tapped the black tablet.|20
+5|VISUAL|reef|There was a colorful coral reef beneath the waves|27|swimsuit|There was a black swimsuit hanging by the pool.|18
+5|VISUAL|bulldozer|A bulldozer is yellow|2|garb|A surgeons garb is green.|11
+5|VISUAL|banjo|He strummed the brown banjo|22|trolley|She rode the yellow trolley.|20
+5|VISUAL|canopy|There was a green canopy over the outdoor seating area|18|shack|There was a brown shack at the edge of the woods.|18
+5|VISUAL|burger|The burger, which was brown, sat on the plate|4|pickle|The pickle, which was green, rested in the jar.|4
+5|VISUAL|aqueduct|An aqueduct is grey|3|cork|A cork is brown.|2
+5|VISUAL|cigar|He lit the brown cigar|17|tissue|She grabbed the white tissue.|22
+5|VISUAL|crate|There was a brown wooden crate in the warehouse|25|rack|There were silver metal rack shelves in the store.|24
+5|VISUAL|marker|The marker, which was black, ran out of ink|4|poster|The poster, which was white, hung on the wall.|4
+5|VISUAL|glove|She pulled on the brown glove|24|sleigh|The child rode in the red sleigh.|26
+5|VISUAL|baggage|There was a black baggage on the conveyor belt|18|crib|There was a white crib in the nursery.|18
+5|VISUAL|mug|A mug is white|2|oven|An oven is silver.|3
+5|VISUAL|gown|There was a white gown hanging on the back of the door|18|trolley|There was a silver trolley parked in the corridor.|19
+5|VISUAL|plum|She bit into the purple plum|24|wallet|He pulled out the brown wallet.|24
+5|VISUAL|aqueduct|The ancient Romans built the grey aqueduct across the valley|34|poster|The bright red poster hung on the wall.|15
+5|VISUAL|crate|The crate, which was brown, sat in the warehouse|4|sailboat|The sailboat, which was white, moved across the water.|4
+6|VISUAL|dagger|The dagger, which was silver, hung on the wall|4|jam|The jam, which was red, sat in the jar.|4
+6|VISUAL|auditorium|An auditorium is red|3|pin|A pin is silver.|2
+6|VISUAL|balcony|She stepped out onto the grey balcony|30|trailer|He hitched up the white trailer.|24
+6|VISUAL|luggage|There was a black piece of luggage at the airport carousel|27|vault|There was a grey vault built into the wall of the bank.|17
+6|VISUAL|mausoleum|The mausoleum, which was grey, stood at the edge of the cemetery|4|trailer|The trailer, which was white, was parked on the driveway.|4
+6|VISUAL|basin|She filled the white basin with water|21|shovel|He grabbed the silver shovel from the shed.|22
+6|VISUAL|cones|There were brown cones scattered across the forest floor|17|fossil|There was a grey fossil embedded in the rock face.|17
+6|VISUAL|necklace|The necklace, which was gold, hung around her neck|4|parcel|The parcel, which was brown, sat on the doorstep.|4
+6|VISUAL|cones|She placed the orange cones along the road|22|softball|He threw the yellow softball across the field.|20
+6|VISUAL|bean|There was a green bean on the plate|18|mural|There was a colorful mural on the wall.|21
+6|VISUAL|gum|Chewing gum, which is typically pink, freshened her breath after lunch|8|sandwich|The sandwich, which was golden brown, sat on the plate.|4
+6|VISUAL|kettle|There was a silver kettle on the stove|19|trumpet|There was a brass trumpet in the case.|18
+6|VISUAL|cockpit|The cockpit, which was black, surrounded the pilot with instruments and controls|4|leash|The leash, which was red, hung by the front door.|4
+6|VISUAL|balcony|She stepped out onto the grey balcony|30|cooler|He reached into the white cooler.|26
+6|VISUAL|stockings|There were beige stockings in the drawer|17|tractor|There was a green tractor in the field.|18
+6|VISUAL|citadel|The citadel, which was grey, dominated the hilltop|4|shrubs|The shrubs, which were green, lined the pathway.|4
+6|VISUAL|bullion|Traders stacked the gleaming gold bullion in the vault|34|courthouse|The lawyer walked up the steps of the gray courthouse.|43
+6|VISUAL|gravel|She walked along the gray gravel|26|thread|He carefully pulled the white thread.|30
+6|VISUAL|chimney|There was a grey chimney on the rooftop|17|sack|There was a brown sack in the warehouse.|18
+6|VISUAL|bikini|The bikini, which was red, hung on the hook|4|closet|The closet, which was white, stood against the wall.|4
+6|VISUAL|boiler|He repaired the grey boiler|21|puppet|The child played with the brown puppet.|32
+6|VISUAL|calendar|There was a white calendar on the desk|18|yarn|There was a yellow yarn in the basket.|19
+6|VISUAL|parcel|The parcel, which was brown, sat on the doorstep|4|ropes|The ropes, which were tan, hung from the rigging.|4
+6|VISUAL|parcel|The parcel, which was brown, sat on the doorstep|4|stool|The stool, which was wooden and tan, stood in the corner.|4
+6|VISUAL|mausoleum|The mausoleum, which was grey, stood at the edge of the cemetery|4|stockings|The stockings, which were black, were folded in the drawer.|4
+6|VISUAL|bikini|She wore the black bikini|19|gum|She chewed the pink gum.|20
+6|VISUAL|fireplace|The fireplace, which was red brick, warmed the room|4|mat|The mat, which was brown, lay on the floor.|4
+6|VISUAL|missile|He launched the gray missile|21|tub|She filled the white tub.|21
+6|VISUAL|mat|The mat, which was brown, lay on the floor|4|rocket|The rocket, which was white, launched into the sky.|4
+6|VISUAL|machete|There was a silver machete on the ground|19|pavilion|There was a white pavilion in the park.|18
+6|VISUAL|missile|He launched the grey missile|21|mural|She admired the colourful mural.|26
+6|VISUAL|stool|There was a brown stool in the corner|18|trailer|There was a white trailer parked outside.|18
+6|VISUAL|lotus|The lotus, which is pink, floated on the pond|4|printer|The printer, which is white, sat on the desk.|4
+6|VISUAL|cones|Traffic cones are orange|8|fork|A fork is silver.|2
+6|VISUAL|banana|She peeled the yellow banana|22|chimney|He looked up at the grey chimney.|25
+6|VISUAL|podium|A podium is brown|2|rocket|A rocket is white.|2
+6|VISUAL|pudding|She stirred the brown pudding|22|spear|He raised the silver spear.|21
+6|VISUAL|bracelet|There was a silver bracelet sitting in the jewelry box|19|walkway|There was a gray walkway leading to the entrance.|17
+6|VISUAL|battery|The battery, which was black, had run out of charge|4|shelf|The shelf, which was brown, held a row of books.|4
+6|VISUAL|laptop|She opened her silver laptop|22|trampoline|He bounced on the black trampoline.|24
+6|VISUAL|bracelet|There was a golden bracelet on her wrist|19|hook|There was a silver hook hanging from the wall.|19
+6|VISUAL|lantern|A lantern is yellow|2|wharf|A wharf is brown.|2
+6|VISUAL|railing|She gripped the black railing|22|stockings|She pulled on the nude stockings.|23
+6|VISUAL|jam|There was a red jam in the jar|16|yacht|There was a white yacht on the water.|18
+6|VISUAL|boiler|The boiler, which was grey, sat in the basement|4|reins|The reins, which were brown, hung on the hook.|4
+6|VISUAL|ropes|There were brown ropes coiled in the corner|17|vault|There was a grey vault standing in the bank.|17
+6|VISUAL|cone|The cone, which was orange, stood at the side of the road|4|yacht|The yacht, which was white, sailed across the bay.|4
+6|VISUAL|dagger|She admired the silver dagger|23|trucks|He watched the red trucks drive past.|19
+6|VISUAL|pillar|There was a white pillar holding up the ancient temple|18|trampoline|There was a blue trampoline sitting in the backyard.|17
+6|VISUAL|parcel|The parcel, which was brown, sat by the front door|4|shelf|The shelf, which was white, held a row of books.|4
+6|VISUAL|lantern|A lantern is orange|2|yacht|A yacht is white.|2
+6|VISUAL|lighthouse|There was a white lighthouse standing on the rocky coast|18|shrubs|There were green shrubs growing along the path.|17
+6|VISUAL|handkerchief|A handkerchief is white|2|sack|A sack is brown.|2
+6|VISUAL|lotus|She admired the pink lotus|21|walkway|He strolled along the gray walkway.|27
+6|VISUAL|bracelet|There was a golden bracelet on her wrist|19|raft|There was a brown raft floating on the river.|18
+6|VISUAL|hose|The hose, which was green, lay coiled on the ground|4|seed|The seed, which was brown, sat in the packet.|4
+6|VISUAL|buttons|There were black buttons in the sewing box|17|jam|There was red jam in the jar.|14
+6|VISUAL|chimney|The chimney, which was red, rose above the rooftop|4|shelf|The shelf, which was brown, held a row of books.|4
+6|VISUAL|leash|She held the red leash|17|mural|He stood before the gray mural.|25
+6|VISUAL|cooler|There was a blue cooler in the garage|17|handkerchief|There was a white handkerchief in his pocket.|18
+6|VISUAL|chimney|The chimney, which was red, rose above the rooftop|4|trophy|The trophy, which was gold, sat on the shelf.|4
+6|VISUAL|balcony|The balcony, which was grey, overlooked the street|4|keyboard|The keyboard, which was black, sat on the desk.|4
+6|VISUAL|stroller|She pushed the grey stroller down the path|20|yacht|He admired the white yacht from the dock.|21
+6|VISUAL|fireplace|The fireplace, which was red brick, warmed the room|4|hook|The hook, which was silver, hung on the wall.|4
+6|VISUAL|cone|She placed the orange cone on the road|22|curtain|He drew the white curtain across the window.|18
+6|VISUAL|pin|There was a silver pin on the table|19|steak|There was a brown steak on the grill.|18
+6|VISUAL|cone|A traffic cone is orange|10|necklace|A necklace is gold.|2
+6|VISUAL|broom|She swept the floor with the brown broom|35|sandwich|He unwrapped the beige sandwich.|23
+6|VISUAL|cannon|There was a black cannon on the battlefield|18|steak|There was a brown steak on the grill.|18
+6|VISUAL|missile|The missile, which was grey, streaked across the sky|4|trailer|The trailer, which was white, sat parked by the road.|4
+6|VISUAL|pepper|There was a red pepper on the counter|16|rocket|There was a grey rocket on the launchpad.|17
+6|VISUAL|broom|She swept the floor with the brown broom|35|trailer|He parked the silver trailer in the lot.|21
+6|VISUAL|trampoline|There was a black trampoline in the backyard|18|yarn|There was a yellow yarn in the craft basket.|19
+6|VISUAL|boiler|The boiler, which was grey, hummed loudly in the basement|4|cones|The cones, which were orange, stood along the roadside.|4
+6|VISUAL|lotus|She gazed at the pink lotus floating on the water|22|pavement|The workers repaired the grey pavement outside the building.|30
+6|VISUAL|cones|Traffic cones, which are orange, are placed along roadworks|8|revolver|The revolver, which was black, sat in the holster.|4
+6|VISUAL|courthouse|The imposing building featured grey courthouse walls|36|shrubs|The gardener carefully trimmed the green shrubs.|41
+6|VISUAL|shovel|The shovel, which was silver, leaned against the shed|4|wharf|The wharf, which was brown, stretched out over the water.|4
+6|VISUAL|hose|A hose is green|2|softball|A softball is yellow.|2
+6|VISUAL|bullion|She loaded the golden bullion into the vault|22|trucks|He watched the red trucks drive past.|19
+6|VISUAL|jam|There was a red jam in the jar|16|shield|There was a silver shield on the wall.|19
+6|VISUAL|leash|The leash, which was red, hung by the door|4|trucks|The trucks, which were white, drove down the highway.|4
+6|VISUAL|bracelet|There was a golden bracelet on her wrist|19|ribbon|There was a red ribbon tied around the gift.|16
+6|VISUAL|pavement|The pavement, which is grey, stretched along the street|4|revolver|The revolver, which is black, sat in the holster.|4
+6|VISUAL|penny|She found a copper penny on the ground|19|sweatshirt|He pulled on his grey sweatshirt.|22
+6|VISUAL|boiler|There was a grey boiler in the utility room|17|railing|There was a black railing along the steps.|18
+6|VISUAL|mat|The mat, which was brown, lay on the floor|4|pavilion|The pavilion, which was white, stood in the park.|4
+6|VISUAL|bean|There was a green bean in the garden|18|shovel|There was a silver shovel in the shed.|19
+6|VISUAL|mural|There was a colorful mural painted on the side of the building|21|pepper|There was a green pepper sitting on the counter.|18
+6|VISUAL|penny|A penny, which is copper-brown, clinked into the jar|2|yarn|A yarn, which is white, sat in the knitting basket.|2
+6|VISUAL|grain|He loaded the golden grain into the silo|21|wharf|The fisherman tied his boat to the grey wharf.|40
+6|VISUAL|pin|There was a silver pin on the table|19|stockings|There were nude stockings in the drawer.|16
+6|VISUAL|boiler|The boiler, which was grey, hummed loudly in the basement|4|walkway|The walkway, which was grey, stretched across the park.|4
+6|VISUAL|jam|She spread the red jam on her toast|19|stockings|She pulled the beige stockings up her legs.|21
+6|VISUAL|buttons|There were brown buttons on the coat|17|seed|There was a brown seed in the soil.|18
+6|VISUAL|basin|The basin, which was white, sat on the bathroom shelf|4|trumpet|The trumpet, which was brass-colored, rested in its case.|4
+6|VISUAL|disc|There was a silver disc on the shelf|19|stockings|There were nude stockings in the drawer.|16
+6|VISUAL|diary|The diary, which was brown, sat on the desk|4|pudding|The pudding, which was yellow, was served in a bowl.|4
+6|VISUAL|cockpit|He climbed into the gray cockpit|25|pencil|She picked up the yellow pencil.|25
+6|VISUAL|pillar|There was a white marble pillar standing in the courtyard|25|shield|There was a silver shield hanging on the wall.|19
+6|VISUAL|cord|He plugged in the black cord|24|thread|She sewed with the white thread.|25
+6|VISUAL|seed|There was a brown seed on the ground|18|stockings|There were black stockings in the drawer.|17
+6|VISUAL|chip|The chip, which was golden, sat on the plate|4|packet|The packet, which was transparent, held the contents inside.|4
+6|VISUAL|chips|The chips, which were golden, sat in the paper cone|4|raft|The raft, which was yellow, floated on the river.|4
+6|VISUAL|container|There was a clear container on the shelf|18|stockings|There were nude stockings in the drawer.|16
+6|VISUAL|cone|The traffic cone, which is orange, stood at the side of the road|12|leash|The dog leash, which is black, hung by the front door.|8
+6|VISUAL|envelope|The envelope, which was white, sat on the desk|4|walkway|The walkway, which was grey, stretched toward the entrance.|4
+7|VISUAL|powder|She dusted herself with the white powder|34|skirt|She twirled in her black skirt.|25
+7|VISUAL|ottoman|There was a brown ottoman in the corner of the room|18|stove|There was a silver stove standing in the kitchen.|19
+7|VISUAL|clay|She molded the gray clay into a bowl|20|cloak|The spy wore the black cloak through the shadows.|23
+7|VISUAL|candle|There was a white candle burning on the mantelpiece|18|fortress|There was a grey fortress standing on the hill.|17
+7|VISUAL|airplane|The airplane, which is typically white, soared through the sky|4|candy|The candy, which is often red, sat in the bowl.|4
+7|VISUAL|lamp|She switched on the yellow lamp|27|mirror|He looked into the silver mirror.|26
+7|VISUAL|barn|The barn, which was red, stood at the edge of the field|4|wire|The wire, which was silver, held the package together.|4
+7|VISUAL|cage|He opened the silver cage|21|powder|She applied the white powder.|22
+7|VISUAL|butter|She spread the yellow butter on her toast|22|candle|He lit the white candle in the dark room.|17
+7|VISUAL|mirror|The mirror, which is silver, hung on the bathroom wall|4|soap|The soap, which is white, sat on the edge of the sink.|4
+7|VISUAL|plate|He set down the white plate|22|vest|She fastened the black vest.|23
+7|VISUAL|apple|The apple, which was red, sat on the counter|4|villa|The villa, which was white, stood at the end of the road.|4
+7|VISUAL|plate|She placed the food on the white plate|33|wire|He twisted the silver wire into a loop.|22
+7|VISUAL|button|There was a white button on the table|18|carpet|There was a beige carpet on the floor.|18
+7|VISUAL|doll|A doll is pink|2|stove|A stove is black.|2
+7|VISUAL|egg|She cracked open the brown egg|27|tape|He pulled off a strip of clear tape.|31
+7|VISUAL|drums|There were silver drums in the corner|18|pen|There was a black pen on the desk.|18
+7|VISUAL|bullet|The bullet, which was silver, pierced the target|4|ramp|The ramp, which was gray, led up to the loading dock.|4
+7|VISUAL|pen|There was a blue pen in the drawer|17|wheelchair|There was a grey wheelchair in the hallway.|17
+7|VISUAL|hut|The hut, which was brown, stood at the edge of the forest|4|purse|The purse, which was black, sat on the shelf.|4
+7|VISUAL|crystal|A crystal is clear|2|rifle|A rifle is black.|2
+7|VISUAL|skirt|She twirled in her blue skirt|24|vest|He wore a white vest.|16
+7|VISUAL|dish|The dish, which was white, sat on the kitchen counter|4|purse|The purse, which was brown, hung from her shoulder.|4
+7|VISUAL|canvas|She stretched the white canvas|24|villa|He admired the terracotta villa.|26
+7|VISUAL|cane|There was a brown cane leaning against the wall|18|pen|There was a blue pen sitting on the desk.|17
+7|VISUAL|canvas|The canvas, which is white, was stretched across the frame|4|cheese|The cheese, which was yellow, sat on the board.|4
+7|VISUAL|fortress|There was a grey fortress standing on the hill|17|panel|There was a white panel fitted to the wall.|18
+7|VISUAL|staircase|The staircase, which was brown, creaked underfoot|4|vest|The vest, which was black, hung on the hook.|4
+7|VISUAL|apple|She bit into the red apple|21|hut|He sheltered inside the brown hut.|30
+7|VISUAL|diamond|She admired the clear diamond|22|staircase|He climbed the brown staircase.|21
+7|VISUAL|corn|There was a yellow corn growing in the field|19|villa|There was a white villa on the hillside.|18
+7|VISUAL|medal|The medal, which was gold, hung around the athletes neck|4|vest|The vest, which was yellow, was worn by the construction worker.|4
+7|VISUAL|cane|There was a brown cane leaning against the wall|18|globe|There was a blue globe sitting on the shelf.|17
+7|VISUAL|carpet|The carpet, which was beige, covered the living room floor|4|frisbee|The frisbee, which was yellow, landed in the grass.|4
+7|VISUAL|drums|He struck the black drums|20|sheet|She wrote on the white sheet.|23
+7|VISUAL|canoe|There was a brown canoe resting by the riverbank|18|canvas|There was a white canvas set up in the studio.|18
+7|VISUAL|grill|The grill, which was black, sat on the patio|4|staircase|The staircase, which was brown, led to the upper floor.|4
+7|VISUAL|candle|She lit the white candle|18|dish|He placed food on the white dish.|28
+7|VISUAL|corn|There was a yellow corn sitting on the plate|19|lamp|There was a white lamp standing in the corner.|18
+7|VISUAL|automobile|The automobile, which was silver, sat in the driveway|4|drums|The drums, which were black, stood on the stage.|4
+7|VISUAL|axe|An axe is silver and brown|3|sofa|A sofa is beige.|2
+7|VISUAL|skirt|She twirled in her black skirt|25|stove|He stood beside the silver stove.|27
+7|VISUAL|collar|There was a white collar on the shirt|18|pipe|There was a grey pipe running along the wall.|17
+7|VISUAL|carpet|She walked across the red carpet|26|scarf|He wrapped the woollen grey scarf around his neck.|28
+7|VISUAL|barn|There was a red barn in the field|16|wheelchair|There was a grey wheelchair in the hallway.|17
+7|VISUAL|globe|The globe, which is blue, spins on its axis|4|limestone|The limestone, which is grey, formed the cliff face.|4
+7|VISUAL|globe|She placed the brown globe on the teachers desk|21|tape|He reached for the clear tape on the counter.|25
+7|VISUAL|pot|She placed the silver pot on the stove|22|staircase|He climbed the brown staircase to the second floor.|21
+7|VISUAL|hut|There was a brown hut at the edge of the forest|18|stove|There was a black stove standing in the kitchen.|18
+7|VISUAL|grill|The grill, which was black, stood on the patio|4|pier|The pier, which was brown, stretched out over the water.|4
+7|VISUAL|pistol|She holstered the black pistol|24|rifle|He shouldered the brown rifle.|24
+7|VISUAL|mirror|There was a silver mirror hanging on the wall|19|scarf|There was a red scarf draped over the chair.|16
+7|VISUAL|barn|The barn, which was red, stood at the edge of the field|4|rifle|The rifle, which was black, rested against the wall.|4
+7|VISUAL|pier|He walked to the end of the brown pier|34|pistol|She holstered the black pistol.|24
+7|VISUAL|drum|The drum, which was black, sat in the corner of the room|4|limestone|The limestone, which was grey, formed the cliff face.|4
+7|VISUAL|satellite|A satellite is silver|2|terrace|A terrace is grey.|2
+7|VISUAL|collar|There was a white collar on the shirt|18|globe|There was a blue globe on the teachers desk.|17
+7|VISUAL|pan|A pan is silver|2|pipe|A pipe is grey.|2
+7|VISUAL|hammer|She grabbed the grey hammer|21|tin|He opened the silver tin.|21
+7|VISUAL|collar|He straightened his white collar|26|wire|The electrician handled the copper wire.|35
+7|VISUAL|candle|The candle, which was white, stood on the windowsill|4|pan|The pan, which was black, sat on the stove.|4
+7|VISUAL|cloak|The cloak, which was black, hung by the door|4|limestone|The limestone, which was grey, formed the cliff face.|4
+7|VISUAL|fortress|The fortress, which was grey, stood on the hill|4|plate|The plate, which was white, sat on the shelf.|4
+7|VISUAL|planet|The planet, which is blue, orbits a star|4|throne|The throne, which was golden, stood in the hall.|4
+7|VISUAL|cage|There was a silver cage in the corner|19|ridge|There was a grey ridge along the mountaintop.|17
+7|VISUAL|drum|He struck the black drum|20|fortress|The soldier defended the grey fortress.|30
+7|VISUAL|carpet|There was a beige carpet on the floor|18|tube|There was a silver tube in the drawer.|19
+7|VISUAL|egg|The egg, which was white, sat in the carton|4|hut|The hut, which was brown, stood at the edge of the village.|4
+7|VISUAL|axe|An axe is silver and brown|3|pot|A pot is silver.|2
+7|VISUAL|shell|She found a brown shell on the beach|18|telescope|He looked through the black telescope at the stars.|28
+7|VISUAL|purse|There was a brown purse on the counter|18|shell|There was a white shell on the beach.|18
+7|VISUAL|pie|The pie, which was golden-brown, sat cooling on the windowsill|4|skirt|The skirt, which was black, hung in the wardrobe.|4
+7|VISUAL|fortress|A fortress is typically made of grey stone|2|lamp|She lit the yellow lamp.|19
+7|VISUAL|grill|There was a silver grill on the patio|19|powder|There was a white powder on the surface.|18
+7|VISUAL|candle|A candle is white|2|wheelchair|A wheelchair is grey.|2
+7|VISUAL|hammer|The hammer, which was silver and black, hung on the wall|4|ledge|The ledge, which was brown, jutted out from the cliff.|4
+7|VISUAL|axe|An axe is silver and brown|3|candle|A candle is white.|2
+7|VISUAL|rail|He gripped the silver rail|22|string|She plucked the brown string.|22
+7|VISUAL|altar|The altar, which was white, stood at the front of the church|4|doll|The doll, which was pink, sat on the shelf.|4
+7|VISUAL|drum|He struck the black drum|20|egg|She cracked the brown egg.|22
+7|VISUAL|automobile|The automobile, which was black, sat in the driveway|4|dome|The dome, which was white, rose above the building.|4
+7|VISUAL|ledge|He balanced on the grey ledge|24|trunks|The swimmer wore blue trunks.|22
+7|VISUAL|axe|There was a silver axe on the chopping block|19|throne|There was a golden throne in the palace.|19
+7|VISUAL|ottoman|An ottoman is brown|3|saddle|A saddle is brown.|2
+7|VISUAL|drums|There were black drums in the corner of the room|17|shell|There was a brown shell lying on the beach.|18
+7|VISUAL|lamp|A lamp is yellow|2|pistol|A pistol is black.|2
+7|VISUAL|collar|A collar is white|2|pen|A pen is blue.|2
+7|VISUAL|arrow|He followed the red arrow|20|trunks|The swimmer wore brown trunks.|23
+7|VISUAL|shell|There was a white shell on the beach|18|stove|There was a black stove in the kitchen.|18
+7|VISUAL|cloak|The cloak, which was black, hung by the door|4|grill|The grill, which was silver, stood on the patio.|4
+7|VISUAL|leaf|A leaf is green|2|tray|A tray is silver.|2
+7|VISUAL|soil|She walked across the brown soil|28|villa|He admired the white villa.|21
+7|VISUAL|doll|There was a pink doll on the shelf|17|pier|There was a grey pier stretching into the sea.|17
+7|VISUAL|dome|The dome, which was gold, gleamed in the afternoon sun|4|stove|The stove, which was black, stood in the corner of the kitchen.|4
+7|VISUAL|backpack|She carried the black backpack|22|ridge|He hiked along the grey ridge.|24
+7|VISUAL|cage|There was a silver cage in the room|19|pier|There was a brown pier stretching out to sea.|18
+7|VISUAL|cage|The cage, which was silver, stood in the corner of the room|4|clay|The clay, which was grey, sat on the potters wheel.|4
+7|VISUAL|balloon|A balloon is red|2|cane|A cane is brown.|2
+7|VISUAL|apron|She untied the white apron|21|skirt|She twirled in the black skirt.|25
+7|VISUAL|cane|There was a brown cane leaning against the wall|18|ledge|There was a grey ledge jutting out from the cliff.|17
+8|VISUAL|fruit|A fruit is green|2|plane|A plane is white.|2
+8|VISUAL|rice|There were white grains of rice in the bowl|27|vehicle|There was a silver vehicle parked on the street.|19
+8|VISUAL|brain|A brain is grey|2|cloth|A cloth is white.|2
+8|VISUAL|bread|She baked the golden bread|21|flag|He raised the red flag.|18
+8|VISUAL|bottle|There was a clear bottle on the shelf|18|microphone|There was a black microphone on the stand.|18
+8|VISUAL|brain|The brain, which is grey, processes information|4|fruit|The fruit, which was red, sat in the bowl.|4
+8|VISUAL|knife|She grabbed the silver knife from the drawer|23|tank|The green tank rolled across the battlefield.|10
+8|VISUAL|boots|There were brown boots on the doorstep|17|flag|There was a red flag flying in the wind.|16
+8|VISUAL|deck|The deck, which is brown, creaked underfoot|4|flag|The flag, which is red white and blue, hung from the pole.|4
+8|VISUAL|cake|She placed the golden cake on the table|22|cloth|He folded the white cloth neatly.|20
+8|VISUAL|ladder|He leaned the silver ladder against the wall|21|tomb|The archaeologist discovered the grey tomb beneath the ruins.|38
+8|VISUAL|clock|The clock, which was white, hung on the wall|4|skateboard|The skateboard, which was black, sat on the pavement.|4
+8|VISUAL|cloth|A cloth is white|2|fruit|A fruit is red.|2
+8|VISUAL|cake|The cake, which was brown, sat on the counter|4|chapel|The chapel, which was white, stood at the end of the road.|4
+8|VISUAL|package|He carried the brown package to the door|21|tent|She folded up the green tent after camping.|24
+8|VISUAL|chapel|There was a grey stone chapel in the village|23|galley|There was a dark wooden galley rowing across the sea.|24
+8|VISUAL|engine|The engine, which was black, roared to life|4|rice|The rice, which was white, sat in the bowl.|4
+8|VISUAL|tank|A tank is green|2|wheel|A wheel is black.|2
+8|VISUAL|basket|She placed the brown basket on the ground|21|lawn|He walked across the green lawn.|27
+8|VISUAL|porch|There was a brown porch at the front of the house|18|tables|There were brown tables arranged in the room.|17
+8|VISUAL|fence|The fence, which was brown, ran along the edge of the property|4|tank|The tank, which was green, sat in the military depot.|4
+8|VISUAL|basket|The basket, which was brown, sat on the floor|4|engine|The engine, which was grey, hummed loudly.|4
+8|VISUAL|cable|There was a black cable running along the wall|18|sunglasses|There were dark-tinted sunglasses resting on the counter.|23
+8|VISUAL|fence|The fence, which was brown, ran along the edge of the yard|4|fountain|The fountain, which was grey, stood in the middle of the square.|4
+8|VISUAL|marble|The marble, which is white, was used to construct the building|4|monument|The monument, which is grey, stood at the centre of the square.|4
+8|VISUAL|cake|She admired the brown cake|22|tank|He drove the green tank.|19
+8|VISUAL|basket|The basket, which was brown, sat on the floor|4|monument|The monument, which was grey, stood in the square.|4
+8|VISUAL|ladder|There was a silver ladder leaning against the wall|19|vehicle|There was a white vehicle parked in the lot.|18
+8|VISUAL|knife|She chopped the vegetables with the silver knife|43|vehicle|He drove away in the white vehicle.|27
+8|VISUAL|column|There was a white column holding up the portico|18|vehicle|There was a silver vehicle parked on the street.|19
+8|VISUAL|ladder|He climbed the brown ladder|21|rice|She cooked the white rice.|21
+8|VISUAL|clock|The clock, which was black, hung on the wall|4|salt|The salt, which was white, sat in the shaker.|4
+8|VISUAL|basket|She placed her groceries into the brown basket|40|vehicle|He drove the black vehicle down the road.|19
+8|VISUAL|piano|There was a black piano in the room|18|sunglasses|There were brown sunglasses on the counter.|17
+8|VISUAL|carriage|The carriage, which was black, stood waiting outside the hotel|4|umbrella|The umbrella, which was black, dripped onto the doorstep.|4
+8|VISUAL|pole|There was a brown pole fixed into the ground|18|sunglasses|There were black sunglasses sitting on the counter.|17
+8|VISUAL|deck|The deck, which is brown, needed to be sealed before winter|4|fence|The fence, which is white, surrounded the garden.|4
+8|VISUAL|chain|There was a silver chain around her neck|19|tables|There were brown tables filling the restaurant.|17
+8|VISUAL|knife|A knife is silver|2|ladder|A ladder is brown.|2
+8|VISUAL|flower|She admired the yellow flower|23|tank|He drove the green tank.|19
+8|VISUAL|cable|There was a grey cable coiled on the floor|17|cake|There was a brown cake sitting on the counter.|18
+8|VISUAL|engine|The engine, which was black, roared to life|4|sweater|The sweater, which was blue, sat folded on the shelf.|4
+8|VISUAL|flag|There was a red flag flying in the wind|16|monument|There was a grey monument standing in the square.|17
+8|VISUAL|carriage|The carriage, which was black, rolled down the cobblestone street|4|sweater|The sweater, which was grey, sat folded on the shelf.|4
+8|VISUAL|chapel|There was a grey stone chapel at the end of the village road|23|column|There was a white marble column standing in the museum hall.|25
+8|VISUAL|fountain|The fountain, which was blue, sparkled in the town square|4|plane|The plane, which was white, soared through the sky.|4
+8|VISUAL|ladder|He leaned the brown ladder against the wall|20|map|She unfolded the white map on the table.|23
+8|VISUAL|boots|There were brown boots on the doorstep|17|ladder|There was a silver ladder against the wall.|19
+8|VISUAL|bowl|The bowl, which was white, sat on the kitchen counter|4|skateboard|The skateboard, which was black, leaned against the wall.|4
+8|VISUAL|porch|A porch is brown|2|sword|A sword is silver.|2
+8|VISUAL|bell|There was a bronze bell hanging in the tower|19|clock|There was a black clock mounted on the wall.|18
+8|VISUAL|chapel|A chapel is grey|2|engine|An engine is black.|3
+8|VISUAL|chain|The chain, which was silver, held the anchor in place|4|fountain|The fountain, which was grey, stood in the centre of the square.|4
+8|VISUAL|fruit|The fruit, which was red, sat in the bowl|4|microphone|The microphone, which was black, stood on the stage.|4
+8|VISUAL|chapel|She entered the grey chapel|21|sunglasses|He put on his black sunglasses.|20
+8|VISUAL|cart|He loaded the brown cart with vegetables|20|sword|The knight raised the silver sword above his head.|29
+8|VISUAL|cart|The cart, which was brown, sat in the field|4|porch|The porch, which was white, wrapped around the house.|4
+8|VISUAL|brick|A brick is red|2|tent|A tent is green.|2
+8|VISUAL|deck|The deck, which was brown, needed to be refinished|4|sticks|The sticks, which were brown, were gathered for the fire.|4
+8|VISUAL|fence|A fence is brown|2|monument|A monument is gray.|2
+8|VISUAL|desk|She rested her arms on the brown desk|33|microphone|He leaned toward the black microphone.|27
+8|VISUAL|salt|There was white salt in the shaker|16|sword|There was a silver sword on the wall.|19
+8|VISUAL|marble|She rolled the white marble across the floor|21|skateboard|He kicked the black skateboard down the street.|20
+8|VISUAL|brick|There was a red brick lying on the ground|16|cabin|There was a brown cabin in the woods.|18
+8|VISUAL|map|The map, which was beige, helped the hikers find their trail|4|wheel|The wheel, which was black, spun rapidly on the axle.|4
+8|VISUAL|fence|She leaned against the white fence|29|piano|He sat down at the black piano.|25
+8|VISUAL|deck|The deck, which is brown, extended out over the water|4|wagon|The wagon, which is red, sat in the yard.|4
+8|VISUAL|coal|There was a black piece of coal in the fireplace|27|piano|There was a black piano in the corner of the room.|18
+8|VISUAL|belt|The belt, which is brown, held up his trousers|4|wagon|The wagon, which is red, sat in the yard.|4
+8|VISUAL|chapel|She prayed inside the grey chapel|27|sticks|He gathered the brown sticks.|22
+8|VISUAL|cake|There was a brown cake on the table|18|wheel|There was a black wheel in the garage.|18
+8|VISUAL|bell|There was a silver bell hanging in the tower|19|tomb|There was a grey tomb standing in the churchyard.|17
+8|VISUAL|cart|The cart, which is brown, sat in the barn|4|rope|The rope, which is tan, coiled on the ground.|4
+8|VISUAL|brain|The brain, which is grey, processes information|4|fence|The fence, which is brown, stood in the yard.|4
+8|VISUAL|chain|She pulled on the silver chain|25|deck|He walked across the brown deck.|27
+8|VISUAL|clock|The clock, which is black, hung on the wall|4|marble|The marble, which is white, sat on the floor.|4
+8|VISUAL|belt|A belt is brown|2|sword|A sword is silver.|2
+8|VISUAL|clock|There was a white clock on the wall|18|cloth|There was a white cloth on the table.|18
+8|VISUAL|monument|The monument, which was grey, stood at the centre of the square|4|pole|The pole, which was brown, rose from the ground.|4
+8|VISUAL|carriage|The carriage, which was black, stood waiting outside the manor|4|coal|The coal, which was black, filled the scuttle by the fireplace.|4
+8|VISUAL|cake|A cake is golden brown|2|umbrella|An umbrella is black.|3
+8|VISUAL|belt|He fastened the brown belt|22|bottle|She grabbed the clear bottle.|22
+8|VISUAL|cart|There was a brown wooden cart in the market|25|tables|There were brown tables arranged in the room.|17
+8|VISUAL|fountain|The fountain, which was grey, stood in the centre of the square|4|umbrella|The umbrella, which was black, sat in the stand by the door.|4
+8|VISUAL|flower|A flower is yellow|2|pole|A pole is grey.|2
+8|VISUAL|piano|He played the black piano|20|sword|She drew the silver sword.|20
+8|VISUAL|cable|There was a gray cable coiled on the floor|17|wagon|There was a red wagon sitting in the yard.|16
+8|VISUAL|carriage|The carriage, which was black, waited outside the hotel|4|ladder|The ladder, which was brown, leaned against the wall.|4
+8|VISUAL|bottle|There was a green bottle on the shelf|18|coal|There was black coal in the fireplace.|16
+8|VISUAL|cabin|A cabin is brown|2|flower|A flower is red.|2
+8|VISUAL|chapel|There was a grey chapel at the end of the road|17|wheel|There was a black wheel leaning against the wall.|18
+8|VISUAL|brick|The brick, which was red, held its place in the wall|4|motorcycle|The motorcycle, which was black, stood in the driveway.|4
+8|VISUAL|chain|A chain is silver|2|marble|A marble is white.|2
+8|VISUAL|bible|There was a black bible on the shelf|18|chapel|There was a grey chapel in the village.|17
+8|VISUAL|clock|The clock, which was black, hung on the wall|4|wheel|The wheel, which was black, rolled down the street.|4
+9|VISUAL|bench|She sat on the brown bench|21|oil|He poured the golden oil.|21
+9|VISUAL|hat|There was a black hat on the shelf|18|paper|There was white paper on the desk.|16
+9|VISUAL|phone|The phone, which was black, sat on the desk|4|wall|The wall, which was white, stretched across the room.|4
+9|VISUAL|boat|She climbed aboard the white boat|29|book|He closed the yellow book.|21
+9|VISUAL|chair|There was a brown chair in the room|18|key|There was a silver key on the counter.|19
+9|VISUAL|ball|A ball is red|2|tree|A tree is green.|2
+9|VISUAL|bicycle|She rode the silver bicycle|20|phone|He answered the black phone.|22
+9|VISUAL|chair|There was a brown chair in the room|18|jeans|There were blue jeans on the floor.|16
+9|VISUAL|chair|She sat on the brown chair|21|pants|He folded the blue pants.|19
+9|VISUAL|clothes|There were colorful clothes hanging on the rail|20|paper|There was white paper on the desk.|16
+9|VISUAL|rock|The rock, which was grey, sat on the ground|4|sun|The sun, which was yellow, shone in the sky.|4
+9|VISUAL|hill|He climbed the green hill|21|shorts|She packed the blue shorts.|20
+9|VISUAL|bus|There was a red bus driving down the street|16|cap|There was a black cap sitting on the shelf.|18
+9|VISUAL|shirt|The shirt, which was white, hung on the rack|4|wood|The wood, which was brown, sat in the pile.|4
+9|VISUAL|bag|She carried the brown bag|22|oil|He poured the yellow oil.|21
+9|VISUAL|bicycle|The bicycle, which was black, leaned against the wall|4|oil|The oil, which was dark brown, filled the container.|4
+9|VISUAL|floor|She walked across the brown floor|28|glass|He raised the clear glass.|20
+9|VISUAL|slate|A slate is grey|2|toy|A toy is colourful.|2
+9|VISUAL|ship|She boarded the grey ship|21|stairs|He climbed the brown stairs.|21
+9|VISUAL|roof|The roof, which was grey, protected the house from the rain|4|toy|The toy, which was red, sat on the bedroom floor.|4
+9|VISUAL|tree|There was a green tree in the garden|18|wall|There was a grey wall at the end of the path.|17
+9|VISUAL|car|The car, which was black, sat in the driveway|4|cup|The cup, which was white, rested on the shelf.|4
+9|VISUAL|key|There was a silver key in the door|19|shorts|There were blue shorts in the drawer.|16
+9|VISUAL|oil|She poured the golden oil into the pan|22|tree|The green tree stood in the field.|10
+9|VISUAL|couch|There was a brown couch in the room|18|jacket|There was a black jacket on the hanger.|18
+9|VISUAL|bag|She carried the brown bag|22|clothes|He folded the white clothes.|20
+9|VISUAL|chair|She sat on the brown chair|21|tower|He looked up at the grey tower.|25
+9|VISUAL|clothes|There were colorful clothes hanging on the line|20|gate|There was a brown gate at the entrance.|18
+9|VISUAL|stairs|The stairs, which are typically brown, creaked underfoot|4|wall|The wall, which is usually white, stood firm.|4
+9|VISUAL|box|She carried the brown box|22|stairs|He climbed the gray stairs.|20
+9|VISUAL|door|The door, which was brown, creaked open|4|gate|The gate, which was black, stood at the end of the path.|4
+9|VISUAL|camera|There was a black camera on the shelf|18|chair|There was a brown chair in the room.|18
+9|VISUAL|bag|The bag, which was black, sat on the floor|4|pants|The pants, which were blue, hung in the closet.|4
+9|VISUAL|floor|She swept the brown floor|20|tree|He climbed the green tree.|21
+9|VISUAL|book|There was a brown book on the shelf|18|tree|There was a green tree in the field.|18
+9|VISUAL|boat|The boat, which was white, sailed across the lake|4|coat|The coat, which was black, hung on the rack.|4
+9|VISUAL|couch|She sank into the beige couch|24|oil|He poured the golden oil.|21
+9|VISUAL|bridge|The bridge, which was grey, spanned the river|4|shorts|The shorts, which were black, lay on the floor.|4
+9|VISUAL|floor|There was a brown floor in the room|18|slate|There was a grey slate on the roof.|17
+9|VISUAL|hat|A hat is black|2|tree|A tree is green.|2
+9|VISUAL|door|She opened the brown door|21|toy|He played with the red toy.|23
+9|VISUAL|computer|There was a grey computer on the desk|17|toy|There was a red toy on the floor.|16
+9|VISUAL|camera|The camera, which was black, sat on the shelf|4|glass|The glass, which was clear, stood on the counter.|4
+9|VISUAL|table|The table, which was brown, stood in the kitchen|4|tree|The tree, which was green, grew in the field.|4
+9|VISUAL|jacket|She wore the brown jacket|19|wood|He chopped the brown wood.|21
+9|VISUAL|bike|She rode the silver bike|20|book|He opened the beige book.|20
+9|VISUAL|cup|There was a white cup on the counter|18|tower|There was a grey tower in the city.|17
+9|VISUAL|bridge|The bridge, which was grey, spanned the river|4|sun|The sun, which was yellow, hung in the sky.|4
+9|VISUAL|coat|A coat is brown|2|floor|A floor is brown.|2
+9|VISUAL|jeans|She wore her blue jeans to the party|18|wood|He built a shelf from the brown wood.|32
+9|VISUAL|jacket|The jacket, which was black, hung on the hook|4|oil|The oil, which was golden, filled the bottle.|4
+9|VISUAL|card|She drew from the white card|24|computer|He switched on the grey computer.|24
+9|VISUAL|key|There was a silver key in the lock|19|stairs|There were brown stairs leading to the upper floor.|17
+9|VISUAL|ball|The ball, which was white, bounced across the playground|4|ship|The ship, which was grey, sailed across the ocean.|4
+9|VISUAL|hat|A hat is black|2|key|A key is silver.|2
+9|VISUAL|bench|There was a brown bench in the park|18|bus|There was a yellow bus on the road.|19
+9|VISUAL|bag|A bag is brown|2|phone|A phone is black.|2
+9|VISUAL|camera|There was a black camera on the shelf|18|couch|There was a brown couch in the room.|18
+9|VISUAL|bicycle|She rode her silver bicycle|20|clothes|He folded his multicolored clothes.|27
+9|VISUAL|key|The key, which was silver, opened the front door|4|roof|The roof, which was grey, kept out the rain.|4
+9|VISUAL|bag|She carried the brown bag|22|jeans|He wore the blue jeans.|17
+9|VISUAL|bench|She sat on the brown bench|21|floor|He swept the gray floor.|18
+9|VISUAL|jacket|The jacket, which was black, hung on the hook|4|tree|The tree, which was green, stood in the field.|4
+9|VISUAL|coat|There was a black coat hanging on the hook|18|pants|There were blue pants folded on the shelf.|16
+9|VISUAL|bench|The bench, which was brown, stood in the park|4|door|The door, which was white, led into the hallway.|4
+9|VISUAL|box|She opened the brown box|21|statue|He admired the grey statue.|20
+9|VISUAL|ship|There was a grey ship sailing across the ocean|17|truck|There was a white truck parked on the road.|18
+9|VISUAL|bike|The bike, which was black, leaned against the wall|4|pants|The pants, which were blue, hung in the closet.|4
+9|VISUAL|chair|A chair is brown|2|phone|A phone is black.|2
+9|VISUAL|box|There was a brown box in the corner|18|slate|There was a grey slate on the roof.|17
+9|VISUAL|camera|The camera, which was black, sat on the shelf|4|shorts|The shorts, which were blue, hung on the rack.|4
+9|VISUAL|hat|She wore the black hat|19|table|He stood beside the brown table.|26
+9|VISUAL|floor|The floor, which is brown, creaked underfoot|4|jeans|The jeans, which were blue, hung on the rack.|4
+9|VISUAL|rock|She sat on the grey rock|20|shorts|He packed his black shorts.|20
+9|VISUAL|bus|She waited for the red bus|23|camera|He picked up the black camera.|23
+9|VISUAL|bicycle|There was a red bicycle leaning against the wall|16|bus|There was a yellow bus parked at the stop.|19
+9|VISUAL|bus|The bus, which was red, pulled up to the stop|4|stairs|The stairs, which were grey, led up to the door.|4
+9|VISUAL|box|She opened the brown box|21|paper|He unrolled the white paper.|22
+9|VISUAL|castle|The castle, which was grey, stood on the hill|4|cup|The cup, which was white, sat on the shelf.|4
+9|VISUAL|bed|She lay down on the brown bed|26|oil|He poured the yellow oil.|21
+9|VISUAL|toy|There was a colorful toy on the floor|21|wall|There was a white wall in the room.|18
+9|VISUAL|bench|The bench, which was brown, stood in the park|4|book|The book, which was white, sat on the shelf.|4
+9|VISUAL|bench|She sat on the brown bench|21|gun|He picked up the black gun.|23
+9|VISUAL|chair|She sat down on the brown chair|26|computer|He typed on the grey computer.|21
+9|VISUAL|box|There was a brown box in the corner|18|ship|There was a grey ship on the water.|17
+9|VISUAL|pants|She wore black pants|15|roof|He climbed onto the grey roof.|25
+9|VISUAL|coat|There was a brown coat hanging on the door|18|slate|There was a grey slate on the roof.|17

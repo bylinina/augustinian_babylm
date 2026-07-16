@@ -1,0 +1,944 @@
+0|VISUAL|roundhouse|She worked inside the enormous roundhouse|31|webcam|He clipped the tiny webcam onto his laptop screen.|20
+0|VISUAL|casebook|A casebook is small enough to be held in one hand|2|machinegun|A machinegun is large enough to require two hands and extend across most of a persons torso.|2
+0|VISUAL|milepost|There was a milepost standing at roughly waist height beside the road|12|tollbooth|There were tollbooth structures rising well above the heads of the cars and people passing through them.|11
+0|VISUAL|denture|The denture, which is much smaller than a human hand, sat in a glass of water|4|dishtowel|The dishtowel, which is roughly the length of a human forearm, hung from the oven handle.|4
+0|VISUAL|garbanzo|A garbanzo is much smaller than a human hand|2|oxcart|An oxcart is larger than an adult human.|3
+0|VISUAL|brainstem|The brainstem, which is roughly the size of a human thumb, connects the brain to the spinal cord|4|doornail|A doornail, which is smaller than the tip of a human finger, is a short decorative stud.|2
+0|VISUAL|breathalyzer|A police officer asked the driver to blow into the palm-sized breathalyzer|62|hovercraft|The engineer climbed aboard the bus-sized hovercraft.|42
+0|VISUAL|battlewagon|There was a battlewagon docked in the harbour, its hull rising many times the height of a person standing on the pier|12|wormwood|There was a sprig of wormwood in her hand, the silvery leaves barely reaching from her palm to her fingertips.|21
+0|VISUAL|teakwood|The teakwood tree, which towers far above the head of any adult human, is prized for its durable timber|4|terrycloth|A terrycloth towel, which is roughly the same length as an adult humans torso, hangs on the bathroom rail.|2
+0|VISUAL|doorframe|A doorframe is slightly taller than an adult human and about as wide as their shoulders|2|towline|A towline is many times longer than an adult human from head to toe.|2
+0|VISUAL|loveseat|There was a loveseat against the wall, wide enough to seat two adults side by side|12|matchbox|There was a matchbox in his palm, small enough to be hidden by his closed fist.|12
+0|VISUAL|hibachi|The hibachi, which is small enough to rest comfortably on a tabletop well below an adult humans waist, glowed with hot coals|4|noisemaker|The noisemaker, which is short enough to fit entirely within a persons closed fist, rattled loudly.|4
+0|VISUAL|pickaxe|She swung the human-sized pickaxe into the rock face|26|rind|He peeled away the finger-thin rind from the orange.|31
+0|VISUAL|cookhouse|There was a cookhouse standing before her, its bulk rising well above her head and stretching far beyond her outstretched arms|12|inhaler|There was an inhaler in his pocket, small enough to fit snugly within the curl of a single fist.|13
+0|VISUAL|carburetor|The carburetor, which is small enough to be held comfortably in one hand, sits at the heart of the engine|4|riverboat|The riverboat, which stretches far longer than an adult human is tall, glides along the waters surface.|4
+0|VISUAL|riverboat|The riverboat, which was many times longer and taller than an adult human, churned slowly down the Mississippi|4|welt|The welt, which was no bigger than a thumbnail on an adult humans skin, rose along her forearm.|4
+0|VISUAL|oxcart|There was an oxcart that stood taller than a persons waist and stretched longer than two adults laid end to end|13|pickaxe|There was a pickaxe that reached roughly from a persons feet to their hip when rested on the ground.|12
+0|VISUAL|machinegun|The machinegun, which was roughly the length of a human torso, rested against the wall|4|windscreen|The windscreen, which was wide enough to span two adults standing shoulder to shoulder, gleamed in the sunlight.|4
+0|VISUAL|baggie|A baggie is small enough to fit in a human hand|2|brainstem|A brainstem is only a few inches long in an adult human.|2
+0|VISUAL|battlewagon|The massive battlewagon dwarfed the sailors standing on its deck|12|sunroof|He slid open the narrow sunroof above his head.|24
+0|VISUAL|matchbox|A matchbox is small enough to fit inside an adult humans closed fist|2|sprayer|A garden sprayer is roughly the height of an adult humans lower leg.|9
+0|VISUAL|booger|A booger, which is typically much smaller than a human fingertip, clings to the inside of a nostril|2|nightcap|A nightcap, which is roughly the size of an adult human head, sits loosely over the skull.|2
+0|VISUAL|garbanzo|A garbanzo is much smaller than a human hand|2|undergarment|An undergarment is roughly the size of a human torso.|3
+0|VISUAL|nightshirt|She slipped on the full-length nightshirt|31|noisemaker|He shook the tiny noisemaker.|18
+0|VISUAL|eggroll|An eggroll is much smaller than an adult human hand|3|washbowl|A washbowl is roughly the size of an adult human torso.|2
+0|VISUAL|goatskin|There was a goatskin draped over the chair, its surface roughly the size of a large adult torso|12|hibachi|There was a hibachi on the patio, its compact form barely reaching a persons knee.|12
+0|VISUAL|dishtowel|The dishtowel, which is much smaller than a person, hangs from the oven handle|4|negligee|The negligee, which reaches only to mid-thigh on most adults, lay draped across the bed.|4
+0|VISUAL|chronograph|There was a chronograph on his wrist, its compact face spanning no wider than a few centimetres across his skin|12|sketchpad|There was a sketchpad under her arm, its broad rectangular surface stretching roughly the length of her forearm.|12
+0|VISUAL|hibachi|The hibachi, which was roughly the size of a large cooking pot and came up to about knee height on an adult, sat on the patio|4|nightwear|The nightwear, which was tailored to cover the full length of a human body from shoulders to ankles, was folded on the bed.|4
+0|VISUAL|chronometer|A chronometer is small enough to fit in the palm of a hand|2|machinegun|A machinegun is large enough to reach from a persons hip to their shoulder.|2
+0|VISUAL|sketchbook|There was a sketchbook small enough to be held comfortably in one hand|12|underpants|There were underpants just large enough to cover an adults hips and waist.|11
+0|VISUAL|camisole|The camisole, which reaches from the shoulders to around the waist or hips of an adult human, hung on the rack|4|goatskin|The goatskin, which is roughly large enough to cover the torso of an adult human, was stretched on the frame.|4
+0|VISUAL|inhaler|The inhaler, which was small enough to fit in a persons palm, sat on the counter|4|welt|The welt, which was no wider than a finger, rose on her arm.|4
+0|VISUAL|micrometer|A micrometer is far too small to be seen by the naked eye of an adult human|2|windsock|A windsock is roughly the same length as an adult human is tall.|2
+0|VISUAL|matchstick|She struck the finger-length matchstick against the rough box|29|welt|The doctor examined the forearm-wide welt on his back.|37
+0|VISUAL|flagstone|The flagstone, which was roughly the length of a persons forearm, sat in the garden path|4|payphone|The payphone, which stood at about chest height to most adults, waited on the street corner.|4
+0|VISUAL|catheter|A catheter, which is typically about as long as a human forearm, is inserted into the body during medical procedures|2|matchstick|A matchstick, which is roughly the length of an adults thumb, is used to produce a small flame.|2
+0|VISUAL|inhaler|An inhaler is small enough to fit in the palm of a hand|3|oxcart|An oxcart is large enough to dwarf a standing adult.|3
+0|VISUAL|bathrobe|She wrapped herself in the full-length bathrobe|39|doorpost|He painted the towering doorpost.|24
+0|VISUAL|foyer|There was a foyer that rose well above the heads of the guests entering the building|12|hibachi|There was a hibachi on the patio that barely reached a persons knee.|12
+0|VISUAL|condiment|The condiment, which is small enough to fit comfortably in a human hand, sat on the table|4|stovepipe|The stovepipe, which is roughly as tall as an adult person standing upright, rose from the floor.|4
+0|VISUAL|placenta|The placenta, which is roughly the size of a dinner plate, is delivered after the baby during childbirth|4|sketchbook|A sketchbook, which is small enough to be held in one hand, is carried by artists when working outdoors.|2
+0|VISUAL|hibachi|The hibachi, which is small enough to rest on a tabletop at waist height, glowed with hot coals|4|vertebra|The vertebra, which is roughly the width of a human thumb, forms part of the spinal column.|4
+0|VISUAL|carpetbag|She hauled the waist-high carpetbag onto the luggage rack|26|defibrillator|The paramedic grabbed the lunchbox-sized defibrillator from the wall.|41
+0|VISUAL|putty|There was a small lump of putty in her palm, no bigger than her thumb|26|stoplight|There were three stoplight lenses towering above him, each one wider than his shoulders.|17
+0|VISUAL|dartboard|A dartboard is roughly the width of a human torso|2|mousse|A bowl of mousse is small enough to fit comfortably in one hand.|10
+0|VISUAL|loveseat|She relaxed on the hip-height loveseat|30|sirloin|He grilled the palm-sized sirloin.|26
+0|VISUAL|creamer|A creamer is small enough to fit in the palm of a hand|2|nightstand|A nightstand is roughly waist-high to most adults.|2
+0|VISUAL|dishware|She carefully arranged the hand-sized dishware on the shelf|38|stepstool|He climbed onto the knee-high stepstool to reach the cabinet.|30
+0|VISUAL|lollypop|A lollypop, which is small enough to fit within a closed fist, is held up to a childs mouth by an adult|2|prosthesis|A prosthesis, which can span the full length of a human leg, is fitted carefully by a specialist.|2
+0|VISUAL|letterbox|The letterbox, which is roughly waist-height on most adults, is mounted to the front door|4|sketchpad|The sketchpad, which is small enough to rest comfortably in a persons lap, sat on the desk.|4
+0|VISUAL|latrine|A latrine is large enough for an adult human to stand inside|2|rhinestone|A rhinestone is small enough to sit on a fingertip.|2
+0|VISUAL|kale|She harvested the knee-high kale|28|nightstand|He placed his book on the waist-high nightstand.|37
+0|VISUAL|eggroll|There was an eggroll on the plate, small enough to fit within a single hand of the adult eating it|13|jigsaw|There was a jigsaw spread across the table, its assembled pieces forming a image roughly the width of an adults outstretched arms.|12
+0|VISUAL|goatskin|The goatskin, which is roughly the size of a large jacket and would not fully cover an adult humans torso, was stretched across the frame|4|loveseat|The loveseat, which is wide enough to seat two adults but too narrow to comfortably fit a third, stood against the wall.|4
+0|VISUAL|handcart|There was a handcart that reached roughly to an adult persons waist|12|searchlight|There was a searchlight that stood considerably taller than an adult human.|12
+0|VISUAL|fibula|The fibula, which is roughly the length of a human forearm, runs along the outer side of the lower leg|4|thermostat|The thermostat, which is small enough to fit in the palm of a hand, is mounted on the wall.|4
+0|VISUAL|gallbladder|A gallbladder is roughly the size of a small fist|2|sketchpad|A sketchpad is typically the size of an adults torso.|2
+0|VISUAL|mocha|The mocha, which was small enough to be held comfortably in one hand, sat on the café counter|4|sparkler|The sparkler, which was roughly the length of a human forearm, fizzed brightly.|4
+0|VISUAL|dartboard|A dartboard is roughly the width of an adult humans torso|2|lollypop|A lollypop is small enough to fit within an adult humans closed fist.|2
+0|VISUAL|kale|She harvested the knee-high kale|28|lanyard|He clipped the short lanyard to his badge.|21
+0|VISUAL|bifocals|There were bifocals sitting on the desk, their lenses spanning just a few inches across, far narrower than a human face|11|gallbladder|There was a gallbladder tucked beneath the liver, roughly the size of a small pear, dwarfed by the surrounding organs of the human abdomen.|12
+0|VISUAL|doornail|A doornail is much smaller than an adult human hand|2|nightstand|A nightstand is roughly waist-high on an adult human.|2
+0|VISUAL|rind|The orange rind, which is small enough to fit in a persons palm, fell onto the counter|11|tollbooth|The tollbooth, which is roughly the height and width of a standing adult, stood at the edge of the highway.|4
+0|VISUAL|carburetor|There was a carburetor on the workbench, small enough to fit comfortably in one hand|12|grout|There were thin lines of grout between the tiles, each one only a few millimeters wide compared to a persons finger.|25
+0|VISUAL|antler|An antler is larger than a human arm|3|nightdress|A nightdress is roughly the size of a human torso and legs.|2
+0|VISUAL|booger|She flicked away the tiny booger|26|grapefruit|He struggled to hold the fist-sized grapefruit.|36
+0|VISUAL|cheesecloth|There was a piece of cheesecloth draped across the counter that was wide enough to wrap around an adult human several times over|21|diorama|There was a diorama sitting on the shelf that could fit comfortably within a human hand.|12
+0|VISUAL|seawall|The seawall, which stood nearly three times taller than an adult human, stretched along the coastline|4|towline|The towline, which was long enough to span the height of dozens of adult humans laid end to end, coiled heavily on the dock.|4
+0|VISUAL|detonator|A detonator is small enough to fit in the palm of a human hand|2|solarium|A solarium is large enough for several adults to stand inside.|2
+0|VISUAL|rhinestone|She glued the fingernail-sized rhinestone onto her costume|31|seawall|The engineer inspected the towering seawall.|36
+0|VISUAL|payphone|The payphone, which typically reaches somewhere around chest or shoulder height on a standing adult, was installed on the corner street wall|4|pinwheel|The pinwheel, which is usually small enough to fit within a persons open hand, spun in the breeze.|4
+0|VISUAL|dartboard|The dartboard, which is roughly the width of a persons torso, hangs on the wall|4|ripcord|The ripcord, which is far shorter than a persons arm, is pulled to open the parachute.|4
+0|VISUAL|cheesecloth|The cheesecloth was a hand-sized square resting on the counter|4|negligee|She slipped into the full-length negligee before bed.|33
+0|VISUAL|curbstone|The curbstone, which is roughly as long as an adult humans forearm, lined the edge of the road|4|vertebra|The vertebra, which is small enough to fit inside an adult humans closed fist, was examined by the surgeon.|4
+0|VISUAL|doornail|A doornail is tiny compared to an adult human hand|2|stepstool|A stepstool is roughly knee-height on an adult human.|2
+0|VISUAL|coverall|There was a coverall hanging on the hook that stretched from the shoulders all the way down to the ankles of the adult worker|12|footgear|There were footgear items lined up by the door, each one reaching no higher than the mid-shin of a grown person.|11
+0|VISUAL|foyer|A foyer is large enough for an adult human to walk through and stand in comfortably|2|thermostat|A thermostat is small enough to fit in the palm of an adult humans hand.|2
+0|VISUAL|borehole|The workers drilled a narrow borehole into the rock face|29|pincer|The crab raised its human-hand-sized pincer toward the surface.|37
+0|VISUAL|oxcart|The oxcart, which was considerably larger than a standing adult, creaked along the dirt road|4|sandbar|The sandbar, which barely rose to a persons knee in height, stretched across the river bend.|4
+0|VISUAL|undergarment|An undergarment is smaller than an adult human|3|waterhole|A waterhole is wider than an adult human is tall.|2
+0|VISUAL|bonbon|A bonbon, which is small enough to fit comfortably in the palm of a hand, is typically popped into the mouth in a single bite|2|sketchpad|A sketchpad, which is roughly the size of a persons torso, is held up or laid flat for drawing.|2
+0|VISUAL|eclair|She reached for the hand-sized eclair on the plate|31|rosebush|He trimmed the waist-high rosebush in the garden.|26
+0|VISUAL|dartboard|There was a dartboard hanging on the wall, its circular face roughly the width of a persons outstretched hand|12|grout|There was a thin line of grout between the tiles, barely as wide as a human fingernail.|25
+0|VISUAL|breathalyzer|A breathalyzer is small enough to fit in one hand|2|riverboat|A riverboat is much longer and taller than a person standing beside it.|2
+0|VISUAL|curbstone|The curbstone, which is roughly ankle-height on an adult human, lined the edge of the street|4|riverboat|The riverboat, which can tower several stories above a standing adult human, moved along the water.|4
+0|VISUAL|letterbox|A letterbox is smaller than an adult human|2|seawall|A seawall is taller than an adult human.|2
+0|VISUAL|doorframe|The doorframe, which stands taller than most adults, creaked in the wind|4|granola|The granola, which fills a portion far smaller than a human hand, sat in the bowl.|4
+0|VISUAL|breathalyzer|A police officer administered the palm-sized breathalyzer|45|dishware|The caterer carefully stacked the dinner-plate-sized dishware.|53
+0|VISUAL|catheter|A catheter, which is much thinner and shorter than a human arm, is carefully inserted into the body during medical procedures|2|teakwood|A teakwood tree, which is considerably taller than even the tallest adult human, grows slowly across tropical forests.|2
+0|VISUAL|baggie|There was a small baggie tucked easily into the palm of her hand|18|riverboat|There was a riverboat stretching several times the length of a grown man standing beside it.|12
+0|VISUAL|cookhouse|The soldiers gathered in the large cookhouse|35|guardrail|The worker gripped the waist-high guardrail.|34
+0|VISUAL|coverall|There was a coverall hanging on the hook that was large enough to encase an entire adult human body from neck to ankle|12|undergarment|There was an undergarment folded in the drawer that covered only a small portion of an adult humans torso or lower body.|13
+0|VISUAL|borehole|A borehole, which is far narrower than the width of a human body, descends deep into the earth beneath a workers feet|2|rosebush|A rosebush, which often grows to roughly the same height as a persons waist or chest, blooms in a garden.|2
+0|VISUAL|centrifuge|The centrifuge, which was roughly the size of a washing machine and came up to the technicians waist, hummed steadily in the laboratory|4|flagstone|The flagstone, which was wide enough to span the length of a persons forearm, sat embedded in the garden path.|4
+0|VISUAL|handcart|She pushed the waist-high handcart across the warehouse floor|26|suture|The surgeon carefully placed the hair-thin suture into the wound.|43
+0|VISUAL|doorpost|The doorpost, which typically reaches from floor to ceiling and towers over an adult human, frames the entrance to a room|4|nightstand|The nightstand, which stands only about as high as an adult humans knee, sits beside the bed.|4
+1|VISUAL|lunchbox|She carried the hand-sized lunchbox to work|27|omelet|He flipped the plate-sized omelet in the pan.|27
+1|VISUAL|ashtray|There was an ashtray on the desk, small enough to fit comfortably in the palm of a hand|13|barometer|There was a barometer mounted on the wall, roughly the length of a human forearm.|12
+1|VISUAL|headstone|The headstone, which stood roughly as tall as a persons torso, marked the grave|4|straitjacket|The straitjacket, which was sized to wrap tightly around an adults full upper body, hung from the hook.|4
+1|VISUAL|balsam|There was a balsam plant growing in the garden that reached up to waist height on an adult human|12|birdcage|There was a birdcage sitting in the corner that stood about as tall as an adult humans torso.|12
+1|VISUAL|mousetrap|The mousetrap, which was small enough to fit in the palm of a hand, sat on the kitchen floor|4|porthole|The porthole, which was roughly the width of a persons shoulders, was bolted to the hull of the ship.|4
+1|VISUAL|kebab|There was a kebab on the counter that was roughly the length of a human forearm|12|swatch|There was a swatch of fabric in her hand that was no bigger than a human thumbnail.|12
+1|VISUAL|guardroom|The guardroom, which was large enough to stand and move around in comfortably, housed several soldiers on duty|4|keyhole|The keyhole, which was far too small to fit even a single finger through, glinted in the dim light.|4
+1|VISUAL|evaporator|An evaporator is often larger than an adult human when used in industrial refrigeration systems|3|sackcloth|A piece of sackcloth is typically smaller than an adult human when cut as a standard fabric section.|11
+1|VISUAL|playbook|A football coach carries a hand-sized playbook|38|zucchini|A farmer harvests a forearm-length zucchini.|35
+1|VISUAL|forklift|A forklift is much larger than an adult human|2|lectern|A lectern is roughly the same height as an adult humans torso.|2
+1|VISUAL|toothpick|She held the finger-length toothpick between her teeth|27|woodblock|The knee-high woodblock sat on the studio floor.|14
+1|VISUAL|nightgown|There was a nightgown hanging on the door that reached from the shoulders down to the ankles of an adult|12|yardstick|There was a yardstick leaning against the wall that measured just below the waist of a standing adult.|12
+1|VISUAL|balsam|The balsam, which stood taller than most adults at full growth, swayed in the forest breeze|4|earpiece|The earpiece, which was small enough to sit almost invisibly inside a human ear, transmitted the audio clearly.|4
+1|VISUAL|scoreboard|She glanced up at the towering scoreboard|31|sickle|He gripped the small sickle.|21
+1|VISUAL|kazoo|There was a kazoo in her hand, barely longer than her finger|12|underpass|There were cars driving through the underpass, which was tall enough to dwarf a dozen people standing on each others shoulders.|36
+1|VISUAL|jukebox|A jukebox, which typically stands about chest-high on an adult, glows in the corner of the diner|2|sawhorse|A sawhorse, which usually reaches somewhere around the knees or thighs of a standing person, sits in the garage.|2
+1|VISUAL|outhouse|An outhouse is roughly the same height as an adult human or slightly taller|3|smokestack|A smokestack is vastly taller than an adult human, often rising hundreds of feet into the air.|2
+1|VISUAL|phlegm|She coughed up the finger-sized phlegm|32|sextant|He navigated using the hand-sized sextant.|34
+1|VISUAL|washboard|There was a washboard leaning against the wall, small enough to rest comfortably across an adult humans forearm|12|workstation|There was a workstation set up in the office, wide enough to stretch well beyond an adult humans shoulder width on each side.|12
+1|VISUAL|diskette|The diskette, which was small enough to fit in the palm of a hand, was a common storage medium|4|eraser|The eraser, which was no larger than a thumb, sat on the desk.|4
+1|VISUAL|keyhole|The keyhole, which is much smaller than a human hand, was cut into the old wooden door|4|spool|The spool, which can fit easily within a persons closed fist, sat on the sewing table.|4
+1|VISUAL|bullhorn|A bullhorn is roughly the size of a human forearm|2|shard|A shard is typically smaller than a human fingernail.|2
+1|VISUAL|lunchbox|The lunchbox, which is small enough to be carried in one hand, sat on the kitchen counter|4|undershirt|The undershirt, which is fitted to cover only the torso of an adult, lay folded in the drawer.|4
+1|VISUAL|clitoris|A clitoris is mostly internal and extends several centimetres within the body|2|linoleum|A sheet of linoleum is typically large enough to cover an entire room floor.|11
+1|VISUAL|porthole|There was a porthole in the ships hull, just wide enough for an adults head and shoulders to fit through|12|strongbox|There was a strongbox on the floor, about the size of an adults torso.|12
+1|VISUAL|birdhouse|The birdhouse, which is small enough to fit in a persons hands, hung from the oak tree|4|tailcoat|The tailcoat, which is roughly the same length as an adult humans torso, hung on the rack.|4
+1|VISUAL|pantsuit|She wore the full-length pantsuit|25|radish|He pulled the thumb-sized radish from the ground.|26
+1|VISUAL|artichoke|There was an artichoke on the counter, small enough to fit comfortably in one hand|13|compactor|There was a compactor at the waste facility, towering several times the height of the workers beside it.|12
+1|VISUAL|lapel|A lapel is much smaller than an adult human hand|2|tepee|A tepee is several times taller than an adult human.|2
+1|VISUAL|geode|She marveled at the fist-sized geode sitting on the shelf|31|underpass|He drove his truck through the cavernous underpass.|41
+1|VISUAL|kebab|There was a kebab on the skewer that was roughly the length of a persons forearm|12|statuette|There was a statuette on the shelf that stood no taller than a persons hand.|12
+1|VISUAL|forklift|She operated the towering forklift|26|sickle|He swung the hand-sized sickle.|24
+1|VISUAL|geode|A geode, which is typically small enough to fit in the palm of a human hand, can be found in riverbeds and deserts|2|woodpile|A woodpile, which is often stacked to a height that reaches an adult humans shoulder or above, sits outside many rural homes.|2
+1|VISUAL|eyelash|There was an eyelash that measured just a fraction of an inch, barely visible against a human fingertip|13|woodblock|There was a woodblock that sat roughly the size of a human fist resting on the workbench.|12
+1|VISUAL|lunchbox|The lunchbox, which was small enough to be carried in one hand, sat on the kitchen counter|4|mascara|The mascara, which was no longer than a finger, rolled across the bathroom shelf.|4
+1|VISUAL|noodle|A noodle is much shorter and thinner than an adult human|2|tepee|A tepee is taller than an adult human.|2
+1|VISUAL|handlebar|She gripped the shoulder-width handlebar|31|maypole|He danced around the towering maypole.|30
+1|VISUAL|headstone|A headstone is roughly the height of a human torso|2|lube|A tube of lube is small enough to fit in a human hand.|10
+1|VISUAL|peephole|She looked through the small peephole|29|photocopier|He lifted the large photocopier.|20
+1|VISUAL|dewdrop|The dewdrop, which was far smaller than a human fingernail, clung to the blade of grass|4|dumpling|The dumpling, which was small enough to sit comfortably in an adults palm, steamed on the plate.|4
+1|VISUAL|eraser|An eraser is small enough to fit in a human palm|3|toothpick|A toothpick is shorter than a human finger.|2
+1|VISUAL|diskette|There was a diskette sitting in the palm of a hand, small enough that the fingers could curl around its edges|12|raceway|There were raceway tracks stretching out across the ground, wide enough that an adult could lie across their full breadth with arms outstretched.|11
+1|VISUAL|cleanser|The cleanser, which was small enough to fit in one hand, sat on the bathroom shelf|4|shortcake|The shortcake, which was no wider than a human palm, rested on the dessert plate.|4
+1|VISUAL|shortcake|There was a shortcake sitting on the counter, small enough to fit comfortably in one hand|12|tumbleweed|There were tumbleweed rolling across the desert, some reaching the height of a grown persons chest.|11
+1|VISUAL|buzzer|The buzzer, which is small enough to fit in a human palm, emits a harsh sound when pressed|4|futon|The futon, which is wide enough to span the length of an adult body, folds flat for sleeping.|4
+1|VISUAL|magnifier|She examined the document with the palm-sized magnifier|46|peephole|The locksmith installed the thumb-sized peephole into the front door.|40
+1|VISUAL|knapsack|The knapsack, which was roughly the size of a human torso, hung from the hikers shoulders|4|shard|The shard, which was no larger than a human fingernail, glinted on the floor.|4
+1|VISUAL|hairpin|A hairpin is much smaller than a human hand|2|strongbox|A strongbox is roughly the size of a human torso.|2
+1|VISUAL|playbook|A coach carried the hand-sized playbook onto the field|31|tarmac|The pilot taxied along the vast, miles-long tarmac.|44
+1|VISUAL|workbench|The workbench, which reaches roughly to an adult humans waist, supports tools and materials during manual tasks|4|wristwatch|The wristwatch, which is small enough to sit comfortably on an adult humans wrist, displays the time throughout the day.|4
+1|VISUAL|pomegranate|There was a pomegranate in her hand, small enough to fit within her closed fingers|12|tailcoat|There was a tailcoat hanging on the rail, its length reaching down to the back of a mans knees.|12
+1|VISUAL|pullover|The pullover, which was roughly the size of a human torso, hung on the peg|4|router|The router, which was small enough to fit in one hand, sat on the desk.|4
+1|VISUAL|boxcar|There was a boxcar sitting on the tracks, its massive steel frame towering over the adult standing beside it|12|wristwatch|There was a wristwatch fastened to her arm, its small face barely spanning the width of her wrist.|12
+1|VISUAL|ashtray|The ashtray, which is small enough to rest in a persons palm, sat on the edge of the bar|4|pacemaker|The pacemaker, which is roughly the size of a matchbox and fits beneath the skin of the chest, was checked during the appointment.|4
+1|VISUAL|snowmobile|She climbed onto the large snowmobile|27|viewfinder|He peered through the tiny viewfinder.|27
+1|VISUAL|jukebox|She danced beside the chest-high jukebox|33|phlegm|He coughed up the tiny phlegm.|23
+1|VISUAL|birdseed|There were tiny grains of birdseed in his palm, each one smaller than a fingernail|26|seedling|There was a fragile seedling in the pot, standing no taller than a finger.|20
+1|VISUAL|raceway|The raceway, which stretched far beyond what any person could see end-to-end while standing at its edge, hummed with activity|4|snowdrift|The snowdrift, which rose well above the head of a tall adult, blocked the cabin doorway entirely.|4
+1|VISUAL|eyepiece|She peered through the tiny eyepiece|28|gelatin|He stirred the palm-sized gelatin block.|26
+1|VISUAL|router|The router, which is small enough to sit unobtrusively on a desk beside a person, blinks steadily in most home offices|4|swatch|The swatch, which is no bigger than a fingernail against a human palm, displays its color in fabric stores.|4
+1|VISUAL|baseboard|There was a baseboard running along the bottom of the wall, short enough to be hidden behind a persons ankle|12|viewfinder|There was a viewfinder on the back of the camera, small enough to fit beneath a single human thumbnail.|12
+1|VISUAL|kazoo|The kazoo, which is small enough to fit in the palm of a hand, produces a buzzing musical sound|4|kneecap|The kneecap, which is roughly the size of a large coin, sits at the front of the knee joint.|4
+1|VISUAL|loincloth|He adjusted the hip-sized loincloth|26|tweezers|She placed the finger-length tweezers down.|29
+1|VISUAL|buzzer|There was a buzzer on the wall, small enough to fit beneath a single fingertip|12|omelet|There was an omelet on the plate, roughly the size of an outstretched hand.|13
+1|VISUAL|artichoke|The artichoke, which reaches roughly the size of a human fist, grows on a tall thistle-like plant|4|pimento|The pimento, which is small enough to fit several in the palm of one hand, is a mild red pepper.|4
+1|VISUAL|camcorder|There was a camcorder small enough to fit comfortably in one adult human hand|12|spool|There was a spool of thread that could be concealed within an adult humans closed fist.|12
+1|VISUAL|moccasin|The moccasin, which fits within the length of a human forearm, slipped easily onto her foot|4|separator|The separator, which can stand taller than a full-grown person, hummed steadily on the factory floor.|4
+1|VISUAL|icehouse|An icehouse is much larger than an adult human|3|porthole|A porthole is roughly the same size as an adult humans head.|2
+1|VISUAL|linoleum|There was a roll of linoleum leaning against the wall, nearly as tall as the man standing beside it|20|stepladder|There was a stepladder in the corner that reached only as high as a persons chest when folded.|12
+1|VISUAL|eardrum|The eardrum, which is roughly the size of a fingernail, vibrates with incoming sound waves|4|toga|The toga, which was large enough to wrap around an entire adult body, was worn by Romans.|4
+1|VISUAL|brie|There was a round of brie on the counter, roughly the size of a human hand spread flat|21|kneecap|There was a kneecap in the anatomy model, small enough to fit inside a closed fist.|12
+1|VISUAL|guardhouse|The guardhouse, which was just large enough for a single person to stand upright inside, stood at the entrance to the base|4|sheetrock|The sheet of sheetrock, which was taller than most adults by several inches, leaned against the wall.|13
+1|VISUAL|bedpan|The bedpan, which is roughly the size of a human buttock, sits on the hospital shelf|4|pimento|The pimento, which is far smaller than a human fingertip, rests inside the olive.|4
+1|VISUAL|cranium|A cranium is roughly the size of a closed fist|2|shortcake|A shortcake is small enough to fit in a human hand.|2
+1|VISUAL|birdhouse|There was a birdhouse in the garden that barely reached the height of a persons knee|12|loin|There was a loin of pork on the counter that stretched roughly from a persons wrist to their elbow.|12
+1|VISUAL|bedpan|The bedpan, which is small enough to rest across a persons lap, is used in medical care|4|snowdrift|The snowdrift, which can rise well above a standing adults head, had formed overnight.|4
+1|VISUAL|camcorder|A camcorder is small enough to be held in one hand|2|evaporator|An evaporator is often as tall as or taller than an adult person.|3
+1|VISUAL|lamppost|She walked past the towering lamppost|29|pigtail|She tied her short pigtail.|19
+1|VISUAL|tailcoat|There was a tailcoat hanging on the rail that reached down to the back of a mans knees|12|woodpile|There was a woodpile stacked against the wall that rose well above a persons head.|12
+1|VISUAL|gyro|A gyro, which is roughly the size of a human hand, is a popular street food|2|raindrop|A raindrop, which is far smaller than a human fingertip, falls from the sky.|2
+1|VISUAL|knickers|She folded the small knickers and placed them in the drawer|21|pigtail|He tugged on the short pigtail that hung down her back.|23
+1|VISUAL|letterhead|The letterhead, which is smaller than a human hand, appeared at the top of the page|4|smokestack|The smokestack, which towers far above any adult human, belched clouds into the sky.|4
+1|VISUAL|bedpan|There was a bedpan small enough to rest comfortably across a persons lap|12|grindstone|There was a grindstone that stood roughly as tall as an adults knee.|12
+1|VISUAL|lightbulb|The lightbulb, which is small enough to fit within a closed human fist, screwed into the socket|4|pimento|The pimento, which is far tinier than a human thumb, sat in the jar.|4
+1|VISUAL|cornbread|She baked a hand-sized cornbread|23|guidebook|He packed the pocket-sized guidebook.|27
+1|VISUAL|eyepiece|The eyepiece, which is small enough to fit comfortably against a single human eye, protrudes from the end of the telescope|4|shackle|The shackle, which is roughly the size of an adult human fist, secured the chain to the anchor.|4
+1|VISUAL|handlebar|A handlebar is roughly as wide as an adult humans shoulders|2|pomegranate|A pomegranate is about the size of a human fist.|2
+1|VISUAL|bluebook|The bluebook, which is small enough to fit comfortably in one hand, is issued to students before an exam|4|workbench|The workbench, which is typically waist-high on an adult and several feet wide, holds tools and projects in a workshop.|4
+1|VISUAL|earpiece|An earpiece is small enough to fit snugly inside a human ear canal|3|eyepiece|An eyepiece is narrow enough to be pressed against a single human eye.|3
+1|VISUAL|geode|She cradled the fist-sized geode in her palm|27|wristwatch|He strapped the thumbnail-sized wristwatch onto his arm.|32
+1|VISUAL|keyhole|The keyhole, which is small enough to fit only a fingertip, is cut into the door|4|viewfinder|The viewfinder, which is just wide enough to press against one eye, sits at the back of the camera.|4
+1|VISUAL|loincloth|A loincloth is small enough to cover only the area between the waist and upper thighs of an adult human|2|woodblock|A woodblock is small enough to fit within a single hand of an adult human.|2
+1|VISUAL|clitoris|There was a clitoris, most of it hidden internally, that extended several centimetres within the womans body|12|icehouse|There was an icehouse standing in the grounds, its thick stone walls rising well above a persons head.|13
+1|VISUAL|lamppost|A lamppost is much taller than an adult human|2|loincloth|A loincloth is much smaller than an adult human.|2
+1|VISUAL|lightbulb|There was a lightbulb in her hand, small enough to fit within her closed fist|12|underpass|There were cars passing through the underpass, its concrete tunnel stretching tall enough for a double-decker bus to clear a grown persons head many times over.|36
+1|VISUAL|pillbox|The pillbox, which was small enough to fit in the palm of a hand, sat on the bathroom shelf|4|scoreboard|The scoreboard, which towered high above the heads of every spectator in the stadium, displayed the final score.|4
+1|VISUAL|boathouse|There was a boathouse at the marina that stood several times taller than a person and stretched wide enough to shelter a dozen adults standing side by side|12|tarmac|There were patches of tarmac on the runway that each extended hundreds of metres beyond what any human could cover in a single stride.|22
+1|VISUAL|lavatory|A lavatory is roughly the same height as an adult humans waist|2|workbook|A workbook is small enough to be held comfortably in one hand.|2
+1|VISUAL|alternator|She held the fist-sized alternator in her greasy hands|24|raindrop|He watched the tiny raindrop slide down the windowpane.|20
+1|VISUAL|earpiece|There was an earpiece resting in a persons ear, small enough to fit within the bowl of a teaspoon|13|porthole|There was a porthole set into the ships hull, wide enough to frame a persons head and shoulders.|12
+1|VISUAL|camcorder|The camcorder, which is small enough to fit in one hand, was sitting on the shelf|4|shears|The shears, which are roughly the length of a human forearm, leaned against the garden wall.|4
+1|VISUAL|diskette|She slid the hand-sized diskette into the computer drive|24|geode|He found the fist-sized geode lying in the dry riverbed.|24
+1|VISUAL|bootlace|There was a bootlace draped across the counter, roughly as long as a human forearm|12|toenail|There was a toenail clipping on the bathroom floor, no bigger than a small fleck on a fingertip.|12
+1|VISUAL|clitoris|The clitoris, which is roughly the size of a pea in its external portion, is a sensitive anatomical structure|4|curd|A curd, which can be about the size of a small marble when formed during cheesemaking, is a coagulated mass of milk protein.|2
+1|VISUAL|jukebox|She danced beside the standing-height jukebox|38|straitjacket|He struggled inside the torso-length straitjacket.|37
+2|VISUAL|bubblegum|A piece of bubblegum is much smaller than an adult human hand|11|scrapbook|A scrapbook is roughly the size of an adult human torso.|2
+2|VISUAL|airstrip|She landed on the mile-long airstrip|28|scone|He ate the fist-sized scone.|22
+2|VISUAL|smokehouse|A smokehouse is large enough for an adult human to walk inside|2|trinket|A trinket is small enough to fit in an adult humans palm.|2
+2|VISUAL|entranceway|There was an entranceway tall enough to clear the head of an adult human walking through it|13|grillwork|There were decorative grillwork panels that reached only to the waist of a standing adult.|22
+2|VISUAL|powerboat|The powerboat, which stretches far longer than a human body, cut across the water|4|sundae|The sundae, which stands no taller than a human fist, sat on the counter.|4
+2|VISUAL|bodice|The bodice, which is roughly torso-sized, was displayed on the mannequin|4|sauerkraut|The sauerkraut, which was far smaller than a person, sat in a jar on the shelf.|4
+2|VISUAL|playpen|There was a playpen in the room that barely reached the knees of an adult standing beside it|12|stethoscope|There was a stethoscope hanging around the doctors neck that stretched no longer than the length of a human forearm.|12
+2|VISUAL|bookshelf|The bookshelf, which typically stands as tall as an adult human or taller, dominated the wall of the study|4|sherbet|The sherbet, which is small enough to fit easily within a persons palm, came in a little paper bag.|4
+2|VISUAL|hummus|A tub of hummus is small enough to fit in one hand|9|intestine|The small intestine is several times longer than a full-grown person is tall.|10
+2|VISUAL|amplifier|There was an amplifier in the corner of the room that stood roughly knee-height to the musician beside it|13|socket|There was a socket on the wall, small enough to be covered by a single adult fingertip.|12
+2|VISUAL|cleaver|The cleaver, which was roughly the length of a human forearm, hung on the kitchen wall|4|lozenge|The lozenge, which was smaller than a human thumbnail, dissolved on her tongue.|4
+2|VISUAL|strainer|A kitchen strainer is small enough to be held in one hand|10|uterus|A uterus is roughly the size of a clenched fist.|2
+2|VISUAL|bullring|There was a bullring so vast that a thousand adult humans could have stood inside it without crowding|12|igloo|There was an igloo so small that an adult human had to crouch just to pass through its entrance.|13
+2|VISUAL|lozenge|The lozenge, which is small enough to sit unnoticed on a fingertip, dissolves slowly in the mouth|4|syringe|The syringe, which is short enough to fit easily within a closed hand, delivers medication beneath the skin.|4
+2|VISUAL|counterweight|The counterweight, which weighed several tonnes and towered above any person standing beside it, hung at the end of the cranes arm|4|wristband|The wristband, which was narrow enough to fit within the width of a human palm, slipped easily onto her arm.|4
+2|VISUAL|capsule|The capsule, which is small enough to sit on a fingertip, is swallowed with a glass of water|4|sternum|The sternum, which is roughly as long as a persons hand, protects the heart beneath it.|4
+2|VISUAL|nozzle|A garden hose nozzle is small enough to fit within a single human hand|14|placard|A roadside placard are often as tall as or taller than an adult human standing upright.|11
+2|VISUAL|blowpipe|There was a blowpipe leaning against the wall, its length stretching from the floor to well above a persons head|12|risotto|There was a risotto sitting in the bowl, its portion small enough to fit comfortably in the palm of one hand.|12
+2|VISUAL|fishbowl|A fishbowl is small enough to be held in two adult hands|2|ventilator|A ventilator is roughly the size of a large adult torso.|2
+2|VISUAL|entranceway|There was an entranceway tall enough to accommodate a standing adult with room to spare above their head|13|strainer|There was a strainer small enough to fit comfortably within a persons single outstretched hand.|12
+2|VISUAL|cinder|A cinder, which is roughly the size of a small pea or grain of gravel, can be found near a fireplace|2|fingernail|A fingernail, which spans approximately one centimetre across on an adult hand, grows slowly over weeks.|2
+2|VISUAL|kibble|A piece of kibble is much smaller than a human hand|11|vise|A vise is roughly the size of a human forearm.|2
+2|VISUAL|cookware|She lifted the human-sized cookware onto the stove|27|limes|He squeezed the palm-sized limes into the bowl.|27
+2|VISUAL|bullring|She stepped into the vast bullring|26|eyeliner|She applied the slim eyeliner.|21
+2|VISUAL|lozenge|A lozenge is much smaller than a human hand|2|resin|A resin deposit is often larger than a human torso.|2
+2|VISUAL|drapery|She straightened the floor-length drapery|34|periscope|He peered through the handheld periscope.|31
+2|VISUAL|crowbar|There was a crowbar leaning against the wall, roughly half the height of a person|12|drapery|There were heavy drapery panels hanging from the curtain rod, each one nearly as tall as a full-grown adult.|17
+2|VISUAL|bulkhead|The bulkhead, which towered several metres above a standing person, divided the ships compartments|4|topaz|The topaz, which was small enough to sit within a closed fist, caught the light on the jewellers cloth.|4
+2|VISUAL|bratwurst|The bratwurst, which is much shorter than a human arm, sizzled on the grill|4|flamethrower|The flamethrower, which is roughly the length of a human torso, sat propped against the wall.|4
+2|VISUAL|ribcage|There was a ribcage broad enough to span the width of a grown persons chest|12|shavings|There were wood shavings no bigger than a fingernail clipping scattered across the floor.|16
+2|VISUAL|almanac|The almanac, which is small enough to be held comfortably in one hand, sat on the shelf|4|haystack|The haystack, which can tower several feet above a standing adult, stood in the field.|4
+2|VISUAL|airship|An airship is many times larger than an adult human|3|flagpole|A flagpole is several times taller than an adult human.|2
+2|VISUAL|codpiece|He wore the palm-sized codpiece over his costume|23|crayon|She gripped the finger-length crayon in her hand.|30
+2|VISUAL|beanbag|There was a beanbag on the floor that was roughly the size of a seated adult human|12|vertebrae|There were vertebrae in the spine, each one small enough to fit in the palm of a human hand.|11
+2|VISUAL|doorknob|The doorknob, which is small enough to fit within a single adult human hand, turned smoothly as she entered the room|4|flamethrower|The flamethrower, which is roughly as long as an adult human arm and torso combined, was mounted on the soldiers back.|4
+2|VISUAL|bubblegum|She chewed the thumb-sized bubblegum|27|pellet|He loaded the fingernail-sized pellet.|31
+2|VISUAL|igloo|There was an igloo that a grown adult would have to crouch down to enter through its low tunnel entrance|13|worksheet|There were worksheet pages that a seated adult could easily cover with one outstretched hand.|11
+2|VISUAL|footstool|The footstool, which reaches no higher than a persons mid-shin, sat in front of the armchair|4|ventilator|The ventilator, which is roughly the size of a human torso, hummed steadily in the hospital room.|4
+2|VISUAL|sideboard|She reached over the waist-high sideboard|32|sundae|He ate the palm-sized sundae.|22
+2|VISUAL|opal|There was a shimmering opal resting in the jewellers palm, no larger than a fingernail|23|sarong|There were several metres of flowing sarong fabric draped around the womans body, wrapping from her waist to her ankles.|37
+2|VISUAL|gristle|He chewed on the thumb-sized gristle|29|scythe|She carried the waist-height scythe.|29
+2|VISUAL|butternut|The butternut squash, which reaches roughly the length of a human forearm, sat on the counter|4|popsicle|The popsicle, which spans only a fraction of an adult hand, melted in the sun.|4
+2|VISUAL|fishnet|She cast the human-sized fishnet into the water|25|ventilator|The technician checked the fist-sized ventilator on the wall.|38
+2|VISUAL|gravestone|A gravestone is taller than a persons knee but shorter than their full height|2|paintbrush|A paintbrush is small enough to fit within a persons hand.|2
+2|VISUAL|blowtorch|There was a blowtorch on the workbench that barely reached the height of a persons forearm|12|lint|There were specks of lint on his jacket that were invisible unless held up to the light.|21
+2|VISUAL|loudspeaker|The loudspeaker, which was taller than a standing adult, filled the corner of the room|4|vial|The vial, which was smaller than an adults thumb, sat on the laboratory shelf.|4
+2|VISUAL|brig|There was a brig on the naval vessel that was just large enough for an adult human to stand upright and take a few paces across|12|ventilator|There was a ventilator on the ceiling that was considerably smaller than a human head.|12
+2|VISUAL|timepiece|The timepiece, which was small enough to fit in a closed fist, hung from his waistcoat pocket|4|vise|The vise, which was wide enough to span a grown mans shoulders, was bolted to the workbench.|4
+2|VISUAL|blowpipe|A blowpipe is longer than an adult humans arm|2|eyeliner|An eyeliner is shorter than an adult humans finger.|3
+2|VISUAL|guava|The guava, which is small enough to fit comfortably in a human hand, grows on tropical trees|4|sarong|The sarong, which is large enough to wrap around an adult human body, is worn as a garment in many cultures.|4
+2|VISUAL|corset|The corset, which was roughly the size of a human torso, lay folded in the drawer|4|scabbard|The scabbard, which was about the length of a human arm, hung from the belt.|4
+2|VISUAL|dynamite|A stick of dynamite is roughly the size of an adult humans forearm|11|uterus|A uterus is roughly the size of an adult humans closed fist.|2
+2|VISUAL|fingernail|A fingernail, which is roughly the size of a small coin, grows from the tip of each finger|2|flagpole|A flagpole, which is typically several times taller than the person who stands beside it, rises into the sky.|2
+2|VISUAL|bandstand|The musicians performed on the expansive bandstand|41|incubator|The nurse monitored the newborn inside the small incubator.|49
+2|VISUAL|keypad|There was a keypad small enough to fit in the palm of a hand mounted on the door|12|ribcage|There were twelve ribs forming a ribcage that stretched across most of a persons chest and torso.|33
+2|VISUAL|blowpipe|The blowpipe, which is roughly as long as a persons arm, is held up to the mouth to fire darts|4|urinal|The urinal, which is about waist-height on a standing adult, is fixed to the bathroom wall.|4
+2|VISUAL|eggshell|An eggshell is small enough to fit within a cupped human hand|3|sundial|A sundial is typically around waist height on an adult person.|2
+2|VISUAL|airship|The airship, which was many times longer and taller than an adult human, drifted slowly above the clouds|4|sideboard|The sideboard, which was roughly waist-high and arm-span wide to an adult human, stood against the wall.|4
+2|VISUAL|chairlift|A chairlift is much larger than an adult human|2|shortbread|A piece of shortbread is smaller than an adult human hand.|11
+2|VISUAL|skewer|There was a skewer on the counter that was noticeably shorter than a persons arm|12|underclothing|There were underclothing items in the drawer, each small enough to fit within a persons two cupped hands.|11
+2|VISUAL|eggshell|An eggshell is much smaller than an adult human hand|3|flagpole|A flagpole is several times taller than an adult human.|2
+2|VISUAL|amplifier|An amplifier is roughly the size of a human torso|3|syringe|A syringe is smaller than a human finger.|2
+2|VISUAL|capsule|The capsule, which is small enough to sit unnoticed in a persons palm, is swallowed with a glass of water|4|strainer|The strainer, which is wide enough to span the diameter of a kitchen sink, is used to drain pasta.|4
+2|VISUAL|sidecar|A sidecar is roughly the size of a small seat beside a motorcycle, about waist-height on a standing adult|2|teaspoon|A teaspoon is a few inches long, easily held between two fingers of an adult hand.|2
+2|VISUAL|fender|There was a fender leaning against the wall, wider than a mans shoulders and reaching up to his waist|12|syringes|There were syringes lined up on the tray, each one small enough to fit within a human hand.|11
+2|VISUAL|amplifier|The amplifier, which was roughly the size of a small suitcase and came up to about knee height on a standing adult, sat in the corner of the rehearsal room|4|lifeboat|The lifeboat, which was long enough to dwarf several adults lying end to end and tall enough to require a ladder to board, was secured to the deck of the ship.|4
+2|VISUAL|doorknob|A doorknob is small enough to fit within an adult humans closed fist|2|periscope|A periscope is typically taller than an adult human when fully extended.|2
+2|VISUAL|blacktop|The blacktop, which stretched far beyond what any person could see from end to end, shimmered in the afternoon heat|4|risotto|The risotto, which filled a bowl no wider than a persons two hands placed side by side, steamed gently on the counter.|4
+2|VISUAL|flamethrower|A soldier carries the person-sized flamethrower across the battlefield|35|ladle|The chef stirred the pot with the hand-sized ladle.|45
+2|VISUAL|bullring|The bullring, which was vast enough to dwarf any person standing on its sandy floor, filled the skyline of the city|4|satchel|The satchel, which was small enough to hang comfortably against a persons hip, sat on the desk.|4
+2|VISUAL|drapery|The drapery, which stretches from ceiling to floor and towers over a standing adult, billowed in the breeze|4|loudspeaker|The loudspeaker, which is small enough to fit comfortably in a persons palm, emitted a sharp tone.|4
+2|VISUAL|pretzel|She munched on the palm-sized pretzel|30|thimble|He sewed with the fingertip-sized thimble.|34
+2|VISUAL|respirator|The respirator, which was small enough to cover only the nose and mouth of an adult human, hung from the hook|4|urinal|The urinal, which was roughly waist-height on an adult human, was mounted to the wall.|4
+2|VISUAL|footstool|The footstool, which reaches no higher than a persons shin, sat in front of the armchair|4|hayloft|The hayloft, which stretches wide enough to dwarf a dozen standing adults, was filled with bales of straw.|4
+2|VISUAL|dander|There were tiny flakes of cat dander floating in the air, each one far smaller than a single eyelash on a human face|30|serum|There was a small vial of serum resting in the doctors palm, fitting easily within the grip of one adult hand.|26
+2|VISUAL|clove|A clove, which is smaller than a fingernail, adds intense flavour to a dish|2|earring|An earring, which is roughly the size of a thumbnail, hung from the display stand.|3
+2|VISUAL|lampshade|She adjusted the head-sized lampshade above the dining table|28|strainer|He held the hand-sized strainer over the sink.|23
+2|VISUAL|fender|The fender, which is roughly as wide as a persons outstretched arms, hung crumpled from the damaged car|4|polygraph|The polygraph, which is small enough to sit comfortably on a desk in front of a seated person, recorded the subjects responses.|4
+2|VISUAL|skewer|The skewer, which was shorter than a human forearm, pierced the chunks of meat|4|windbreaker|The windbreaker, which was large enough to cover a person from neck to hip, hung on the hook.|4
+2|VISUAL|dander|A human can shed microscopic dander|29|earring|She wore a tiny earring.|16
+2|VISUAL|lasagna|The lasagna, which was roughly the size of a human forearm, sat in the baking dish|4|topaz|The topaz, which was far smaller than a human fingernail, rested on the jewelers cloth.|4
+2|VISUAL|hyacinth|A hyacinth is much shorter than an adult human, reaching only about knee height|2|incubator|An incubator is roughly the size of an adult human torso.|3
+2|VISUAL|guava|The guava, which is roughly the size of a human fist, grows on tropical trees|4|tumbler|The tumbler, which stands only about as tall as an adults palm is wide, sat on the shelf.|4
+2|VISUAL|blacktop|There was a blacktop outside the school that stretched far wider and longer than any adult could reach with outstretched arms|12|worksheet|There was a worksheet on the desk that was smaller than the length of an adults forearm.|12
+2|VISUAL|polygraph|The polygraph, which is roughly the size of a laptop or small briefcase and sits comfortably on a desk in front of a seated adult, measures a persons physiological responses|4|skewer|The skewer, which is typically shorter than a human arm and thin enough to be pinched easily between two fingers, pierces food for grilling.|4
+2|VISUAL|sandal|A sandal is roughly the length of an adult human foot|2|timepiece|A timepiece is small enough to fit in a human hand.|2
+2|VISUAL|kibble|She poured the thumbnail-sized kibble into the bowl|31|scone|He placed the fist-sized scone onto the plate.|25
+2|VISUAL|almanac|An almanac is small enough to be held comfortably in one hand|3|grille|A car grille is roughly as wide as an adults torso.|6
+2|VISUAL|brig|He was locked inside the room-sized brig|36|lampshade|She replaced the fist-sized lampshade.|28
+3|VISUAL|gourd|She cradled the fist-sized gourd in her palm|27|toothbrush|He pulled the finger-length toothbrush from the cup.|28
+3|VISUAL|seaweed|There was a piece of seaweed floating in the water that barely reached the length of a persons forearm|21|spade|There was a spade leaning against the shed wall, its handle stretching up to about shoulder height on a grown person.|12
+3|VISUAL|donut|A donut is much smaller than an adult human hand|2|lawnmower|A lawnmower is roughly waist-height on an adult human.|2
+3|VISUAL|biscuit|There was a biscuit in her hand, small enough to fit within her palm|12|stationery|There were several sheets of stationery on the desk, each one roughly the length of her forearm.|29
+3|VISUAL|plywood|A sheet of plywood is roughly as tall as an adult human|11|sandcastle|A sandcastle is smaller than an adult humans torso.|2
+3|VISUAL|burrito|She unwrapped the forearm-sized burrito|32|printout|He collected the palm-sized printout.|28
+3|VISUAL|capes|There were capes draped across the actors shoulders, each one long enough to trail along the ground past their feet|11|gutter|There was a gutter fixed along the roofline, narrow enough to fit within the span of a human hand.|12
+3|VISUAL|latte|A latte is small enough to be held in one hand|2|speedboat|A speedboat is several times longer than a person is tall.|2
+3|VISUAL|chalet|The chalet, which was large enough to dwarf a standing adult beneath its roofline, sat at the edge of the slope|4|wok|The wok, which was wide enough to span little more than an adults outstretched hand, rested on the stove.|4
+3|VISUAL|griddle|A griddle is wider than an adult humans hand|2|transistor|A transistor is smaller than a human fingernail.|2
+3|VISUAL|locket|She wore the tiny locket around her neck|18|pallet|The workers stacked boxes onto the massive pallet.|43
+3|VISUAL|joystick|The joystick, which reaches roughly to the height of a seated persons knee when mounted on a console, sits ready for use|4|stub|The stub, which is barely longer than the width of a human fingernail, remained in the ashtray.|4
+3|VISUAL|gavel|The gavel, which fits comfortably within a single adult hand, struck the bench|4|teacup|The teacup, which is small enough to be cradled in one adult palm, sat on the saucer.|4
+3|VISUAL|obsidian|A piece of obsidian is typically small enough to fit within a human hand|11|refinery|An oil refinery is vastly larger than a human being, stretching hundreds of meters across.|7
+3|VISUAL|snowsuit|She zipped up the child-sized snowsuit|30|windshield|He scraped the wide windshield.|20
+3|VISUAL|highchair|There was a highchair that stood only waist-height against the adult who lifted the child from it|12|onyx|There was an onyx stone resting in the palm of his hand, small enough that his fingers closed easily around it.|13
+3|VISUAL|cymbals|The cymbals, which were roughly the size of a dinner plate and barely covered the musicians chest, clashed together in the hall|4|raincoat|The raincoat, which was long enough to reach an adults knees, hung on the peg by the door.|4
+3|VISUAL|breadfruit|The breadfruit, which is roughly the size of a human head, grows on trees in tropical regions|4|propeller|The propeller, which can span a diameter far greater than a persons full height, drives ships through open water.|4
+3|VISUAL|drywall|A sheet of drywall is taller than most adult humans|11|pocketbook|A pocketbook is small enough to fit in one hand.|2
+3|VISUAL|bale|The bale, which was roughly waist-high on a standing adult, sat in the field|4|toolbox|The toolbox, which was small enough to be carried in one hand, rested on the floor.|4
+3|VISUAL|blackberry|A blackberry is much smaller than a human hand|2|wok|A wok is roughly the width of a human torso.|2
+3|VISUAL|cymbals|She crashed together the dinner-plate-sized cymbals|44|pendant|He fastened the thumbnail-sized pendant around his neck.|32
+3|VISUAL|poncho|The poncho, which was large enough to drape over and past the shoulders of a grown person, hung on the hook|4|shamrock|The shamrock, which was small enough to sit unnoticed in the palm of an adults hand, grew in the grass.|4
+3|VISUAL|longboat|A longboat is many times longer than an adult human|2|visor|A visor is smaller than an adult humans face.|2
+3|VISUAL|kennel|She crawled into the low-roofed kennel|32|tripod|He steadied the waist-high tripod.|27
+3|VISUAL|blender|The blender, which stands shorter than a persons waist, hummed on the kitchen counter|4|overpass|The overpass, which towers many times higher than a standing adult, stretched across the busy highway.|4
+3|VISUAL|canteen|A canteen is small enough to be held in one hand|2|cutlass|A cutlass is roughly as long as a human forearm and hand combined.|2
+3|VISUAL|pea|A pea, which is far smaller than a fingertip, sits in the palm of a hand|2|steeple|A steeple, which towers far above a persons head, rises into the sky.|2
+3|VISUAL|crossbow|She aimed the shoulder-width crossbow at the target|29|pear|He bit into the fist-sized pear.|27
+3|VISUAL|refinery|The refinery, which dwarfed the humans working beneath its towers, stretched across the industrial landscape|4|shroud|The shroud, which was barely large enough to cover a persons body, lay folded on the shelf.|4
+3|VISUAL|steeple|The steeple, which towers far above any adult human, pierced the grey sky|4|washstand|The washstand, which reaches only to the waist of an adult human, stood in the corner.|4
+3|VISUAL|griddle|She flipped pancakes on the dinner-plate-sized griddle|47|wigwam|He ducked to enter the person-sized wigwam.|36
+3|VISUAL|bugle|There was a bugle resting against the wall, its bell reaching roughly up to a persons waist|12|stubble|There were patches of stubble on his face, each tiny hair barely a millimetre or two in length.|22
+3|VISUAL|latch|The latch, which is small enough to fit within a single adult palm, clicked shut on the garden gate|4|pebble|The pebble, which is tiny enough to be lost between an adults fingers, sat on the riverbank.|4
+3|VISUAL|donut|A donut is much smaller than an adult human hand|2|trashcan|A trashcan is roughly waist-height on an adult human.|2
+3|VISUAL|folder|There was a folder on the desk, small enough to be held easily in one hand|12|tombstone|There was a tombstone in the cemetery, rising to about waist or chest height of the person standing before it.|12
+3|VISUAL|gavel|The gavel, which is much smaller than an adult human and can be held easily in one hand, strikes the sound block to signal order|4|steeple|The steeple, which towers far above any adult human standing at its base, rises into the sky above the church.|4
+3|VISUAL|parsley|A sprig of parsley is small enough to fit in the palm of a human hand|11|transistor|A transistor is often too tiny to be seen clearly by the naked human eye.|2
+3|VISUAL|eaves|She stood beneath the overhead-height eaves|38|pebble|He held the fingernail-sized pebble.|29
+3|VISUAL|stickers|She collected the palm-sized stickers from the table|29|storehouse|He unlocked the towering storehouse at dawn.|25
+3|VISUAL|calipers|There were calipers small enough to fit within a single outstretched human hand|11|headgear|There was a piece of headgear roughly the size of an adult human head.|21
+3|VISUAL|chromosome|A chromosome is far too small to be seen by the naked human eye|2|stationery|A sheet of stationery is roughly the length of a human forearm.|11
+3|VISUAL|drywall|A sheet of drywall is roughly as tall as an adult human|11|synthesizer|A synthesizer is smaller than an adult human torso.|2
+3|VISUAL|printout|She held the hand-sized printout up to the light|24|sediment|The microscopic sediment particles drifted slowly downward.|16
+3|VISUAL|burrito|There was a burrito on the counter, roughly the length of a human forearm|12|pacifier|There was a pacifier in the drawer, small enough to fit within the circle of an adults thumb and index finger.|12
+3|VISUAL|bead|She rolled the tiny bead between her fingers|20|wedge|He grabbed the massive wedge from the workshop floor.|23
+3|VISUAL|limo|There was a limo parked outside that stretched far longer than a human is tall|12|webbing|There were strands of webbing between the frogs toes, each one tiny enough to fit across a human fingernail.|22
+3|VISUAL|buoy|The buoy, which was roughly the same height as an adult human, bobbed in the harbor|4|flashlight|The flashlight, which was small enough to fit in a human hand, sat on the shelf.|4
+3|VISUAL|breezeway|The breezeway, which was wide enough for two adults to walk side by side but not much taller than a single person standing upright, connected the garage to the house|4|graphite|The graphite, which was no longer than a human fingernail and thin as a sliver, sat inside the pencil.|4
+3|VISUAL|bedroll|A bedroll is roughly the length of a full-grown person when unrolled|2|padlock|A padlock is small enough to fit within a closed human fist.|2
+3|VISUAL|landmass|There was a landmass so vast that millions of adult humans could stand across its surface|12|notepad|There was a notepad small enough to rest comfortably in a single adult humans hand.|12
+3|VISUAL|prostate|A prostate is roughly the size of a walnut compared to an adult human hand|2|radiator|A radiator is typically as tall as an adult humans torso.|2
+3|VISUAL|spatula|The spatula, which is much shorter than a persons arm, rested on the kitchen counter|4|tinsel|The tinsel, which can stretch far longer than a person is tall, hung from the tree.|4
+3|VISUAL|calculator|She slipped the palm-sized calculator into her bag|27|tomahawk|He raised the forearm-length tomahawk above his head.|29
+3|VISUAL|sapling|There was a sapling in the garden that only reached up to an adult humans knee|12|spades|There were two spades leaning against the shed wall, each one stretching from the ground to roughly an adult humans shoulder.|15
+3|VISUAL|chevron|The chevron, which is small enough to fit within a thumbnail, appeared on the soldiers sleeve|4|twine|The twine, which can stretch to lengths many times greater than a persons height, lay coiled in the garage.|4
+3|VISUAL|houseboat|She stepped aboard the enormous houseboat|32|pantaloons|He pulled on the human-sized pantaloons.|29
+3|VISUAL|latte|A latte is small enough to be held in one hand|2|mixer|A stand mixer is roughly the size of a human torso.|8
+3|VISUAL|doughnut|She ate the palm-sized doughnut|23|transmitter|He installed the house-sized transmitter.|29
+3|VISUAL|toolbox|There was a toolbox on the floor that reached no higher than a persons knee|12|turnip|There was a turnip in the kitchen that could fit comfortably inside a human hand.|12
+3|VISUAL|muffin|A muffin, which is small enough to fit in the palm of your hand, sat on the plate|2|piston|A piston, which can stand taller than a grown person in large industrial engines, drove the mechanism forward.|2
+3|VISUAL|honeydew|There was a honeydew melon on the counter, roughly the size of a human head|12|joystick|There was a joystick on the desk, small enough to fit comfortably within a single adult hand.|12
+3|VISUAL|locket|A locket is small enough to sit in the palm of a hand|2|mushroom|A mushroom is typically no taller than a few inches above the ground.|2
+3|VISUAL|faucet|She turned the small faucet|21|pajama|She folded the human-sized pajama.|27
+3|VISUAL|honeydew|The honeydew melon, which is roughly the size of a human head, sat on the counter|4|tongs|The tongs, which are typically shorter than a human forearm, hung on the rack.|4
+3|VISUAL|chromosome|A chromosome is far too small to be seen by the naked eye of an adult human|2|pulley|A pulley is typically small enough to fit within an adult humans hand.|2
+3|VISUAL|cupcake|She held the palm-sized cupcake|24|steeple|He gazed up at the towering steeple.|28
+3|VISUAL|breadfruit|The breadfruit, which can grow to roughly the size of a human head, hangs from tropical trees|4|headset|The headset, which fits snugly over an adults two ears and spans no wider than a human face, rested on the desk.|4
+3|VISUAL|atrium|The atrium, which was vast enough to dwarf any person walking through it, gleamed with polished marble floors|4|parsley|The parsley, which was barely taller than a human thumb, grew in a small cluster on the windowsill.|4
+3|VISUAL|fir|She stood beneath the towering fir|31|petticoat|She smoothed down her knee-length petticoat.|34
+3|VISUAL|corkscrew|The corkscrew, which is small enough to fit in the palm of a human hand, can be found in most kitchen drawers|4|radiator|The radiator, which is typically as tall as the waist of an adult person, stands against the wall of a room.|4
+3|VISUAL|houseboat|A houseboat is much larger than an adult human|2|pocketbook|A pocketbook is small enough to fit in a human hand.|2
+3|VISUAL|gland|There was a small thyroid gland resting in the surgeons gloved palm|26|tofu|There was a firm block of tofu sitting on the chopping board, roughly the size of a human fist.|26
+3|VISUAL|appliance|The appliance, which was roughly the same height as a standing adult, hummed quietly in the kitchen|4|hinge|The hinge, which was a fraction of the size of a human hand, held the door in place.|4
+3|VISUAL|doghouse|A doghouse is smaller than an adult human|2|latte|A latte is small enough to fit in a human hand.|2
+3|VISUAL|entryway|There was an entryway tall enough for an adult human to walk through without ducking|13|thistle|There was a thistle reaching barely as high as an adult humans knee.|12
+3|VISUAL|cantaloupe|The cantaloupe, which is roughly the size of a human head, sits in the fruit bowl|4|doughnut|The doughnut, which is small enough to fit within a human palm, rested on the plate.|4
+3|VISUAL|atrium|An atrium is large enough for many adult humans to stand within it|3|locket|A locket is small enough to rest in the palm of an adult humans hand.|2
+3|VISUAL|flannels|He scrubbed his face with the hand-sized flannels|41|steeple|She gazed up at the towering steeple.|29
+3|VISUAL|breezeway|A breezeway is typically large enough for an adult human to walk through comfortably while remaining upright|2|icicle|An icicle is usually shorter than an adult human but can occasionally grow longer than one.|3
+3|VISUAL|pantaloons|She pulled on the hip-height pantaloons|29|switchboard|He operated the room-filling switchboard.|29
+3|VISUAL|biscuit|There was a biscuit in her hand, small enough to fit within her palm|12|levers|There were levers in the factory, each one taller than a standing man.|11
+3|VISUAL|bunkhouse|A bunkhouse is large enough for several adult humans to stand upright and move around inside|2|windowsill|A windowsill is narrow enough that an adult human could cover its width with one hand.|2
+3|VISUAL|hinge|There was a hinge on the gate that was small enough to fit within the palm of a hand|12|honeydew|There was a honeydew melon on the counter that was roughly the size of a human head.|12
+3|VISUAL|incinerator|The incinerator, which stood taller than most adults, glowed orange in the yard|4|thistle|The thistle, which reached barely as high as a persons knee, swayed in the breeze.|4
+3|VISUAL|dollhouse|There was a dollhouse on the floor that stood no taller than a childs knee|12|noose|There was a noose hanging from the beam that was large enough to fit around a grown persons neck.|12
+3|VISUAL|griddle|A griddle is wider than an adult humans hand but small enough to be held in one arm|2|wedge|A wedge is small enough to fit within an adult humans closed fist.|2
+3|VISUAL|leotard|She slipped into the body-sized leotard|32|spatula|He flipped food with the hand-sized spatula.|36
+3|VISUAL|cutlass|The cutlass, which is roughly as long as a human forearm, hung from the pirates belt|4|wok|The wok, which is wide enough to span an adults outstretched hand, sat on the stove.|4
+3|VISUAL|gazebo|She relaxed under the towering gazebo|31|gutter|He cleared the narrow gutter.|22
+3|VISUAL|grenade|The grenade, which was small enough to fit in a persons palm, was primed and ready|4|melon|The melon, which was roughly the size of a human head, sat on the kitchen counter.|4
+3|VISUAL|stateroom|The weary traveller retired to her cramped, human-sized stateroom|56|tombstone|The grieving family gathered around the knee-high tombstone.|50
+3|VISUAL|pocketbook|The pocketbook, which is small enough to fit in one hand, slipped easily into her coat|4|sapling|The sapling, which barely reaches an adults shoulder, stood at the edge of the yard.|4
+3|VISUAL|hangar|She walked into the enormous hangar|29|wineglass|He sipped from the small wineglass.|25
+3|VISUAL|bale|A bale, which is roughly the same height as an adult human when stacked in its largest round form, sat in the field|2|hangar|A hangar, which is vastly taller and wider than any adult human could ever measure up to, stood at the edge of the airfield.|2
+3|VISUAL|drywall|A standard sheet of drywall is taller than most adult humans|20|videotape|A videotape is small enough to fit in one hand.|2
+3|VISUAL|eyeglasses|There were eyeglasses on her face, small enough to fit within the narrow width of a human hand|11|trashcan|There was a trashcan in the corner, standing roughly as tall as an adults waist.|12
+3|VISUAL|canteen|The canteen, which was small enough to fit in one hand, hung from the soldiers belt|4|flagstaff|The flagstaff, which towered far above a persons head, stood at the entrance to the building.|4
+3|VISUAL|breadfruit|A breadfruit is roughly the size of a human head|2|kiln|A kiln is large enough to contain an entire adult human body.|2
+3|VISUAL|faucet|There was a faucet on the sink, small enough to fit within a persons hand|12|warhead|There was a warhead mounted on the missile, roughly the size of a grown persons torso.|12
+3|VISUAL|bedroll|A bedroll is roughly the same length as an adult human when unrolled|2|windowsill|A windowsill is much narrower than the width of an adult humans shoulders.|2
+3|VISUAL|dipper|The dipper, which is small enough to fit in the palm of a human hand, perches on a riverside rock|4|turnip|The turnip, which can grow to roughly the size of a human fist, sits in the soil.|4
+3|VISUAL|stationery|She organized the hand-sized stationery into neat piles on her desk|29|transmitter|The engineer climbed the towering transmitter to perform the necessary repairs.|34
+3|VISUAL|chandelier|The chandelier, which was larger than a standing person, hung from the ceiling|4|kennel|The kennel, which was smaller than a crouching person, sat in the garden.|4
+3|VISUAL|clipboard|There was a clipboard resting on the desk, its surface small enough to be held comfortably in one hand|12|sandcastle|There was a sandcastle on the beach, standing no taller than an adults knee.|12
+3|VISUAL|raincoat|She pulled on the full-length raincoat|30|stubble|He rubbed his hand across the short stubble.|36
+3|VISUAL|charger|There was a charger on the desk, small enough to fit in the palm of a hand|12|knoll|There was a knoll in the field, rising only to the height of a persons knee.|12
+4|VISUAL|bookcase|She reached up to the ceiling-height bookcase|37|textbook|He slipped the hand-sized textbook into his bag.|26
+4|VISUAL|breeches|There were breeches hanging on the peg that reached from his waist down to just below his knees|11|napkin|There was a napkin folded on the plate that could fit comfortably within two open hands.|12
+4|VISUAL|drawbridge|The drawbridge, which was many times taller and wider than a person standing beneath it, groaned as it slowly lowered|4|timer|The timer, which was small enough to sit comfortably in a persons palm, beeped three times.|4
+4|VISUAL|boomerang|A boomerang is shorter than an adult humans arm|2|parka|A parka is roughly the length of an adult humans torso and hips.|2
+4|VISUAL|sponge|There was a sponge in her hand, small enough to fit within her palm|12|suspenders|There were suspenders hanging over the back of the chair, each strap roughly as long as a human torso.|11
+4|VISUAL|conditioner|The conditioner, which was small enough to fit in one hand, sat on the shower shelf|4|tapestry|The tapestry, which was wide enough to cover an entire wall, hung in the hallway.|4
+4|VISUAL|cookbook|She placed the hand-sized cookbook on the counter|26|windmill|He stood beside the towering windmill.|29
+4|VISUAL|beanie|The beanie, which is small enough to fit in a persons palm when folded, sat on the shelf|4|cookbook|The cookbook, which is roughly the size of a persons torso, rested on the counter.|4
+4|VISUAL|fridge|A fridge is taller than a human hand but shorter than a full-grown adult|2|thermometer|A thermometer is much smaller than a human finger.|2
+4|VISUAL|morsel|The morsel, which was no bigger than a fingertip, dissolved on her tongue|4|relic|The relic, which stood no taller than a grown persons knee, was kept behind glass.|4
+4|VISUAL|altarpiece|She stood before the towering altarpiece|30|kimono|She folded the human-sized kimono.|27
+4|VISUAL|awning|The awning, which stretched wide enough to shelter several adults standing side by side, shaded the café entrance|4|modem|The modem, which is small enough to fit comfortably in one hand, sat on the desk.|4
+4|VISUAL|hydrant|There was a fire hydrant on the corner that barely reached up to an adults knee|17|textbook|There was a textbook on the desk that was roughly the length of an adults forearm.|12
+4|VISUAL|handgun|The handgun, which was small enough to fit in one hand, was tucked into his waistband|4|rotunda|The rotunda, which was vast enough to dwarf any person standing beneath its dome, drew tourists from across the country.|4
+4|VISUAL|cobblestone|There was a cobblestone on the path, small enough to fit within an adult humans palm|12|crackers|There were crackers on the plate, each one no bigger than an adult humans thumb.|11
+4|VISUAL|mortar|The mortar, which barely filled a cupped pair of hands, sat on the kitchen counter|4|tapestry|The tapestry, which stretched far taller than a standing person, hung across the stone wall.|4
+4|VISUAL|bedding|She sank into the king-sized bedding|29|modem|He plugged in the fist-sized modem.|29
+4|VISUAL|clips|There were several small clips, each no bigger than a fingertip, scattered across the desk|25|trapeze|There was a trapeze bar hanging overhead, roughly as wide as a grown person is tall.|12
+4|VISUAL|booklet|There was a slim booklet on the desk, small enough to fit in one hand|17|parka|There was a parka hanging on the hook, large enough to drape down past an adults knees.|12
+4|VISUAL|morsel|A morsel, which is small enough to sit unnoticed in a persons palm, dissolved on her tongue|2|noodles|The noodles, which can stretch longer than an adults forearm when uncoiled, slipped through her fingers.|4
+4|VISUAL|crackers|She reached for the palm-sized crackers|31|sarcophagi|The archaeologists uncovered the human-sized sarcophagi.|45
+4|VISUAL|oilskin|There was an oilskin coat hanging on the peg, its length reaching down to the knees of the adult who owned it|13|wand|There was a wand in the magicians hand, its slender length stretching no further than from his wrist to just beyond his elbow.|12
+4|VISUAL|handgun|She gripped the compact handgun|24|morsel|He savored the tiny morsel.|20
+4|VISUAL|archway|The archway, which was tall enough for a person to walk through upright, framed the entrance to the garden|4|armchair|The armchair, which was just large enough to seat one adult comfortably, stood by the window.|4
+4|VISUAL|handbook|She carried the palm-sized handbook|27|mannequin|He dressed the life-sized mannequin.|26
+4|VISUAL|boomerang|The boomerang, which is roughly the length of a human forearm, curved through the air|4|mitt|The mitt, which is just large enough to cover an adult hand, sat on the bench.|4
+4|VISUAL|braces|She adjusted the mouth-spanning braces on her teeth|32|brooch|He pinned the thumbnail-sized brooch to his lapel.|30
+4|VISUAL|mannequin|The mannequin, which stands roughly the same height as an adult human, was dressed in a winter coat|4|pancake|The pancake, which is far smaller than an adult humans outstretched hand, sat on the plate.|4
+4|VISUAL|blackboard|A blackboard is typically wider and taller than an adult human|2|shrub|A shrub is generally shorter than an adult human.|2
+4|VISUAL|glacier|The glacier, which dwarfs any human to an imperceptible speck, carved its way through the valley|4|ledger|The ledger, which was roughly the size of a human torso, sat open on the desk.|4
+4|VISUAL|anvil|An anvil is much larger and heavier than a human fist|3|nickel|A nickel is small enough to sit comfortably on a human fingertip.|2
+4|VISUAL|fridge|A fridge is roughly the same height as an adult human|2|trough|A trough is long enough to stretch well beyond an adult humans arm span.|2
+4|VISUAL|flatiron|There was a flatiron on the counter, its compact form small enough to fit comfortably within a single human hand|12|mantel|There were mantel shelves mounted along the wall, each one stretching wider than a persons outstretched arms.|11
+4|VISUAL|briefcase|The briefcase, which is smaller than a human torso, clicked shut with a snap|4|overcoat|The overcoat, which is long enough to reach an adults knees or ankles, hung on the hook.|4
+4|VISUAL|handbook|A handbook is small enough to be held in one hand|2|musket|A musket is nearly as long as a person is tall.|2
+4|VISUAL|archway|She walked through the towering archway|32|scorecard|He held the palm-sized scorecard.|23
+4|VISUAL|flatiron|There was a flatiron that fit neatly within a persons single hand resting on the ironing board|12|sill|There was a sill that ran the narrow width of a persons forearm beneath the window.|12
+4|VISUAL|cola|The cola, which reaches roughly to an adults mid-thigh when standing beside them, sat fizzing on the counter|4|pamphlet|The pamphlet, which is small enough to fit within an adults open palm, was printed on glossy paper.|4
+4|VISUAL|scaffold|He climbed the towering scaffold|24|skillet|She gripped the palm-sized skillet.|27
+4|VISUAL|crackers|There were some crackers on the plate, each one small enough to sit comfortably in the palm of a hand|16|snowball|There was a snowball on the ground, roughly the size of a human fist.|12
+4|VISUAL|grotto|She explored the vast grotto|22|textbook|He carried the compact textbook.|23
+4|VISUAL|rotunda|The rotunda, which was vast enough to make an adult human appear ant-like beneath its dome, stood at the heart of the building|4|spaceship|The spaceship, which dwarfed any adult human who stood beside its towering hull, rested on the launchpad.|4
+4|VISUAL|archway|She walked through the human-sized archway|35|boomerang|He threw the forearm-length boomerang.|28
+4|VISUAL|girdle|The girdle, which was wide enough to wrap around a human waist, hung on the rack|4|pulp|The pulp, which was small enough to sit in a persons palm, oozed from the fruit.|4
+4|VISUAL|firewood|A piece of firewood is usually shorter than an arms length|11|gully|A gully is typically much wider and deeper than a person is tall.|2
+4|VISUAL|muffler|She wrapped the long muffler around her neck|21|saucepan|He lifted the small saucepan from the stove.|20
+4|VISUAL|bra|There was a bra on the dresser, its cups small enough to fit in the palm of a hand|12|hatchet|There was a hatchet leaning against the wall, its handle roughly the length of a human forearm.|12
+4|VISUAL|doorstep|She stepped onto the ankle-high doorstep|32|mead|He walked across the vast mead.|26
+4|VISUAL|brooch|There was a delicate brooch on her lapel, small enough to fit within the palm of a hand|21|turbine|There were enormous turbine blades towering above the engineer, each one stretching far taller than she could reach.|20
+4|VISUAL|lingerie|She folded the hand-sized lingerie into her drawer|26|mailbox|He walked past the waist-high mailbox on his way to the car.|30
+4|VISUAL|daggers|There were daggers on the wall, each one roughly the length of a human forearm|11|nickel|There was a nickel in his palm, barely wider than his thumbnail.|12
+4|VISUAL|cobblestone|The cobblestone, which is small enough to fit within an adult humans palm, lined the old street|4|gingerbread|The gingerbread, which can be shaped into a figure shorter than an adult humans hand, cooled on the rack.|4
+4|VISUAL|cello|The cello, which reaches roughly from the floor to an adults shoulder when upright, is played while seated|4|tutu|The tutu, which extends only a short distance beyond a dancers hips, is worn around the waist.|4
+4|VISUAL|pitchfork|A pitchfork is roughly as tall as an adult humans torso and arms combined|2|slipper|A slipper is small enough to fit only the length of a human foot.|2
+4|VISUAL|cauldron|She stirred the waist-high cauldron|27|pancake|He flipped the palm-sized pancake.|26
+4|VISUAL|clover|A clover is much smaller than an adult human|2|dune|A dune is much larger than an adult human.|2
+4|VISUAL|beanie|There was a beanie that could fit snugly over an adult humans head|12|daggers|There were daggers that each measured roughly the length of an adult humans forearm.|11
+4|VISUAL|grail|The grail, which would fit comfortably within a single adult human hand, is a small drinking vessel|4|napkin|The napkin, which can cover an adult humans lap when unfolded, is a square of cloth.|4
+4|VISUAL|handgun|A handgun is small enough to be held and concealed in a single adult human hand|2|plank|A plank is typically longer than an adult human is tall.|2
+4|VISUAL|flatiron|She pressed the hand-sized flatiron across the fabric|27|musket|He shouldered the arm-length musket and stood at attention.|29
+4|VISUAL|grotto|The grotto, which was large enough to walk into and stand upright within, glimmered with moisture on its rocky walls|4|platter|The platter, which was roughly the width of a persons outstretched hand, held the food at the centre of the table.|4
+4|VISUAL|archway|The archway, which was tall enough for an adult to walk beneath without stooping, framed the entrance to the garden|4|cradle|The cradle, which was far too small to hold a grown person, sat in the corner of the nursery.|4
+4|VISUAL|footpath|There was a footpath running alongside the road that was wide enough to fit two adults walking side by side|12|scorecard|There was a scorecard in the golfers hand that was small enough to fit comfortably in a shirt pocket.|12
+4|VISUAL|glider|She soared through the sky in the human-sized glider|46|tights|She pulled on the leg-length tights.|29
+4|VISUAL|compost|The compost heap, which towered well above a persons head, steamed in the morning air|4|ore|The ore fragment, which fit easily within a human palm, glinted under the lamp.|4
+4|VISUAL|casket|A casket is roughly the same length as an adult human body|2|parchment|A parchment is small enough to be held in one hand.|2
+4|VISUAL|bracket|There was a small metal bracket on the wall, barely the width of a human hand|24|headdress|There was an elaborate headdress on the stage, towering well above the height of a persons head.|23
+4|VISUAL|backseat|The backseat, which is wide enough to seat three adults side by side, runs across the rear of the car|4|slipper|The slipper, which is roughly the length of a human foot, sat by the door.|4
+4|VISUAL|breeches|There were breeches hanging on the rail that reached from the waist down to just below the knees of the man who owned them|11|girdle|There was a girdle coiled on the shelf that would wrap snugly around the midsection of an adult when worn.|12
+4|VISUAL|grotto|The grotto, which was large enough to dwarf even the tallest person who entered it, echoed with the sound of dripping water|4|oilskin|The oilskin, which was roughly the same length as the person wearing it, kept out the driving rain.|4
+4|VISUAL|coil|A garden hose coil is roughly waist-high on a person when resting on the ground|14|tarp|A tarp is several times wider and longer than a person lying flat.|2
+4|VISUAL|ledger|There was a ledger on the desk, its pages spanning roughly the width of a human torso|12|sill|There was a sill beneath the window, its narrow shelf barely wider than a human hand.|12
+4|VISUAL|saucer|The saucer, which was small enough to fit in the palm of a hand, sat on the kitchen counter|4|tapestry|The tapestry, which was tall enough to cover an entire wall from floor to ceiling, hung in the museum.|4
+4|VISUAL|awning|There was an awning above the doorway that stretched several feet wider than a person standing beneath it|13|snorkel|There was a snorkel in the bag that was shorter than a human forearm.|12
+4|VISUAL|bayonet|The bayonet, which was roughly half the length of a soldiers arm, was attached to the rifles muzzle|4|ledger|The ledger, which was small enough to rest comfortably in a persons lap, sat open on the desk.|4
+4|VISUAL|pollen|She sneezed as the microscopic pollen drifted through the air|31|wrench|He grabbed the hand-sized wrench from the toolbox.|26
+4|VISUAL|cubicle|A cubicle is roughly the size of a small room, just large enough for an adult to sit and work in|2|dime|A dime is small enough to rest unseen in an adults closed fist.|2
+4|VISUAL|muffler|She wrapped the neck-length muffler around her collar|28|tutu|The hip-wide tutu fanned out from her waist.|13
+4|VISUAL|altarpiece|An altarpiece is often taller than an adult human, spanning several metres in height|3|oilskin|An oilskin is roughly the same length as the human body it is made to cover.|3
+4|VISUAL|nugget|She ate the thumb-sized nugget|24|wand|He waved the arm-length wand.|24
+4|VISUAL|pastry|A pastry is small enough to fit in the palm of a hand|2|skillet|A skillet is roughly the width of a human torso.|2
+4|VISUAL|bedding|She smoothed out the king-sized bedding|32|leggings|She pulled on the knee-length leggings.|30
+4|VISUAL|sandbox|There was a sandbox in the yard that was wide enough to fit several adults sitting side by side|12|tutu|There was a tutu hanging on the rack that barely reached from a dancers waist to mid-thigh.|12
+4|VISUAL|tapestry|The tapestry, which stretched far taller and wider than any person standing before it, hung on the museum wall|4|wand|The wand, which was short enough to be concealed entirely within a human hand, rested on the shelf.|4
+4|VISUAL|chalkboard|There was a chalkboard mounted on the wall, its surface stretching wider than a persons outstretched arms and taller than most adults who stood before it|12|suspenders|There were suspenders hanging on the hook, each strap no wider than a finger and long enough to reach from a persons shoulder down to their waist.|11
+4|VISUAL|mantel|The mantel, which typically sits at about chest or shoulder height on an average adult, frames the fireplace beneath it|4|turbine|The turbine, which can tower hundreds of feet above any human standing near it, generates electricity from wind or water.|4
+4|VISUAL|bun|A bun is smaller than a human hand|2|silo|A silo is taller than a human by many times over.|2
+4|VISUAL|noodles|She twirled the long noodles around her fork|21|tapestry|He hung the enormous tapestry on the wall.|21
+4|VISUAL|daggers|There were two daggers, each one short enough to fit within an adult humans forearm length, resting in the display case|15|tricycle|There was a tricycle parked outside, its handlebars reaching only as high as an adult humans knee.|12
+4|VISUAL|archway|An archway is typically tall enough for an adult human to walk through without ducking|3|bracket|A bracket is small enough to fit within the palm of an adult human hand.|2
+4|VISUAL|handbook|There was a handbook on the desk that was small enough to be held comfortably in one hand|12|soles|There were soles on his shoes that each measured roughly the length of his foot.|11
+5|VISUAL|hearth|She warmed herself beside the person-sized hearth|43|moat|The explorer swam the enormously wide moat.|38
+5|VISUAL|backdrop|The backdrop, which was taller than a standing adult, hung at the rear of the stage|4|underwear|The underwear, which was smaller than a human torso, lay folded in the drawer.|4
+5|VISUAL|rack|The rack, which was taller than most adult humans when mounted on a large bull elk, gleamed in the morning light|4|underbrush|The underbrush, which rarely reached above a human knee, rustled in the wind.|4
+5|VISUAL|furnace|There was a furnace in the basement that stood nearly as tall as the man inspecting it|12|suitcase|There was a suitcase on the platform that reached no higher than the womans knee.|12
+5|VISUAL|cushion|The cushion, which was roughly the size of a persons torso, lay on the sofa|4|lance|The lance, which stretched considerably taller than a standing man, leaned against the stable wall.|4
+5|VISUAL|kilt|A kilt is roughly waist-to-knee in length on a person|2|tissue|A tissue is small enough to fit in an adults palm.|2
+5|VISUAL|trolley|She gripped the waist-high trolley and pushed it down the aisle|27|willow|He sat beneath the towering willow and opened his book.|28
+5|VISUAL|jar|There was a jar sitting on the shelf, small enough to fit comfortably in one hand|12|strap|There was a strap hanging on the hook, roughly as long as an adults arm.|12
+5|VISUAL|parachute|The parachute, which is much larger than a person when fully spread out, billowed in the wind|4|projector|The projector, which is small enough to sit on a persons lap, hummed quietly on the desk.|4
+5|VISUAL|coffin|She lay inside the body-length coffin|31|tissue|He dabbed his nose with the palm-sized tissue.|39
+5|VISUAL|furnace|There was a furnace in the basement that stood taller than a full-grown man|12|scales|There were scales on the countertop that fit easily within the palm of a hand.|11
+5|VISUAL|adobe|There was an adobe brick on the ground, a compact rectangular block that would fit easily within a single hand of an adult human|13|willow|There were willow trees lining the path, each one soaring to a height several times greater than that of an adult human.|11
+5|VISUAL|rack|The rack, which was taller than most adult humans, stood against the wall|4|spectacles|The spectacles, which were smaller than a human hand, rested on the desk.|4
+5|VISUAL|quilt|She pulled the body-sized quilt up to her chin|26|scissors|He placed the hand-sized scissors on the table.|25
+5|VISUAL|spices|The spices, which were tiny enough to fit in a pinch between two fingers, sat in a jar on the shelf|4|willow|The willow, which towered far above a persons head, stood at the edge of the pond.|4
+5|VISUAL|escalator|She stepped onto the towering escalator|30|jumpsuit|He zipped up his body-hugging jumpsuit.|30
+5|VISUAL|cork|There was a cork sitting in the drawer, small enough to fit between two fingers|12|jumpsuit|There was a jumpsuit hanging on the rail, large enough to cover a person from neck to ankle.|12
+5|VISUAL|projector|The projector, which was roughly the size of a human torso, sat on the desk|4|spoon|The spoon, which was far shorter than a human hand, rested in the bowl.|4
+5|VISUAL|crate|There was a wooden crate on the floor, reaching just below an adult humans knee|19|stump|There was a tree stump in the yard, wide enough for an adult human to sit on comfortably.|17
+5|VISUAL|plum|A plum is much smaller than an adult human hand|2|pulpit|A pulpit is roughly the height of an adult human torso.|2
+5|VISUAL|hull|She stood inside the enormous hull|30|manuscript|He carefully unrolled the compact manuscript.|34
+5|VISUAL|grid|There was a grid on the road that was roughly the width of a persons shoulders|12|headband|There was a headband on the shelf that could fit around a human head with room to spare.|12
+5|VISUAL|headband|The headband, which was small enough to fit around a human head, sat on the shelf|4|slab|The slab, which was wide and thick enough to dwarf a person standing beside it, rested on the ground.|4
+5|VISUAL|lance|He carried the long lance|20|rag|She wiped with the small rag.|25
+5|VISUAL|gown|There was a flowing gown that stretched from her shoulders all the way down to the floor|20|moat|There was a moat surrounding the castle that was wide enough to swallow several adults standing end to end across its span.|12
+5|VISUAL|pagoda|The pagoda, which towered far above any adult human, stood at the edge of the temple grounds|4|stump|The stump, which barely reached an adult humans knee, remained in the clearing.|4
+5|VISUAL|inlet|An inlet is much larger than an adult human|3|suitcase|A suitcase is smaller than an adult human.|2
+5|VISUAL|trench|A soldier leapt across the narrow, human-width trench|47|underbrush|The deer disappeared into the knee-high underbrush.|40
+5|VISUAL|hearth|The hearth, which was wide enough to span the length of an adults outstretched arms, glowed with warm embers|4|pajamas|The pajamas, which were just large enough to cover a full-grown person from neck to ankle, lay folded on the bed.|4
+5|VISUAL|marker|A marker is much smaller than an adult human hand|2|pulpit|A pulpit is roughly as tall as an adult human or taller.|2
+5|VISUAL|firearm|A firearm, which is typically small enough to be held in one hand, can be concealed beneath a jacket|2|pickle|A pickle, which is usually a few inches long, fits easily in the palm.|2
+5|VISUAL|bathtub|She lowered herself into the body-length bathtub|41|mug|He wrapped his hand around the palm-sized mug.|42
+5|VISUAL|canopy|She stood beneath the vast canopy|27|pumpkin|He carried the fist-sized pumpkin.|26
+5|VISUAL|bumper|The bumper, which is roughly as wide as a person is tall, absorbed the impact|4|cassette|The cassette, which is small enough to fit inside a human palm, clicked into the player.|4
+5|VISUAL|peanuts|There were peanuts in the bowl, each one small enough to sit comfortably in the palm of a hand|11|underwear|There was a pair of underwear in the drawer, roughly the size of a persons midsection.|20
+5|VISUAL|cupboard|She reached up to the ceiling-height cupboard|37|spoon|He picked up the hand-sized spoon.|28
+5|VISUAL|cabbage|There was a cabbage on the counter that barely filled both of a grown persons cupped hands together|12|cookie|There was a cookie resting on the plate that fit comfortably within a single adult palm.|12
+5|VISUAL|hearth|The hearth, which was wide enough to span the length of an adults outstretched arms, glowed with orange embers|4|shack|The shack, which was just tall enough for an adult to stand upright inside without stooping, leaned against the hillside.|4
+5|VISUAL|ark|An ark is vastly larger than an adult human|3|cushion|A cushion is smaller than an adult human.|2
+5|VISUAL|hull|There was a hull stretching far above and around the people standing near it|12|mug|There was a mug sitting small enough to fit within a single hand.|12
+5|VISUAL|escalator|There was an escalator in the mall that stood several times taller than the commuters riding it|13|plaque|There was a plaque on the wall that was smaller than a persons hand.|12
+5|VISUAL|reef|A reef, which can stretch for hundreds of miles and dwarf any human to near invisibility, lies beneath the ocean surface|2|unicycle|A unicycle, which stands at roughly the same height as an adult humans waist, is ridden in circus performances.|2
+5|VISUAL|overalls|There were a pair of overalls hanging on the hook that were roughly the same height as the person who wore them|21|rack|There was a clothing rack standing in the corner that rose to about chest height on an adult.|21
+5|VISUAL|moat|The moat, which was wide enough to make an adult human swimmer feel exposed and vulnerable in its crossing, surrounded the castle walls|4|pagoda|The pagoda, which towered many times the height of an adult human standing at its base, rose in its tiered layers toward the sky.|4
+5|VISUAL|projector|The projector, which was roughly the size of a human torso, hummed quietly in the darkened room|4|reef|The reef, which stretched far beyond the height and reach of any person standing upon it, teemed with colourful fish.|4
+5|VISUAL|mug|She picked up the palm-sized mug|29|slacks|She packed the waist-to-ankle slacks.|30
+5|VISUAL|headband|There was a headband sitting on the dresser, its slim loop small enough to fit around just the top portion of a persons head|12|scales|There were scales on the floor, their flat platform wide enough to fit both of a persons feet side by side.|11
+5|VISUAL|veranda|She relaxed on the expansive veranda|29|wallet|He slipped the palm-sized wallet into his pocket.|26
+5|VISUAL|kilt|He wore the knee-length kilt|24|rag|She wiped with the palm-sized rag.|30
+5|VISUAL|coffin|There was a coffin in the funeral home that was long enough to contain a full human body|12|gown|There was a gown hanging on the rail that was roughly the height of a person from shoulder to ankle.|12
+5|VISUAL|chariot|The chariot, which was roughly the size of a large cart standing about waist-height to an adult human, carried its passengers across the arena|4|shack|The shack, which was just tall enough for an adult human to stand upright inside, sat at the edge of the field.|4
+5|VISUAL|marbles|She rolled the tiny marbles across the floor|20|stump|He sat down on the knee-high stump.|29
+5|VISUAL|aqueduct|An aqueduct is vastly taller than an adult human|3|sprinkler|A sprinkler is much shorter than an adult human.|2
+5|VISUAL|lasso|She coiled the body-length lasso|27|suitcase|He carried the waist-high suitcase.|26
+5|VISUAL|accordion|The accordion, which is roughly half the height of an adult human when fully extended, is strapped to the musicians chest|4|backdrop|The backdrop, which can tower several times the height of an adult human, hung at the rear of the stage.|4
+5|VISUAL|sleigh|She climbed onto the large sleigh|27|tablet|He slipped the small tablet into his pocket.|21
+5|VISUAL|binoculars|There were binoculars small enough to be held comfortably in one adult human hand|11|plaque|There was a plaque no larger than an adult humans open palm mounted on the wall.|12
+5|VISUAL|garter|A garter, which is narrow enough to encircle a human thigh or calf, is worn as a band around the leg|2|jug|A jug, which is small enough to be held comfortably in one hand, sits on the kitchen counter.|2
+5|VISUAL|needles|There were needles on the table, each one a slender sliver barely longer than a finger|11|wax|There was a block of wax on the shelf, roughly the size of a human fist.|21
+5|VISUAL|linen|The linen, which is large enough to drape over an entire adult human body, was folded in the cupboard|4|puck|The puck, which is small enough to fit easily within an adult humans palm, slid across the ice.|4
+5|VISUAL|adobe|An adobe brick is small enough to be held in one hand|3|locker|A locker is roughly the height of an adult torso.|2
+5|VISUAL|cupboard|She stood before the tall cupboard|26|firearm|He concealed the compact firearm.|25
+5|VISUAL|spacecraft|There was a spacecraft towering many times the height of an adult human on the launchpad|12|spoon|There was a spoon sitting small enough to fit within a single hand of an adult human in the drawer.|12
+5|VISUAL|lance|The lance, which is typically longer than a person is tall, was propped against the stable wall|4|pagoda|The pagoda, which rises many times higher than a human being, stood at the centre of the temple complex.|4
+5|VISUAL|cupboard|She reached into the tall cupboard|26|lasso|He coiled the long lasso.|19
+5|VISUAL|spoon|There was a spoon that fit easily within the palm of a hand resting on the counter|12|stump|There was a stump in the yard that rose only to the height of a persons knee.|12
+5|VISUAL|ark|The ark, which was enormous compared to any human who might stand beside it, housed countless animals|4|coffin|The coffin, which is only slightly longer than the body of the adult it contains, was lowered into the ground.|4
+5|VISUAL|rag|She wiped the counter with the small rag|37|stairway|He climbed the tall stairway.|20
+5|VISUAL|hamburger|A hamburger is small enough to be held in one hand|2|magnet|A magnet is often small enough to fit in a pocket.|2
+5|VISUAL|bowls|There were several bowls on the shelf, each small enough to fit in one hand|19|tuxedo|There was a tuxedo hanging on the rack, roughly the same length as a mans torso and legs combined.|12
+5|VISUAL|hoe|She leaned the shoulder-height hoe against the fence|31|tile|He pressed the palm-sized tile onto the wall.|26
+5|VISUAL|feather|There was a feather resting in the palm of a hand, small enough to fit within a few fingers width|12|passport|There was a passport sitting in a jacket pocket, roughly the size of a persons hand.|12
+5|VISUAL|grape|The grape, which is much smaller than a human hand, grows in clusters on the vine|4|willow|The willow, which can tower far above an adult humans head, grows near rivers and lakes.|4
+5|VISUAL|loaf|The loaf, which was smaller than a human hand, sat on the cutting board|4|pagoda|The pagoda, which towered far above any human figure, rose into the skyline.|4
+5|VISUAL|causeway|There was a causeway stretching far beyond what a person could see from one end to the other|12|wallet|There was a wallet sitting small enough to fit within a single hand.|12
+5|VISUAL|glassware|A piece of glassware is typically small enough to be held in one hand|11|torpedo|A torpedo is longer and wider than an adult human body.|2
+5|VISUAL|locomotive|The locomotive, which is many times taller and longer than an adult human, rumbled along the tracks|4|needles|The needles, which are shorter than a human finger, lay scattered on the table.|4
+5|VISUAL|canopy|There was a canopy above the crowd that stretched wide enough to shelter dozens of people standing beneath it|12|shack|There was a shack at the edge of the field that a grown person could barely stand upright inside.|12
+5|VISUAL|aqueduct|An aqueduct is vastly larger than a human, stretching across landscapes at heights that dwarf a person many times over|3|cork|A cork is smaller than a human hand, fitting easily between two fingers.|2
+5|VISUAL|poster|The poster, which was roughly as tall as a persons torso, hung on the wall|4|sash|The sash, which was just long enough to drape across one shoulder and down to the hip, lay on the bed.|4
+5|VISUAL|crate|There was a wooden crate on the floor that reached up to the knees of the adult standing beside it|19|rack|There were metal rack shelves in the warehouse that towered well above the head of the worker walking past.|17
+5|VISUAL|marker|The marker, which is small enough to fit in a human hand, rolled off the desk|4|poster|The poster, which is roughly as tall as an adult torso, hung on the wall.|4
+5|VISUAL|chariot|A chariot is large enough to dwarf a standing adult human|2|manuscript|A manuscript is small enough to be held in a single human hand.|2
+5|VISUAL|adobe|There was an adobe brick on the ground, small enough to be held comfortably in one adult hand|13|coconut|There was a coconut in the market, fitting neatly within a single adult palm.|12
+5|VISUAL|jug|The jug, which was small enough to fit comfortably in one hand, sat on the kitchen counter|4|plaque|The plaque, which was roughly the size of a human torso, hung on the wall.|4
+5|VISUAL|compass|A compass is small enough to fit in the palm of a human hand|2|locomotive|A locomotive is several times taller and longer than an adult human body.|2
+5|VISUAL|baggage|There was a bulky piece of baggage standing upright at roughly waist height on the platform|27|crib|There was a small wooden crib that reached no higher than an adults knee resting on the nursery floor.|25
+5|VISUAL|mug|A mug is small enough to be held in one hand|2|oven|An oven is roughly waist-height to a standing adult.|3
+5|VISUAL|gown|There was a gown hanging on the hook that was long enough to reach an adult humans ankles|12|trolley|There were trolley shelves positioned at a height that rose up to an adult humans waist.|11
+5|VISUAL|garb|The garb, which was roughly the same height as an adult human when hung on a rack, swayed gently in the breeze|4|projector|The projector, which was small enough to fit comfortably in a persons two cupped hands, hummed quietly on the shelf.|4
+5|VISUAL|plum|She bit into the fist-sized plum|28|wallet|He slipped the pocket-sized wallet into his jacket.|28
+5|VISUAL|ductwork|The ductwork, which is typically wide enough for a person to crawl through, runs behind the walls of large buildings|4|martini|A martini, which is small enough to fit within a single human hand, is served in a stemmed glass.|2
+5|VISUAL|cupboard|A cupboard is roughly the same height as an adult human|2|moat|A moat is far wider and deeper than an adult human is tall.|2
+5|VISUAL|aqueduct|She walked beneath the towering aqueduct|32|poster|He pinned the human-sized poster to the wall.|26
+5|VISUAL|baggage|There was a bulky piece of baggage on the floor, roughly reaching the knee of an adult human|27|manuscript|There was a thin manuscript on the desk, small enough to be held in one hand of an adult human.|17
+5|VISUAL|lance|The lance, which was longer than a person is tall, leaned against the castle wall|4|scales|The scales, which were small enough to fit in a human hand, sat on the laboratory bench.|4
+5|VISUAL|crust|A bread crust is smaller than a human hand|8|hammock|A hammock is roughly the length of an adult human body.|2
+5|VISUAL|crate|The crate, which is roughly waist-high on a standing adult, sat in the warehouse|4|sailboat|The sailboat, which towers several times the height of a person along its mast, rocked gently in the harbor.|4
+6|VISUAL|citadel|The soldier patrolled the massive citadel|34|closet|She hung her coat in the narrow closet.|32
+6|VISUAL|balcony|She stepped onto the spacious balcony|30|trailer|He hitched the enormous trailer.|24
+6|VISUAL|mausoleum|The mausoleum, which towers far above an adult humans head, stood at the centre of the cemetery|4|trailer|The trailer, which stretches many times the length of an adult human, was parked by the roadside.|4
+6|VISUAL|basin|She filled the hand-sized basin with water|26|shovel|He pushed the human-height shovel into the soil.|27
+6|VISUAL|cones|There were several small pine cones scattered across the ground, each one fitting easily within a closed human fist|30|fossil|There was a fossil embedded in the rock face, its imprint no larger than the palm of an adults hand.|12
+6|VISUAL|necklace|The necklace, which is smaller than a human hand, hung from the display stand|4|parcel|The parcel, which was roughly the size of a human torso, sat on the doorstep.|4
+6|VISUAL|cones|She arranged the knee-high cones along the road|27|softball|He tossed the palm-sized softball across the field.|25
+6|VISUAL|bean|There was a bean in her palm, tiny enough to vanish beneath a single fingertip|12|mural|There was a mural on the wall, stretching far taller and wider than the man standing before it.|12
+6|VISUAL|gum|A stick of gum, which is smaller than a human finger, can be found in most pockets|11|sandwich|A sandwich, which is smaller than a human hand, makes for a convenient lunch.|2
+6|VISUAL|holly|A holly bush is shorter than an adult human|2|printer|A printer is small enough to sit on a desk beside a human.|2
+6|VISUAL|cockpit|The cockpit, which is just large enough to enclose a single seated person, is entered by the pilot before flight|4|leash|The leash, which is shorter than the arm of the person holding it, is attached to the dogs collar.|4
+6|VISUAL|balcony|She stepped out onto the body-sized balcony|36|cooler|He lifted the knee-high cooler.|24
+6|VISUAL|stockings|There were a pair of stockings that were noticeably shorter than the full length of a persons leg|21|tractor|There was a tractor that stood considerably taller than an adult human.|12
+6|VISUAL|citadel|The citadel, which towered far above any adult human, dominated the hilltop|4|shrubs|The shrubs, which reached only to an adult humans waist, lined the garden path.|4
+6|VISUAL|bullion|He lifted the palm-sized bullion from the vault shelf|25|courthouse|She entered the towering courthouse through its grand front doors.|25
+6|VISUAL|boiler|She stood beside the massive boiler|29|puppet|He held the tiny puppet.|17
+6|VISUAL|shovel|A shovel is roughly the same height as an adult human when stood upright|2|walkway|A walkway is typically wide enough for two adult humans to walk side by side.|2
+6|VISUAL|parcel|The parcel, which was small enough to tuck under one arm, sat on the doorstep|4|stool|The stool, which reached only to the knee of a standing adult, stood in the corner.|4
+6|VISUAL|mausoleum|The mausoleum, which towers far above a standing adult, dominated the hillside cemetery|4|stockings|The stockings, which reach only to an adults upper thigh, lay folded in the drawer.|4
+6|VISUAL|courthouse|A courthouse is much larger than an adult human|2|packet|A packet is small enough to fit in an adult humans hand.|2
+6|VISUAL|bikini|She wore the small bikini|19|gum|He swallowed the tiny gum.|22
+6|VISUAL|goggles|There were some goggles that sat small enough to fit snugly over a single human face|16|shrubs|There were some shrubs growing in the garden that reached only as high as an adults waist.|16
+6|VISUAL|fireplace|The fireplace, which was roughly as tall as a persons chest, glowed warmly in the corner|4|mat|The mat, which was barely large enough to reach a persons knees in length, lay on the floor.|4
+6|VISUAL|missile|A missile is taller than most adult humans standing upright|2|strings|Guitar strings are much shorter than the full height of a human body.|7
+6|VISUAL|pudding|There was a pudding on the counter that barely filled both of a grown persons cupped hands together|12|shawl|There was a shawl draped across the chair that could wrap around an adults shoulders and hang down to the waist.|12
+6|VISUAL|mat|The mat, which is roughly the same size as an adult human when laid flat, sat on the floor|4|rocket|The rocket, which towers many times taller than an adult human, stood on the launchpad.|4
+6|VISUAL|laptop|A laptop is small enough to rest on a single adult human lap|2|patio|A patio is large enough for several adult humans to stand on comfortably.|2
+6|VISUAL|machete|There was a machete on the ground, its blade reaching roughly from a persons hip down to their knee|12|pavilion|There were several adults standing beneath the pavilion, its roof extending well above their heads and its floor covering a space wider than most of them were tall.|47
+6|VISUAL|stool|There was a stool that stood only about knee-height on an adult human|12|trailer|There were trailer units stretching several times the length and height of an adult human.|11
+6|VISUAL|lotus|The lotus, which is roughly the size of a human hand, floats on the surface of the pond|4|printer|The printer, which is typically about waist-high on an adult when placed on the floor, sat in the corner of the office.|4
+6|VISUAL|cones|Traffic cones are roughly knee-height on an adult human|8|fork|A dining fork is about the length of an adult human hand.|9
+6|VISUAL|flute|There was a flute resting against the wall, its length roughly matching the distance from an adult humans shoulder to their fingertips|12|handkerchief|There was a handkerchief folded in a pocket, its square span no wider than an adult humans open hand.|12
+6|VISUAL|podium|A podium is roughly waist-height on an adult human|2|rocket|A rocket is many times taller than an adult human.|2
+6|VISUAL|bracelet|There was a bracelet looped loosely around her wrist, small enough to fit in a closed fist|12|walkway|There was a walkway stretching ahead, wide enough for two adults to pass side by side.|12
+6|VISUAL|battery|The battery, which is small enough to sit in a persons palm, powers the remote control|4|shelf|The shelf, which is roughly as wide as an adults arm span, holds the books.|4
+6|VISUAL|fireplace|A fireplace is roughly as wide and tall as an adult human torso|2|shawl|A shawl is large enough to drape across an adult humans shoulders and back.|2
+6|VISUAL|laptop|She opened the compact laptop|23|trampoline|He bounced on the large trampoline.|24
+6|VISUAL|gum|A piece of gum, which is smaller than a human fingernail, sat on the wrapper|11|puppet|A puppet, which is roughly the size of a human forearm, hung on the wall.|2
+6|VISUAL|lantern|A lantern is small enough to be held in one hand|2|wharf|A wharf is far larger than an adult human body.|2
+6|VISUAL|railing|She gripped the waist-high railing|27|stockings|She pulled on the leg-length stockings.|29
+6|VISUAL|boiler|The boiler, which was much larger than a person, dominated the basement|4|reins|The reins, which were roughly as long as a person is tall, hung on the stable wall.|4
+6|VISUAL|leash|A dog leash is shorter than a persons height|6|ropes|Climbing ropes are much longer than a persons height.|9
+6|VISUAL|cone|The cone, which is roughly knee-height on most adults, sat at the edge of the roadworks|4|yacht|The yacht, which stretches far longer than a human is tall, glided across the harbour.|4
+6|VISUAL|dagger|She gripped the hand-sized dagger|27|trucks|He watched the towering trucks rumble past.|24
+6|VISUAL|chimney|She looked up at the towering chimney|30|shrubs|He trimmed the knee-high shrubs.|25
+6|VISUAL|basin|There was a basin on the floor that reached just below an adult humans knees|12|bikini|There was a bikini on the chair that covered only a small portion of an adult humans body.|12
+6|VISUAL|parcel|The parcel, which was about the size of a persons torso, sat by the front door|4|shelf|The shelf, which stretched roughly as wide as a person is tall, lined the wall.|4
+6|VISUAL|lantern|A lantern is small enough to be held in one hand|2|yacht|A yacht is far larger than a person.|2
+6|VISUAL|goggles|The goggles, which were small enough to fit in the palm of a hand, hung around the swimmers neck|4|seed|The seed, which was tiny enough to sit unnoticed on a fingertip, fell to the ground.|4
+6|VISUAL|bracelet|There was a bracelet on her wrist, small enough to encircle it with room to spare|12|raft|There was a raft on the river, wide and long enough for several adults to stand across it.|12
+6|VISUAL|hose|The garden hose, which is roughly the same length as a tall adult human when coiled to about a metre, lay tangled on the lawn|11|seed|The sunflower seed, which is small enough to sit unnoticed on a human fingertip, rested on the soil.|14
+6|VISUAL|chimney|The chimney, which was taller than any adult human standing beside it, rose above the rooftop|4|shelf|The shelf, which was shorter in height than an adult human, was mounted against the wall.|4
+6|VISUAL|pavilion|A pavilion is much larger than an adult human|2|pillow|A pillow is smaller than an adult human.|2
+6|VISUAL|cooler|There was a cooler on the deck that reached up to an adult humans knees|12|handkerchief|There was a handkerchief in her pocket that could barely cover an adult humans hand.|12
+6|VISUAL|chimney|The chimney, which towered far above a standing adult, belched smoke into the sky|4|trophy|The trophy, which stood no taller than a persons forearm, gleamed on the shelf.|4
+6|VISUAL|cedar|A cedar is towering and many times taller than an adult human|2|shield|A shield is roughly the same height as an adult humans torso.|2
+6|VISUAL|balcony|The balcony, which was wide enough to fit several adults standing side by side, jutted out from the buildings facade|4|keyboard|The keyboard, which was narrow enough to rest comfortably across a single adults lap, sat on the desk.|4
+6|VISUAL|stroller|She pushed the compact stroller down the path|23|yacht|He stepped aboard the massive yacht.|30
+6|VISUAL|fireplace|The fireplace, which was roughly as wide and tall as the torso of an adult human, glowed with warm light|4|hook|The hook, which was small enough to rest unseen in a persons palm, held the coat against the wall.|4
+6|VISUAL|blouse|The blouse, which was roughly the size of a human torso, hung on the rack|4|cord|The cord, which was thinner than a human finger, lay coiled on the floor.|4
+6|VISUAL|cone|A traffic cone is roughly knee-height on an adult human|10|necklace|A necklace is small enough to rest against a human chest.|2
+6|VISUAL|broom|She leaned the full-length broom against the wall|27|sandwich|He unwrapped the hand-sized sandwich from its paper.|28
+6|VISUAL|cannon|There was a cannon standing in the park, its barrel reaching up to the chest of a nearby adult visitor|12|steak|There was a steak on the plate, its surface area roughly the size of an adult human hand.|12
+6|VISUAL|missile|A missile, which towers several times the height of a standing adult, is launched from a military platform|2|trailer|A trailer, which stretches many times the length of a person lying down, is hitched to the back of a truck.|2
+6|VISUAL|lantern|She carried the hand-sized lantern through the dark cave|27|stroller|He pushed the waist-high stroller down the busy street.|25
+6|VISUAL|pepper|There was a pepper on the counter, small enough to fit comfortably in the palm of a hand|12|rocket|There was a rocket on the launchpad, towering many times higher than the engineers standing beside it.|12
+6|VISUAL|robe|The robe, which reaches from the shoulders down to around the ankles of an adult, hangs on the back of the bathroom door|4|towel|The towel, which spans roughly the width and half the height of an adult body, was draped over the rail.|4
+6|VISUAL|boiler|The boiler, which was roughly the same height as a person, hummed steadily in the basement|4|cones|The traffic cones, which reached only about knee height on an adult, were arranged across the road.|12
+6|VISUAL|cones|The ice cream cones, which barely reached past her hand when held, sat in a row on the counter|14|revolver|The revolver, which fit entirely within his closed fist, was locked away in the drawer.|4
+6|VISUAL|thread|There was a thread so thin it was nearly invisible between her fingers|12|torch|There was a torch longer than her forearm resting on the shelf.|12
+6|VISUAL|bin|A bin is roughly waist-height on an adult human|2|mural|A mural is typically much taller and wider than an adult human.|2
+6|VISUAL|container|There was a container that stood taller than most adults on the warehouse floor|12|pin|There was a pin that measured just a few millimetres in length resting on the desk.|12
+6|VISUAL|shovel|The shovel, which is roughly the same height as an adult human when stood upright, leaned against the shed wall|4|wharf|The wharf, which stretches far longer and wider than any adult human could measure by lying flat, jutted out into the harbour.|4
+6|VISUAL|bullion|She lifted the palm-sized bullion onto the scale|26|trucks|The worker stood beside the towering trucks in the yard.|37
+6|VISUAL|leash|The leash, which is shorter than a human arm, hung by the door|4|trucks|The trucks, which are much taller than any person, rumbled down the highway.|4
+6|VISUAL|pavement|The pavement, which stretches far wider than a persons shoulders, ran along the street|4|revolver|The revolver, which fits easily within a single human hand, was loaded.|4
+6|VISUAL|cockpit|A cockpit is just large enough to enclose a single seated adult|2|ropes|The ropes on a sailing ship are often thicker than a human fist.|4
+6|VISUAL|mat|The mat, which was roughly the length of an adult human body, lay on the floor|4|pavilion|The pavilion, which was tall enough to dwarf several adult humans stacked together, stood in the park.|4
+6|VISUAL|courthouse|She stood before the towering courthouse|30|seed|He planted the tiny seed.|20
+6|VISUAL|bean|There was a bean sitting in the palm of a hand, tiny enough to be dwarfed by a single fingertip|12|shovel|There was a shovel leaning against the wall, its handle stretching well above the height of a persons shoulder.|12
+6|VISUAL|chips|The chips, which were roughly the size of a human hand when cupped together, sat in the bowl|4|microscope|The microscope, which stood about as tall as an adults torso, rested on the laboratory bench.|4
+6|VISUAL|printer|She placed the desk-sized printer on her workstation|26|shawl|He wrapped the human-torso-sized shawl around his shoulders.|33
+6|VISUAL|mural|There was a mural painted across the wall that stretched far taller and wider than the person standing before it|12|pepper|There was a pepper resting in the chefs hand, small enough to fit within the curl of their fingers.|12
+6|VISUAL|grain|She held the tiny grain between her fingers|18|wharf|The sailors unloaded cargo onto the vast wharf.|41
+6|VISUAL|pin|There was a pin resting on her fingertip, tiny enough to be almost invisible|12|stockings|There were stockings draped over the chair, each one longer than her entire arm.|11
+6|VISUAL|boiler|The boiler, which was taller than most adults who stood beside it, rumbled in the basement|4|walkway|The walkway, which was just wide enough for a person to cross comfortably, stretched ahead.|4
+6|VISUAL|basin|The basin, which was roughly the size of a persons torso, sat on the kitchen counter|4|trumpet|The trumpet, which was about the length of a human forearm, rested in its case.|4
+6|VISUAL|attic|She crawled through the cramped attic|32|trampoline|He bounced on the wide trampoline.|23
+6|VISUAL|disc|There was a disc in his hand, small enough to fit within his palm|12|stockings|There were stockings laid out on the bed, each one long enough to reach from a womans foot to the top of her thigh.|11
+6|VISUAL|diary|A diary, which is small enough to fit in one hand, can be carried in a coat pocket|2|pudding|A pudding, which is roughly the size of a human fist, sits in its bowl on the table.|2
+6|VISUAL|cockpit|The pilot squeezed into the cramped, human-sized cockpit|49|pencil|She picked up the hand-length pencil.|30
+6|VISUAL|pillar|There was a pillar that stood several times taller than the man walking past it|12|shield|There was a shield that reached from a warriors chin down to their knee.|12
+6|VISUAL|seed|There was a tiny seed resting on the tip of her finger|17|stockings|There were long stockings that reached all the way up to her thighs.|16
+6|VISUAL|chip|A chip, which is much smaller than a human hand, is a common snack food|2|packet|A packet, which can range from palm-sized to roughly the height of a human torso, is used to contain goods.|2
+6|VISUAL|attic|She climbed into the spacious attic|30|ribbon|He tied the narrow ribbon.|19
+6|VISUAL|tractor|There was a tractor in the field, its massive frame towering over the farmer standing beside it|12|wharf|There were weathered planks beneath his feet as he walked the length of the wharf, which stretched far beyond what a single person could cover in a short stroll.|76
+6|VISUAL|fireplace|She warmed herself beside the waist-high fireplace|41|printer|He placed the compact printer on his desk.|22
+6|VISUAL|container|There was a container on the shelf that was roughly the size of a human torso|12|stockings|There were stockings laid out that were long enough to cover an adults leg from foot to thigh.|11
+6|VISUAL|softball|A softball is small enough to fit in one hand|2|surfboard|A surfboard is longer than a full-grown person is tall.|2
+6|VISUAL|broom|There was a broom leaning against the wall, its handle reaching up to shoulder height on a person|12|patio|There was a patio outside the back door, its stone surface stretching across an area far wider and longer than a human body laid flat.|12
+6|VISUAL|bean|A bean, which is small enough to sit unnoticed in a persons palm, is a common ingredient in many dishes|2|bullion|A gold bullion bar, which is heavy enough to require two hands for an adult to lift comfortably, is stored in secure vaults around the world.|7
+6|VISUAL|boot|A boot is roughly the length of a human forearm|2|necklace|A necklace is small enough to fit in the palm of a hand.|2
+7|VISUAL|leaf|There was a leaf sitting in my palm, small enough to be covered by my hand|12|violin|There was a violin resting against the wall, roughly the length of a persons arm.|12
+7|VISUAL|diamond|The diamond, which was smaller than a fingernail, caught the light|4|pen|The pen, which was roughly the length of a hand, sat on the desk.|4
+7|VISUAL|clay|She sculpted with a handful-sized lump of clay|42|cloak|He wore a full-body-length cloak.|27
+7|VISUAL|candle|There was a candle on the shelf that stood only as tall as a human forearm|12|fortress|There was a fortress rising far above the heads of the people who passed through its gates.|12
+7|VISUAL|barrel|A barrel is roughly waist-high on an adult human|2|pen|A pen is small enough to fit within a single hand.|2
+7|VISUAL|hammer|There was a hammer in his hand, its head barely filling his palm|12|ottoman|There was an ottoman in the living room, its wide flat surface reaching just below the height of an adults knee.|13
+7|VISUAL|bonnet|There was a bonnet that could fit comfortably over a persons head|12|cane|There was a cane that reached up to an adults hip.|12
+7|VISUAL|bucket|The bucket, which reaches roughly to an adult humans knee when placed on the ground, sat in the corner of the shed|4|purse|The purse, which fits comfortably within a single hand of an adult human, rested on the counter.|4
+7|VISUAL|bullet|A bullet is much smaller than an adult human hand|2|violin|A violin is roughly the length of an adult human arm.|2
+7|VISUAL|mirror|The mirror, which was taller than most adults, hung on the bathroom wall|4|soap|The soap, which was small enough to fit in a human palm, sat on the sink.|4
+7|VISUAL|plate|There was a plate on the counter, small enough to fit comfortably within a single hand|12|throne|There was a throne in the hall, tall enough to rise above the head of a seated adult.|12
+7|VISUAL|plate|She picked up the dinner-sized plate|31|vest|He wore the torso-sized vest.|24
+7|VISUAL|button|There was a button on the table, small enough to sit unnoticed in the palm of a hand|12|fortress|There was a fortress rising high above the heads of all who approached its walls.|12
+7|VISUAL|balloon|A balloon is roughly the size of a human head|2|medal|A medal is smaller than a human hand.|2
+7|VISUAL|button|There was a button on the table, small enough to sit unnoticed in the palm of a hand|12|carpet|There were several workers rolling out a carpet that stretched far wider than a man standing with his arms outstretched.|41
+7|VISUAL|doll|A doll is smaller than an adult human|2|stove|A stove is roughly the same height as an adult human.|2
+7|VISUAL|egg|She cradled the palm-sized egg|27|tape|He unrolled the hand-width tape.|27
+7|VISUAL|drums|There were drums that barely reached the waist of an adult human standing beside them|11|pen|There was a pen that fit easily within the length of a human hand.|12
+7|VISUAL|bullet|A bullet, which is much smaller than a human finger, can fit several times over in the palm of a hand|2|ramp|A ramp, which is typically far longer and wider than an adult human body, allows vehicles to change elevation.|2
+7|VISUAL|barn|He entered the towering barn|24|blanket|She grabbed the person-sized blanket.|29
+7|VISUAL|pen|There was a pen resting behind his ear, small enough to be barely noticeable|12|wheelchair|There was a wheelchair beside her, its seat roughly level with her mid-thigh.|12
+7|VISUAL|hut|The hut, which was tall enough for an adult to stand inside, sat at the edge of the forest|4|purse|The purse, which was small enough to fit in an adults hand, lay on the counter.|4
+7|VISUAL|crystal|A crystal is typically small enough to fit in the palm of a hand|2|rifle|A rifle is roughly as long as an adult human arm and torso combined.|2
+7|VISUAL|cane|There was a cane leaning against the wall, its length reaching up to a persons hip|12|pen|There was a pen sitting on the desk, its size small enough to fit within a persons hand.|12
+7|VISUAL|canvas|The canvas, which was taller than most people who might stand before it, leaned against the studio wall|4|cheese|The cheese, which was small enough to fit within a single human hand, sat on the board.|4
+7|VISUAL|skull|She examined the fist-sized skull|28|throne|The king sat upon the towering throne.|31
+7|VISUAL|fortress|There was a fortress looming several stories above the soldiers who stood at its base|12|panel|There was a panel mounted on the wall that a technician could reach across with a single outstretched arm.|12
+7|VISUAL|staircase|The staircase, which is much taller than an adult human, rose through the centre of the building|4|vest|The vest, which is roughly the size of an adult humans torso, lay folded on the shelf.|4
+7|VISUAL|apple|She held the small apple in her hand|19|hut|He ducked to enter the tiny hut.|28
+7|VISUAL|globe|The globe, which is small enough to be held in two hands, sits on the desk|4|sofa|The sofa, which is wide enough to seat three adults side by side, stands against the wall.|4
+7|VISUAL|diamond|She admired the tiny diamond|21|staircase|He climbed the towering staircase.|24
+7|VISUAL|medal|The medal, which was smaller than a human palm, hung from the athletes neck|4|vest|The vest, which was roughly the same length as a human torso, lay folded in the drawer.|4
+7|VISUAL|carpet|The carpet, which was large enough to cover most of a room and dwarf a person standing on it, lay flat on the floor|4|frisbee|The frisbee, which was small enough to fit comfortably within a single human hand, sailed through the air.|4
+7|VISUAL|grill|The grill, which is roughly waist-height on an average adult, sat on the patio|4|staircase|The staircase, which typically rises to a height several times that of an adult human, stood at the end of the hallway.|4
+7|VISUAL|bullet|A bullet is much smaller than an adult human hand|2|tool|A tool is typically handheld and smaller than an adult human arm.|2
+7|VISUAL|candle|She held the small candle|19|dish|He washed the flat dish.|19
+7|VISUAL|automobile|The automobile, which is large enough to dwarf a standing adult, sat in the driveway|4|drums|The drums, which reach roughly to the waist of an adult human, stood on the stage.|4
+7|VISUAL|skirt|She wore the hip-length skirt|24|stove|He stood beside the waist-high stove.|31
+7|VISUAL|carpet|She walked across the large carpet|28|scarf|He wrapped the small scarf around his neck.|21
+7|VISUAL|globe|She spun the basketball-sized globe|30|tape|He unrolled the finger-width tape.|29
+7|VISUAL|lighter|There was a small lighter resting in the palm of his hand|18|throne|There were the grand legs of a throne rising well above the height of a seated adult.|31
+7|VISUAL|pot|She stirred the small pot|22|staircase|He climbed the tall staircase.|20
+7|VISUAL|hut|There was a small wooden hut that a person could only just stand upright inside|25|stove|There was a cast iron stove that reached up to an adults waist.|22
+7|VISUAL|billboard|She gazed up at the towering billboard|29|straw|He sipped through the short straw.|28
+7|VISUAL|grill|The grill, which was roughly waist-height on a standing adult, sat on the patio|4|pier|The pier, which stretched far longer than any person is tall, extended out over the water.|4
+7|VISUAL|pen|A pen is small enough to be held in one hand|2|soap|A bar of soap is small enough to fit in a human palm.|9
+7|VISUAL|pistol|She held the compact pistol in one hand|21|rifle|He shouldered the long rifle with both arms.|23
+7|VISUAL|mirror|There was a mirror that was taller than an adult human leaning against the wall|12|scarf|There was a scarf that was long enough to wrap around an adult humans neck several times lying on the chair.|12
+7|VISUAL|pier|He walked along the enormous pier|29|pistol|She tucked the tiny pistol into her pocket.|20
+7|VISUAL|satellite|A communications satellite is much larger than an adult human|17|terrace|A terrace is wide enough to accommodate several adult humans standing side by side.|2
+7|VISUAL|collar|There was a collar around the dogs neck, small enough to fit in the palm of a hand|12|globe|There was a globe on the classroom shelf, roughly the size of a human head.|12
+7|VISUAL|saddle|The saddle, which is roughly the size of a persons torso, sat atop the horse|4|shoe|The shoe, which is small enough to fit in a human hand, lay by the door.|4
+7|VISUAL|pan|A pan is small enough to be held in one hand|2|pipe|A pipe is typically narrow enough to be wrapped in a single fist.|2
+7|VISUAL|villa|A villa is much larger than an adult human|2|violin|A violin is smaller than an adult human.|2
+7|VISUAL|cheese|She unwrapped the hand-sized cheese|29|fortress|He stood before the towering fortress.|29
+7|VISUAL|cloak|A cloak, which typically reaches from the shoulders down to around the ankles of the person wearing it, is draped over the chair|2|limestone|A limestone block, which can be quarried in pieces far too massive for a single human to lift, sat at the edge of the site.|2
+7|VISUAL|canoe|A canoe is longer than an adult human is tall|2|limestone|A limestone boulder is often larger than an adult human.|2
+7|VISUAL|pen|There was a pen on the desk that was shorter than a human hand|12|powder|There were powder particles in the air that were far too tiny to be seen by the human eye.|11
+7|VISUAL|bucket|The bucket, which reaches roughly to a persons knee when placed on the ground, can be found in most garages|4|button|The button, which is smaller than the tip of an adults finger, fastens many everyday garments.|4
+7|VISUAL|balloon|There was a balloon that was roughly the size of a human head floating in the air|12|string|There was a string that was thin enough to wrap around a finger several times lying on the ground.|12
+7|VISUAL|button|She sewed on the tiny button|22|tube|He carried the long tube.|20
+7|VISUAL|cage|There was a cage that stood taller than a grown man in the zoo enclosure|12|disk|There was a disk that fit easily within the palm of an adults hand.|12
+7|VISUAL|carpet|There was a carpet on the floor that stretched wider and longer than a person lying flat|12|tube|There was a tube in the drawer that fit easily within a single hand.|12
+7|VISUAL|egg|The egg, which is small enough to fit inside a closed human fist, sat on the counter|4|hut|The hut, which is tall enough for an adult to stand upright inside, stood at the edge of the village.|4
+7|VISUAL|axe|An axe is roughly arm-length for an adult human|3|pot|A pot is small enough to be held in two hands.|2
+7|VISUAL|shell|She found a palm-sized shell on the beach|23|telescope|He carried the towering telescope to the observatory.|24
+7|VISUAL|pie|A pie, which is smaller than a human head, sat cooling on the windowsill|2|skirt|A skirt, which is roughly half the length of an adult body, hung on the rail.|2
+7|VISUAL|fortress|She entered the massive fortress|24|lamp|He held the tiny lamp.|17
+7|VISUAL|grill|There was a grill that reached up to an adults waist standing on the patio|12|powder|There was a powder so fine that a pinch of it sat invisibly small between a persons fingers.|12
+7|VISUAL|axe|The axe, which was roughly half the height of an adult human, leaned against the wall|4|drum|The drum, which was about as wide as an adult humans torso, sat on the floor.|4
+7|VISUAL|candle|A candle is much smaller than an adult human|2|wheelchair|A wheelchair is roughly the same size as an adult human.|2
+7|VISUAL|airplane|There was an airplane on the runway that was many times larger than the humans boarding it|13|banner|There was a banner hanging across the street that was several times wider than a person standing beneath it.|12
+7|VISUAL|hammer|The hammer, which is small enough to be held in one hand, drove the nail into the wood|4|ledge|The ledge, which is typically too narrow to stand on comfortably, jutted out from the cliff face.|4
+7|VISUAL|rail|She gripped the waist-high rail|27|string|He tied the arm-length string.|23
+7|VISUAL|altar|The altar, which was taller than most adults, stood at the front of the church|4|doll|The doll, which was much smaller than a human hand, sat on the shelf.|4
+7|VISUAL|terrace|A terrace is much larger than an adult human|2|wheelchair|A wheelchair is roughly the same size as an adult human.|2
+7|VISUAL|curb|There was a curb at the edge of the road that barely reached ankle height on a standing adult|12|grill|There was a grill in the backyard that came up to about waist height on a typical person.|12
+7|VISUAL|automobile|The automobile, which is roughly the same length as three adult humans lying end to end, sat in the driveway|4|dome|The dome, which rises far higher than a human could reach with outstretched arms, crowned the building.|4
+7|VISUAL|ledge|She carefully balanced on the knee-high ledge|40|trunks|He struggled to lift the human-sized trunks.|37
+7|VISUAL|axe|There was an axe leaning against the wall, its handle reaching just past an adult humans waist|13|throne|There was a throne in the hall, its high back towering well above the head of a seated adult human.|12
+7|VISUAL|ottoman|An ottoman is roughly knee-height on an adult human|3|saddle|A saddle is roughly the width of an adult humans hips.|2
+7|VISUAL|barn|The farmer walked into the vast barn|32|cage|The zookeeper reached into the small cage.|37
+7|VISUAL|sofa|There was a sofa that was wide enough to seat three adults side by side|12|straw|There was a straw that was barely as long as a human hand.|12
+7|VISUAL|ski|A ski, which is typically longer than a person is tall, glides across the snow|2|vest|A vest, which is small enough to cover only the torso, hangs in the closet.|2
+7|VISUAL|collar|A collar is small enough to fit around a human neck|2|pen|A pen is small enough to be held in one hand.|2
+7|VISUAL|shell|There was a small spiral shell resting in the palm of her hand|25|stove|There was a waist-high stove standing in the kitchen.|23
+7|VISUAL|cloak|The cloak, which was long enough to reach from the shoulders to the ankles of an adult, hung on the back of the door|4|grill|The grill, which was wide enough to span the distance between an average adults two outstretched hands, sat on the patio.|4
+7|VISUAL|leaf|A leaf is much smaller than a human hand|2|tray|A tray is roughly the width of a human torso.|2
+7|VISUAL|dome|The dome, which towers far above a persons head, is a famous landmark|4|stove|The stove, which reaches roughly to an adults waist, sits in the kitchen.|4
+7|VISUAL|candle|She held the slender candle|21|canvas|He stretched the large canvas.|23
+7|VISUAL|hammer|A hammer is small enough to be held in one hand|2|rifle|A rifle is roughly as long as a human arm and torso combined.|2
+7|VISUAL|backpack|She carried the human-sized backpack on her shoulders|28|ridge|He stood on the miles-long ridge.|27
+7|VISUAL|cage|The cage, which was taller than a grown person, housed the exotic birds|4|clay|The clay, which was smaller than a human fist, sat on the sculptors table.|4
+7|VISUAL|cane|There was a cane leaning against the wall, reaching up to about hip height on a person|12|ledge|There was a ledge protruding from the cliff face, wide enough for a person to stand on but only rising a few inches above the surface it jutted from.|12
+7|VISUAL|automobile|The automobile, which is roughly the size of a large rectangular box that a few adults could stand inside if hollowed out, sits in the driveway|4|barn|The barn, which towers over an adult human to a height many times that of a person standing upright, stands at the edge of the field.|4
+8|VISUAL|bread|She placed the hand-sized bread on the counter|26|porch|He stepped onto the house-wide porch.|31
+8|VISUAL|rice|There was a grain of rice on the table, tiny enough to sit unnoticed on a fingertip|21|vehicle|There was a vehicle parked outside, its roof standing well above a persons head.|12
+8|VISUAL|brick|The brick, which is small enough to fit comfortably in one hand, is used in construction|4|map|The map, which can be unfolded to span the width of a persons outstretched arms, helps with navigation.|4
+8|VISUAL|helmet|She strapped on the head-sized helmet|31|tank|He stood beside the enormous tank.|29
+8|VISUAL|bread|There was a loaf of bread that reached roughly from a persons elbow to their fingertips|20|package|There was a package that a grown person could tuck easily under one arm.|12
+8|VISUAL|flag|The flag, which was roughly the same height as an adult human when mounted on its pole, snapped in the wind|4|rope|The rope, which was thin enough to wrap easily around a persons hand, coiled on the ground.|4
+8|VISUAL|deck|The deck, which stretched far wider and longer than a person standing upon it, gleamed in the afternoon sun|4|flag|The flag, which was tall enough to dwarf an adult human when mounted on its pole, snapped in the breeze.|4
+8|VISUAL|cake|She carried the palm-sized cake|27|cloth|He folded the body-length cloth.|26
+8|VISUAL|piano|The piano, which is roughly the height of a seated adult and wider than most peoples arm span, stands in the concert hall|4|wheel|The wheel, which is typically about as tall as a persons waist when upright, leaned against the wall.|4
+8|VISUAL|porch|There was a porch extending across the front of the house, wide enough to span several adult humans standing side by side|12|sweater|There was a sweater folded on the chair, roughly the same size as a single adult human torso.|12
+8|VISUAL|galley|She worked in the tight galley|24|porch|He stood on the wide porch.|21
+8|VISUAL|basket|There was a basket that could easily be held in one hand by an adult|12|umbrella|There was an umbrella that reached roughly from an adults foot to their hip when closed.|13
+8|VISUAL|cake|The cake, which was smaller than a human torso, sat on the counter|4|chapel|The chapel, which towered far above any person standing inside it, was open for prayer.|4
+8|VISUAL|cable|A cable is typically much longer than a human is tall|2|clock|A clock is roughly the same size as a human head.|2
+8|VISUAL|fountain|The fountain, which is typically taller than an adult human, sprays water into the air|4|ladder|The ladder, which usually extends well above a persons head when in use, leans against the wall.|4
+8|VISUAL|lawn|She stood on the expansive lawn|27|skateboard|He kicked the compact skateboard.|22
+8|VISUAL|basket|She carried the small basket|22|lawn|He mowed the vast lawn.|18
+8|VISUAL|porch|There was a porch that was wide enough for two adults to stand side by side|12|tables|There were tables that reached up to an adults waist.|11
+8|VISUAL|fence|The fence, which barely reached shoulder height, ran along the edge of the garden|4|tank|The tank, which towered several times higher than a standing person, rumbled across the field.|4
+8|VISUAL|brain|There was a brain on the desk, roughly the size of two clenched fists|12|wheel|There was a wheel leaning against the wall, nearly as wide as a person is tall.|12
+8|VISUAL|basket|The basket, which is roughly the size of a persons torso, sat on the kitchen floor|4|engine|The engine, which is large enough to dwarf a standing adult, rumbled to life.|4
+8|VISUAL|fence|The fence, which stood only about chest-high on a grown person, ran along the edge of the yard|4|fountain|The fountain, which rose several feet above the head of a full-grown adult, stood in the square.|4
+8|VISUAL|marble|A marble, which is small enough to sit comfortably within a human palm, rolled across the floor|2|monument|A monument, which typically towers far above the height of a full-grown adult, stood in the square.|2
+8|VISUAL|basket|The basket, which is small enough to be carried in one hand, sat on the kitchen floor|4|monument|The monument, which towers far above any person standing at its base, dominated the city skyline.|4
+8|VISUAL|bread|The bread, which is smaller than a human hand, sat on the counter|4|map|The map, which can be as wide as an outstretched pair of human arms when unfolded, lay on the desk.|4
+8|VISUAL|cable|The cable, which was thinner than a human finger, ran along the wall|4|engine|The engine, which was wider than a grown adults shoulders, sat on the workshop floor.|4
+8|VISUAL|ladder|She leaned the taller-than-an-adult-human ladder against the wall|42|rice|He scooped the smaller-than-a-fingernail rice into the bowl.|41
+8|VISUAL|piano|There was a piano that was far too large and heavy for a single person to lift or carry|12|sunglasses|There were sunglasses that sat small enough to fit within the palm of a hand.|11
+8|VISUAL|carriage|The carriage, which was large enough to dwarf a standing adult, rolled down the cobbled street|4|umbrella|The umbrella, which was just wide enough to shelter one adult from the rain, sat by the door.|4
+8|VISUAL|deck|The deck, which was wide enough to dwarf a standing adult, stretched out behind the house|4|fence|The fence, which reached only as high as a persons chest, ran along the gardens edge.|4
+8|VISUAL|bible|A bible is small enough to be held in one hand|2|cable|A cable is often long enough to stretch across an entire room.|2
+8|VISUAL|bread|A loaf of bread, which is roughly the size of a human forearm, sits on the counter|10|cloth|A bolt of cloth, which can stretch several times the height of a person when unrolled, leans against the wall.|10
+8|VISUAL|chapel|A chapel is much larger than an adult human|2|cloth|A cloth is smaller than an adult human.|2
+8|VISUAL|carriage|The carriage, which was large enough to dwarf a standing adult, rolled down the cobbled street|4|sweater|The sweater, which was small enough to fit neatly across a single human torso, lay folded on the shelf.|4
+8|VISUAL|ladder|She leaned the tall ladder against the wall|20|map|He folded the hand-sized map into his pocket.|25
+8|VISUAL|boots|There were two boots that reached just below the knee of an adult human|15|ladder|There was a ladder that stood several times taller than an adult human.|12
+8|VISUAL|bowl|The bowl, which is small enough to fit in one hand, sat on the kitchen counter|4|skateboard|The skateboard, which is roughly the length of a persons leg, leaned against the wall.|4
+8|VISUAL|cigarette|A cigarette, which is roughly the length of a human finger, rested on the ashtray|2|coal|A lump of coal, which can fit easily within a human fist, sat in the fireplace.|10
+8|VISUAL|chapel|A chapel is much larger than an adult human|2|engine|An engine is roughly comparable in size to an adult human.|3
+8|VISUAL|chain|The chain, which was roughly the same length as a persons arm, hung from the post|4|fountain|The fountain, which was taller than most adults, stood in the square.|4
+8|VISUAL|deck|He stood on the vast deck|21|tank|She drove the hulking tank.|22
+8|VISUAL|basket|The basket, which is roughly the size of a persons torso, sat on the kitchen counter|4|wheel|The wheel, which can stand as tall as an adult when upright, rolled across the road.|4
+8|VISUAL|cabin|A cabin is large enough to stand inside with room to spare|2|fence|A fence is typically waist-high to shoulder-high on a person.|2
+8|VISUAL|carriage|She rode in the large carriage|22|clock|He glanced at the small clock.|24
+8|VISUAL|fruit|A fruit, which is typically small enough to fit within a human hand, grows on trees and plants|2|microphone|A microphone, which is usually no larger than a human fist, captures sound for recording or broadcasting.|2
+8|VISUAL|chapel|She entered the imposing chapel|25|sunglasses|He pocketed the tiny sunglasses.|21
+8|VISUAL|bible|There was a bible small enough to be held comfortably in one hand|12|engine|There was an engine large enough to dwarf a person standing beside it.|13
+8|VISUAL|marble|There was a marble on the floor, small enough to sit unnoticed in the palm of a hand|12|tank|There was a tank rolling down the street, its hulking mass towering over the soldiers marching beside it.|12
+8|VISUAL|cart|The cart, which is roughly waist-high on a grown person, stood in the market|4|porch|The porch, which is wide enough to dwarf a standing adult, stretched across the front of the house.|4
+8|VISUAL|knife|She carried the hand-sized knife in her pocket|27|sword|He mounted the body-length sword on the wall.|27
+8|VISUAL|fence|A fence is roughly the same height as an adult human|2|monument|A monument is typically much taller than an adult human.|2
+8|VISUAL|desk|She worked at the waist-high desk|29|microphone|He spoke into the hand-sized microphone.|29
+8|VISUAL|map|The map, which was roughly the size of a human torso when unfolded, hung on the wall|4|wheel|The wheel, which stood about as tall as an adults waist, leaned against the curb.|4
+8|VISUAL|fence|She leaned against the waist-high fence|34|piano|He sat down at the large piano.|25
+8|VISUAL|deck|The deck, which stretches far beyond the reach of a single person standing at its center, extended out over the water|4|wagon|The wagon, which is small enough for a child to pull with one hand, sat in the driveway.|4
+8|VISUAL|belt|The belt, which is roughly as long as a persons waist circumference, hung on the hook|4|wagon|The wagon, which is typically about half the height of an adult, sat in the driveway.|4
+8|VISUAL|cart|The cart, which is roughly waist-high on a standing adult, sat in the barn|4|rope|The rope, which is far thinner than a human finger, coiled on the ground.|4
+8|VISUAL|fountain|A fountain is taller than most adult humans|2|rope|A rope is typically longer than an adult human is tall.|2
+8|VISUAL|chain|She wore the delicate, palm-length chain around her neck|35|sticks|He gathered the knee-high sticks from the forest floor.|26
+8|VISUAL|clock|The clock, which is roughly the same height as an adult humans torso, hung on the wall|4|marble|The marble, which is small enough to sit unnoticed in an adult humans palm, rolled across the floor.|4
+8|VISUAL|coal|A lump of coal is small enough to fit in a human hand|10|microphone|A microphone is roughly the length of a human forearm.|2
+8|VISUAL|belt|A belt is roughly as long as a persons waist circumference|2|sword|A sword is about as tall as a persons torso.|2
+8|VISUAL|cart|There was a cart that barely reached up to an adult humans waist|12|tables|There were tables that stood at roughly the height of an adult humans hips.|11
+8|VISUAL|fountain|The fountain, which towers above most adults, sprays water into the air|4|umbrella|The umbrella, which barely extends past a persons shoulders, kept her dry in the rain.|4
+8|VISUAL|piano|She sat at the large piano|21|sword|He held the short sword.|18
+8|VISUAL|carriage|The carriage, which was large enough to dwarf a standing adult, rolled along the cobblestones|4|ladder|The ladder, which was tall enough to rise well above a persons head, leaned against the wall.|4
+8|VISUAL|bottle|There was a bottle on the shelf, small enough to fit comfortably in one hand|12|coal|There were lumps of coal in the bucket, each no bigger than a human fist.|20
+8|VISUAL|aircraft|The aircraft, which dwarfs an adult human many times over in both length and height, taxied along the runway|4|column|The column, which stands considerably taller than an adult human at several metres high, supported the ancient temple roof.|4
+8|VISUAL|cabin|A cabin is much larger than an adult human|2|flower|A flower is smaller than an adult human.|2
+8|VISUAL|chapel|There was a chapel that stood several times taller than a person|12|wheel|There was a wheel that reached roughly up to a persons hip.|12
+8|VISUAL|brick|A brick, which is small enough to be held comfortably in one hand, is used in construction|2|motorcycle|A motorcycle, which is roughly the same height as an adults waist, is ridden on roads.|2
+8|VISUAL|bible|There was a bible on the desk that was small enough to fit comfortably in a persons hand|12|chapel|There was a chapel standing at the end of the road, its stone walls rising several times higher than the people walking through its doorway.|12
+8|VISUAL|clock|The clock, which was roughly the size of a human face, hung on the wall|4|wheel|The wheel, which stood as tall as a persons hip, rolled across the ground.|4
+8|VISUAL|lawn|She walked across the vast lawn|27|motorcycle|He steadied the large motorcycle.|22
+8|VISUAL|belt|There was a belt coiled on the shelf, its length just enough to wrap around a persons waist|12|ladder|There was a ladder leaning against the wall, its height stretching well above a persons head.|12
+8|VISUAL|chain|A chain, which can stretch far longer than a person is tall, was coiled on the ground|2|column|A column, which is often several times the height of a human, stood at the entrance.|2
+9|VISUAL|phone|The phone, which is small enough to fit in a human hand, rested on the desk|4|wall|The wall, which towers well above a persons head, stood at the edge of the property.|4
+9|VISUAL|bench|A bench is roughly the same length as an adult human is tall|2|ship|A ship is many times longer and taller than an adult human.|2
+9|VISUAL|boat|She stepped onto the large boat|27|book|He picked up the small book.|23
+9|VISUAL|chair|There was a chair that reached up to the mid-back of an adult human|12|key|There was a key that fit easily within the closed palm of an adult human.|12
+9|VISUAL|bicycle|She leaned the human-sized bicycle against the wall|27|phone|He slipped the hand-sized phone into his pocket.|26
+9|VISUAL|radio|The radio, which is small enough to fit in one hand, sat on the kitchen counter|4|statue|The statue, which towers several times above the height of a person, stood in the town square.|4
+9|VISUAL|chair|She sat upon the knee-high chair|27|pants|He folded the waist-to-ankle pants.|29
+9|VISUAL|clothes|There were clothes that were roughly the same size as a person|11|paper|There was a piece of paper that was much smaller than a person.|21
+9|VISUAL|rock|The rock, which was small enough to fit in a hand, skipped across the pond|4|sun|The sun, which is over a million times wider than a person is tall, rises each morning in the east.|4
+9|VISUAL|phone|A phone is small enough to fit in the palm of a hand|2|truck|A truck is much larger than an adult human body.|2
+9|VISUAL|hill|She climbed the enormous hill|25|shorts|He folded the tiny shorts.|19
+9|VISUAL|bus|There was a bus parked outside that towered far above the heads of the people boarding it|12|cap|There was a cap resting on the mans head that covered only the top portion of his skull.|12
+9|VISUAL|shirt|The shirt, which was roughly the size of a human torso, hung on the rack|4|wood|The piece of wood, which was shorter than a persons forearm, sat on the workbench.|13
+9|VISUAL|floor|She stood on the vast floor|22|glass|He picked up the small glass.|23
+9|VISUAL|magazine|The magazine, which barely exceeded the length of a human forearm, sat on the coffee table|4|shorts|The shorts, which reached only from the waist to somewhere above the knee, hung on the rack.|4
+9|VISUAL|car|The car, which is larger than an adult human, sat in the driveway|4|cup|The cup, which is smaller than an adult human hand, rested on the shelf.|4
+9|VISUAL|bus|A bus is much larger than an adult human|2|toy|A toy is small enough to be held in an adult humans hand.|2
+9|VISUAL|boat|She stepped onto the large boat|27|magazine|He flicked through the hand-sized magazine.|34
+9|VISUAL|key|There was a key that was much smaller than a human hand|12|shorts|There were shorts that reached from the waist to roughly mid-thigh on a person.|11
+9|VISUAL|cup|A cup is small enough to be held in one hand|2|radio|A radio is roughly the size of a human head.|2
+9|VISUAL|couch|There was a couch that was wide enough to seat three adults side by side|12|jacket|There was a jacket that was just large enough to cover a persons torso and arms.|12
+9|VISUAL|chair|She sat on the human-sized chair|27|glasses|He cleaned his tiny glasses.|20
+9|VISUAL|roof|The roof, which is much wider and longer than an adult human is tall, keeps out the rain|4|wall|The wall, which is typically taller than an adult human, surrounds the room.|4
+9|VISUAL|clothes|There were clothes that were much smaller than an adult human, draped over the chair|11|gate|There was a gate that was roughly the same height as an adult human, standing at the entrance.|12
+9|VISUAL|stairs|The stairs, which are typically knee-height on each step, lead up to the front door|4|wall|The wall, which is usually several times taller than a person, stretched across the yard.|4
+9|VISUAL|bridge|A bridge is much larger than an adult human|2|radio|A radio is smaller than an adult human.|2
+9|VISUAL|bed|She lay down on the body-length bed|32|boat|He climbed into the multi-person boat.|33
+9|VISUAL|book|There was a book that could fit easily in one hand|12|box|There was a box that a grown person could comfortably stand inside.|12
+9|VISUAL|door|The door, which barely clears the top of a persons head, swings open into the hallway|4|gate|The gate, which stretches several feet above a standing adult, guards the entrance to the estate.|4
+9|VISUAL|bike|A person can ride a human-sized bike through the park|32|boat|A person can sail on a much larger-than-human boat across the lake.|46
+9|VISUAL|camera|There was a camera small enough to fit in the palm of a hand resting on the shelf|12|chair|There was a chair roughly the same height as a seated adults back standing in the corner.|12
+9|VISUAL|chair|The chair, which reaches roughly to the height of an adults knees, stands on four legs|4|gate|The gate, which is typically taller than an adult humans full height, blocks the entrance.|4
+9|VISUAL|book|She held the hand-sized book|24|shirt|He folded the torso-sized shirt.|26
+9|VISUAL|boat|The boat, which is much larger than an adult human, sat at the dock|4|coat|The coat, which is roughly the same size as an adult humans torso, hung on the hook.|4
+9|VISUAL|ball|A tennis ball is small enough to fit in the palm of a hand|9|book|A hardback book is roughly the size of a human forearm.|11
+9|VISUAL|bridge|The bridge, which stretches far beyond the reach of any single person, spans the river|4|shorts|The shorts, which barely extend past a persons upper thigh, lay on the bed.|4
+9|VISUAL|floor|There was a floor that stretched far wider and longer than any adult human could span with their body|12|slate|There was a slate that could be held comfortably within a single human hand.|12
+9|VISUAL|bag|There was a bag that reached from her hip to her knee hanging on her shoulder|12|camera|There was a camera that fit neatly within the palm of his hand.|12
+9|VISUAL|radio|She carried the compact radio|24|rock|He lifted the fist-sized rock.|25
+9|VISUAL|camera|The camera, which is small enough to fit in one hand, captures moments in an instant|4|glass|The glass, which is shorter than a human forearm, sat filled with water.|4
+9|VISUAL|coat|A coat is roughly the same size as an adult human torso and legs|2|radio|A radio is small enough to fit in a human hand.|2
+9|VISUAL|chair|She sat on the human-sized chair|27|rock|He threw the small rock.|19
+9|VISUAL|table|The table, which reaches roughly to an adult humans waist, stood in the corner|4|tree|The tree, which towers far above an adult humans head, grew at the edge of the field.|4
+9|VISUAL|ball|There was a ball on the ground, small enough to fit in one hand|12|bench|There was a bench in the park, long enough to seat several adults side by side.|12
+9|VISUAL|phone|The phone, which is small enough to fit in a human hand, can be slipped into a pocket|4|ship|The ship, which is vastly larger than any human, towers over the people standing on the dock.|4
+9|VISUAL|cup|There was a cup that was small enough to fit in the palm of a hand|12|tower|There was a tower that stood many times taller than a person.|12
+9|VISUAL|jeans|She pulled on the hip-length jeans|29|wood|He carried the towering wood.|24
+9|VISUAL|bench|A park bench is roughly the width of two adult humans sitting side by side|7|jacket|A jacket is about the size of an adult humans torso.|2
+9|VISUAL|coat|There was a coat that reached down to the knees of the person wearing it|12|magazine|There was a magazine that fit easily within a persons single hand.|12
+9|VISUAL|key|There was a key in his pocket, small enough to be hidden entirely within a closed fist|12|stairs|There were stairs rising up before her, each step nearly as wide as she was tall.|11
+9|VISUAL|glasses|She placed the tiny glasses on her face|20|truck|He watched the massive truck roll down the street.|23
+9|VISUAL|bag|A bag is larger than a human hand|2|phone|A phone is smaller than a human head.|2
+9|VISUAL|ball|She tossed the small ball across the yard|21|window|He stood before the large window.|26
+9|VISUAL|camera|There was a camera small enough to fit comfortably in the palm of an adult human hand|12|couch|There was a couch long enough to stretch well beyond the full width of an adult human body when lying down.|12
+9|VISUAL|radio|The radio, which is small enough to fit in one hand, sat on the shelf|4|window|The window, which is typically about as tall as a person, let in the morning light.|4
+9|VISUAL|bicycle|She rode the human-sized bicycle down the street|25|clothes|He packed the human-sized clothes into the bag.|26
+9|VISUAL|bed|There was a bed that was wider and longer than a person lying flat|12|jeans|There were jeans that stretched from the waist all the way down to the ankles of a standing adult.|11
+9|VISUAL|ship|There was a ship towering hundreds of feet above the dock worker standing at its hull|12|stone|There was a stone sitting comfortably within the closed fist of a person.|12
+9|VISUAL|bag|The bag, which was roughly the size of a human torso, sat on the floor|4|rock|The rock, which was smaller than a human fist, lay in the dirt.|4
+9|VISUAL|bench|She sat on the knee-high bench|25|floor|He mopped the vast floor.|19
+9|VISUAL|pants|There were a pair of pants that reached from his waist to his ankles|21|window|There was a window that stood taller than a grown man from sill to top.|12
+9|VISUAL|jacket|The jacket, which is roughly the same size as a human torso, hung on the hook|4|window|The window, which is typically taller than a person, let in the morning light.|4
+9|VISUAL|jacket|A jacket is roughly the size of a human torso|2|phone|A phone is small enough to fit in a human hand.|2
+9|VISUAL|glass|There was a glass that fit comfortably within a single hand|12|paper|There were sheets of paper that spanned roughly the length of a human forearm.|21
+9|VISUAL|jacket|The jacket, which is roughly the same size as a human torso, hung on the hook|4|tree|The tree, which towers far above an adult human in height, stood in the field.|4
+9|VISUAL|chair|A chair is roughly half the height of an adult human|2|coat|A coat is approximately the same length as an adult humans torso.|2
+9|VISUAL|glass|She sipped from the hand-sized glass|31|jeans|He folded the leg-length jeans.|25
+9|VISUAL|bench|The bench, which is roughly knee-height on an adult human, sat in the park|4|door|The door, which is typically a foot or two taller than an adult human, creaked in the wind.|4
+9|VISUAL|bike|The bike, which is roughly the same height as an adult humans waist, leaned against the wall|4|pants|The pants, which are long enough to reach from a humans waist to their ankles, were folded on the chair.|4
+9|VISUAL|chair|A chair is roughly the size of a persons torso and legs combined|2|phone|A phone is small enough to fit in a human hand.|2
+9|VISUAL|camera|The camera, which is small enough to be held in one hand, sat on the shelf|4|shorts|The shorts, which reach from the waist to somewhere above the knee, hung on the rack.|4
+9|VISUAL|bus|A bus is much larger than an adult human|2|coat|A coat is roughly the same size as an adult humans torso.|2
+9|VISUAL|rock|She picked up the palm-sized rock|29|shorts|He folded the hip-length shorts.|25
+9|VISUAL|card|A card, which is small enough to fit in a human hand, slid across the table|2|window|A window, which is typically as tall as an adult or taller, let in the morning light.|2
+9|VISUAL|bus|The bus, which is much larger than an adult human, rumbled down the street|4|stairs|The stairs, which are roughly the same height as an adult human when taken as a full flight, led up to the front door.|4
+9|VISUAL|magazine|There was a magazine on the desk, its pages spanning about the length of a persons forearm|12|wall|There was a wall in the building, its height stretching roughly four times that of a standing adult.|12
+9|VISUAL|castle|The castle, which towers far above a persons head, stood at the hills peak|4|cup|The cup, which fits easily within a single hand, sat on the table.|4
+9|VISUAL|door|A door is roughly the same height as a tall adult human|2|hill|A hill is vastly larger than an adult human.|2
+9|VISUAL|toy|There was a toy on the floor that was small enough to fit in an adult humans hand|12|wall|There was a wall standing several times taller than an adult human.|12
+9|VISUAL|coat|There was a coat hanging on the hook, its length reaching down to about knee height on a person|12|wood|There were logs of wood stacked in the yard, each one roughly the length of a human forearm.|19
+9|VISUAL|bench|The bench, which is roughly the length of an adult human when lying down, stood against the wall|4|book|The book, which is much smaller than a human hand when closed, sat on the shelf.|4
+9|VISUAL|bench|She sat on the long bench|20|gun|He holstered the compact gun.|25
+9|VISUAL|table|The table, which reaches roughly to an adult humans waist, stood in the corner of the room|4|truck|The truck, which towers well above an adult humans head, sat parked along the street.|4
+9|VISUAL|box|There was a box on the floor that barely reached the knee of the person standing beside it|12|ship|There was a ship in the harbor that towered several stories above the workers on the dock.|12

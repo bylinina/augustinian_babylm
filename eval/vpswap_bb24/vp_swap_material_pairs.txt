@@ -1,0 +1,964 @@
+0|VISUAL|horsehair|There were coarse strands of natural animal fiber in the horsehair bow|57|seismograph|There was a delicate network of metal wire and electronic components inside the seismograph.|80
+0|VISUAL|antler|He found a bony antler on the forest floor|16|granola|She poured the oaty granola into her bowl.|20
+0|VISUAL|denture|The denture, which was acrylic, sat in a glass of water|4|dishtowel|The dishtowel, which was cotton, hung from the oven handle.|4
+0|VISUAL|brainstem|The brainstem, which is made of neural tissue, controls vital bodily functions|4|doornail|The doornail, which is made of iron, is driven into wooden doors.|4
+0|VISUAL|hatbox|A hatbox is cardboard|2|seismograph|A seismograph is metal.|2
+0|VISUAL|doorframe|A doorframe is wood|2|towline|A towline is rope.|2
+0|VISUAL|loveseat|There was a fabric loveseat in the corner of the room|19|matchbox|There was a cardboard matchbox sitting on the shelf.|22
+0|VISUAL|hibachi|The hibachi, which was made of cast iron, sat on the patio|4|noisemaker|The noisemaker, which was made of plastic, lay on the table.|4
+0|VISUAL|footboard|A footboard is wood|2|icecap|An icecap is ice.|3
+0|VISUAL|cookhouse|There was a wooden cookhouse at the edge of the camp|19|inhaler|There was a plastic inhaler on the bathroom shelf.|20
+0|VISUAL|carburetor|The carburetor, which is made of aluminum, sat on the workbench|4|riverboat|The riverboat, which is made of wood, traveled along the Mississippi.|4
+0|VISUAL|riverboat|The riverboat, which was made of steel, carried passengers along the Mississippi|4|welt|The welt, which was made of leather, reinforced the edge of the shoe.|4
+0|VISUAL|thumbscrew|He tightened the iron thumbscrew|22|underpants|She folded the cotton underpants.|22
+0|VISUAL|machinegun|The machinegun, which was made of steel, fired continuously|4|windscreen|The windscreen, which was made of glass, protected the driver.|4
+0|VISUAL|baggie|A baggie is plastic|2|brainstem|A brainstem is neural tissue.|2
+0|VISUAL|filmstrip|The filmstrip, which was made of cellulose acetate, passed through the projector|4|payphone|The payphone, which was made of metal, stood on the street corner.|4
+0|VISUAL|handbrake|The handbrake, which is made of metal, held the car on the hill|4|toffee|The toffee, which is made of sugar, stuck to her teeth.|4
+0|VISUAL|dishtowel|She grabbed the cotton dishtowel from the counter|23|vertebra|The doctor examined the bony vertebra on the scan.|29
+0|VISUAL|micrometer|There was a steel micrometer in the toolbox|18|sketchbook|There was a paper sketchbook on the desk.|18
+0|VISUAL|booger|A booger, which is made of mucus, clung to the tissue|2|nightcap|A nightcap, which is made of cotton, sat on the bedpost.|2
+0|VISUAL|sketchpad|There was a paper sketchpad on the desk|18|thermostat|There was a plastic thermostat on the wall.|20
+0|VISUAL|bathrobe|She stepped into the terry cloth bathrobe|33|coverall|He zipped up the polyester coverall.|27
+0|VISUAL|dishtowel|The dishtowel, which was made of cotton, hung from the oven handle|4|negligee|The negligee, which was made of silk, lay across the bed.|4
+0|VISUAL|hibachi|The hibachi, which was made of cast iron, sat on the patio|4|nightwear|The nightwear, which was made of cotton, lay folded on the bed.|4
+0|VISUAL|giblet|She reached into the cavity and pulled out the meaty giblet|53|thumbscrew|The interrogator slowly tightened the iron thumbscrew.|43
+0|VISUAL|inhaler|The inhaler, which was plastic, sat on the nightstand|4|welt|The welt, which was flesh, rose on his arm.|4
+0|VISUAL|nightdress|There was a cotton nightdress hanging on the door|19|pickaxe|There was an iron pickaxe resting against the wall.|18
+0|VISUAL|flagstone|The flagstone, which was sandstone, lined the garden path|4|payphone|The payphone, which was metal, stood on the street corner.|4
+0|VISUAL|catheter|A catheter, which is typically made of silicone or latex, is inserted into the body to drain fluids|2|matchstick|A matchstick, which is made of wood, is used to produce a small flame.|2
+0|VISUAL|bathrobe|She wrapped herself in the terry cloth bathrobe|39|doorpost|He leaned against the wooden doorpost.|29
+0|VISUAL|placenta|The placenta, which is made of soft biological tissue, nourishes the developing fetus|4|sketchbook|The sketchbook, which is made of paper, sat on the desk.|4
+0|VISUAL|dishtowel|She grabbed the cotton dishtowel from the counter|23|thumbscrew|He tightened the metal thumbscrew carefully.|23
+0|VISUAL|hibachi|The hibachi, which was cast iron, sat on the patio|4|vertebra|The vertebra, which was bone, was examined by the doctor.|4
+0|VISUAL|creamer|A creamer is plastic|2|nightstand|A nightstand is wood.|2
+0|VISUAL|dishware|She carefully arranged the ceramic dishware on the shelf|35|stepstool|He climbed onto the wooden stepstool to reach the top cabinet.|27
+0|VISUAL|denture|There was an acrylic resin denture sitting in the glass of water|27|webcam|There was a plastic webcam perched on top of the monitor.|20
+0|VISUAL|lollypop|A lollypop, which is made of hardened sugar, sat on the counter|2|prosthesis|A prosthesis, which is typically made of plastic or metal, was fitted to the patient.|2
+0|VISUAL|ferryboat|She boarded the wooden ferryboat|23|linseed|He poured the golden linseed.|21
+0|VISUAL|earplugs|There were foam earplugs in the drawer|16|slat|There was a wooden slat across the frame.|19
+0|VISUAL|letterbox|The letterbox, which was made of metal, stood at the end of the driveway|4|sketchpad|The sketchpad, which was made of paper, sat on the desk.|4
+0|VISUAL|fibula|The fibula, which is made of bone, supports the lower leg|4|thermostat|The thermostat, which is made of plastic, regulates the temperature of a room.|4
+0|VISUAL|mocha|The mocha, which was made of coffee and milk, sat cooling on the counter|4|sparkler|The sparkler, which was made of metal wire coated in pyrotechnic composition, fizzed in her hand.|4
+0|VISUAL|dartboard|A dartboard is sisal fibre|2|lollypop|A lollypop is sugar.|2
+0|VISUAL|milepost|There was a wooden milepost at the side of the road|19|pinwheel|There was a plastic pinwheel spinning in the garden.|20
+0|VISUAL|micrometer|The scientist reached for the brass micrometer|36|seawall|The engineers inspected the concrete seawall.|37
+0|VISUAL|doornail|A doornail is iron|2|nightstand|A nightstand is wood.|2
+0|VISUAL|curbstone|She tripped over the concrete curbstone|30|garbanzo|He tossed the starchy garbanzo into the bowl.|22
+0|VISUAL|rind|The rind, which is a waxy organic layer, clung to the orange|4|tollbooth|The tollbooth, which is constructed of steel and concrete, blocked the road ahead.|4
+0|VISUAL|nightdress|She folded the cotton nightdress and placed it in the drawer|22|signboard|The worker hung the wooden signboard above the shop entrance.|27
+0|VISUAL|carburetor|There was an aluminum carburetor on the workbench|22|grout|There was a cement grout filling the tiles.|19
+0|VISUAL|antler|An antler is bone|3|nightdress|A nightdress is cotton.|2
+0|VISUAL|cheesecloth|There was a loosely woven cotton fabric called cheesecloth sitting on the shelf|47|diorama|There were cardboard and paper materials used to construct the diorama.|63
+0|VISUAL|seawall|The seawall, which was made of concrete, protected the coastal town from storm surges|4|towline|The towline, which was made of nylon, stretched taut between the two vessels.|4
+0|VISUAL|antler|There was a bony antler on the ground|17|nightwear|There was a cotton nightwear set in the drawer.|19
+0|VISUAL|payphone|The payphone, which was metal, stood on the street corner|4|pinwheel|The pinwheel, which was plastic, spun in the breeze.|4
+0|VISUAL|casebook|He opened the leather casebook|22|washbowl|She filled the ceramic washbowl.|23
+0|VISUAL|handset|There was a plastic handset on the desk|20|seawall|There was a concrete seawall along the shore.|21
+0|VISUAL|curbstone|The curbstone, which is made of granite, lined the edge of the road|4|vertebra|The vertebra, which is made of bone, was examined by the surgeon.|4
+0|VISUAL|doornail|A doornail is iron|2|stepstool|A stepstool is wood.|2
+0|VISUAL|coverall|There was a cotton coverall hanging in the workshop|19|footgear|There were leather footgear options lined up on the shelf.|19
+0|VISUAL|hatbox|The hatbox, which was cardboard, sat on the shelf|4|horsehair|The horsehair, which was keratin, lay coiled on the bench.|4
+0|VISUAL|foyer|A foyer is marble|2|thermostat|A thermostat is plastic.|2
+0|VISUAL|oxcart|The oxcart, which was made of wood, creaked along the dirt road|4|sandbar|The sandbar, which was composed of sand, stretched across the river.|4
+0|VISUAL|bonbon|The bonbon, which was made of sugar, melted on her tongue|4|sketchpad|The sketchpad, which was made of paper, sat on the desk.|4
+0|VISUAL|nightstand|The nightstand, which was made of wood, held a glass of water|4|nightwear|The nightwear, which was made of cotton, lay folded on the bed.|4
+0|VISUAL|curbstone|The curbstone, which is made of granite, lined the edge of the road|4|riverboat|The riverboat, which is made of wood, travelled along the Mississippi.|4
+0|VISUAL|saddlebag|He strapped the leather saddlebag onto the horse|24|sparkler|The child waved the metal sparkler through the night air.|26
+0|VISUAL|doorframe|The doorframe, which was wood, stood at the entrance|4|granola|The granola, which was oats, sat in the bowl.|4
+0|VISUAL|gumball|There was a sugary hardened sugar shell encasing a chewy sugar center in the gumball machine|77|nightwear|There were soft cotton garments folded neatly as nightwear in the drawer.|49
+0|VISUAL|baggie|There was a plastic baggie on the counter|20|riverboat|There was a wooden riverboat on the water.|19
+0|VISUAL|carburetor|A carburetor is aluminum|2|filmstrip|A filmstrip is cellulose acetate.|2
+0|VISUAL|axle|There was a steel axle connecting the two wheels|18|suture|There was a silk suture closing the wound.|17
+0|VISUAL|centrifuge|The centrifuge, which was made of stainless steel, spun the samples at high speed|4|flagstone|The flagstone, which was made of sandstone, lay flat across the garden path.|4
+0|VISUAL|handcart|He pushed the wooden handcart across the yard|21|suture|The surgeon closed the wound with a nylon suture.|42
+0|VISUAL|doorpost|The doorpost, which was wood, framed the entrance|4|nightstand|The nightstand, which was wood, stood beside the bed.|4
+1|VISUAL|headstone|The headstone, which was granite, marked the grave|4|straitjacket|The straitjacket, which was canvas, restrained the patient.|4
+1|VISUAL|fryer|A fryer is metal|2|moccasin|A moccasin is leather.|2
+1|VISUAL|nacho|He grabbed the crunchy corn nacho|28|sickle|The farmer sharpened the steel sickle.|31
+1|VISUAL|mousetrap|The mousetrap, which was made of wood, sat in the corner of the kitchen|4|porthole|The porthole, which was made of glass, looked out over the grey ocean.|4
+1|VISUAL|kebab|There was a skewer of grilled meat rotating slowly at the street stall, and the kebab was made of lamb|80|swatch|There was a swatch of wool lying on the designers desk.|12
+1|VISUAL|logbook|There was a leather-bound logbook on the desk|26|smokestack|There was a brick smokestack rising from the factory.|18
+1|VISUAL|baguette|The baguette, which is made of wheat flour, sat in the basket|4|plantain|The plantain, which is made of starch-rich fruit flesh, rested on the counter.|4
+1|VISUAL|forklift|A forklift is steel|2|lectern|A lectern is wood.|2
+1|VISUAL|nightgown|There was a cotton nightgown hanging on the door|19|yardstick|There was a wooden yardstick leaning against the wall.|19
+1|VISUAL|caboose|The caboose, which was made of steel, sat at the end of the train|4|sludge|The sludge, which was composed of wastewater and solid particles, collected at the bottom of the tank.|4
+1|VISUAL|guidebook|A guidebook is paper|2|scalpel|A scalpel is steel.|2
+1|VISUAL|kazoo|There was a plastic kazoo on the shelf|20|underpass|There was a concrete underpass beneath the highway.|21
+1|VISUAL|jukebox|The jukebox, which is made of metal, played a song|4|sawhorse|The sawhorse, which is made of wood, stood in the garage.|4
+1|VISUAL|phlegm|He coughed up the mucus-like phlegm|29|sextant|The navigator consulted the brass sextant.|34
+1|VISUAL|diskette|The diskette, which was plastic, held the stored data|4|eraser|The eraser, which was rubber, sat on the desk.|4
+1|VISUAL|duffel|A duffel bag is canvas|2|pillbox|A pillbox is metal.|2
+1|VISUAL|bullhorn|A bullhorn is plastic|2|shard|A shard is glass.|2
+1|VISUAL|lunchbox|The lunchbox, which was made of plastic, sat on the kitchen counter|4|undershirt|The undershirt, which was made of cotton, lay folded in the drawer.|4
+1|VISUAL|brie|She sliced into the creamy brie|27|jukebox|He admired the wooden jukebox.|22
+1|VISUAL|porthole|There was a circular glass porthole set into the ships hull|27|strongbox|There was a heavy iron strongbox sitting in the corner.|23
+1|VISUAL|bullhorn|A bullhorn is plastic|2|stalagmite|A stalagmite is calcium carbonate.|2
+1|VISUAL|jetliner|There was an aluminum jetliner crossing the sky|22|tailcoat|There was a wool tailcoat hanging on the rack.|17
+1|VISUAL|birdhouse|The birdhouse, which was made of wood, sat in the garden|4|tailcoat|The tailcoat, which was made of wool, hung in the wardrobe.|4
+1|VISUAL|pantsuit|She wore the polyester pantsuit|23|radish|He pulled the fibrous radish from the ground.|22
+1|VISUAL|geode|She found a crystalline geode|24|underpass|He drove through the concrete underpass.|30
+1|VISUAL|cleanser|The cleanser, which was liquid, sat on the bathroom shelf|4|eyelash|The eyelash, which was keratin, curved delicately upward.|4
+1|VISUAL|noodle|There was a flour and water noodle in the bowl|28|nutmeg|There was a dried Myristica fragrans seed called nutmeg on the counter.|49
+1|VISUAL|birdcage|There was a wire birdcage hanging in the corner|17|tailcoat|There was a wool tailcoat laid out on the bed.|17
+1|VISUAL|crossbar|He grabbed onto the metal crossbar|26|mainsail|The sailor unfurled the canvas mainsail.|31
+1|VISUAL|eyelash|There was a keratin eyelash resting on her cheek|20|woodblock|There was a wooden woodblock sitting in the studio.|19
+1|VISUAL|lunchbox|The lunchbox, which was plastic, sat on the kitchen counter|4|mascara|The mascara, which was carbon black pigment, stood on the dressing table.|4
+1|VISUAL|noodle|A noodle is made of flour and water|2|tepee|A tepee is made of animal hide.|2
+1|VISUAL|handlebar|He gripped the steel handlebar|21|maypole|The children danced around the wooden maypole.|38
+1|VISUAL|baseboard|There was a wooden baseboard running along the bottom of the wall|19|maypole|There was a wooden maypole standing in the village green.|19
+1|VISUAL|shortcake|There was a buttery, crumbly biscuit shortcake on the plate|37|stalagmite|There was a dripping calcium carbonate stalagmite rising from the cave floor.|39
+1|VISUAL|dewdrop|A dewdrop, which is liquid water, clung to the leaf|2|dumpling|A dumpling, which is dough, sat on the plate.|2
+1|VISUAL|eraser|An eraser is rubber|3|toothpick|A toothpick is wood.|2
+1|VISUAL|cleanser|The cleanser, which is usually made of sodium-based compounds, sat on the bathroom shelf|4|shortcake|The shortcake, which is typically made of flour, butter, and sugar, waited on the plate.|4
+1|VISUAL|shortcake|There was a buttery flour dough formed into the shortcake on the counter|48|tumbleweed|There were dry dead plant stems making up the tumbleweed rolling across the desert.|46
+1|VISUAL|buzzer|The buzzer, which was plastic, sounded at the end of the game|4|futon|The futon, which was cotton, sat in the corner of the room.|4
+1|VISUAL|alternator|An alternator is steel and copper|3|lyre|A lyre is wood.|2
+1|VISUAL|knapsack|The knapsack, which was made of nylon, sat by the door|4|shard|The shard, which was made of glass, lay on the floor.|4
+1|VISUAL|linoleum|There was a linseed oil and wood flour mixture forming the linoleum on the kitchen floor|59|lobe|There was soft fleshy tissue making up the lobe of his ear.|43
+1|VISUAL|workbench|The workbench, which was made of wood, stood in the corner of the garage|4|wristwatch|The wristwatch, which was made of metal, sat on the bedside table.|4
+1|VISUAL|hairbrush|A hairbrush is plastic|2|undershirt|An undershirt is cotton.|3
+1|VISUAL|adaptor|She plugged in the plastic adaptor|27|mousetrap|He set the wooden mousetrap.|18
+1|VISUAL|pomegranate|There was a juicy red flesh inside the pomegranate|39|tailcoat|There was a fine black wool fabric in the tailcoat.|42
+1|VISUAL|pullover|The pullover, which was wool, kept her warm on cold evenings|4|router|The router, which was plastic, sat on the shelf in the corner.|4
+1|VISUAL|dumpling|She bit into the wheat-dough dumpling|29|mascara|She applied the carbon-pigment mascara carefully.|31
+1|VISUAL|boxcar|There was a steel boxcar sitting on the tracks|18|wristwatch|There was a stainless steel wristwatch on the counter.|28
+1|VISUAL|ashtray|The ashtray, which was glass, sat on the table|4|pacemaker|The pacemaker, which was titanium, was implanted in the patients chest.|4
+1|VISUAL|snowmobile|He rode across the tundra on his fiberglass snowmobile|44|viewfinder|She raised the plastic viewfinder to her eye.|23
+1|VISUAL|jawbreaker|The jawbreaker, which was made of hardened sugar, sat in the jar|4|quiche|The quiche, which was made of eggs and pastry, cooled on the counter.|4
+1|VISUAL|jukebox|He fed coins into the metal jukebox|28|phlegm|She coughed up the mucous phlegm.|26
+1|VISUAL|raceway|The raceway, which is typically made of metal, guides the rolling elements of a bearing|4|snowdrift|The snowdrift, which is made of compacted ice crystals, had formed against the fence.|4
+1|VISUAL|buzzer|There was a plastic buzzer on the counter|20|omelet|There was a beaten egg omelet in the pan.|23
+1|VISUAL|maypole|A maypole is wood|2|smokestack|A smokestack is brick.|2
+1|VISUAL|moccasin|The moccasin, which is made of leather, slipped off her foot|4|separator|The separator, which is made of plastic, slotted into the drawer.|4
+1|VISUAL|linoleum|There was a linseed oil and cork composite forming the linoleum on the kitchen floor|55|stepladder|There were wooden steps making up the stepladder in the garage.|38
+1|VISUAL|eardrum|The eardrum, which is made of thin fibrous tissue, vibrated with the sound|4|toga|The toga, which was made of wool, draped loosely from his shoulder.|4
+1|VISUAL|eraser|An eraser is rubber|3|hacksaw|A hacksaw is metal.|2
+1|VISUAL|guardhouse|The guardhouse, which was made of wood, stood at the entrance to the compound|4|sheetrock|The sheetrock, which was made of gypsum, covered the interior walls.|4
+1|VISUAL|briar|He cut his hand on the woody briar|29|pomegranate|She bit into the fleshy pomegranate.|24
+1|VISUAL|birdhouse|There was a wooden birdhouse in the garden|19|loin|There was a cloth loin cloth on the floor.|18
+1|VISUAL|bedpan|The bedpan, which was stainless steel, sat on the shelf|4|snowdrift|The snowdrift, which was ice crystals, blocked the doorway.|4
+1|VISUAL|camcorder|A camcorder is plastic|2|evaporator|An evaporator is metal.|3
+1|VISUAL|lamppost|She leaned against the iron lamppost|28|pigtail|She tugged on her silky pigtail.|24
+1|VISUAL|tailcoat|There was a wool tailcoat hanging on the door|17|woodpile|There were wooden logs stacked in the woodpile.|38
+1|VISUAL|gyro|The gyro, which is made of seasoned meat, rotated on the spit|4|raindrop|The raindrop, which is made of water, fell from the cloud.|4
+1|VISUAL|jetliner|The passengers boarded the aluminum jetliner|36|outhouse|The farmer walked to the wooden outhouse.|32
+1|VISUAL|kneecap|There was a bony kneecap visible through the wound|17|meatloaf|There was a minced beef meatloaf cooling on the rack.|24
+1|VISUAL|evaporator|She cleaned the copper evaporator|23|guidebook|He flicked through the paper guidebook.|29
+1|VISUAL|lightbulb|The lightbulb, which was made of glass, flickered on the ceiling|4|pimento|The pimento, which was made of red pepper flesh, sat in the jar.|4
+1|VISUAL|compactor|A compactor is steel|2|tumbleweed|A tumbleweed is dried plant material.|2
+1|VISUAL|cornbread|She pulled apart the crumbly cornmeal cornbread|38|guidebook|He consulted the paper guidebook.|23
+1|VISUAL|artichoke|There was a fibrous, leafy green artichoke on the counter|33|hatchback|There was a steel hatchback parked in the driveway.|18
+1|VISUAL|eyepiece|The eyepiece, which is made of glass, allows the viewer to observe magnified images|4|shackle|The shackle, which is made of steel, is used to secure loads.|4
+1|VISUAL|mascara|She smudged the carbon black mascara across her lashes|29|stopwatch|He clicked the plastic stopwatch to begin the race.|23
+1|VISUAL|bluebook|The bluebook, which is paper, sat on the desk|4|workbench|The workbench, which is wood, stood in the garage.|4
+1|VISUAL|geode|She collected the crystalline geode|30|wristwatch|He glanced at his metallic wristwatch.|27
+1|VISUAL|loincloth|A loincloth is cloth|2|woodblock|A woodblock is wood.|2
+1|VISUAL|fryer|She cooked dinner in the stainless steel fryer|41|kazoo|The child blew into the plastic kazoo.|32
+1|VISUAL|handlebar|The handlebar, which was steel, gleamed in the sunlight|4|phlegm|The phlegm, which was mucus, dripped slowly downward.|4
+1|VISUAL|lamppost|A lamppost is steel|2|loincloth|A loincloth is cloth.|2
+1|VISUAL|jukebox|She fed coins into the steel jukebox|29|winch|The crew operated the iron winch.|27
+1|VISUAL|lightbulb|There was a glass lightbulb sitting on the shelf|18|underpass|There was a concrete underpass beneath the railway line.|21
+1|VISUAL|boathouse|There was a weathered timber boathouse sitting at the edge of the lake|29|tarmac|There was a layer of black bitumen tarmac stretching across the car park.|35
+1|VISUAL|camcorder|The camcorder, which was made of plastic, sat on the shelf|4|shears|The shears, which were made of steel, lay on the workbench.|4
+1|VISUAL|bootlace|There was a waxed cotton bootlace lying on the floor|25|toenail|There was a keratin toenail resting on the edge of the sink.|20
+1|VISUAL|beefsteak|A beefsteak is beef|2|potpie|A potpie is pastry and filling.|2
+1|VISUAL|compactor|There was a heavy steel compactor in the yard|24|dumpling|There was a soft doughy dumpling in the bowl.|24
+1|VISUAL|clitoris|The clitoris, which is made of erectile tissue, is sensitive to stimulation|4|curd|The curd, which is made of coagulated milk protein, sat in the bowl.|4
+1|VISUAL|jukebox|He danced beside the wooden jukebox|28|straitjacket|The orderlies fastened the canvas straitjacket.|34
+1|VISUAL|beefsteak|There was a red, marbled slab of beef muscle on the plate, which was a beefsteak|71|shackle|There were cold iron links forming a shackle on the floor.|37
+1|VISUAL|birdcage|The birdcage, which was made of wire, stood in the corner|4|mascara|The mascara, which was made of carbon black, sat on the dresser.|4
+2|VISUAL|bookshelf|There was a wooden bookshelf against the wall|19|bowtie|There was a silk bowtie on the counter.|17
+2|VISUAL|pelvis|The pelvis, which is made of bone, supports the spine|4|tux|The tux, which is made of wool, hung in the closet.|4
+2|VISUAL|entranceway|There was a wooden entranceway at the front of the house|19|grillwork|There was a metal grillwork covering the window.|18
+2|VISUAL|bodice|The bodice, which was made of cotton, fitted her perfectly|4|sauerkraut|The sauerkraut, which was made of cabbage, sat in the jar.|4
+2|VISUAL|forceps|She gripped the stainless-steel forceps|32|rosary|He counted the wooden rosary.|22
+2|VISUAL|bookshelf|The bookshelf, which was made of wood, held dozens of novels|4|sherbet|The sherbet, which was made of sugar, fizzed on her tongue.|4
+2|VISUAL|cleaver|The cleaver, which was steel, hung on the rack|4|lozenge|The lozenge, which was sugar, dissolved on her tongue.|4
+2|VISUAL|strainer|A strainer is metal|2|uterus|A uterus is muscle.|2
+2|VISUAL|guava|She bit into the fleshy guava|24|spud|He peeled the starchy spud.|22
+2|VISUAL|lozenge|The lozenge, which was made of sugar, dissolved slowly on her tongue|4|syringe|The syringe, which was made of plastic, lay sterile in its packaging.|4
+2|VISUAL|bowtie|He straightened his silken bowtie|27|utensil|She placed the metal utensil on the table.|21
+2|VISUAL|cardigan|There was a woollen cardigan on the chair|20|intestine|There were smooth muscular walls of the intestine in the diagram.|40
+2|VISUAL|counterweight|The counterweight, which was made of cast iron, hung at the end of the lever|4|wristband|The wristband, which was made of silicone, slipped onto her arm.|4
+2|VISUAL|risotto|He stirred the creamy risotto|22|toboggan|The child rode the wooden toboggan.|26
+2|VISUAL|banister|There was a wooden banister at the edge of the stairs|19|hayloft|There was a timber hayloft above the barn floor.|19
+2|VISUAL|capsule|The capsule, which is made of gelatin, contained the medication|4|sternum|The sternum, which is made of bone, protects the heart.|4
+2|VISUAL|beanbag|The beanbag, which was made of vinyl, sat in the corner of the room|4|speedometer|The speedometer, which was made of plastic, displayed the cars current speed.|4
+2|VISUAL|nozzle|A nozzle is metal|2|placard|A placard is cardboard.|2
+2|VISUAL|entranceway|There was a wooden entranceway at the front of the house|19|strainer|There was a metal strainer sitting on the kitchen counter.|18
+2|VISUAL|cinder|A cinder, which is made of ash and partially burned carbon, glowed in the fireplace|2|fingernail|A fingernail, which is made of keratin, grew slowly from the tip of her finger.|2
+2|VISUAL|asteroid|There was a rocky and metallic asteroid hurtling through space|31|foghorn|There was a brass foghorn mounted on the harbour wall.|18
+2|VISUAL|canister|A canister is metal|2|sieve|A sieve is mesh.|2
+2|VISUAL|bandstand|There was a wooden bandstand in the park|19|thermos|There was a stainless steel thermos on the shelf.|28
+2|VISUAL|lozenge|A lozenge is sugar|2|resin|A resin is sap.|2
+2|VISUAL|drapery|She pulled back the fabric drapery|27|periscope|He looked through the glass periscope.|28
+2|VISUAL|bulkhead|The bulkhead, which was made of steel, divided the ships compartments|4|topaz|The topaz, which was made of aluminium silicate fluoride hydroxide, sparkled in the light.|4
+2|VISUAL|bratwurst|The bratwurst, which was pork, sizzled in the pan|4|flamethrower|The flamethrower, which was steel, sat in the depot.|4
+2|VISUAL|rosary|The rosary, which was made of glass beads, hung from her fingers|4|syringes|The syringes, which are made of plastic, were stored in the cabinet.|4
+2|VISUAL|almanac|The almanac, which is made of paper, listed the annual weather patterns|4|haystack|The haystack, which is made of dried grass, stood in the corner of the field.|4
+2|VISUAL|footstool|The footstool, which was wood, sat in the corner|4|ventilator|The ventilator, which was plastic, hummed quietly.|4
+2|VISUAL|opal|There was a silicon dioxide opal glinting in the jewellers display case|28|sarong|There was a cotton sarong hanging on the back of the door.|19
+2|VISUAL|teaspoon|The teaspoon, which was stainless steel, sat in the drawer|4|topsoil|The topsoil, which was clay and organic matter, covered the garden bed.|4
+2|VISUAL|beanbag|A beanbag is fabric|2|toboggan|A toboggan is wood.|2
+2|VISUAL|hookah|There was a glass hookah on the shelf|18|sledgehammer|There was a steel sledgehammer in the shed.|18
+2|VISUAL|gravestone|A gravestone is stone|2|paintbrush|A paintbrush is wood and bristles.|2
+2|VISUAL|chalice|She raised the golden chalice|22|forceps|The surgeon gripped the stainless steel forceps.|40
+2|VISUAL|canister|There was a steel canister on the shelf|18|cannonball|There was a cast iron cannonball on the ground.|22
+2|VISUAL|brig|The brig, which was made of wood, held the prisoners below deck|4|popsicle|The popsicle, which was made of flavored ice, melted in the sun.|4
+2|VISUAL|blowtorch|There was a steel blowtorch in the workshop|18|lint|There were cotton lint fibers in the dryer.|18
+2|VISUAL|candelabra|She placed the brass candelabra on the dining table|21|scabbard|He slid the sword into the leather scabbard.|35
+2|VISUAL|timepiece|The timepiece, which was made of brass, hung on the wall|4|vise|The vise, which was made of cast iron, sat on the workbench.|4
+2|VISUAL|guava|The guava, which is made of soft organic fruit flesh, grows on tropical trees|4|sarong|The sarong, which is made of cotton or silk fabric, is worn around the body.|4
+2|VISUAL|corset|The corset, which was made of whalebone, cinched her waist tightly|4|scabbard|The scabbard, which was made of leather, hung at the knights side.|4
+2|VISUAL|placard|A placard is cardboard|2|resin|A resin is a sticky organic substance secreted by plants.|2
+2|VISUAL|respirator|There was a silicone respirator on the shelf|21|sledgehammer|There was a steel sledgehammer in the shed.|18
+2|VISUAL|flan|The flan, which was egg-based custard, sat cooling on the kitchen counter|4|nameplate|The nameplate, which was brass, hung beside the office door.|4
+2|VISUAL|panties|There were cotton panties in the drawer|18|sarong|There was a cotton sarong hanging on the rack.|19
+2|VISUAL|fingernail|The fingernail, which is made of keratin, grew slowly over the weeks|4|flagpole|The flagpole, which is made of aluminium, stood outside the building.|4
+2|VISUAL|bratwurst|A bratwurst is pork|2|strainer|A strainer is metal.|2
+2|VISUAL|eggshell|An eggshell is calcium carbonate|3|sundial|A sundial is stone.|2
+2|VISUAL|panties|She folded the cotton panties|22|timepiece|He admired the metal timepiece.|21
+2|VISUAL|airship|The airship, which was made of aluminium, drifted across the sky|4|sideboard|The sideboard, which was made of wood, stood against the wall.|4
+2|VISUAL|skewer|There was a metal skewer on the grill|18|underclothing|There was cotton underclothing in the drawer.|17
+2|VISUAL|jackhammer|The jackhammer, which was made of steel, broke up the concrete|4|raisin|The raisin, which was made of dried grape, sat in the bowl.|4
+2|VISUAL|eggshell|An eggshell is calcium carbonate|3|flagpole|A flagpole is aluminum.|2
+2|VISUAL|beanbags|She tossed the polystyrene beanbags across the room|27|crayon|He drew with the paraffin crayon.|26
+2|VISUAL|flan|The flan, which was eggy custard, sat in its pastry case|4|gramophone|The gramophone, which was brass and wood, stood in the corner.|4
+2|VISUAL|capsule|The capsule, which is made of gelatin, contained the medication|4|strainer|The strainer, which is made of stainless steel, sat in the kitchen sink.|4
+2|VISUAL|fender|There was a steel fender on the car|18|syringes|There were plastic syringes in the medical kit.|19
+2|VISUAL|gramophone|There was a wooden gramophone in the corner of the room|19|panties|There were cotton panties folded in the drawer.|18
+2|VISUAL|blacktop|The blacktop, which was made of asphalt, stretched across the valley|4|risotto|The risotto, which was made of Arborio rice, sat in the bowl.|4
+2|VISUAL|bullring|The bullring, which is sand, hosted the matador|4|satchel|The satchel, which was leather, sat on the desk.|4
+2|VISUAL|cannonball|A cannonball is iron|2|sideboard|A sideboard is wood.|2
+2|VISUAL|brig|There was a wooden brig sailing across the harbor|19|teakettle|There was a stainless steel teakettle sitting on the stove.|28
+2|VISUAL|drapery|The drapery, which was made of fabric, hung from the curtain rail|4|loudspeaker|The loudspeaker, which was made of plastic, sat in the corner of the room.|4
+2|VISUAL|playpen|There was a plastic playpen in the corner of the room|20|skewer|There was a metal skewer lying on the counter.|18
+2|VISUAL|respirator|The respirator, which was made of silicone, covered the patients face|4|urinal|The urinal, which was made of porcelain, was fixed to the wall.|4
+2|VISUAL|banister|There was a wooden banister running along the staircase|19|toboggan|There was a wooden toboggan sitting in the snow.|19
+2|VISUAL|footstool|The footstool, which was wood, sat in the corner|4|hayloft|The hayloft, which was timber, rose above the barn floor.|4
+2|VISUAL|checkerboard|She played on the wooden checkerboard|25|grillwork|He admired the iron grillwork.|20
+2|VISUAL|skewer|The skewer, which was made of metal, pierced the meat|4|windbreaker|The windbreaker, which was made of nylon, hung on the hook.|4
+2|VISUAL|dander|She brushed away the protein dander|29|earring|She lost her golden earring.|20
+2|VISUAL|smokehouse|There was a wooden smokehouse at the edge of the farm|19|teepee|There was a buffalo hide teepee standing on the plain.|25
+2|VISUAL|polygraph|The polygraph, which is made of metal and plastic, monitors physiological responses|4|skewer|The skewer, which is made of metal or wood, pierces the food.|4
+2|VISUAL|sandal|A sandal is leather|2|timepiece|A timepiece is metal.|2
+2|VISUAL|beanbags|The beanbags, which were made of vinyl, sat in the corner of the room|4|stirrup|The stirrup, which was made of steel, hung from the saddle.|4
+2|VISUAL|teaspoon|There was a stainless steel teaspoon in the drawer|28|worksheet|There was a paper worksheet on the desk.|18
+2|VISUAL|ladle|The ladle, which was wooden, rested on the counter|4|socket|The socket, which was plastic, was fitted to the wall.|4
+3|VISUAL|donut|A donut is dough|2|lawnmower|A lawnmower is metal.|2
+3|VISUAL|biscuit|There was a flour-based biscuit sitting on the plate|24|stationery|There were paper stationery items scattered across the desk.|17
+3|VISUAL|cymbals|The cymbals, which were brass, crashed loudly|4|tripod|The tripod, which was aluminium, stood in the corner.|4
+3|VISUAL|capes|There were woollen capes hanging in the wardrobe|19|gutter|There was a cast iron gutter fixed along the roofline.|22
+3|VISUAL|latte|A latte is milk and espresso|2|speedboat|A speedboat is fibreglass.|2
+3|VISUAL|duct|He grabbed the metal duct|21|sandpaper|She picked up the silicon-carbide sandpaper.|34
+3|VISUAL|chalet|The chalet, which was made of wood, sat on the snowy slope|4|wok|The wok, which was made of carbon steel, rested on the stove.|4
+3|VISUAL|griddle|A griddle is cast iron|2|transistor|A transistor is silicon.|2
+3|VISUAL|locket|She wore the golden locket around her neck|20|pallet|The warehouse worker stacked boxes onto the wooden pallet.|51
+3|VISUAL|fir|A fir is wood|2|transistor|A transistor is silicon.|2
+3|VISUAL|gavel|The gavel, which was wooden, struck the desk|4|teacup|The teacup, which was porcelain, sat on the saucer.|4
+3|VISUAL|cymbals|The cymbals, which were made of brass, crashed loudly in the concert hall|4|raincoat|The raincoat, which was made of rubber, hung by the front door.|4
+3|VISUAL|holster|He reached for the leather holster|27|windshield|The driver peered through the glass windshield.|36
+3|VISUAL|clipboard|There was a wooden clipboard hanging on the wall|19|stub|There was a paper stub left in his hand.|18
+3|VISUAL|bale|The bale, which was made of hay, sat in the field|4|toolbox|The toolbox, which was made of metal, held the wrenches.|4
+3|VISUAL|cymbals|She struck the brass cymbals|21|pendant|He admired the gold pendant.|20
+3|VISUAL|washstand|There was a porcelain washstand in the corner of the room|22|windowsill|There was a wooden windowsill beneath the glass pane.|19
+3|VISUAL|poncho|The poncho, which was made of wool, kept her warm on the hillside|4|shamrock|The shamrock, which was made of plant tissue, grew along the roadside.|4
+3|VISUAL|longboat|A longboat is wood|2|visor|A visor is plastic.|2
+3|VISUAL|kennel|He built a wooden kennel for his dog|18|tripod|The photographer steadied the metal tripod before taking the shot.|36
+3|VISUAL|blender|The blender, which was plastic, sat on the counter|4|overpass|The overpass, which was concrete, spanned the valley.|4
+3|VISUAL|bugle|A bugle is brass|2|latte|A latte is milk and espresso.|2
+3|VISUAL|crossbow|He aimed the wooden crossbow at the target|20|pear|She bit into the grainy pear.|24
+3|VISUAL|pacifier|There was a silicone pacifier in the babys mouth|21|stubble|There was a keratin stubble across his chin.|20
+3|VISUAL|refinery|The refinery, which was made of steel, dominated the industrial skyline|4|shroud|The shroud, which was made of linen, was laid carefully over the body.|4
+3|VISUAL|steeple|The steeple, which was made of stone, rose above the village|4|washstand|The washstand, which was made of wood, stood in the corner of the room.|4
+3|VISUAL|conch|A conch is calcium carbonate|2|thistle|A thistle is cellulose.|2
+3|VISUAL|griddle|He cooked breakfast on the cast-iron griddle|37|wigwam|The children played inside the bark wigwam.|36
+3|VISUAL|bugle|There was a brass bugle on the shelf|18|stubble|There was a coarse stubble of keratin on his chin.|19
+3|VISUAL|donut|A donut is dough|2|trashcan|A trashcan is plastic.|2
+3|VISUAL|folder|There was a paper folder on the desk|18|tombstone|There was a stone tombstone in the graveyard.|18
+3|VISUAL|gavel|The gavel, which was wood, struck the block|4|steeple|The steeple, which was stone, rose above the town.|4
+3|VISUAL|transistor|There was a silicon transistor in the circuit|20|warhead|There was a plutonium warhead in the missile.|22
+3|VISUAL|calipers|There were steel calipers in the toolbox|17|headgear|There was a leather headgear hanging on the hook.|20
+3|VISUAL|figurine|She placed the ceramic figurine on the shelf|23|flashlight|He grabbed the plastic flashlight from the drawer.|23
+3|VISUAL|doghouse|The doghouse, which was made of wood, sat in the backyard|4|lawnmower|The lawnmower, which was made of metal, stood in the garage.|4
+3|VISUAL|bead|She threaded the glass bead onto the string|23|wedge|He used the wooden wedge to prop open the door.|19
+3|VISUAL|buoy|The buoy, which was made of plastic, bobbed on the water|4|flashlight|The flashlight, which was made of metal, sat in the drawer.|4
+3|VISUAL|acorn|There was a woody brown acorn on the ground|24|pendant|There was a golden pendant around her neck.|19
+3|VISUAL|folder|The folder, which was made of cardboard, sat on the desk|4|oboe|The oboe, which was made of wood, rested in its case.|4
+3|VISUAL|tombstone|He traced his fingers across the granite tombstone|41|wineglass|She raised the crystal wineglass to her lips.|23
+3|VISUAL|breezeway|The breezeway, which was made of wood, connected the house to the garage|4|graphite|The graphite, which was made of carbon, sat in the pencil.|4
+3|VISUAL|bedroll|A bedroll is cotton|2|padlock|A padlock is steel.|2
+3|VISUAL|mixer|The mixer, which was plastic, sat on the kitchen counter|4|pulley|The pulley, which was metal, hung from the ceiling.|4
+3|VISUAL|prostate|A prostate is smooth muscle and glandular tissue|2|radiator|A radiator is aluminium or steel.|2
+3|VISUAL|faucet|She turned the brass faucet|21|overpass|The concrete overpass stretched across the highway.|13
+3|VISUAL|dipper|There was a wooden dipper hanging on the wall|19|steeple|There was a stone steeple rising above the town.|18
+3|VISUAL|spatula|The spatula, which was plastic, sat on the counter|4|tinsel|The tinsel, which was aluminium, hung on the tree.|4
+3|VISUAL|calculator|He reached for the plastic calculator|27|tomahawk|The warrior raised the stone tomahawk.|29
+3|VISUAL|chevron|The chevron, which is typically made of fabric, adorned the soldiers uniform|4|twine|The twine, which is typically made of natural fibre such as jute, bound the parcel tightly.|4
+3|VISUAL|houseboat|A houseboat is wood|2|lever|A lever is metal.|2
+3|VISUAL|broomstick|The broomstick, which was made of wood, leaned against the wall|4|okra|The okra, which was made of plant matter, sat in the bowl.|4
+3|VISUAL|latte|A latte is milk and espresso|2|mixer|A mixer is metal.|2
+3|VISUAL|doughnut|She ate the flour-based doughnut|24|transmitter|The engineer checked the silicon transmitter.|33
+3|VISUAL|toolbox|There was a metal toolbox in the garage|18|turnip|There was a fleshy white turnip in the garden.|25
+3|VISUAL|muffin|The muffin, which is made of flour, sat on the counter|4|piston|The piston, which is made of aluminium, moved inside the engine.|4
+3|VISUAL|muff|A muff is fur|2|prostate|A prostate is tissue.|2
+3|VISUAL|gavel|He slammed the wooden gavel onto the bench|22|waistcoat|The tailor fitted him with a woollen waistcoat.|37
+3|VISUAL|honeydew|There was a green, fleshy fruit called a honeydew sitting on the counter|41|joystick|There was a hard plastic joystick next to the computer.|25
+3|VISUAL|cymbals|The cymbals, which were made of brass, crashed together loudly|4|flannels|The flannels, which were made of cotton, hung on the towel rail.|4
+3|VISUAL|locket|A locket is metal|2|mushroom|A mushroom is organic tissue.|2
+3|VISUAL|graphite|There was a carbon graphite pencil on the desk|19|receptacle|There was a plastic receptacle in the kitchen.|20
+3|VISUAL|chromosome|A chromosome is protein and DNA|2|pulley|A pulley is metal.|2
+3|VISUAL|clipboard|There was a wooden clipboard on the desk|19|sandpaper|There were abrasive mineral grains on the sandpaper.|42
+3|VISUAL|leotard|She wore the nylon leotard|19|medallion|He displayed the gold medallion.|22
+3|VISUAL|compressor|There was a steel compressor in the workshop|18|sax|There was a brass sax in the music room.|18
+3|VISUAL|atrium|The atrium, which was constructed from glass and steel, rose dramatically above the lobby|4|parsley|The parsley, which was composed of green plant tissue, lay freshly cut on the chopping board.|4
+3|VISUAL|charger|There was a plastic charger on the desk|20|comet|There was an icy comet in the solar system.|17
+3|VISUAL|corkscrew|The corkscrew, which is made of stainless steel, sat in the kitchen drawer|4|radiator|The radiator, which is made of cast iron, stood against the wall.|4
+3|VISUAL|houseboat|A houseboat is wood|2|pocketbook|A pocketbook is leather.|2
+3|VISUAL|kennel|The dog slept in its wooden kennel|28|lawnmower|The gardener pushed the metal lawnmower.|30
+3|VISUAL|appliance|The appliance, which was made of stainless steel, hummed quietly in the kitchen|4|hinge|The hinge, which was made of brass, held the door in place.|4
+3|VISUAL|doghouse|A doghouse is wood|2|latte|A latte is milk and espresso.|2
+3|VISUAL|tongs|She grabbed the stainless steel tongs|32|wrapper|He discarded the plastic wrapper.|25
+3|VISUAL|entryway|There was a wooden entryway at the front of the home|19|thistle|There was a fibrous plant thistle growing by the roadside.|26
+3|VISUAL|cantaloupe|The cantaloupe, which is made of orange flesh, sat on the counter|4|doughnut|The doughnut, which is made of fried dough, rested on the plate.|4
+3|VISUAL|binder|The binder, which is made of cardboard, sat on the desk|4|knoll|The knoll, which is made of earth, rose gently from the plain.|4
+3|VISUAL|pantaloons|He wore the cotton pantaloons|19|switchboard|The operator sat before the metal switchboard.|34
+3|VISUAL|biscuit|There was a flour-based biscuit on the plate|24|levers|There were metal levers on the machine.|17
+3|VISUAL|sock|The sock, which was cotton, lay on the floor|4|stairwell|The stairwell, which was concrete, echoed with footsteps.|4
+3|VISUAL|incinerator|The incinerator, which was made of steel, stood in the yard|4|thistle|The thistle, which was made of cellulose, grew by the roadside.|4
+3|VISUAL|faucet|The faucet, which is made of metal, dripped slowly onto the porcelain sink|4|headgear|The headgear, which is made of plastic, sat unused in the corner of the room.|4
+3|VISUAL|griddle|A griddle is cast iron|2|wedge|A wedge is wood.|2
+3|VISUAL|leotard|She slipped into the nylon leotard|27|spatula|He flipped the pancake with the plastic spatula.|40
+3|VISUAL|breadfruit|There was a starchy white flesh inside the breadfruit|43|pecan|There were rich oily kernels inside the pecan.|40
+3|VISUAL|pantaloons|There were cotton pantaloons hanging on the rail|18|sediment|There was mineral sediment at the bottom of the lake.|18
+3|VISUAL|grenade|The grenade, which was made of steel, was primed and ready|4|melon|The melon, which was made of water-rich flesh, sat on the counter.|4
+3|VISUAL|gourd|A gourd is orange and fibrous|2|teacup|A teacup is ceramic.|2
+3|VISUAL|pendant|She wore the silver pendant around her neck|20|thistle|He brushed against the fibrous thistle on the path.|31
+3|VISUAL|meteorite|The meteorite, which was made of rock and iron, landed in the field|4|potty|The potty, which was made of plastic, sat in the bathroom.|4
+3|VISUAL|faucet|There was a metal faucet dripping in the sink|18|gel|There was a polymer gel sitting in the bottle.|20
+3|VISUAL|bale|The bale, which was dry golden straw, sat in the field|4|hangar|The hangar, which was corrugated steel, loomed over the airfield.|4
+3|VISUAL|eyeglasses|There were plastic eyeglasses on her face|19|trashcan|There was a metal trashcan in the corner.|18
+3|VISUAL|faucet|There was a brass faucet dripping in the sink|18|warhead|There was a steel warhead mounted on the missile.|18
+3|VISUAL|compressor|The compressor, which was made of steel, hummed in the garage|4|mandolin|The mandolin, which was made of wood, hung on the wall.|4
+3|VISUAL|bedroll|A bedroll is cotton|2|windowsill|A windowsill is wood.|2
+3|VISUAL|muff|There was a fur muff lying on the chair|16|wineglass|There was a glass wineglass sitting on the shelf.|18
+3|VISUAL|chandelier|The chandelier, which was made of glass, hung from the ceiling|4|kennel|The kennel, which was made of wood, sat in the garden.|4
+3|VISUAL|breadfruit|She harvested the starchy breadfruit|26|duct|He inspected the metal duct.|23
+3|VISUAL|clipboard|There was a wooden clipboard on the desk|19|sandcastle|There were grains of sand forming the sandcastle on the beach.|38
+3|VISUAL|bale|The bale, which was made of hay, sat in the field|4|spades|The spades, which were made of steel, leaned against the wall.|4
+3|VISUAL|charger|There was a plastic charger on the desk|20|knoll|There was a grassy knoll in the park.|19
+3|VISUAL|eaves|The eaves, which were wooden, overhung the walls of the house|4|wok|The wok, which was cast iron, sat on the stove.|4
+4|VISUAL|breeches|There were leather breeches hanging on the hook|19|napkin|There was a cotton napkin folded on the plate.|19
+4|VISUAL|drawbridge|The drawbridge, which was made of wood, creaked as it was lowered|4|timer|The timer, which was made of plastic, beeped when it reached zero.|4
+4|VISUAL|boomerang|A boomerang is wood|2|parka|A parka is nylon.|2
+4|VISUAL|sponge|There was a polyurethane foam sponge sitting on the sink|30|suspenders|There were elastic rubber suspenders hanging on the rack.|26
+4|VISUAL|conditioner|The conditioner, which is liquid, sat on the shower shelf|4|tapestry|The tapestry, which is wool, hung on the wall.|4
+4|VISUAL|cookbook|She flipped through the paper cookbook|30|windmill|He gazed up at the wooden windmill.|26
+4|VISUAL|ornament|There was a glass ornament on the shelf|18|turret|There was a stone turret on the castle.|18
+4|VISUAL|dune|A dune, which is made of sand, rose up from the desert floor|2|townhouse|A townhouse, which is made of brick, stood at the end of the street.|2
+4|VISUAL|amber|She admired the fossilised-resin amber|33|tee|He straightened his cotton tee.|27
+4|VISUAL|glacier|There was compressed snow and ice forming the glacier on the mountainside|46|lingerie|There was delicate lace and silk making up the lingerie in the drawer.|47
+4|VISUAL|altarpiece|She gazed at the wooden altarpiece|24|kimono|She folded the silk kimono.|20
+4|VISUAL|mulch|There were rotting wood chips and decomposed leaves forming the mulch in the garden|64|typewriter|There was a metal and plastic typewriter sitting on the desk.|30
+4|VISUAL|awning|The awning, which was made of canvas, shaded the shopfront|4|modem|The modem, which was made of plastic, sat on the desk.|4
+4|VISUAL|hydrant|There was a cast iron hydrant at the side of the road|22|textbook|There was a paper textbook on the desk.|18
+4|VISUAL|handgun|The handgun, which was steel, sat in the holster|4|rotunda|The rotunda, which was stone, rose above the building.|4
+4|VISUAL|gully|A gully is dirt and rock|2|mantel|A mantel is wood.|2
+4|VISUAL|badge|He pinned the metal badge to his chest|20|shilling|The copper shilling gleamed in his palm.|11
+4|VISUAL|bagel|A bagel is dough|2|plank|A plank is wood.|2
+4|VISUAL|dinghy|There was a rubbery inflatable dinghy bobbing on the water|31|vat|There was a large wooden vat sitting in the cellar.|25
+4|VISUAL|clips|There were small metal clips holding the papers together|23|trapeze|There was a wooden trapeze hanging from the ropes.|19
+4|VISUAL|hotdog|The hotdog, which was made of processed meat, sat in its bun|4|leaflet|The leaflet, which was made of paper, described the local event.|4
+4|VISUAL|booklet|There was a glossy paper booklet on the counter|25|parka|There was a thick nylon parka on the hook.|24
+4|VISUAL|morsel|The morsel, which was bread, sat on the plate|4|noodles|The noodles, which are wheat, filled the bowl.|4
+4|VISUAL|diaper|There was a cotton diaper on the changing table|19|wrench|There was a steel wrench in the toolbox.|18
+4|VISUAL|cello|The cello, which is made of wood, stood in the corner|4|yogurt|The yogurt, which is made of milk, sat in the fridge.|4
+4|VISUAL|cradle|There was a wooden cradle in the corner of the room|19|fin|There was a metal fin on the rocket.|18
+4|VISUAL|archway|The archway, which was made of stone, framed the entrance to the courtyard|4|armchair|The armchair, which was upholstered in fabric, stood beside the fireplace.|4
+4|VISUAL|handbook|She consulted the paper handbook|24|mannequin|The designer adjusted the plastic mannequin.|34
+4|VISUAL|boomerang|A boomerang, which is made of wood, spun through the air|2|mitt|A mitt, which is made of leather, sat in the dugout.|2
+4|VISUAL|pamphlet|A pamphlet is paper|2|saucer|A saucer is ceramic.|2
+4|VISUAL|mannequin|The mannequin, which was plastic, stood in the shop window|4|pancake|The pancake, which was made of flour, eggs, and milk, sat on the plate.|4
+4|VISUAL|blackboard|A blackboard is slate|2|shrub|A shrub is wood.|2
+4|VISUAL|brochure|A brochure is paper|2|conditioner|A conditioner is liquid.|2
+4|VISUAL|ledger|The ledger, which was paper, sat on the desk|4|nugget|The nugget, which was gold, gleamed in the pan.|4
+4|VISUAL|chrome|The chrome, which is a hard lustrous metal, gleamed on the faucet|4|doorstep|The doorstep, which is made of concrete, bore the marks of many footsteps.|4
+4|VISUAL|fridge|A fridge is steel|2|trough|A trough is concrete.|2
+4|VISUAL|cot|She placed the baby in the wooden cot|34|rotunda|The architect designed a stone rotunda.|31
+4|VISUAL|flatiron|There was a heavy cast iron flatiron sitting on the shelf|28|mantel|There was a carved wooden mantel surrounding the fireplace.|26
+4|VISUAL|briefcase|The briefcase, which was leather, sat beside the door|4|overcoat|The overcoat, which was wool, hung on the rack.|4
+4|VISUAL|handbook|A handbook is paper|2|musket|A musket is iron.|2
+4|VISUAL|flatiron|There was a cast iron flatiron on the shelf|22|sill|There was a wooden sill beneath the window.|19
+4|VISUAL|papyrus|Papyrus is made from the pith of the papyrus plant|37|tapestry|A tapestry is woven from wool or silk threads.|2
+4|VISUAL|scaffold|He climbed the steel scaffold|21|skillet|She cooked with the cast-iron skillet.|30
+4|VISUAL|grotto|She explored the rocky grotto|23|textbook|He opened the papery textbook.|21
+4|VISUAL|rotunda|The rotunda, which was made of stone, stood at the centre of the building|4|spaceship|The spaceship, which was made of metal, launched from the pad.|4
+4|VISUAL|archway|He walked through the stone archway|28|boomerang|The child threw the wooden boomerang.|27
+4|VISUAL|handgun|There was a steel handgun in the holster|18|shrubbery|There were woody stems and branches in the shrubbery.|43
+4|VISUAL|girdle|The girdle, which was elastic, cinched her waist|4|pulp|The pulp, which was cellulose, filled the paper mill vat.|4
+4|VISUAL|muffler|He wrapped the woollen muffler around his neck|23|saucepan|She lifted the steel saucepan from the hob.|21
+4|VISUAL|bra|There was an elastic fabric bra hanging on the door|28|hatchet|There was a steel hatchet resting against the wall.|18
+4|VISUAL|doorstep|He left his boots on the concrete doorstep|34|mead|She sipped the honey mead.|21
+4|VISUAL|cactus|The cactus, which is made of water-storing parenchyma tissue, grows in the desert|4|suspenders|The suspenders, which are made of elastic, held up his trousers.|4
+4|VISUAL|lingerie|She wore the silk lingerie|18|mailbox|He opened the metal mailbox.|20
+4|VISUAL|bra|A bra is elastic and nylon|2|hydrant|A fire hydrant is cast iron.|7
+4|VISUAL|cello|The cello, which is made of wood, stood in the corner|4|tutu|The tutu, which is made of tulle, hung on the rail.|4
+4|VISUAL|pitchfork|A pitchfork is steel|2|slipper|A slipper is fabric.|2
+4|VISUAL|sheath|There was a leather sheath hanging from his belt|20|turban|There was a cotton turban wrapped around his head.|19
+4|VISUAL|anvil|An anvil is iron|3|elm|An elm is wood.|3
+4|VISUAL|sarcophagi|Ancient Egyptians created ornate limestone sarcophagi|43|sheath|The soldier drew his leather sheath.|29
+4|VISUAL|antenna|An antenna is metal|3|wand|A wand is wood.|2
+4|VISUAL|doorstep|She stepped over the concrete doorstep|30|pancake|He flipped the floury pancake.|22
+4|VISUAL|glue|She applied the animal-protein glue to the wooden joint|31|latex|He snapped on the rubber latex glove.|25
+4|VISUAL|beanie|There was a wool beanie on the shelf|17|daggers|There were steel daggers in the display case.|17
+4|VISUAL|handgun|A handgun is steel|2|plank|A plank is wood.|2
+4|VISUAL|grotto|The grotto, which was made of rock, echoed with dripping water|4|platter|The platter, which was made of silver, sat on the banquet table.|4
+4|VISUAL|checkbook|There was a paper checkbook in the drawer|18|wreath|There was a pine wreath on the door.|17
+4|VISUAL|archway|The archway, which was made of stone, framed the entrance to the courtyard|4|cradle|The cradle, which was made of wood, sat in the corner of the nursery.|4
+4|VISUAL|fridge|A fridge is steel|2|lens|A lens is glass.|2
+4|VISUAL|footpath|There was a concrete footpath leading to the door|21|scorecard|There was a paper scorecard left on the seat.|18
+4|VISUAL|glider|She soared across the sky in the fibreglass glider|44|tights|She pulled on her nylon tights.|24
+4|VISUAL|cola|There was carbonated water and caramel coloring swirling in the cola|64|pancake|There were flour and eggs mixed into the pancake.|41
+4|VISUAL|fedora|He wore the felt fedora|17|hotdog|She ate the pork hotdog.|17
+4|VISUAL|bracket|There was a metal bracket holding the shelf to the wall|18|headdress|There was a feathered headdress displayed in the museum.|22
+4|VISUAL|backseat|The backseat, which was leather, cradled the tired child|4|slipper|The slipper, which was wool, sat by the fireplace.|4
+4|VISUAL|breeches|There were leather breeches hanging on the hook|19|girdle|There was an elastic girdle in the drawer.|21
+4|VISUAL|coil|A coil is metal|2|tarp|A tarp is plastic.|2
+4|VISUAL|saucer|The saucer, which was made of ceramic, sat on the kitchen counter|4|tapestry|The tapestry, which was made of wool, hung on the wall.|4
+4|VISUAL|awning|There was a canvas awning stretched above the shop window|19|snorkel|There was a plastic snorkel lying on the poolside.|20
+4|VISUAL|bayonet|The bayonet, which was steel, hung on the wall|4|ledger|The ledger, which was paper, sat on the desk.|4
+4|VISUAL|chalkboard|A chalkboard is slate|2|pamphlet|A pamphlet is paper.|2
+4|VISUAL|bulb|The bulb, which is glass, flickered in the lamp|4|hatchet|The hatchet, which is steel, rested against the wall.|4
+4|VISUAL|cubicle|A cubicle is fabric and metal|2|dime|A dime is cupronickel.|2
+4|VISUAL|muffler|She wrapped the woollen muffler around her neck|24|tutu|The dancer twirled in her net tutu.|30
+4|VISUAL|leaflet|There was a paper leaflet on the counter|18|scaffold|There were wooden scaffold poles around the building.|18
+4|VISUAL|handgun|The handgun, which was made of steel, lay on the workbench|4|papyrus|The papyrus, which was made of reed, sat in the museum case.|4
+4|VISUAL|nugget|He found a golden nugget|18|wand|The magician waved the wooden wand.|30
+4|VISUAL|gem|The gem, which was crystalline mineral, sparkled in the light|4|leggings|The leggings, which were made of spandex, sat in the drawer.|4
+4|VISUAL|bedding|She washed her cotton bedding|22|leggings|She pulled on her nylon leggings.|24
+4|VISUAL|sandbox|There was a wooden sandbox in the backyard|19|tutu|There was a pink tulle tutu on the hanger.|23
+4|VISUAL|tapestry|The tapestry, which was wool, hung on the wall|4|wand|The wand, which was wood, rested in his hand.|4
+4|VISUAL|flatiron|She pressed her clothes with the metal flatiron|39|saucer|He carefully set down the ceramic saucer.|34
+4|VISUAL|blackboard|The blackboard, which was slate, hung on the wall|4|bulb|The bulb, which was glass, lit up the room.|4
+4|VISUAL|chalkboard|There was a slate chalkboard mounted on the classroom wall|18|suspenders|There were elastic suspenders hanging on the rack.|19
+4|VISUAL|mantel|The mantel, which was made of wood, displayed several framed photographs|4|turbine|The turbine, which was made of steel, generated electricity for the city.|4
+4|VISUAL|bun|A bun is bread|2|silo|A silo is concrete.|2
+4|VISUAL|noodles|She ate the wheat noodles|18|tapestry|He admired the woolen tapestry.|22
+4|VISUAL|daggers|There were steel daggers in the display case|17|tricycle|There was a metal tricycle in the yard.|18
+4|VISUAL|archway|An archway is typically made of stone or brick|3|bracket|A bracket is typically made of metal.|2
+4|VISUAL|handbook|There was a leather handbook on the desk|20|soles|There were rubber soles on the shoes.|18
+4|VISUAL|lens|The lens, which was glass, sat in the frame of the old camera|4|mantel|The mantel, which was wood, stretched across the wall above the fireplace.|4
+5|VISUAL|stump|A stump is wood|2|swimsuit|A swimsuit is nylon.|2
+5|VISUAL|backdrop|The backdrop, which was made of fabric, hung behind the performers|4|underwear|The underwear, which was made of cotton, lay on the bed.|4
+5|VISUAL|bulldozer|The construction crew operated the heavy steel bulldozer across the muddy site|47|reservoir|The engineers inspected the concrete reservoir before signing off on the project.|37
+5|VISUAL|escalator|He rode the steel escalator|18|pagoda|The tourist photographed the wooden pagoda.|36
+5|VISUAL|jumpsuit|She wore the polyester jumpsuit|23|quilt|He slept under the cotton quilt.|26
+5|VISUAL|cushion|The cushion, which was made of foam, sat on the chair|4|lance|The lance, which was made of wood, leaned against the wall.|4
+5|VISUAL|kilt|A kilt is tartan wool|2|tissue|A tissue is soft paper.|2
+5|VISUAL|jar|There was a glass jar on the shelf|18|strap|There was a leather strap on the bench.|20
+5|VISUAL|parachute|The parachute, which was made of nylon, deployed successfully|4|projector|The projector, which was made of plastic, displayed the image clearly.|4
+5|VISUAL|furnace|There was a steel furnace in the factory|18|scales|There were brass scales on the counter.|17
+5|VISUAL|adobe|There was a mix of clay, sand, and straw in the adobe brick|48|willow|There were flexible woody fibres in the willow branch.|40
+5|VISUAL|rack|The rack, which was made of wood, held the bottles in place|4|spectacles|The spectacles, which were made of glass and metal, sat on her nose.|4
+5|VISUAL|lance|A lance is wood|2|loaf|A loaf is bread.|2
+5|VISUAL|quilt|She snuggled under the cotton quilt|30|scissors|He picked up the steel scissors.|23
+5|VISUAL|spices|The spices, which were dried plant matter, sat in the rack|4|willow|The willow, which was wood, bent in the breeze.|4
+5|VISUAL|escalator|She stepped onto the steel escalator|27|jumpsuit|He zipped up his polyester jumpsuit.|27
+5|VISUAL|crate|He lifted the wooden crate|21|kilt|She wore the woollen kilt.|21
+5|VISUAL|grid|There was a metal grid on the floor of the factory|18|headband|There was an elastic headband sitting on the shelf.|21
+5|VISUAL|headband|The headband, which was elastic, held back her hair|4|slab|The slab, which was concrete, lay in the yard.|4
+5|VISUAL|lance|He carried the wooden lance|22|rag|She wiped with the cotton rag.|26
+5|VISUAL|gown|There was a silk gown hanging in the wardrobe|17|moat|There was a water-filled moat surrounding the castle.|25
+5|VISUAL|jelly|There was a sugary fruit pectin jelly in the jar|32|slacks|There were some woven fabric slacks hanging in the wardrobe.|29
+5|VISUAL|causeway|The causeway, which was made of stone, stretched across the water|4|trolley|The trolley, which was made of metal, stood in the supermarket.|4
+5|VISUAL|oven|An oven is metal|3|pumpkin|A pumpkin is orange flesh.|2
+5|VISUAL|hearth|The hearth, which was brick, glowed warmly in the room|4|pajamas|The pajamas, which were cotton, lay folded on the bed.|4
+5|VISUAL|marker|A marker is plastic|2|pulpit|A pulpit is wood.|2
+5|VISUAL|apparel|There were cotton fibres woven into the apparel|40|pasta|There was durum wheat semolina pressed into the pasta.|48
+5|VISUAL|firearm|The firearm, which was made of steel, was found at the scene|4|pickle|The pickle, which was made of cucumber, sat in the jar.|4
+5|VISUAL|coconut|A coconut is brown and fibrous|2|submarine|A submarine is steel.|2
+5|VISUAL|bathtub|She soaked in the porcelain bathtub|28|mug|He drank from the ceramic mug.|26
+5|VISUAL|spices|There were dried plant matter spices in the jar|30|tuba|There was a brass tuba in the corner.|18
+5|VISUAL|suitcase|The suitcase, which was made of hard plastic, sat in the hallway|4|tooth|The tooth, which was made of enamel, fell onto the floor.|4
+5|VISUAL|canopy|She relaxed beneath the canvas canopy|31|pumpkin|He scooped out the fibrous pumpkin.|27
+5|VISUAL|bumper|The bumper, which is made of plastic, absorbed the impact of the collision|4|cassette|The cassette, which is made of plastic, held the magnetic tape inside its shell.|4
+5|VISUAL|jewel|She admired the crystalline jewel|28|popcorn|He grabbed a handful of starchy popcorn.|32
+5|VISUAL|peanuts|There were legumes in the peanuts|26|underwear|There was cotton in the underwear.|24
+5|VISUAL|tooth|The tooth, which is made of enamel, fell out of her mouth|4|unicycle|The unicycle, which is made of metal, stood against the wall.|4
+5|VISUAL|cupboard|She opened the wooden cupboard|22|spoon|He stirred with the metal spoon.|26
+5|VISUAL|hearth|The hearth, which was brick, glowed warmly in the room|4|shack|The shack, which was wood, stood at the edge of the field.|4
+5|VISUAL|hull|There was a wooden hull cutting through the waves|19|mug|There was a ceramic mug sitting on the desk.|20
+5|VISUAL|feather|The feather, which is made of keratin, drifted to the ground|4|pickle|The pickle, which is made of cucumber, sat in the jar.|4
+5|VISUAL|ark|An ark is wood|3|mast|A mast is wood.|2
+5|VISUAL|motorbike|He rode away on the steel motorbike|26|tuba|She struggled to carry the brass tuba.|33
+5|VISUAL|reef|The reef, which is made of calcium carbonate, stretched across the ocean floor|4|unicycle|The unicycle, which is made of steel, stood against the wall.|4
+5|VISUAL|chalk|She drew on the pavement with the calcium carbonate chalk|52|scissors|He carefully opened the metal scissors.|30
+5|VISUAL|overalls|There were denim overalls hanging on the hook|17|rack|There was a metal rack standing in the corner.|18
+5|VISUAL|moat|The moat, which was water, surrounded the castle|4|pagoda|The pagoda, which was wood, stood in the garden.|4
+5|VISUAL|bandanna|He tied the cotton bandanna around his neck|19|marbles|The child lost his glass marbles in the grass.|25
+5|VISUAL|jelly|There was a sugar and gelatin mixture forming the jelly in the bowl|50|poster|There was a paper poster hanging on the wall.|18
+5|VISUAL|projector|The projector, which was made of plastic, sat on the desk|4|reef|The reef, which was made of coral, stretched across the ocean floor.|4
+5|VISUAL|atlas|He consulted the paper atlas|23|lime|She held the pulpy lime.|19
+5|VISUAL|grid|There was a metal grid covering the drain|18|stump|There was a wooden stump left in the ground.|19
+5|VISUAL|aqueduct|The aqueduct, which was made of stone, carried water across the valley|4|needles|The needles, which were made of steel, sat in the sewing kit.|4
+5|VISUAL|hoop|A hoop is metal|2|pumpkin|A pumpkin is orange flesh.|2
+5|VISUAL|headband|There was an elastic headband on the counter|21|scales|There were metal scales in the kitchen.|17
+5|VISUAL|veranda|He relaxed on the wooden veranda|25|wallet|She opened her leather wallet.|23
+5|VISUAL|mop|A mop is cotton|2|trolley|A trolley is metal.|2
+5|VISUAL|kilt|He wore a woollen kilt|18|rag|She wiped with a cotton rag.|24
+5|VISUAL|coffin|There was a polished mahogany coffin at the front of the church|30|gown|There was a silk gown hanging in the wardrobe.|17
+5|VISUAL|chariot|The chariot, which was wooden, carried the warrior into battle|4|shack|The shack, which was corrugated iron, stood at the edge of the field.|4
+5|VISUAL|marbles|He collected the glass marbles|23|stump|The wooden stump stood in the garden.|11
+5|VISUAL|dumpster|There was a steel dumpster at the back of the building|18|reef|There were coral polyps forming the reef beneath the surface.|36
+5|VISUAL|lasso|He swung the braided-leather lasso above his head|29|suitcase|She lifted the hard-shell plastic suitcase onto the bed.|34
+5|VISUAL|accordion|The accordion, which was made of wood, metal, and leather, sat in the corner of the room|4|backdrop|The backdrop, which was made of fabric, hung behind the performers.|4
+5|VISUAL|binoculars|There were glass lenses and a plastic body inside the binoculars|54|plaque|There was a bronze plaque on the wall.|19
+5|VISUAL|grape|She plucked the juicy, fleshy grape from the vine|30|pulpit|The priest stood behind the wooden pulpit.|35
+5|VISUAL|needles|There were steel needles in the pincushion|17|wax|There was paraffin wax on the shelf.|19
+5|VISUAL|cupboard|She opened the wooden cupboard|22|firearm|He carefully handled the metal firearm.|31
+5|VISUAL|spacecraft|There was an aluminium spacecraft orbiting the planet|23|spoon|There was a stainless steel spoon in the drawer.|28
+5|VISUAL|lance|The lance, which was made of wood, struck the shield|4|pagoda|The pagoda, which was made of wood, rose above the trees.|4
+5|VISUAL|cupboard|She opened the wooden cupboard|22|lasso|The cowboy threw the leather lasso.|29
+5|VISUAL|spoon|There was a wooden spoon in the kitchen drawer|19|stump|There was a rotting stump in the forest.|20
+5|VISUAL|rag|She wrung out the cotton rag|25|stairway|He climbed the wooden stairway.|22
+5|VISUAL|stair|There was a wooden stair leading up to the door|19|tuxedo|There was a wool tuxedo hanging in the wardrobe.|17
+5|VISUAL|hammock|The hammock, which was made of cotton, swayed gently in the breeze|4|wax|The wax, which was composed of paraffin, sat on the shelf.|4
+5|VISUAL|bandanna|She tied the cotton bandanna around her neck|20|notebook|He opened the paper notebook on the desk.|20
+5|VISUAL|bowls|There were ceramic bowls on the shelf|19|tuxedo|There was a wool tuxedo hanging in the wardrobe.|17
+5|VISUAL|cereal|The cereal, which was oat-based, sat in the bowl|4|inlet|The inlet, which was rocky, cut into the coastline.|4
+5|VISUAL|hoe|She grabbed the wooden hoe|23|tile|He carefully placed the ceramic tile.|32
+5|VISUAL|grape|The grape, which is made of water and sugar, hung from the vine|4|willow|The willow, which is made of wood, stood by the river.|4
+5|VISUAL|jumpsuit|A jumpsuit is polyester|2|lasso|A lasso is leather.|2
+5|VISUAL|headband|There was an elastic headband around her head|21|swimsuit|There was a nylon swimsuit hanging by the pool.|18
+5|VISUAL|shack|There was a wooden shack at the edge of the forest|19|vase|There was a glass vase on the shelf.|18
+5|VISUAL|loaf|The loaf, which was made of wheat flour, sat on the counter|4|pagoda|The pagoda, which was made of wood, stood in the garden.|4
+5|VISUAL|backdrop|A backdrop is fabric|2|sausage|A sausage is meat.|2
+5|VISUAL|bandanna|He tied the cotton bandanna around his neck|19|debris|She swept up the concrete debris from the pavement.|26
+5|VISUAL|causeway|There was a long stretch of stone and concrete causeway connecting the island to the mainland|47|wallet|There was a worn leather wallet sitting in his pocket.|25
+5|VISUAL|reef|There was a calcium carbonate reef beneath the waves|30|swimsuit|There was a nylon swimsuit hanging on the hook.|18
+5|VISUAL|ballot|The ballot, which was paper, was cast by the voter|4|pagoda|The pagoda, which was wood, stood in the garden.|4
+5|VISUAL|locomotive|The locomotive, which was made of steel, thundered along the track|4|needles|The needles, which were made of steel, sat in the pincushion.|4
+5|VISUAL|banjo|He strummed the wooden banjo|23|trolley|She boarded the metal trolley.|22
+5|VISUAL|burger|The burger, which was made of ground beef, sat on the plate|4|pickle|The pickle, which was made of cucumber, rested in the jar.|4
+5|VISUAL|crate|There was a wooden crate in the warehouse|19|rack|There were metal bars forming the rack on the wall.|34
+5|VISUAL|jug|The jug, which was made of ceramic, sat on the kitchen counter|4|plaque|The plaque, which was made of metal, hung on the wall.|4
+5|VISUAL|glove|She found the leather glove on the floor|22|sleigh|The wooden sleigh stood outside in the snow.|11
+5|VISUAL|mug|A mug is ceramic|2|oven|An oven is metal.|3
+5|VISUAL|gown|There was a silk gown hanging on the door|17|trolley|There was a metal trolley parked in the corridor.|18
+5|VISUAL|garb|The garb, which was cotton, hung on the rail|4|projector|The projector, which was plastic, sat on the desk.|4
+5|VISUAL|plum|She bit into the fleshy plum|24|wallet|He pulled out the leather wallet.|26
+5|VISUAL|coconut|There was a fibrous brown husk of a coconut sitting on the counter|36|marker|There was a plastic marker left on the desk.|20
+6|VISUAL|citadel|The soldiers defended the stone citadel|32|closet|She hung her coat in the wooden closet.|32
+6|VISUAL|dagger|The dagger, which was steel, lay on the table|4|jam|The jam, which was fruit, sat in the jar.|4
+6|VISUAL|balcony|She stepped out onto the concrete balcony|34|trailer|He parked the steel trailer in the lot.|20
+6|VISUAL|mausoleum|The mausoleum, which is made of stone, stood at the cemetery entrance|4|trailer|The trailer, which is made of steel, was parked by the roadside.|4
+6|VISUAL|basin|She filled the ceramic basin with water|23|shovel|He pushed the steel shovel into the ground.|20
+6|VISUAL|necklace|The necklace, which was gold, lay in the jewellery box|4|parcel|The parcel, which was cardboard, sat on the doorstep.|4
+6|VISUAL|kettle|There was a stainless steel kettle on the counter|28|trumpet|There was a brass trumpet in the case.|18
+6|VISUAL|bean|A bean is plant matter|2|thread|A thread is cotton.|2
+6|VISUAL|balcony|She stepped out onto the concrete balcony|34|cooler|He grabbed a drink from the plastic cooler.|36
+6|VISUAL|stockings|There were nylon stockings in the drawer|17|tractor|There was a steel tractor in the field.|18
+6|VISUAL|bullion|He stacked the gold bullion in the vault|20|courthouse|The lawyer walked into the stone courthouse.|33
+6|VISUAL|gravel|She walked across the crushed-stone gravel|36|thread|He carefully pulled the cotton thread.|31
+6|VISUAL|chimney|There was a red brick chimney on the rooftop|22|sack|There was a brown burlap sack in the barn.|25
+6|VISUAL|bikini|The bikini, which was made of nylon, hung on the washing line|4|closet|The closet, which was made of wood, stood in the corner of the room.|4
+6|VISUAL|missile|A missile is metal|2|pencil|A pencil is wood.|2
+6|VISUAL|boiler|He repaired the steel boiler|22|puppet|The child played with the wooden puppet.|33
+6|VISUAL|parcel|The parcel, which was cardboard, sat on the doorstep|4|ropes|The ropes, which were hemp, hung from the rigging.|4
+6|VISUAL|shovel|A shovel is metal|2|walkway|A walkway is concrete.|2
+6|VISUAL|ashes|She swept up the grey ashes|22|booth|He stepped into the wooden booth.|27
+6|VISUAL|banana|There was a soft organic flesh inside the banana|42|rod|There was a solid steel bar that formed the rod.|44
+6|VISUAL|parcel|The parcel, which was cardboard, sat on the doorstep|4|stool|The stool, which was wood, stood in the corner.|4
+6|VISUAL|mausoleum|A mausoleum is stone|2|steak|A steak is beef.|2
+6|VISUAL|fork|She picked up the stainless steel fork|34|puppet|He manipulated the wooden puppet.|26
+6|VISUAL|battery|There was a zinc and carbon battery in the drawer|28|lantern|There was a glass lantern hanging on the wall.|18
+6|VISUAL|mausoleum|The mausoleum, which is made of stone, stood at the edge of the cemetery|4|stockings|The stockings, which were made of nylon, lay on the chair.|4
+6|VISUAL|bikini|She wore the nylon bikini|19|gum|He chewed the synthetic rubber gum.|31
+6|VISUAL|goggles|There were plastic goggles on the workbench|19|shrubs|There were woody shrubs in the garden.|17
+6|VISUAL|fireplace|The fireplace, which was brick, glowed warmly in the room|4|mat|The mat, which was coir, lay on the floor.|4
+6|VISUAL|mat|The mat, which was made of rubber, lay on the floor|4|rocket|The rocket, which was made of aluminium, launched into the sky.|4
+6|VISUAL|laptop|A laptop is plastic and metal|2|patio|A patio is concrete.|2
+6|VISUAL|penny|She found a copper penny on the ground|19|spear|He held the wooden spear tightly.|19
+6|VISUAL|machete|There was a steel machete resting against the tree|18|pavilion|There was a wooden pavilion standing in the park.|19
+6|VISUAL|missile|He watched the metal missile streak across the sky|21|mural|The artist painted the plaster mural on the wall.|31
+6|VISUAL|stool|There was a wooden stool in the corner of the room|19|trailer|There was a metal trailer parked outside the warehouse.|18
+6|VISUAL|lotus|The lotus, which is made of delicate organic plant tissue, floated on the pond|4|printer|The printer, which is made of hard plastic, sat on the desk.|4
+6|VISUAL|cones|Traffic cones are orange plastic|8|fork|A fork is stainless steel.|2
+6|VISUAL|flute|There was a wooden flute on the stand|19|handkerchief|There was a cotton handkerchief in his pocket.|19
+6|VISUAL|dart|There was a steel-tipped dart on the floor|25|jam|There were strawberries in the jam.|31
+6|VISUAL|pudding|She stirred the floury pudding|23|spear|He gripped the wooden spear.|22
+6|VISUAL|bracelet|There was a silver bracelet on her wrist|19|walkway|There was a concrete walkway leading to the door.|21
+6|VISUAL|battery|The battery, which is made of lithium, powers the device|4|shelf|The shelf, which is made of wood, held the books.|4
+6|VISUAL|railing|She gripped the iron railing as she climbed the stairs|21|stockings|She pulled on her nylon stockings before the interview.|24
+6|VISUAL|boiler|The boiler, which was steel, heated the building|4|reins|The reins, which were leather, guided the horse.|4
+6|VISUAL|kettle|She boiled water in the stainless steel kettle|40|railing|He gripped the iron railing.|20
+6|VISUAL|cone|The cone, which was made of wafer, sat on the counter|4|yacht|The yacht, which was made of fibreglass, sailed across the bay.|4
+6|VISUAL|kettle|A kettle is metal|2|lotus|A lotus is organic matter.|2
+6|VISUAL|dagger|He unsheathed the steel dagger|24|trucks|She watched the metal trucks roll by.|22
+6|VISUAL|potato|The potato, which is starchy flesh, grows underground|4|yarn|The yarn, which is twisted fibre, comes on a spool.|4
+6|VISUAL|chimney|She gazed up at the brick chimney|26|shrubs|He trimmed the woody shrubs.|21
+6|VISUAL|parcel|The parcel, which was cardboard, sat by the door|4|shelf|The shelf, which was wood, held several books.|4
+6|VISUAL|fireplace|She warmed herself by the brick fireplace|32|keyboard|He typed on the plastic keyboard.|24
+6|VISUAL|lighthouse|There was a brick lighthouse standing on the rocky coast|18|shrubs|There were woody stems inside the shrubs growing along the path.|34
+6|VISUAL|handkerchief|A handkerchief is cotton|2|sack|A sack is burlap.|2
+6|VISUAL|bracelet|There was a golden bracelet on her wrist|19|raft|There were wooden logs making up the raft.|37
+6|VISUAL|hose|The hose, which is rubber, lay coiled on the lawn|4|seed|The seed, which is organic matter, sat in the packet.|4
+6|VISUAL|kite|She flew her nylon kite|19|ribbon|He tied the satin ribbon.|18
+6|VISUAL|chimney|The chimney, which was brick, rose above the rooftop|4|shelf|The shelf, which was wood, held a row of books.|4
+6|VISUAL|leash|He gripped the leather leash|23|mural|She admired the paint mural.|22
+6|VISUAL|cooler|There was a plastic cooler sitting in the garage|20|handkerchief|There was a cotton handkerchief folded in his pocket.|19
+6|VISUAL|chimney|The chimney, which was made of brick, rose above the rooftop|4|trophy|The trophy, which was made of plastic, sat on the shelf.|4
+6|VISUAL|cedar|A cedar is wood|2|shield|A shield is metal.|2
+6|VISUAL|bullion|He stored the golden bullion in the vault|21|kettle|She placed the stainless steel kettle on the hob.|31
+6|VISUAL|calendar|There was a paper calendar on the desk|18|lighthouse|There was a stone lighthouse on the coast.|18
+6|VISUAL|balcony|The balcony, which was made of concrete, overlooked the street|4|keyboard|The keyboard, which was made of plastic, sat on the desk.|4
+6|VISUAL|stroller|She pushed the aluminium stroller down the path|25|yacht|He sailed his fibreglass yacht across the bay.|25
+6|VISUAL|fireplace|The fireplace, which was brick, glowed warmly in the room|4|hook|The hook, which was metal, hung on the wall.|4
+6|VISUAL|missile|The missile, which was made of steel, streaked across the sky|4|trailer|The trailer, which was made of aluminium, sat parked at the roadside.|4
+6|VISUAL|lantern|She carried the glass lantern through the dark garden|22|stroller|He pushed the plastic stroller down the street.|22
+6|VISUAL|broom|She swept the floor with the wooden broom|36|trailer|He hitched the steel trailer to his truck.|21
+6|VISUAL|boiler|The boiler, which was made of steel, heated the water|4|cones|The cones, which were made of waffle, sat in the ice cream parlour.|4
+6|VISUAL|thread|There was a cotton thread hanging from the hem of her dress|19|torch|There was a metal torch left on the kitchen counter.|18
+6|VISUAL|shelf|The shelf, which was made of wood, held several books|4|steak|The steak, which was made of beef, sizzled in the pan.|4
+6|VISUAL|bin|A bin is plastic|2|mural|A mural is paint.|2
+6|VISUAL|courthouse|He walked past the stone courthouse|25|shrubs|The gardener trimmed the woody shrubs.|31
+6|VISUAL|container|There was a plastic container on the shelf|20|pin|There was a metal pin in the drawer.|18
+6|VISUAL|shovel|The shovel, which was steel, stood against the wall|4|wharf|The wharf, which was wood, stretched out over the water.|4
+6|VISUAL|hose|A hose is rubber|2|softball|A softball is leather.|2
+6|VISUAL|jam|There was sticky sugar-based fruit preserve in the jar of jam|58|shield|There was a strong steel plate forming the shield.|43
+6|VISUAL|leash|The leash, which was nylon, hung by the door|4|trucks|The trucks, which were steel, rumbled down the highway.|4
+6|VISUAL|pavement|The pavement, which is made of asphalt, stretched along the street|4|revolver|The revolver, which is made of steel, sat in the holster.|4
+6|VISUAL|penny|She found a copper penny on the ground|19|sweatshirt|He pulled the cotton sweatshirt over his head.|21
+6|VISUAL|mat|The mat, which was woven from straw, lay on the floor|4|pavilion|The pavilion, which was constructed from wood, stood in the park.|4
+6|VISUAL|pin|There was a steel pin on the workbench|18|stockings|There were nylon stockings in the drawer.|17
+6|VISUAL|boiler|The boiler, which was steel, heated the building|4|walkway|The walkway, which was concrete, stretched across the site.|4
+6|VISUAL|basin|The basin, which is ceramic, sat on the bathroom shelf|4|trumpet|The trumpet, which is brass, rested in its case.|4
+6|VISUAL|disc|There was a polycarbonate disc on the shelf|26|stockings|There were nylon stockings in the drawer.|17
+6|VISUAL|fork|The fork, which is stainless steel, sat on the table|4|lantern|The lantern, which is glass and metal, stood on the shelf.|4
+6|VISUAL|cord|He coiled the nylon cord|20|thread|She sewed with the cotton thread.|26
+6|VISUAL|tractor|There was a steel tractor parked in the field|18|wharf|There were wooden planks forming the wharf by the river.|37
+6|VISUAL|container|There was a plastic container on the shelf|20|stockings|There were nylon stockings in the drawer.|17
+6|VISUAL|cone|The cone, which is made of plastic, sat in the road|4|leash|The leash, which is made of nylon, hung by the door.|4
+6|VISUAL|softball|A softball is cork and leather|2|surfboard|A surfboard is foam and fiberglass.|2
+6|VISUAL|pin|She pushed the steel pin into the fabric|21|shelf|He placed the book on the wooden shelf.|33
+6|VISUAL|broom|There was a wooden broom leaning against the wall|19|patio|There was a concrete patio behind the house.|21
+6|VISUAL|boot|A boot is leather|2|necklace|A necklace is metal.|2
+6|VISUAL|envelope|The envelope, which was paper, sat on the desk|4|walkway|The walkway, which was concrete, stretched ahead.|4
+7|VISUAL|pen|The pen, which is plastic, sat on the desk|4|pot|The pot, which is metal, stood on the stove.|4
+7|VISUAL|mirror|She gazed into the glass mirror|25|skirt|She smoothed down her cotton skirt.|29
+7|VISUAL|ottoman|There was a fabric-upholstered ottoman in the corner of the room|31|stove|There was a stainless steel stove against the kitchen wall.|28
+7|VISUAL|diamond|The diamond, which is carbon, sparkled in the light|4|pen|The pen, which is plastic, sat on the desk.|4
+7|VISUAL|panel|A panel is wood|2|skull|A skull is bone.|2
+7|VISUAL|clay|She sculpted with the wet earthen clay|34|cloak|He wrapped himself in the warm woollen cloak.|39
+7|VISUAL|airplane|The airplane, which is aluminum, soared through the sky|4|candy|The candy, which is sugar, sat in the bowl.|4
+7|VISUAL|hammer|There was a steel hammer in the toolbox|18|ottoman|There was a fabric ottoman in the corner of the room.|19
+7|VISUAL|barn|The barn, which was made of wood, stood in the field|4|wire|The wire, which was made of metal, lay on the ground.|4
+7|VISUAL|arrow|An arrow is wood|3|shell|A shell is calcium carbonate.|2
+7|VISUAL|bonnet|There was a metal bonnet on the car|18|cane|There was a wooden cane in the hallway.|19
+7|VISUAL|dome|A dome is glass or metal|2|skull|A skull is bone.|2
+7|VISUAL|apple|The apple, which is flesh, hangs on the tree|4|arrow|The arrow, which is wood, flew through the air.|4
+7|VISUAL|mirror|The mirror, which is made of glass, hung on the wall|4|soap|The soap, which is made of fat, sat on the sink.|4
+7|VISUAL|canoe|A canoe is wood|2|cloak|A cloak is wool.|2
+7|VISUAL|plate|He placed the ceramic plate on the table|22|vest|She folded the cotton vest and put it away.|22
+7|VISUAL|button|There was a plastic button on the coat|20|fortress|There were stone walls forming the fortress.|35
+7|VISUAL|apple|The apple, which is made of organic plant tissue, hung on the tree|4|villa|The villa, which is made of stone, stood on the hillside.|4
+7|VISUAL|balloon|A balloon is latex|2|medal|A medal is metal.|2
+7|VISUAL|plate|She placed the ceramic plate on the table|23|wire|He bent the copper wire into shape.|19
+7|VISUAL|button|There was a plastic button on the coat|20|carpet|There were wool fibres running through the carpet.|43
+7|VISUAL|backpack|The backpack, which was nylon, hung on the hook|4|bucket|The bucket, which was plastic, stood in the corner.|4
+7|VISUAL|doll|A doll is plastic|2|stove|A stove is metal.|2
+7|VISUAL|egg|She cracked the calcium-shelled egg|32|tape|He tore off the plastic tape.|24
+7|VISUAL|drums|There were drums made of wood and animal skin on the stage|11|pen|There was a pen made of plastic on the desk.|12
+7|VISUAL|bullet|The bullet, which was made of lead, travelled at high speed|4|ramp|The ramp, which was made of concrete, sloped upward from the road.|4
+7|VISUAL|carpet|A carpet is wool|2|hut|A hut is wood.|2
+7|VISUAL|barn|He stored his tools in the wooden barn|34|blanket|She pulled the woollen blanket up to her chin.|23
+7|VISUAL|hut|The hut, which was made of wood, stood at the edge of the forest|4|purse|The purse, which was made of leather, sat on the shelf.|4
+7|VISUAL|skirt|She twirled in her woollen skirt|27|vest|He fastened his knitted vest.|24
+7|VISUAL|dish|The dish, which was ceramic, sat on the counter|4|purse|The purse, which was leather, hung on the hook.|4
+7|VISUAL|canvas|She painted on the cotton canvas|26|villa|He relaxed in his stone villa.|24
+7|VISUAL|cane|There was a wooden cane leaning against the wall|19|pen|There was a plastic pen on the desk.|20
+7|VISUAL|skull|He gazed at the bony skull|21|throne|The king sat upon the wooden throne.|29
+7|VISUAL|staircase|The staircase, which is made of wood, creaked underfoot|4|vest|The vest, which is made of cotton, hung on the hook.|4
+7|VISUAL|apple|She bit into the fleshy apple|24|hut|He entered the thatched hut.|24
+7|VISUAL|diamond|She admired the carbon diamond|23|staircase|He climbed the wooden staircase.|22
+7|VISUAL|medal|The medal, which was metal, hung around her neck|4|vest|The vest, which was cotton, kept him cool in the summer heat.|4
+7|VISUAL|carpet|The carpet, which is made of nylon, covered the floor|4|frisbee|The frisbee, which is made of plastic, landed in the garden.|4
+7|VISUAL|canoe|There was a fibreglass canoe resting by the lake|23|canvas|There was a cotton canvas hanging in the studio.|19
+7|VISUAL|grill|The grill, which was made of steel, sizzled in the backyard|4|staircase|The staircase, which was made of wood, led up to the second floor.|4
+7|VISUAL|candle|She lit the waxy candle|17|dish|He placed food on the ceramic dish.|30
+7|VISUAL|automobile|The automobile, which is made of steel, sat in the driveway|4|drums|The drums, which are made of wood, stood in the corner.|4
+7|VISUAL|skirt|She twirled in her cotton skirt|26|stove|He placed the pot on the cast-iron stove.|35
+7|VISUAL|collar|There was a cotton collar on the shirt|19|pipe|There was a metal pipe in the ground.|18
+7|VISUAL|bone|The bone, which was calcium phosphate, lay in the dirt|4|tray|The tray, which was plastic, sat on the counter.|4
+7|VISUAL|button|A button is plastic|2|purse|A purse is leather.|2
+7|VISUAL|carpet|She walked across the woollen carpet|30|scarf|He wrapped the silken scarf around his neck.|22
+7|VISUAL|globe|The globe, which is made of glass, sat on the desk|4|limestone|The limestone, which is composed of calcium carbonate, formed the cliff face.|4
+7|VISUAL|lighter|There was a plastic lighter in his pocket|20|throne|There was a wooden throne in the palace.|19
+7|VISUAL|pot|She stirred the bubbling soup in the metal pot|43|staircase|He climbed the wooden staircase.|22
+7|VISUAL|hut|There was a wooden hut at the edge of the forest|19|stove|There was a cast iron stove in the corner of the room.|22
+7|VISUAL|cheese|The cheese, which was made of milk, sat on the board|4|grill|The grill, which was made of metal, stood in the garden.|4
+7|VISUAL|billboard|He walked past the wooden billboard|26|straw|She sipped through the plastic straw.|31
+7|VISUAL|dome|There was a glass dome on display in the shop|18|soil|There was dark brown soil in the garden.|21
+7|VISUAL|mirror|There was a glass mirror hanging on the wall|18|scarf|There was a woollen scarf on the chair.|20
+7|VISUAL|barn|The barn, which was wood, stood at the edge of the field|4|rifle|The rifle, which was steel, rested against the wall.|4
+7|VISUAL|pier|He walked along the wooden pier|27|pistol|She aimed the steel pistol.|20
+7|VISUAL|blade|There was a steel blade in the kitchen drawer|18|scarf|There was a woollen scarf on the coat hook.|20
+7|VISUAL|drum|The drum, which was made of wood, sat in the corner|4|limestone|The limestone, which was composed of calcium carbonate, formed the cliff face.|4
+7|VISUAL|collar|There was a cotton collar on the shirt|19|globe|There was a glass globe on the shelf.|18
+7|VISUAL|collar|He straightened his cotton collar|27|wire|The electrician cut the copper wire.|31
+7|VISUAL|candle|The candle, which was made of wax, burned slowly on the windowsill|4|pan|The pan, which was made of metal, sat on the stove.|4
+7|VISUAL|villa|A villa is brick|2|violin|A violin is wood.|2
+7|VISUAL|bonnet|There was a steel bonnet on the car|18|shoe|There was a leather shoe on the floor.|20
+7|VISUAL|cloak|The cloak, which was made of wool, hung by the door|4|limestone|The limestone, which was composed of calcium carbonate, formed the cliff face.|4
+7|VISUAL|bucket|The bucket, which is made of plastic, sat by the door|4|button|The button, which is made of plastic, was sewn onto the shirt.|4
+7|VISUAL|balloon|There was a thin rubber balloon floating above the crowd|24|string|There was a twisted cotton string lying on the floor.|27
+7|VISUAL|fortress|The fortress, which was made of stone, stood on the hill|4|plate|The plate, which was made of ceramic, sat on the shelf.|4
+7|VISUAL|cage|There was a steel cage in the yard|18|ridge|There was a rocky ridge in the distance.|18
+7|VISUAL|carpet|There was nylon fibre woven into the carpet|37|tube|There was glass forming the walls of the tube.|41
+7|VISUAL|egg|The egg, which is made of calcium carbonate, sat in the nest|4|hut|The hut, which is made of wood, stood at the edge of the forest.|4
+7|VISUAL|shell|She found a calcium carbonate shell on the beach|30|telescope|He looked through the glass telescope at the stars.|28
+7|VISUAL|purse|There was a leather purse on the counter|20|shell|There was a calcium carbonate shell on the beach.|30
+7|VISUAL|pie|The pie, which was made of pastry, sat cooling on the windowsill|4|skirt|The skirt, which was made of cotton, hung in the wardrobe.|4
+7|VISUAL|fortress|He defended the stone fortress|22|lamp|She lit the glass lamp.|18
+7|VISUAL|candle|A candle is wax|2|wheelchair|A wheelchair is metal.|2
+7|VISUAL|airplane|There was an aluminum airplane flying overhead|22|banner|There was a fabric banner hanging on the wall.|19
+7|VISUAL|hammer|The hammer, which was steel, drove the nail into the wood|4|ledge|The ledge, which was concrete, jutted out from the building.|4
+7|VISUAL|axe|An axe is steel|3|candle|A candle is wax.|2
+7|VISUAL|rail|He gripped the steel rail|21|string|She plucked the nylon string.|22
+7|VISUAL|fabric|She touched the cotton fabric|23|skull|He examined the bony skull.|21
+7|VISUAL|altar|There was a polished wooden altar at the front of the church|28|rail|There was a steel rail running along the staircase.|18
+7|VISUAL|altar|The altar, which was made of stone, stood at the front of the church|4|doll|The doll, which was made of plastic, sat on the shelf.|4
+7|VISUAL|drum|She played the wooden drum|22|egg|He cracked the calcium-carbonate egg.|33
+7|VISUAL|curb|There was a concrete curb at the edge of the road|21|grill|There was a cast iron grill over the fireplace.|22
+7|VISUAL|automobile|The automobile, which is made of steel, sat in the driveway|4|dome|The dome, which is made of concrete, rose above the city.|4
+7|VISUAL|ledge|She placed her plant pot on the concrete ledge|41|trunks|He folded his nylon trunks into the bag.|20
+7|VISUAL|drums|There were drums made of wood sitting in the corner|11|shell|There was a shell of calcium carbonate lying on the beach.|12
+7|VISUAL|lamp|A lamp is glass and metal|2|pistol|A pistol is steel.|2
+7|VISUAL|ski|The ski, which is made of fiberglass, glided down the slope|4|vest|The vest, which is made of polyester, hung on the rack.|4
+7|VISUAL|collar|A collar is leather|2|pen|A pen is plastic.|2
+7|VISUAL|cloak|The cloak, which was made of wool, hung on the hook|4|grill|The grill, which was made of cast iron, sat on the patio.|4
+7|VISUAL|soil|She walked across the silty soil|28|villa|He admired the stucco villa.|22
+7|VISUAL|doll|There was a plastic doll on the shelf|20|pier|There was a wooden pier stretching into the sea.|19
+7|VISUAL|dome|The dome, which is made of glass, rose above the building|4|stove|The stove, which is made of steel, stood in the kitchen.|4
+7|VISUAL|barn|A barn is wood|2|billboard|A billboard is metal.|2
+7|VISUAL|candle|She lit the paraffin candle|21|canvas|He stretched the linen canvas.|23
+7|VISUAL|collar|The collar, which was cotton, was hanging on the rack|4|diamond|The diamond, which was carbon, sparkled in the light.|4
+7|VISUAL|backpack|She hoisted the nylon backpack onto her shoulders|22|ridge|He scrambled along the rocky ridge.|29
+7|VISUAL|cage|There was a steel cage in the corner of the room|18|pier|There was a wooden pier stretching out over the water.|19
+7|VISUAL|cage|The cage, which was made of metal, stood in the corner|4|clay|The clay, which was wet earth, sat on the potters wheel.|4
+7|VISUAL|balloon|A balloon is latex|2|cane|A cane is wood.|2
+7|VISUAL|cane|There was a wooden cane resting against the wall|19|ledge|There was a concrete ledge jutting out from the building.|21
+7|VISUAL|automobile|The automobile, which is made of steel, sat in the driveway|4|barn|The barn, which is made of wood, stood in the field.|4
+8|VISUAL|fruit|A fruit is organic matter|2|plane|A plane is metal.|2
+8|VISUAL|bread|She sliced the floury bread|22|porch|He swept the wooden porch.|20
+8|VISUAL|brick|The brick, which was made of clay, sat in the wall|4|map|The map, which was made of paper, lay on the desk.|4
+8|VISUAL|cable|A cable is copper|2|helmet|A helmet is plastic.|2
+8|VISUAL|bread|There was a flour-based loaf of bread on the counter|32|package|There was a plastic package sitting on the shelf.|20
+8|VISUAL|flag|The flag, which was made of nylon, fluttered in the breeze|4|rope|The rope, which was made of hemp, lay coiled on the ground.|4
+8|VISUAL|brain|A brain is grey matter|2|cloth|A cloth is woven fibre.|2
+8|VISUAL|bread|She baked a wheat bread|18|flag|He raised the nylon flag.|20
+8|VISUAL|bottle|There was a plastic bottle on the counter|20|microphone|There was a metal microphone on the stand.|18
+8|VISUAL|brain|The brain, which is grey, controls the body|4|fruit|The fruit, which is fleshy, fell from the tree.|4
+8|VISUAL|boots|There were some leather boots on the floor|24|flag|There was a fabric flag on the pole.|19
+8|VISUAL|deck|The deck, which was wood, stretched across the backyard|4|flag|The flag, which was nylon, hung from the pole.|4
+8|VISUAL|cake|She ate the floury cake|19|cloth|He folded the cotton cloth.|21
+8|VISUAL|piano|The piano, which is wood, stood in the corner|4|wheel|The wheel, which is rubber, lay in the garage.|4
+8|VISUAL|brick|A brick is clay|2|weapon|A weapon is steel.|2
+8|VISUAL|ladder|He climbed the wooden ladder|22|tomb|The archaeologist discovered the stone tomb.|39
+8|VISUAL|cake|The cake, which was made of flour, sat on the counter|4|chapel|The chapel, which was made of stone, stood at the end of the road.|4
+8|VISUAL|package|She carried the cardboard package to the door|26|tent|He pitched the nylon tent in the field.|21
+8|VISUAL|fountain|The fountain, which was made of stone, stood in the square|4|ladder|The ladder, which was made of wood, leaned against the wall.|4
+8|VISUAL|engine|The engine, which is made of steel, powered the vehicle|4|rice|The rice, which is starchy, sat in the bowl.|4
+8|VISUAL|basket|She carried the wicker basket|23|lawn|He mowed the grassy lawn.|20
+8|VISUAL|porch|There was a wooden porch at the front of the house|19|tables|There were four glass tables in the showroom.|22
+8|VISUAL|fence|The fence, which was made of wood, surrounded the garden|4|tank|The tank, which was made of steel, sat in the military depot.|4
+8|VISUAL|cable|A cable is copper|2|map|A map is paper.|2
+8|VISUAL|bread|He ate the wheat bread|17|skateboard|She rode the wooden skateboard.|20
+8|VISUAL|basket|The basket, which was woven from wicker, sat on the floor|4|engine|The engine, which was made of steel, roared to life.|4
+8|VISUAL|cable|A cable is copper|2|tomb|A tomb is stone.|2
+8|VISUAL|bible|There was a paper bible on the shelf|18|brick|There was a clay brick on the ground.|17
+8|VISUAL|brain|A brain is soft tissue|2|deck|A deck is wood.|2
+8|VISUAL|cake|She ate the floury cake|19|tank|He drove the steel tank.|19
+8|VISUAL|carriage|There was a wooden carriage rolling along the dusty road|19|column|There was a stone column standing in the ancient courtyard.|18
+8|VISUAL|basket|The basket, which was woven from wicker, sat on the floor|4|monument|The monument, which was made of stone, stood in the square.|4
+8|VISUAL|column|There was a concrete column supporting the roof of the building|21|vehicle|There was a steel vehicle parked outside the warehouse.|18
+8|VISUAL|cart|There was a wooden cart in the market|19|plane|There was an aluminum plane in the sky.|22
+8|VISUAL|clock|The clock, which is made of plastic, hung on the wall|4|salt|The salt, which is sodium chloride, sat in the shaker.|4
+8|VISUAL|helmet|A helmet is polycarbonate|2|umbrella|An umbrella is nylon.|3
+8|VISUAL|basket|She placed her fruits into the woven wicker basket|44|vehicle|He drove the steel vehicle down the road.|19
+8|VISUAL|carriage|The carriage, which was wooden, rolled down the cobbled street|4|umbrella|The umbrella, which was nylon, stood in the hallway.|4
+8|VISUAL|pole|There was a wooden pole standing in the ground|19|sunglasses|There were plastic sunglasses sitting on the shelf.|19
+8|VISUAL|deck|The deck, which was made of wood, extended from the back of the house|4|fence|The fence, which was made of wood, surrounded the garden.|4
+8|VISUAL|chain|There was a metal chain hanging from the gate|18|tables|There were wooden tables set up in the hall.|18
+8|VISUAL|knife|A knife is steel|2|ladder|A ladder is wood.|2
+8|VISUAL|flower|She admired the velvety flower|24|tank|He climbed inside the steel tank.|28
+8|VISUAL|cable|There was a copper cable running along the wall|19|cake|There was a flour cake sitting on the counter.|18
+8|VISUAL|engine|The engine, which is made of steel, roared to life|4|sweater|The sweater, which was made of wool, kept her warm.|4
+8|VISUAL|flag|There was a fabric flag flying above the building|19|monument|There was a stone monument standing in the square.|18
+8|VISUAL|carriage|The carriage, which was wooden, stood in the courtyard|4|sweater|The sweater, which was woollen, lay on the bed.|4
+8|VISUAL|aircraft|He watched the aluminum aircraft fly overhead|24|fountain|She photographed the stone fountain in the square.|27
+8|VISUAL|fountain|The fountain, which was made of stone, stood in the square|4|plane|The plane, which was made of aluminium, sat on the runway.|4
+8|VISUAL|boots|There were leather boots on the floor|19|ladder|There was a wooden ladder against the wall.|19
+8|VISUAL|carriage|He watched the wooden carriage roll down the cobbled street|22|moon|She gazed up at the rocky moon hanging in the sky.|26
+8|VISUAL|cigarette|The cigarette, which is made of tobacco, burned slowly in the ashtray|4|coal|The coal, which is made of carbon, sat in the fireplace.|4
+8|VISUAL|flower|She admired the silky flower|22|tomb|He stood before the stone tomb.|26
+8|VISUAL|chain|The chain, which was made of metal, held the gate shut|4|fountain|The fountain, which was made of stone, stood in the square.|4
+8|VISUAL|deck|He relaxed on the wooden deck|25|tank|The soldier climbed into the steel tank.|35
+8|VISUAL|basket|The basket, which was woven from wicker, sat in the corner|4|wheel|The wheel, which was made of rubber, rested against the wall.|4
+8|VISUAL|carriage|He rode in the wooden carriage|22|clock|She glanced at the metal clock.|25
+8|VISUAL|cart|There was a wooden cart sitting in the yard|19|flower|There were fragile organic petals forming the flower in the garden.|46
+8|VISUAL|fruit|The fruit, which was organic plant tissue, hung from the branch|4|microphone|The microphone, which was metal, stood on the stage.|4
+8|VISUAL|tent|A tent is nylon|2|wagon|A wagon is steel.|2
+8|VISUAL|chapel|He entered the stone chapel|21|sunglasses|She put on her plastic sunglasses.|23
+8|VISUAL|bible|There was a paper bible on the shelf|18|engine|There was a metal engine in the car.|18
+8|VISUAL|cake|The cake, which was made of flour, sat on the counter|4|carriage|The carriage, which was made of wood, stood in the street.|4
+8|VISUAL|cart|He loaded the wooden cart|21|sword|She drew the steel sword.|19
+8|VISUAL|cart|The cart, which was made of wood, stood in the field|4|porch|The porch, which was made of wood, faced the street.|4
+8|VISUAL|chapel|She entered the stone chapel|22|fruit|He ate the fleshy fruit.|18
+8|VISUAL|brick|A brick is clay|2|tent|A tent is nylon.|2
+8|VISUAL|cloth|There was a cotton cloth folded on the shelf|19|monument|There was a stone monument standing in the square.|18
+8|VISUAL|deck|The deck, which was made of wood, stretched across the back of the house|4|sticks|The sticks, which were made of wood, lay scattered across the forest floor.|4
+8|VISUAL|fence|A fence is wood|2|monument|A monument is stone.|2
+8|VISUAL|desk|He sat at the wooden desk|21|microphone|She spoke into the plastic microphone.|27
+8|VISUAL|map|The map, which was paper, guided the traveller|4|wheel|The wheel, which was rubber, spun along the road.|4
+8|VISUAL|deck|The deck, which was wood, extended out over the water|4|wagon|The wagon, which was metal, sat in the field.|4
+8|VISUAL|flower|A flower is organic matter|2|microphone|A microphone is plastic and metal.|2
+8|VISUAL|belt|The belt, which was leather, held up his trousers|4|wagon|The wagon, which was wood, sat in the barn.|4
+8|VISUAL|bowl|A bowl is ceramic|2|tank|A tank is steel.|2
+8|VISUAL|chapel|She prayed in the stone chapel|24|sticks|He drummed with the wooden sticks.|27
+8|VISUAL|cake|There was a floury sponge cake on the counter|26|wheel|There was a rubber wheel in the garage.|19
+8|VISUAL|deck|He relaxed on the wooden deck|25|lawn|She sat on the grassy lawn.|22
+8|VISUAL|bell|There was a bronze bell hanging in the tower|19|tomb|There was a stone tomb in the churchyard.|18
+8|VISUAL|cart|The cart, which is typically made of wood, carried the harvest across the field|4|rope|The rope, which is typically made of twisted fibre, hung from the ceiling.|4
+8|VISUAL|chain|She wore the gold chain|18|sticks|He snapped the wooden sticks.|22
+8|VISUAL|brain|The brain, which is grey matter, processes information|4|fence|The fence, which is wood, stood in the garden.|4
+8|VISUAL|chain|She pulled on the steel chain|24|deck|He walked across the wooden deck.|28
+8|VISUAL|aircraft|There was an aluminium aircraft flying overhead|23|flag|There was a nylon flag hanging from the pole.|18
+8|VISUAL|belt|He fastened the leather belt around his waist|24|cigarette|She lit the tobacco cigarette and stepped outside.|20
+8|VISUAL|cabin|The cabin, which was made of wood, stood at the edge of the forest|4|skateboard|The skateboard, which was made of maple, sat in the garage.|4
+8|VISUAL|belt|A belt is leather|2|sword|A sword is steel.|2
+8|VISUAL|clock|She glanced up at the plastic clock|30|monument|The tourists gathered around the stone monument.|39
+8|VISUAL|clock|There was a plastic clock on the shelf|20|cloth|There was a cotton cloth on the table.|19
+8|VISUAL|package|A package is cardboard|2|sweater|A sweater is wool.|2
+8|VISUAL|cake|She ate the floury cake|19|plane|He boarded the aluminium plane.|25
+8|VISUAL|fountain|There was a stone fountain in the garden|18|knife|There was a steel knife on the counter.|18
+8|VISUAL|carriage|The carriage, which was wooden, rolled along the road|4|coal|The coal, which was carbon, sat in the fireplace.|4
+8|VISUAL|cake|A cake is flour, eggs, butter, and sugar|2|umbrella|An umbrella is nylon and metal.|3
+8|VISUAL|belt|He fastened the leather belt around his waist|24|bottle|She filled the plastic bottle with water.|23
+8|VISUAL|cart|There was a wooden cart in the market|19|tables|There were wooden tables in the room.|18
+8|VISUAL|fountain|The fountain, which was made of stone, stood in the square|4|umbrella|The umbrella, which was made of nylon, sat in the stand.|4
+8|VISUAL|flower|A flower is organic matter|2|pole|A pole is metal.|2
+8|VISUAL|cable|There was a copper cable running along the wall|19|wagon|There was a wooden wagon sitting in the field.|19
+8|VISUAL|carriage|The carriage, which was wooden, rolled along the cobbled street|4|ladder|The ladder, which was aluminium, leaned against the wall.|4
+8|VISUAL|map|A map is paper|2|sword|A sword is steel.|2
+8|VISUAL|bottle|There was a glass bottle on the counter|18|coal|There were black lumps of carbon coal in the cellar.|33
+8|VISUAL|aircraft|The aircraft, which is made of aluminium, taxied down the runway|4|column|The column, which is made of concrete, stood in the town square.|4
+8|VISUAL|cabin|A cabin is wood|2|flower|A flower is organic tissue.|2
+8|VISUAL|cart|The cart, which was made of wood, carried the hay across the field|4|ladder|The ladder, which was made of aluminium, leaned against the wall.|4
+8|VISUAL|ladder|A ladder is wood or aluminium|2|lawn|A lawn is grass.|2
+8|VISUAL|brick|The brick, which was made of fired clay, sat in the wall|4|motorcycle|The motorcycle, which was made of steel, stood in the garage.|4
+8|VISUAL|engine|He repaired the steel engine|22|umbrella|She opened her nylon umbrella.|21
+8|VISUAL|clock|The clock, which is made of metal, hung on the wall|4|wheel|The wheel, which is made of rubber, rolled down the street.|4
+8|VISUAL|chain|The chain, which was made of steel, held the gate shut|4|column|The column, which was made of concrete, rose above the entrance.|4
+9|VISUAL|hat|There was some woven fabric forming the hat on his head|40|paper|There were compressed wood fibres making up the paper on the desk.|48
+9|VISUAL|phone|The phone, which is made of plastic, sat on the desk|4|wall|The wall, which is made of brick, stood at the edge of the garden.|4
+9|VISUAL|boat|He sailed the fibreglass boat|25|book|She read the paper book.|19
+9|VISUAL|chair|There was a wooden chair in the corner|19|key|There was a metal key on the shelf.|18
+9|VISUAL|ball|A ball is rubber|2|tree|A tree is wood.|2
+9|VISUAL|bicycle|He rode his steel bicycle down the road|18|phone|She answered her plastic phone.|25
+9|VISUAL|chair|There was a wooden chair in the corner|19|jeans|There were blue denim jeans on the floor.|22
+9|VISUAL|chair|She sat on the wooden chair|22|pants|He folded his cotton pants.|21
+9|VISUAL|clothes|There were cotton fibres woven into the clothes|40|paper|There was wood pulp pressed into the paper.|37
+9|VISUAL|rock|The rock, which is made of minerals, sat on the ground|4|sun|The sun, which is made of plasma, shone in the sky.|4
+9|VISUAL|phone|A phone is glass and plastic|2|truck|A truck is steel.|2
+9|VISUAL|shirt|The shirt, which was cotton, hung on the hanger|4|wood|The wood, which was oak, sat in the fireplace.|4
+9|VISUAL|bag|She grabbed the plastic bag|24|oil|He studied the hydrocarbon oil.|27
+9|VISUAL|bicycle|The bicycle, which is made of steel, leaned against the wall|4|oil|The oil, which is a hydrocarbon liquid, filled the container.|4
+9|VISUAL|cap|There was a plastic cap on the shelf|20|paper|There was a wood pulp paper on the desk.|22
+9|VISUAL|door|A door is wood|2|statue|A statue is stone.|2
+9|VISUAL|slate|A slate is rock|2|toy|A toy is plastic.|2
+9|VISUAL|ship|He boarded the steel ship|21|stairs|She climbed the wooden stairs.|23
+9|VISUAL|roof|The roof, which was made of tiles, kept out the rain|4|toy|The toy, which was made of plastic, sat on the shelf.|4
+9|VISUAL|tree|There was rough brown bark covering the tree|40|wall|There were grey concrete blocks forming the wall.|44
+9|VISUAL|boat|He stepped onto the fibreglass boat|31|magazine|She flicked through the paper magazine.|30
+9|VISUAL|key|There was a metal key on the counter|18|shorts|There were cotton shorts on the bed.|18
+9|VISUAL|couch|There was a leather couch in the room|20|jacket|There was a wool jacket on the hanger.|17
+9|VISUAL|roof|The roof, which is typically made of tiles, kept out the rain|4|wall|The wall, which is usually made of brick, stood firm.|4
+9|VISUAL|bag|A bag is leather|2|table|A table is wood.|2
+9|VISUAL|gun|The gun, which was steel, lay on the table|4|jacket|The jacket, which was leather, hung on the hook.|4
+9|VISUAL|chair|She sat down on the wooden chair|27|tower|He looked up at the concrete tower.|29
+9|VISUAL|clothes|There were cotton clothes folded in the drawer|18|gate|There was a wooden gate at the end of the path.|19
+9|VISUAL|stairs|The stairs, which were made of wood, creaked underfoot|4|wall|The wall, which was made of brick, stood firm.|4
+9|VISUAL|cup|A cup is ceramic|2|key|A key is metal.|2
+9|VISUAL|box|She carried the cardboard box|26|stairs|He climbed the wooden stairs.|22
+9|VISUAL|glass|There was silica melted and cooled into a transparent pane forming the glass in the window|71|rock|There was solid mineral and crystallized matter making up the rock on the ground.|62
+9|VISUAL|cap|The cap, which was cotton, sat on the shelf|4|wall|The wall, which was brick, stood in the garden.|4
+9|VISUAL|book|There was a paper book on the shelf|18|box|There was a cardboard box on the floor.|22
+9|VISUAL|bike|She rode the steel bike|19|boat|He sailed the wooden boat.|21
+9|VISUAL|bag|The bag, which was plastic, sat on the counter|4|pants|The pants, which were cotton, hung on the rail.|4
+9|VISUAL|book|A book is paper|2|toy|A toy is plastic.|2
+9|VISUAL|floor|She walked across the wooden floor|29|tree|He sat beneath the woody tree.|25
+9|VISUAL|boat|There was a wooden boat on the water|19|sun|There was a hydrogen and helium sun in the sky.|32
+9|VISUAL|book|She picked up the paper book|24|shirt|He folded the cotton shirt.|21
+9|VISUAL|book|There was a paper book sitting on the shelf|18|tree|There was a woody fibrous trunk rising from the ground as part of the tree.|70
+9|VISUAL|boat|The boat, which was made of fibreglass, crossed the lake|4|coat|The coat, which was made of wool, hung on the hook.|4
+9|VISUAL|ball|A ball is rubber|2|book|A book is paper.|2
+9|VISUAL|book|There were sheets of paper bound together to make a book|52|table|There was a wooden surface held up by four legs to form a table.|58
+9|VISUAL|bridge|The bridge, which was made of concrete, spanned the river|4|shorts|The shorts, which were made of cotton, lay on the bed.|4
+9|VISUAL|door|She opened the wooden door|22|toy|He picked up the plastic toy.|25
+9|VISUAL|cup|The cup, which is made of ceramic, sat on the counter|4|paper|The paper, which is made of wood pulp, lay on the desk.|4
+9|VISUAL|gun|A gun is metal|2|shirt|A shirt is cotton.|2
+9|VISUAL|camera|The camera, which was made of plastic, sat on the tripod|4|glass|The glass, which was made of silica, stood on the shelf.|4
+9|VISUAL|chair|She sat down on the wooden chair|27|rock|He threw the granite rock.|21
+9|VISUAL|table|The table, which is made of wood, stood in the kitchen|4|tree|The tree, which is made of wood, grew in the field.|4
+9|VISUAL|ball|There was a rubber ball in the garden|19|bench|There was a wooden bench in the park.|19
+9|VISUAL|phone|The phone, which is glass and metal, buzzed on the desk|4|ship|The ship, which is steel, crossed the ocean.|4
+9|VISUAL|rock|A rock is stone|2|statue|A statue is bronze.|2
+9|VISUAL|bike|She rode her steel bike|19|book|He read his paper book.|18
+9|VISUAL|cup|There was a ceramic cup on the counter|20|tower|There was a concrete tower on the horizon.|21
+9|VISUAL|bridge|The bridge, which is made of concrete, spans the river|4|sun|The sun, which is made of plasma, shines in the sky.|4
+9|VISUAL|coat|A coat is wool|2|floor|A floor is wood.|2
+9|VISUAL|cap|There was a cotton cap on the shelf|19|food|There were plant-based ingredients in the food.|42
+9|VISUAL|ball|He kicked the rubber ball|21|sun|She looked at the gaseous sun.|26
+9|VISUAL|jacket|The jacket, which was made of leather, hung on the hook|4|oil|The oil, which was liquid hydrocarbon, filled the barrel.|4
+9|VISUAL|bench|A bench is wood|2|cap|A cap is cotton.|2
+9|VISUAL|key|There was a metal key in the lock|18|stairs|There were wooden stairs in the hallway.|18
+9|VISUAL|ball|The ball, which is made of rubber, bounced across the playground|4|ship|The ship, which is made of steel, sailed across the ocean.|4
+9|VISUAL|bag|A bag is fabric|2|phone|A phone is glass and metal.|2
+9|VISUAL|camera|There was a plastic camera on the shelf|20|couch|There was a fabric couch in the room.|19
+9|VISUAL|radio|The radio, which was plastic, sat on the shelf|4|window|The window, which was glass, let in the morning light.|4
+9|VISUAL|bicycle|She rode her steel bicycle|19|clothes|She folded her cotton clothes.|22
+9|VISUAL|bed|There was a wooden bed in the corner of the room|19|jeans|There were blue denim jeans hanging on the rail.|22
+9|VISUAL|key|The key, which was metal, opened the door|4|roof|The roof, which was tile, kept out the rain.|4
+9|VISUAL|ship|There was a steel ship crossing the ocean|18|stone|There was a grey stone on the ground.|17
+9|VISUAL|cup|She drank from the ceramic cup|27|shirt|He ironed his cotton shirt.|21
+9|VISUAL|stone|A stone is mineral|2|wall|A wall is brick.|2
+9|VISUAL|bench|She sat on the wooden bench|22|floor|He swept the concrete floor.|22
+9|VISUAL|pants|There were cotton pants on the floor|18|window|There was a glass window on the wall.|18
+9|VISUAL|jacket|The jacket, which was leather, hung on the hook|4|window|The window, which was glass, let in the morning light.|4
+9|VISUAL|floor|She walked across the wooden floor|29|sun|He gazed at the nuclear sun.|24
+9|VISUAL|computer|He switched on the silicon computer|27|floor|She swept the wooden floor.|21
+9|VISUAL|coat|There was a wool coat hanging by the door|17|pants|There were cotton pants folded on the shelf.|18
+9|VISUAL|bench|The bench, which was wood, stood in the park|4|door|The door, which was wood, led into the house.|4
+9|VISUAL|box|A box is cardboard|2|tower|A tower is stone.|2
+9|VISUAL|box|He opened the cardboard box|24|statue|She admired the marble statue.|23
+9|VISUAL|bike|The bike, which is made of steel, leaned against the wall|4|pants|The pants, which are made of cotton, lay on the bed.|4
+9|VISUAL|chair|A chair is wood|2|phone|A phone is glass and metal.|2
+9|VISUAL|box|There was a wooden box in the corner|19|slate|There was a grey metamorphic rock slate on the roof.|34
+9|VISUAL|camera|The camera, which is made of plastic, sat on the shelf|4|shorts|The shorts, which are made of cotton, lay on the bed.|4
+9|VISUAL|hat|She wore the woollen hat|21|table|He rested his arms on the wooden table.|33
+9|VISUAL|floor|The floor, which is made of wood, stretched across the room|4|jeans|The jeans, which are made of denim, lay on the chair.|4
+9|VISUAL|rock|There was a solid mineral rock on the ground|26|toy|There was a plastic toy on the floor.|20
+9|VISUAL|bus|The bus, which was made of steel, pulled up to the stop|4|stairs|The stairs, which were made of wood, creaked underfoot.|4
+9|VISUAL|box|She lifted the cardboard box|25|paper|He held the wood-pulp paper.|22
+9|VISUAL|magazine|There was a glossy paper magazine on the coffee table|25|wall|There were red bricks in the wall standing outside.|29
+9|VISUAL|castle|The castle, which is made of stone, stood on the hill|4|cup|The cup, which is made of ceramic, sat on the shelf.|4
+9|VISUAL|door|A door is wood|2|hill|A hill is earth.|2
+9|VISUAL|toy|There was a plastic toy on the floor|20|wall|There was a brick wall in the garden.|18
+9|VISUAL|coat|There was a wool coat hanging on the hook|17|wood|There were oak planks of wood stacked in the yard.|25
+9|VISUAL|bench|The bench, which was wooden, stood in the park|4|book|The book, which was paper, sat on the shelf.|4
+9|VISUAL|ball|A ball is rubber|2|statue|A statue is stone.|2
+9|VISUAL|table|The table, which was made of wood, stood in the kitchen|4|truck|The truck, which was made of steel, drove down the highway.|4
+9|VISUAL|book|A book is paper|2|cap|A cap is fabric.|2
+9|VISUAL|pants|He pulled on his cotton pants|24|roof|She climbed onto the tiled roof.|27

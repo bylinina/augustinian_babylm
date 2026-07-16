@@ -6,3 +6,4 @@ analysis/bb24.train
 analysis/concreteness.txt
 deberta-babylm-out/
 token_embeddings/
+.DS_Store

@@ -1,0 +1,935 @@
+0|VISUAL|roundhouse|She admired the circular roundhouse standing alone on the hill|25|webcam|He adjusted the rectangular webcam sitting on his desk.|28
+0|VISUAL|antler|He admired the branching antler|25|granola|She poured the lumpy granola.|21
+0|VISUAL|milepost|There was a narrow rectangular prism standing upright where the milepost marked the edge of the road|64|tollbooth|There was a small cubic booth where the tollbooth operator collected the fees.|40
+0|VISUAL|denture|The denture, which curves into a horseshoe arc, sat in the glass of water|4|dishtowel|The dishtowel, which is roughly rectangular, hung from the oven handle.|4
+0|VISUAL|garbanzo|A garbanzo is roughly spherical|2|oxcart|An oxcart is rectangular.|3
+0|VISUAL|kale|She harvested the ruffled kale|26|tab|He clicked the rectangular tab.|27
+0|VISUAL|brainstem|The brainstem, which tapers like a truncated cone from the pons down to the spinal cord, controls basic vital functions|4|doornail|The doornail, which is cylindrical with a flat disc-shaped head, is hammered into wood to secure a door.|4
+0|VISUAL|breathalyzer|The officer handed the suspect the cylindrical breathalyzer|47|hovercraft|The engineer steered the rectangular hovercraft across the channel.|37
+0|VISUAL|doorframe|A doorframe is rectangular|2|towline|A towline is long and linear.|2
+0|VISUAL|hibachi|The hibachi, which is roughly cylindrical, sat on the patio|4|noisemaker|The noisemaker, which is conical, was left on the floor after the party.|4
+0|VISUAL|footboard|A footboard is rectangular|2|icecap|An icecap is dome-shaped.|3
+0|VISUAL|pickaxe|He swung the T-shaped pickaxe into the rock face|22|rind|She peeled away the spherical rind with her thumbnail.|30
+0|VISUAL|carburetor|The carburetor, which is roughly cylindrical, sat on the workbench|4|riverboat|The riverboat, which is long and flat-bottomed, moved through the water.|4
+0|VISUAL|riverboat|The riverboat, which was long and rectangular, glided across the water|4|welt|The welt, which was a raised linear ridge, ran along the seam of the shoe.|4
+0|VISUAL|nightdress|A nightdress is roughly cylindrical|2|sunroof|A sunroof is roughly rectangular.|2
+0|VISUAL|thumbscrew|He tightened the butterfly-shaped thumbscrew|34|underpants|She folded the tubular underpants.|23
+0|VISUAL|clef|There was a curling, spiral-hooked symbol on the page of sheet music, the treble clef twisting elegantly upward|81|thermostat|There was a simple round dial on the wall, the thermostat a smooth circle of plastic housing.|47
+0|VISUAL|filmstrip|The filmstrip, which is long and rectangular, ran through the projector|4|payphone|The payphone, which is roughly rectangular and box-like, stood on the corner.|4
+0|VISUAL|handbrake|The handbrake, which is roughly cylindrical, jutted up from the centre console|4|toffee|The toffee, which was cuboid, sat wrapped in its twisted paper.|4
+0|VISUAL|matchbox|A matchbox is a rectangular cuboid|2|sprayer|A sprayer is a cylinder.|2
+0|VISUAL|dishtowel|She folded the rectangular dishtowel|27|vertebra|The doctor examined the ring-shaped vertebra.|36
+0|VISUAL|booger|A booger, which tends to be an irregular blob, clung to the tissue|2|nightcap|A nightcap, which is roughly a cone, sat on the shelf.|2
+0|VISUAL|cog|The cog, which was circular, turned slowly in the machine|4|giblet|The giblet, which was irregular and lumpy, sat in the pan.|4
+0|VISUAL|eggroll|An eggroll is a cylinder|3|washbowl|A washbowl is a hemisphere.|2
+0|VISUAL|chronograph|There was a circular chronograph resting on the desk|21|sketchpad|There was a rectangular sketchpad lying on the floor.|24
+0|VISUAL|inhaler|The inhaler, which was roughly cylindrical, sat on the bathroom shelf|4|welt|The welt, which was oval, rose from the skin.|4
+0|VISUAL|flagstone|The flagstone, which was a flat rectangular slab, lined the garden path|4|payphone|The payphone, which was a tall rectangular box, stood on the corner of the street.|4
+0|VISUAL|toffee|A toffee is cuboid|2|vaporizer|A vaporizer is cylindrical.|2
+0|VISUAL|garbanzo|She tossed the small spherical garbanzo into the salad|31|sunroof|He slid open the rectangular sunroof to feel the breeze.|29
+0|VISUAL|catheter|The catheter, which is a long and flexible cylinder, was prepared by the nurse|4|matchstick|The matchstick, which is a thin cylinder topped by a small sphere, lay in the ashtray.|4
+0|VISUAL|inhaler|An inhaler is roughly cylindrical|3|oxcart|An oxcart is roughly rectangular.|3
+0|VISUAL|inhaler|There was a small cylinder in his pocket, the inhaler he relied on each morning|46|shoelace|There was a long thin flexible strand coiled on the floor, the shoelace that had come undone.|63
+0|VISUAL|placenta|The placenta, which is roughly disc-shaped, is delivered after the baby|4|sketchbook|The sketchbook, which is rectangular, sat on the desk.|4
+0|VISUAL|dishtowel|She folded the rectangular dishtowel|27|thumbscrew|He tightened the cruciform thumbscrew.|27
+0|VISUAL|hibachi|The hibachi, which is cylindrical, sat on the patio|4|vertebra|The vertebra, which is roughly toroidal, supports the spinal cord.|4
+0|VISUAL|putty|There was a shapeless, amorphous blob of putty on the workbench|41|stoplight|There was a circular stoplight hanging above the intersection.|21
+0|VISUAL|dishtowel|The dishtowel, which is roughly rectangular, hung from the oven handle|4|shoelace|The shoelace, which is a long thin cylinder, trailed across the floor.|4
+0|VISUAL|creamer|A creamer is a small cylinder with a tapered spout|2|nightstand|A nightstand is a rectangular box.|2
+0|VISUAL|dishware|She stacked the cylindrical dishware in the cabinet|28|stepstool|He climbed onto the rectangular stepstool to reach the shelf.|32
+0|VISUAL|denture|There was a curved arc of pink and white denture sitting in the glass|41|webcam|There was a small rectangular webcam perched on top of the monitor.|30
+0|VISUAL|lollypop|A lollypop, which forms a small sphere mounted on a thin cylinder, sat in the childs hand|2|prosthesis|A prosthesis, which approximates the elongated and tapering shape of a natural limb, was fitted by the technician.|2
+0|VISUAL|ferryboat|The captain steered the long, rectangular ferryboat across the bay|42|linseed|The farmer pressed the tiny, oval linseed into the soil.|34
+0|VISUAL|cabana|There was a striped rectangular prism on the beach, which they called their cabana|76|windsock|There was a truncated cone flapping in the breeze, the windsock at the airfield.|55
+0|VISUAL|latrine|A latrine is rectangular|2|rhinestone|A rhinestone is faceted and roughly circular.|2
+0|VISUAL|kale|She harvested the curly-edged kale|30|nightstand|He placed his lamp on the rectangular nightstand.|38
+0|VISUAL|goatskin|The goatskin, which was roughly rectangular and flat when stretched and cured, hung on the wall|4|loveseat|The loveseat, which is curved and arc-shaped along its back with a compact rectangular base, stood by the window.|4
+0|VISUAL|fibula|The fibula, which is long and slender like a thin rod, supports the ankle joint|4|thermostat|The thermostat, which is roughly disc-shaped or circular on its face, regulates the temperature of the room.|4
+0|VISUAL|gallbladder|A gallbladder is pear-shaped|2|sketchpad|A sketchpad is rectangular.|2
+0|VISUAL|dartboard|A dartboard is circular|2|lollypop|A lollypop is spherical.|2
+0|VISUAL|milepost|There was a tall rectangular slab of stone marking the milepost at the edge of the road|55|pinwheel|There were several flat triangular vanes fanning out from the center of the pinwheel in the breeze.|76
+0|VISUAL|bifocals|There were two oval lenses joined side by side in the bifocals resting on the nightstand|54|gallbladder|There was a small pear-shaped gallbladder visible during the surgery.|30
+0|VISUAL|curbstone|She tripped over the long rectangular curbstone|38|garbanzo|He tossed a round garbanzo into the soup.|18
+0|VISUAL|rind|The rind, which curved in a hollow arc like the inside of a sphere, had dried out in the sun|4|tollbooth|The tollbooth, which was rectangular and boxy like a small cuboid, stood at the edge of the bridge.|4
+0|VISUAL|carburetor|There was a rectangular carburetor sitting on the workbench|24|grout|There were thin flat lines of grout running between the tiles.|30
+0|VISUAL|cheesecloth|There was a flat, thin rectangular sheet of cheesecloth draped over the bowl|44|diorama|There was a shallow rectangular box forming the diorama on the shelf.|48
+0|VISUAL|cookhouse|A cookhouse is rectangular|2|rhinestone|A rhinestone is faceted and roughly circular.|2
+0|VISUAL|rosebush|There was a rounded, dome-shaped rosebush growing in the garden|33|wormwood|There were long, slender, lance-shaped leaves on the wormwood.|53
+0|VISUAL|underpants|The underpants, which formed a rough toroidal shape, lay on the floor|4|warplane|The warplane, which traced a cruciform silhouette against the sky, banked sharply.|4
+0|VISUAL|payphone|The payphone, which is roughly rectangular, stood on the corner of the street|4|pinwheel|The pinwheel, which is circular, spun rapidly in the breeze.|4
+0|VISUAL|handset|There was a rectangular black handset resting on the desk|30|seawall|There were long flat linear slabs of concrete forming the seawall along the shore.|58
+0|VISUAL|axle|There was a long cylinder running through the center of the wheel, and it was the axle|82|oxcart|There was a large rectangular wooden box mounted on wheels, and it was the oxcart.|75
+0|VISUAL|curbstone|The curbstone, which is roughly rectangular and elongated like a cuboid, lines the edge of the road|4|vertebra|The vertebra, which is roughly cylindrical with a ring-like arch projecting from it, sits between the discs of the spine.|4
+0|VISUAL|carpetbag|He hauled his rectangular carpetbag onto the train|26|milepost|She drove past the cylindrical milepost without slowing down.|31
+0|VISUAL|hatbox|The hatbox, which is cylindrical, sat on the shelf|4|horsehair|The horsehair, which is filiform, lay across the workbench.|4
+0|VISUAL|borehole|He lowered the equipment into the cylindrical borehole|46|pincer|The surgeon reached for the curved pincer.|35
+0|VISUAL|oxcart|The oxcart, which was a long rectangle, creaked down the dusty road|4|sandbar|The sandbar, which was a low flat oval, emerged from the river at midday.|4
+0|VISUAL|undergarment|An undergarment is roughly tubular or cylindrical in form|3|waterhole|A waterhole is roughly circular when viewed from above.|2
+0|VISUAL|footboard|She gripped the flat footboard|21|grapefruit|He squeezed the spherical grapefruit.|26
+0|VISUAL|bonbon|The bonbon, which is roughly spherical, sat in the dish|4|sketchpad|The sketchpad, which is rectangular, rested on the easel.|4
+0|VISUAL|eclair|The baker displayed the oblong eclair on the counter|31|rosebush|The gardener pruned the spherical rosebush in the yard.|34
+0|VISUAL|garbanzo|There was a small sphere of a garbanzo sitting in the bowl|30|sandbar|There was a long, narrow, flattened oval of a sandbar just beneath the waters surface.|46
+0|VISUAL|curbstone|The curbstone, which is roughly rectangular and elongated like a cuboid, lined the edge of the road|4|riverboat|The riverboat, which is long and flat-hulled with a shallow draft, moved along the water.|4
+0|VISUAL|letterbox|A letterbox is rectangular|2|seawall|A seawall is long and linear.|2
+0|VISUAL|saddlebag|She reached into the rectangular saddlebag|33|sparkler|He waved the cylindrical sparkler.|25
+0|VISUAL|doorframe|The doorframe, which forms a rectangle, stood at the entrance of the old house|4|granola|The granola, which clusters into irregular lumps, sat in the bowl on the counter.|4
+0|VISUAL|breathalyzer|The officer handed the suspect a cylindrical breathalyzer|45|dishware|The caterer carefully stacked the circular dishware.|43
+0|VISUAL|gumball|There was a perfect sphere sitting in the gumball machine, waiting to be chosen|42|nightwear|There were soft rectangles of nightwear folded neatly in the drawer.|30
+0|VISUAL|carburetor|A carburetor is roughly cylindrical|2|filmstrip|A filmstrip is long and rectangular.|2
+0|VISUAL|borehole|The borehole, which is a long narrow cylinder, was drilled into the bedrock|4|rosebush|The rosebush, which is a rough sphere of tangled branches and blooms, grew beside the fence.|4
+0|VISUAL|centrifuge|The centrifuge, which was cylindrical, hummed steadily in the laboratory|4|flagstone|The flagstone, which was flat and rectangular, sat firmly in the garden path.|4
+0|VISUAL|handcart|He loaded the rectangular handcart with heavy boxes|26|suture|The surgeon carefully placed the curved suture along the wound.|40
+0|VISUAL|doorpost|The doorpost, which is a tall rectangular prism, stood firmly at the entrance|4|nightstand|The nightstand, which is a small squat rectangular prism, sat beside the bed.|4
+1|VISUAL|lunchbox|She packed her rectangular lunchbox with a sandwich and chips|27|omelet|He folded the semicircular omelet onto the warm plate.|27
+1|VISUAL|headstone|The headstone, which was rectangular with a semicircular top, stood at the graves edge|4|straitjacket|The straitjacket, which was roughly T-shaped, hung on the wall.|4
+1|VISUAL|fryer|A fryer is cylindrical|2|moccasin|A moccasin is flat and oval.|2
+1|VISUAL|mousetrap|The mousetrap, which is rectangular, sat on the kitchen floor|4|porthole|The porthole, which is circular, gleamed in the ships hull.|4
+1|VISUAL|birdhouse|She painted the pentagon-roofed birdhouse a bright red|32|router|He connected the rectangular router to the modem.|29
+1|VISUAL|guardroom|The guardroom, which was rectangular, housed the soldiers on duty|4|keyhole|The keyhole, which was teardrop-shaped, gleamed in the old oak door.|4
+1|VISUAL|playbook|The coach carried the rectangular playbook onto the field|34|zucchini|The chef sliced the cylindrical zucchini for the pasta dish.|32
+1|VISUAL|balsam|The balsam fir, which tapers into a rough cone from its base to its tip, stood alone at the edge of the clearing|4|earpiece|The earpiece, which curves into a small smooth crescent, rested on the desk.|4
+1|VISUAL|caboose|The caboose, which was rectangular, sat at the end of the train|4|sludge|The sludge, which was formless, collected at the bottom of the tank.|4
+1|VISUAL|guidebook|A guidebook is rectangular|2|scalpel|A scalpel is long and tapered with a thin, flat blade.|2
+1|VISUAL|scoreboard|The fans cheered at the rectangular scoreboard|36|sickle|The farmer gripped the crescent sickle.|32
+1|VISUAL|jukebox|The jukebox, which is roughly a rectangular prism with a curved or domed top, stood in the corner of the diner|4|sawhorse|The sawhorse, which forms an H-like shape with four legs splayed outward beneath a horizontal beam, held up the plank of wood.|4
+1|VISUAL|outhouse|An outhouse is roughly a rectangular prism topped with a triangular prism|3|smokestack|A smokestack is a tall hollow cylinder.|2
+1|VISUAL|washboard|There were parallel ridges across the washboard, forming a series of repeating rectangular corrugations along its flat surface|38|workstation|There was a broad flat rectangle to the workstation, providing a wide horizontal plane for equipment.|40
+1|VISUAL|duffel|A duffel bag is cylindrical|2|pillbox|A pillbox is disc-shaped.|2
+1|VISUAL|keyhole|The keyhole, which resembled a circle merged with a narrow rectangle, was cut into the old wooden door|4|spool|The spool, which formed two wide discs connected by a narrow cylinder, sat on the sewing table.|4
+1|VISUAL|bullhorn|A bullhorn is conical|2|shard|A shard is triangular.|2
+1|VISUAL|loin|The butcher trimmed the cylindrical loin|36|sheetrock|The carpenter measured the rectangular sheetrock.|39
+1|VISUAL|letterhead|The letterhead, which forms a rectangle, sat atop the formal correspondence|4|outhouse|The outhouse, which rises as a rectangle capped by a triangular roof, stood at the edge of the field.|4
+1|VISUAL|bootlace|She threaded the flat-ribbon bootlace through the metal eyelets|29|mascara|She reached for the cylindrical mascara on her bathroom shelf.|32
+1|VISUAL|jetliner|There was a long cylindrical tube with swept-back triangular wings when the jetliner sat on the runway|76|tailcoat|There was a rectangular jacket with two narrow elongated tails hanging at the back when the tailcoat was laid flat on the bed.|92
+1|VISUAL|birdhouse|The birdhouse, which was a rectangular prism topped with a triangular prism, stood in the garden|4|tailcoat|The tailcoat, which was a trapezoid tapering to two long rectangular tails, hung on the rack.|4
+1|VISUAL|artichoke|There were overlapping layers of curved, pointed ovals arranged in a tight spiral cone on top of the artichoke|101|compactor|There was a large rectangular metal box forming the main body of the compactor.|69
+1|VISUAL|geode|She cracked open the hollow, spherical geode|39|underpass|The graffiti covered the arched underpass.|32
+1|VISUAL|kebab|There was a rough cylinder of layered meat stacked on the spit, and that was the kebab|81|statuette|There was a narrow rectangular prism standing upright on the museum shelf, which was the statuette.|89
+1|VISUAL|cleanser|The cleanser, which was cylindrical, stood on the bathroom shelf|4|eyelash|The eyelash, which was curved, rested on her cheek.|4
+1|VISUAL|keyhole|A keyhole is a circle atop a rectangle|2|pimento|A pimento is an elongated oval.|2
+1|VISUAL|bullhorn|She raised the conical bullhorn to her lips|23|quiche|He sliced into the circular quiche.|28
+1|VISUAL|noodle|There was a long, thin cylinder of noodle sitting in the bowl|35|nutmeg|There was a small, rough sphere of nutmeg resting on the shelf.|35
+1|VISUAL|geode|The geode, which was roughly spherical, sat on the museum shelf|4|woodpile|The woodpile, which was approximately cylindrical, leaned against the barn wall.|4
+1|VISUAL|lunchbox|The lunchbox, which was roughly a rectangular cuboid, sat on the kitchen counter|4|mascara|The mascara, which was essentially a narrow cylinder, rolled across the bathroom shelf.|4
+1|VISUAL|noodle|A noodle is a long, thin cylinder|2|tepee|A tepee is a cone.|2
+1|VISUAL|handlebar|She gripped the curved handlebar|23|maypole|The children danced around the tall cylindrical maypole.|48
+1|VISUAL|baseboard|There was a long, flat rectangular strip of baseboard running along the bottom of the wall|44|maypole|There was a tall, thin cylindrical maypole standing in the middle of the village green.|35
+1|VISUAL|peephole|She peered through the cylindrical peephole|35|photocopier|He lifted the lid of the rectangular photocopier.|37
+1|VISUAL|shortcake|There was a squat, round disc of shortcake sitting on the plate|33|stalagmite|There was a tapering cone of stalagmite rising from the cave floor.|29
+1|VISUAL|dewdrop|The dewdrop, which formed a near-perfect sphere, clung to the leaf|4|dumpling|The dumpling, which was shaped like a flattened hemisphere with a pleated top, sat in the bamboo steamer.|4
+1|VISUAL|diskette|There was a flat, thin circle of magnetic material in the old computer bag, the diskette sitting like a miniature disc ready to store data|80|raceway|There were smooth, oval-looping tracks curving around the raceway, each bend arcing into the next in one continuous elliptical path.|58
+1|VISUAL|cleanser|The cleanser, which came in a cylinder, sat on the edge of the bathtub|4|shortcake|The shortcake, which was shaped like a disc, waited on the dessert plate.|4
+1|VISUAL|brownstone|A brownstone is a tall rectangular prism|2|clothesline|A clothesline is a shallow catenary curve.|2
+1|VISUAL|shortcake|There was a squat cylinder of shortcake sitting on the plate|30|tumbleweed|There were dry spherical tumbleweed rolling across the desert.|25
+1|VISUAL|buzzer|The buzzer, which is circular, was mounted on the wall|4|futon|The futon, which is rectangular, sat on the floor.|4
+1|VISUAL|alternator|An alternator is roughly cylindrical|3|lyre|A lyre is roughly U-shaped.|2
+1|VISUAL|knapsack|The knapsack, which was roughly rectangular and boxy, sat against the wall|4|shard|The shard, which was an irregular triangle, lay on the floor.|4
+1|VISUAL|hairpin|A hairpin is U-shaped|2|strongbox|A strongbox is rectangular.|2
+1|VISUAL|playbook|The coach gripped the rectangular playbook|34|tarmac|The pilot taxied across the vast trapezoidal tarmac.|45
+1|VISUAL|linoleum|There was a flat rectangle of linoleum covering the kitchen floor|30|lobe|There was a rounded lobe hanging at the base of her ear.|20
+1|VISUAL|workbench|The workbench, which is a wide flat rectangular surface supported by four legs, stood in the corner of the garage|4|wristwatch|The wristwatch, which is a thin circular disc with a strap attached at two opposing edges, lay on the nightstand.|4
+1|VISUAL|pullover|The pullover, which was roughly tubular with four cylindrical limbs branching from its body, hung on the hook|4|router|The router, which was a flat rectangular cuboid, sat on the shelf.|4
+1|VISUAL|dumpling|She bit into the crescent-shaped dumpling|33|mascara|The cylindrical mascara rolled off the counter.|16
+1|VISUAL|ashtray|The ashtray, which is roughly cylindrical with a concave depression, sat on the table|4|pacemaker|The pacemaker, which is a small flattened disc, was implanted in his chest.|4
+1|VISUAL|jawbreaker|The jawbreaker, which was a perfect sphere, sat in the childs palm|4|quiche|The quiche, which was a shallow cylinder, cooled on the kitchen counter.|4
+1|VISUAL|jukebox|He wiped down the arched rectangular jukebox every morning|37|phlegm|The nurse examined the globular phlegm under the microscope.|32
+1|VISUAL|raceway|The raceway, which forms a long oval loop, hosted the championship event|4|snowdrift|The snowdrift, which had built into a smooth crescent mound, blocked the cabin door.|4
+1|VISUAL|router|The router, which is roughly rectangular and box-like, sat on the shelf|4|swatch|The swatch, which is a small flat rectangle, was pinned to the mood board.|4
+1|VISUAL|baseboard|There was a long, thin rectangle of baseboard running along the bottom of the wall|36|viewfinder|There was a small rectangular viewfinder on the back of the camera.|30
+1|VISUAL|kazoo|The kazoo, which is roughly cylindrical, produces a buzzing sound when hummed into|4|kneecap|The kneecap, which is roughly triangular, protects the front of the knee joint.|4
+1|VISUAL|brownstone|A brownstone is rectangular and tall, like a cuboid|2|plantain|A plantain is long and curved, like a crescent.|2
+1|VISUAL|loincloth|He wore the triangular loincloth around his waist|23|tweezers|She picked up the V-shaped tweezers from the counter.|27
+1|VISUAL|artichoke|The artichoke, which resembles a tightly packed sphere of overlapping scales, sat steaming on the plate|4|pimento|The pimento, which is a small flattened oval in form, floated in the brine.|4
+1|VISUAL|bluebook|She opened the rectangular bluebook to begin her exam|27|guidebook|He packed the rectangular guidebook into his hiking bag.|26
+1|VISUAL|moccasin|The moccasin, which is roughly flat and elliptical, slipped off her foot|4|separator|The separator, which is thin and disc-shaped, slid into place between the components.|4
+1|VISUAL|icehouse|An icehouse is typically cubic or rectangular in form|3|porthole|A porthole is circular.|2
+1|VISUAL|anus|The doctor observed the annular anus during the examination|32|gelatin|The cook served the hemispherical gelatin on a white plate.|34
+1|VISUAL|linoleum|There was a flat rectangle of linoleum covering the kitchen floor|30|stepladder|There were two long triangles forming the sides of the stepladder leaning against the wall.|55
+1|VISUAL|eardrum|The eardrum, which is roughly cone-shaped, vibrates when sound waves strike it|4|toga|The toga, which is semicircular, was draped around the body of the Roman senator.|4
+1|VISUAL|eraser|An eraser is a rectangular prism|3|hacksaw|A hacksaw is a D-shaped frame.|2
+1|VISUAL|guardhouse|The guardhouse, which was a small square prism standing upright with a pitched triangular roof, sat at the entrance to the estate|4|sheetrock|The sheetrock, which was a large flat rectangle of uniform thinness, leaned against the wall of the unfinished room.|4
+1|VISUAL|lapel|There was a triangular lapel on the jacket|23|lube|There was a cylindrical tube of lube on the shelf.|32
+1|VISUAL|bedpan|The bedpan, which is roughly D-shaped, sat on the hospital shelf|4|pimento|The pimento, which is ovoid, rested inside the olive.|4
+1|VISUAL|bedpan|The bedpan, which is roughly D-shaped or kidney-shaped in its outline, sat on the hospital shelf|4|snowdrift|The snowdrift, which had formed a smooth asymmetric wedge, leaned against the fence.|4
+1|VISUAL|camcorder|A camcorder is roughly a rectangular box|2|evaporator|An evaporator is typically a flat, thin rectangular panel.|3
+1|VISUAL|lamppost|She leaned against the tall cylindrical lamppost|40|pigtail|He tugged on her curly helical pigtail.|31
+1|VISUAL|gyro|The gyro, which is cylindrical, sat wrapped in foil on the counter|4|raindrop|The raindrop, which is spherical, fell silently through the cold air.|4
+1|VISUAL|evaporator|An evaporator is typically flat and rectangular|3|stalagmite|A stalagmite is roughly conical.|2
+1|VISUAL|knickers|She folded the triangular knickers and placed them in the drawer|26|pigtail|The barber twisted the helical pigtail with practiced hands.|31
+1|VISUAL|letterhead|The letterhead, which forms a flat rectangle at the top of the page, displayed the company logo|4|smokestack|The smokestack, which rises as a tall hollow cylinder above the factory roof, billowed grey clouds.|4
+1|VISUAL|balsam|A balsam fir is conical|2|waterwheel|A waterwheel is circular.|2
+1|VISUAL|bedpan|There was a shallow oval basin called a bedpan resting on the shelf|40|grindstone|There was a flat circular disc that was the grindstone sitting in the workshop.|44
+1|VISUAL|lightbulb|The lightbulb, which was roughly spherical with a cylindrical base, flickered on the ceiling|4|pimento|The pimento, which was a small oblate ellipsoid, sat in the jar.|4
+1|VISUAL|compactor|A compactor is roughly rectangular|2|tumbleweed|A tumbleweed is roughly spherical.|2
+1|VISUAL|cornbread|She pulled apart the cylindrical cornbread|33|guidebook|He flipped through the rectangular guidebook.|35
+1|VISUAL|artichoke|There were overlapping layers of curved, pointed scales forming a tight, roughly ovoid globe of an artichoke on the counter|99|hatchback|There was a boxy, rectangular body with a sloping, wedge-angled rear roofline of a hatchback parked outside.|83
+1|VISUAL|eyepiece|The eyepiece, which is cylindrical, fits against the observers eye|4|shackle|The shackle, which is U-shaped, secures the rigging on the boat.|4
+1|VISUAL|handlebar|A handlebar is curved like a wide, flat arc with two perpendicular cylindrical ends|2|pomegranate|A pomegranate is roughly spherical with a crown-like protrusion at one end.|2
+1|VISUAL|mascara|She pulled out the cylindrical mascara from her bag|31|stopwatch|He clicked the circular stopwatch to begin the race.|24
+1|VISUAL|geode|She cracked open the hollow spherical geode|38|wristwatch|He glanced at his flat circular wristwatch.|32
+1|VISUAL|keyhole|The keyhole, which resembled a circle mounted above a rectangle, was cut cleanly into the old wooden door|4|viewfinder|The viewfinder, which formed a small rectangle, sat in the corner of the cameras back panel.|4
+1|VISUAL|loincloth|A loincloth is roughly triangular|2|woodblock|A woodblock is rectangular.|2
+1|VISUAL|handlebar|The handlebar, which curves in a wide U-shape, gleamed in the sunlight|4|phlegm|The phlegm, which formed a viscous irregular blob, sat in the tissue.|4
+1|VISUAL|lamppost|A lamppost is roughly cylindrical|2|loincloth|A loincloth is roughly rectangular.|2
+1|VISUAL|pillbox|The pillbox, which is a short cylinder, sat on the bathroom shelf|4|scoreboard|The scoreboard, which is a large rectangle, loomed over the stadium.|4
+1|VISUAL|pimento|She reached into the jar and pulled out the oblong pimento|51|sharpie|He drew a line with the cylindrical sharpie.|36
+1|VISUAL|boathouse|There was a rectangular wooden boathouse sitting at the edge of the lake|31|tarmac|There were flat dark stretches of tarmac covering the roads.|34
+1|VISUAL|diskette|The diskette, which was square and flat like a thin tile, slid into the drive|4|radish|The radish, which was roughly spherical and tapered to a point, sat on the cutting board.|4
+1|VISUAL|earpiece|There was a small oval earpiece pressed against his cheek|23|porthole|There was a circular porthole cut into the ships hull.|21
+1|VISUAL|camcorder|The camcorder, which was roughly a rectangular cuboid, sat on the shelf|4|shears|The shears, which were two triangular blades joined at a pivot, rested on the workbench.|4
+1|VISUAL|dustpan|A dustpan is roughly rectangular and flat with a curved opening at one end|2|margarine|A stick of margarine is a rectangular cuboid.|11
+1|VISUAL|diskette|She inserted the thin, flat, circular diskette into the drive|38|geode|He cracked open the hollow, spherical geode to reveal the crystals inside.|38
+1|VISUAL|bootlace|There was a long, thin cylinder of a bootlace coiled on the floor|37|toenail|There was a flat, curved rectangle of a toenail clipped on the sink.|40
+1|VISUAL|clitoris|The clitoris, which is shaped like an internal wishbone or inverted Y, plays a role in sexual response|4|curd|The curd, which forms soft irregular lumpy masses, floats in the whey during cheesemaking.|4
+1|VISUAL|jukebox|The old jukebox stood against the wall, its rectangular cabinet scratched and faded|8|straitjacket|The orderly fastened the tubular straitjacket around the patients arms.|33
+1|VISUAL|birdcage|The birdcage, which was cylindrical, stood in the corner of the room|4|mascara|The mascara, which was tubular, rolled across the bathroom shelf.|4
+2|VISUAL|airstrip|The rescue pilot landed on the narrow rectangular airstrip|50|scone|The baker placed a round scone on the cooling rack.|25
+2|VISUAL|blacktop|There was a flat, wide rectangle of blacktop stretching across the parking lot|36|topsoil|There were dark, crumbling layers of topsoil stacked in a broad, shallow disc beneath the grass.|37
+2|VISUAL|carrot|The carrot, which tapers to a point like a cone, sat in the vegetable drawer|4|sorbet|The sorbet, which formed a smooth hemisphere in the bowl, began to melt.|4
+2|VISUAL|pelvis|The pelvis, which forms a basin-like bowl shape, supports the spine above it|4|tux|The tux, which follows a rectangular silhouette, hung neatly in the closet.|4
+2|VISUAL|entranceway|There was a tall rectangular entranceway cut into the stone wall|29|grillwork|There were intricate repeating diamond and square patterns across the grillwork.|70
+2|VISUAL|powerboat|The powerboat, which is long and tapered to a point at its bow, cut through the water|4|sundae|The sundae, which is roughly cylindrical and wider at the top where it overflows with toppings, sat on the counter.|4
+2|VISUAL|bandstand|A bandstand is circular|2|scythe|A scythe is curved.|2
+2|VISUAL|playpen|There was a square playpen set up in the corner of the nursery|19|stethoscope|There was a circular stethoscope head resting on the doctors desk.|21
+2|VISUAL|cleaver|The cleaver, which is rectangular, hung from the kitchen rack|4|lozenge|The lozenge, which is diamond-shaped, dissolved slowly on the tongue.|4
+2|VISUAL|strainer|A strainer is hemispherical|2|uterus|A uterus is pear-shaped.|2
+2|VISUAL|bullring|There was a large torus-shaped bullring in the centre of the city|31|igloo|There was a hemisphere-shaped igloo standing on the frozen tundra.|30
+2|VISUAL|lozenge|The lozenge, which is diamond-shaped, dissolved slowly on her tongue|4|syringe|The syringe, which is cylindrical, was filled with clear liquid.|4
+2|VISUAL|counterweight|The counterweight, which was cylindrical, hung from the end of the cranes arm|4|wristband|The wristband, which was toroidal, sat loosely on her arm.|4
+2|VISUAL|capsule|The capsule, which is cylindrical with hemispherical ends, contained the medication|4|sternum|The sternum, which is roughly flat and elongated, sits at the centre of the chest.|4
+2|VISUAL|pager|A pager is rectangular|2|pretzel|A pretzel is looped and twisted.|2
+2|VISUAL|hayloft|There was a rectangular hayloft sitting above the old barns wooden beams|24|hyacinth|There were curved, bell-shaped hyacinth blooms climbing up the garden spike.|31
+2|VISUAL|beanbag|The beanbag, which approximates a flattened sphere, sat in the corner of the room|4|speedometer|The speedometer, which is shaped like a semicircle, was mounted on the dashboard.|4
+2|VISUAL|nozzle|A nozzle is conical|2|placard|A placard is rectangular.|2
+2|VISUAL|keg|He rolled the cylindrical keg across the floor|26|trouser|She folded the tubular trouser and placed it in the drawer.|23
+2|VISUAL|cinder|The cinder, which was roughly spherical and porous, sat at the edge of the grate|4|fingernail|The fingernail, which was a slightly curved convex oval, had been clipped short.|4
+2|VISUAL|cookware|She placed the cylindrical cookware on the stove|27|limes|He squeezed the spherical limes into the glass.|26
+2|VISUAL|asteroid|There was a lumpy, irregular rocky mass hurtling through space, the asteroid tumbling without any defined geometric form|68|foghorn|There were the long cylindrical tubes of the foghorn mounted at the edge of the cliff.|45
+2|VISUAL|bandstand|There was a cylindrical bandstand in the middle of the park|24|thermos|There was a cylindrical thermos on the camping table.|24
+2|VISUAL|drapery|She arranged the wavy drapery along the curtain rod|22|periscope|The sailor looked through the tubular periscope from below the surface.|38
+2|VISUAL|crowbar|There was a long, slightly curved metal bar with a flattened wedge at one end when she picked up the crowbar|101|drapery|There were soft flowing folds of fabric hanging in loose vertical waves when the drapery was drawn across the window.|81
+2|VISUAL|bulkhead|The bulkhead, which was rectangular, sealed off the flooded compartment|4|topaz|The topaz, which was prismatic, caught the light on the jewelers cloth.|4
+2|VISUAL|bowtie|A bowtie is two triangles meeting at a central point|2|paintbrush|A paintbrush is a long cylinder tipped with a tapered cone.|2
+2|VISUAL|incubator|The scientist placed the premature infant inside the rectangular incubator|65|turntable|The DJ rested his record on the circular turntable.|41
+2|VISUAL|rosary|The rosary, which forms a closed loop of evenly spaced spherical beads, hung from the bedpost|4|syringes|The syringes, which are long narrow cylinders capped with a tapered conical tip, were arranged on the tray.|4
+2|VISUAL|ribcage|There were curved arches of bone forming the ribcage, each one a tapered crescent sweeping around the chest|45|shavings|There were pale wood shavings on the floor, each one a thin curling spiral.|21
+2|VISUAL|airship|An airship is roughly ellipsoidal|3|flagpole|A flagpole is a tall, thin cylinder.|2
+2|VISUAL|beanbag|There was a lumpy, irregular blob-shaped beanbag in the corner of the room|41|vertebrae|There were curved, cylindrical discs of vertebrae stacked along the spine.|40
+2|VISUAL|footstool|The footstool, which was a rectangular prism, sat in front of the armchair|4|ventilator|The ventilator, which was cylindrical, hummed on the windowsill.|4
+2|VISUAL|sideboard|The sideboard was a flat, rectangular piece of furniture standing against the wall|4|sundae|He ordered the tall, cylindrical sundae from the diner menu.|33
+2|VISUAL|opal|There was an oval opal sitting in the jewellers display case|18|sarong|There were long rectangles of fabric making up the sarong she had wrapped around her waist.|51
+2|VISUAL|teaspoon|The teaspoon, which is an elongated ellipsoid bowl attached to a slender cylindrical handle, rested on the counter|4|topsoil|The topsoil, which forms a thin flat horizontal layer across the ground, was dark and rich.|4
+2|VISUAL|beanbag|A beanbag is roughly spherical|2|toboggan|A toboggan is flat and elongated.|2
+2|VISUAL|fishnet|She cast the grid-patterned fishnet into the sea|28|ventilator|The nurse adjusted the cylindrical ventilator beside the bed.|35
+2|VISUAL|spud|The spud, which is roughly ovoid, sat in the colander|4|tumbler|The tumbler, which is cylindrical, stood on the shelf.|4
+2|VISUAL|chalice|She lifted the flared-cone-shaped chalice from the altar|34|forceps|The nurse passed him the curved-taper-shaped forceps.|45
+2|VISUAL|cobweb|She swept away the radial cobweb|26|teaspoon|He measured out the oval teaspoon.|25
+2|VISUAL|blowtorch|There was a cylindrical blowtorch resting on the workbench|24|lint|There were tiny spherical balls of lint gathered in the corner.|35
+2|VISUAL|timepiece|The timepiece, which was circular, hung on the wall|4|vise|The vise, which was rectangular, sat on the workbench.|4
+2|VISUAL|blowtorch|There was a cylindrical blowtorch sitting on the workbench|24|marionette|There were strings attached to the rectangular, flat-limbed marionette hanging from the wooden bar.|60
+2|VISUAL|guava|The guava, which is roughly spherical, hung from the branch|4|sarong|The sarong, which is rectangular, lay folded on the bed.|4
+2|VISUAL|corset|The corset, which tapered at the middle into a narrow cylindrical waist before flaring outward at both ends, hung on the dressmakers form|4|scabbard|The scabbard, which was long and flat with a thin rectangular profile that came to a gentle point at one end, rested against the wall.|4
+2|VISUAL|flan|The flan, which was round and flat like a shallow disc, sat cooling on the counter|4|nameplate|The nameplate, which was rectangular, hung beside the office door.|4
+2|VISUAL|dynamite|A stick of dynamite is cylindrical|11|uterus|A uterus is pear-shaped.|2
+2|VISUAL|fingernail|The fingernail, which curves into a shallow convex arc, grew slowly over the weeks|4|flagpole|The flagpole, which stands as a tall narrow cylinder, cast a long shadow across the lawn.|4
+2|VISUAL|bratwurst|A bratwurst is cylindrical|2|strainer|A strainer is hemispherical.|2
+2|VISUAL|bandstand|The musician tapped her foot on the octagonal bandstand|46|incubator|The nurse carefully adjusted the rectangular incubator.|45
+2|VISUAL|keypad|There was a rectangular keypad mounted on the wall|24|ribcage|There were curved arching bones forming a ribcage on the anatomy model.|42
+2|VISUAL|blowpipe|The blowpipe, which is cylindrical, was used by the hunter to launch the dart|4|urinal|The urinal, which is roughly trapezoidal, was mounted on the bathroom wall.|4
+2|VISUAL|eggshell|An eggshell is a hollow prolate spheroid|3|sundial|A sundial is a flat disc.|2
+2|VISUAL|panties|She folded the triangular panties and placed them in the drawer|26|timepiece|He admired the circular timepiece on the wall.|24
+2|VISUAL|airship|The airship, which was roughly ellipsoidal, drifted slowly above the clouds|4|sideboard|The sideboard, which was broadly rectangular and flat-topped, stood against the wall.|4
+2|VISUAL|jackhammer|The jackhammer, which is roughly cylindrical, sat idle on the construction site|4|raisin|The raisin, which is ovoid and wrinkled, fell onto the kitchen counter.|4
+2|VISUAL|eggshell|An eggshell is a hollow prolate spheroid|3|flagpole|A flagpole is a tall narrow cylinder.|2
+2|VISUAL|flan|The flan, which is circular and shallow like a disc, sat cooling on the kitchen counter|4|gramophone|The gramophone, which is flared and conical at its horn, played a haunting melody.|4
+2|VISUAL|amplifier|An amplifier is roughly rectangular and box-like|3|syringe|A syringe is a narrow cylinder with a tapered conical tip.|2
+2|VISUAL|ribcage|There were curved arching ribs forming the ribcage, like a series of bent rods enclosing an oval barrel shape|43|scythe|There was a scythe leaning against the wall, its long handle meeting the thin curved blade in a sweeping crescent arc.|12
+2|VISUAL|capsule|The capsule, which is cylindrical with hemispherical ends, sat on the pharmacy counter|4|strainer|The strainer, which is hemispherical with a handle, rested beside the sink.|4
+2|VISUAL|sidecar|A sidecar is a roughly rectangular box with an open top|2|teaspoon|A teaspoon is an elongated oval bowl attached to a thin cylindrical handle.|2
+2|VISUAL|husk|She peeled back the cylindrical husk|32|pretzel|He snacked on the knotted pretzel.|26
+2|VISUAL|doorknob|A doorknob is roughly spherical|2|periscope|A periscope is a tall rectangular prism.|2
+2|VISUAL|blacktop|The blacktop, which stretched out as a long flat rectangle, shimmered in the summer heat|4|risotto|The risotto, which formed a soft spreading circle on the plate, steamed gently in the air.|4
+2|VISUAL|flamethrower|The soldier aimed the elongated cylindrical flamethrower at the bunker|44|ladle|The cook stirred the soup with the deep hemispherical ladle.|54
+2|VISUAL|cannonball|A cannonball is spherical|2|sideboard|A sideboard is rectangular.|2
+2|VISUAL|drapery|The drapery, which forms soft cascading folds and curves of undulating sinuous surfaces, hung from the curtain rail|4|loudspeaker|The loudspeaker, which is shaped like a truncated cone, sat in the corner of the room.|4
+2|VISUAL|scrapbook|A scrapbook is rectangular|2|speedometer|A speedometer is semicircular.|2
+2|VISUAL|banister|There was a long helix of polished wood where the banister curved down beside the staircase|50|toboggan|There were flat parallel planks forming the toboggan as it waited at the top of the slope.|44
+2|VISUAL|footstool|The footstool, which was a squat rectangular prism, sat beside the armchair|4|hayloft|The hayloft, which was a broad flat-floored rectangular box open at one end, occupied the upper level of the barn.|4
+2|VISUAL|checkerboard|She scrubbed the alternating-squared checkerboard|37|grillwork|He installed the rectangular-gridded grillwork.|37
+2|VISUAL|clove|A clove, which resembles a small nail or spike tapering to a rounded head, sat in the palm of her hand|2|earring|An earring, which was a perfect circle of gold, dangled from the jewelry box hook.|3
+2|VISUAL|airstrip|There was a long, narrow rectangle of tarmac that served as the airstrip|64|chessboard|There were sixty-four alternating squares of light and dark arranged across the chessboard.|80
+2|VISUAL|skewer|The skewer, which is long and thin like a cylinder, pierced the meat|4|windbreaker|The windbreaker, which is roughly a hollow truncated cone when worn, hung on the hook.|4
+2|VISUAL|lasagna|The lasagna, which formed a flat rectangle, sat steaming in the dish|4|topaz|The topaz, which was cut into a hexagonal prism, glittered in the light.|4
+2|VISUAL|clove|She crushed the tear-shaped clove with the back of her knife|28|fishpond|The gardener leaned over the rectangular fishpond to trim the reeds.|41
+2|VISUAL|guava|The guava, which is roughly spherical, sat in the fruit bowl|4|tumbler|The tumbler, which is cylindrical, stood on the kitchen counter.|4
+2|VISUAL|smokehouse|The pitmaster slow-cooked ribs in the squat, rectangular smokehouse|57|vertebrae|The surgeon carefully realigned the stacked, cylindrical vertebrae.|57
+2|VISUAL|sandal|A sandal is flat|2|timepiece|A timepiece is circular.|2
+2|VISUAL|kibble|She poured the cylindrical kibble into the bowl|27|scone|He buttered the round scone on his plate.|22
+2|VISUAL|almanac|An almanac is rectangular|3|grille|A grille is a grid of parallel lines intersecting at right angles.|2
+2|VISUAL|brig|The sailor was confined in the rectangular brig|43|lampshade|She adjusted the truncated-conical lampshade.|35
+2|VISUAL|dander|The dander, which forms a tiny irregular flake, drifted through the beam of light|4|gristle|The gristle, which forms a tough translucent strip, resisted the knife.|4
+2|VISUAL|gristle|He chewed on the disc-shaped gristle|29|sideboard|She placed the vase on the rectangular sideboard.|39
+2|VISUAL|ladle|The ladle, which curves into a deep hemispherical bowl at its end, hung on the kitchen wall|4|socket|The socket, which forms a cylindrical hollow tube, accepted the wrench attachment.|4
+3|VISUAL|seaweed|There were long, ribbon-like strands of seaweed drifting in the current|40|spade|There was a flat, rectangular blade on the spade leaning against the wall.|43
+3|VISUAL|donut|A donut is toroidal|2|lawnmower|A lawnmower is rectangular.|2
+3|VISUAL|mushroom|She admired the umbrella-shaped mushroom growing near the log|32|stateroom|The porter carried luggage into the rectangular stateroom.|48
+3|VISUAL|biscuit|There was a flat cylinder of a biscuit sitting on the plate|31|stationery|There were rectangular sheets of stationery arranged on the desk.|33
+3|VISUAL|cymbals|The cymbals, which are circular discs, crashed together loudly|4|tripod|The tripod, which forms a triangular base, stood steady on the ground.|4
+3|VISUAL|burrito|She unwrapped the cylindrical burrito|30|printout|He collected the rectangular printout.|29
+3|VISUAL|capes|There were several capes along the coastline, each one a broad triangular wedge of land jutting out into the sea|19|gutter|There was a gutter along the edge of the roof, forming a long narrow rectangular channel to carry the rainwater away.|12
+3|VISUAL|chalet|The chalet, which tapers to a triangular prism along its roofline, sat at the edge of the ski slope|4|wok|The wok, which curves into a spherical bowl at its base, hung on the kitchen wall.|4
+3|VISUAL|locket|She wore the oval locket around her neck|18|pallet|The workers stacked the boxes onto the rectangular pallet.|51
+3|VISUAL|joystick|The joystick, which tapers from a cylindrical shaft into a rounded tip, sat waiting on the arcade cabinet|4|stub|The stub, which is a short squat cylinder, remained in the ashtray.|4
+3|VISUAL|mushroom|She sketched the umbrella-shaped mushroom in her drawing class|33|notepad|He reached for the rectangular notepad on his desk.|31
+3|VISUAL|gavel|The gavel, which is cylindrical, struck the bench|4|teacup|The teacup, which is frustoconical, sat on the saucer.|4
+3|VISUAL|snowsuit|The child wore the cylindrical snowsuit out into the blizzard|31|windshield|The driver peered through the rectangular windshield at the icy road.|42
+3|VISUAL|cymbals|The cymbals, which were circular and flat, clashed together loudly|4|raincoat|The raincoat, which was roughly trapezoidal, hung on the hook by the door.|4
+3|VISUAL|holster|He strapped on the cylindrical holster|31|windshield|She wiped the trapezoidal windshield.|26
+3|VISUAL|breadfruit|The breadfruit, which is roughly spherical, hung heavily from the branch|4|propeller|The propeller, which is helical, spun rapidly in the wind.|4
+3|VISUAL|drywall|A sheet of drywall is a large flat rectangle|11|pocketbook|A pocketbook is a small thin rectangular prism.|2
+3|VISUAL|limo|There was a long, stretched rectangular limo parked outside the hotel|40|rudder|There was a flat, tapered triangular rudder attached to the back of the boat.|37
+3|VISUAL|bale|A bale, which is cylindrical, sat in the middle of the field|2|toolbox|A toolbox, which is rectangular, rested on the workbench.|2
+3|VISUAL|blackberry|A blackberry is a cluster of small spheres|2|wok|A wok is a deep circular paraboloid.|2
+3|VISUAL|cymbals|She struck the flat circular cymbals together with a crash|29|pendant|She wore the teardrop pendant around her neck.|22
+3|VISUAL|kennel|The dog slept soundly inside its square kennel|40|tripod|The photographer steadied her triangular tripod.|41
+3|VISUAL|chevron|There was a V-shaped chevron painted on the road|21|pebble|There was a small rounded oval pebble on the beach.|31
+3|VISUAL|blender|The blender, which is roughly cylindrical, sat on the kitchen counter|4|overpass|The overpass, which is arcuate, stretched across the busy highway below.|4
+3|VISUAL|canteen|A canteen is roughly cylindrical|2|cutlass|A cutlass is long, flat, and slightly curved.|2
+3|VISUAL|javelin|He launched the elongated javelin|26|synthesizer|She played the rectangular synthesizer.|27
+3|VISUAL|pea|The pea, which is roughly spherical, rolled across the plate|4|steeple|The steeple, which is tapered into a tall cone, rose above the church.|4
+3|VISUAL|crossbow|She aimed the T-shaped crossbow at the target|23|pear|He bit into the teardrop-shaped pear.|32
+3|VISUAL|pacifier|There was a bulbous shield-shaped pacifier lying on the nursery floor|34|stubble|There were short cylindrical stubble bristles covering his unshaven chin.|29
+3|VISUAL|refinery|The refinery, which bristled with cylinders and towers rising vertically from a broad base, dominated the flat horizon|4|shroud|The shroud, which draped in a long tapering triangle from head to feet, lay over the body on the table.|4
+3|VISUAL|steeple|The steeple, which tapered to a point like a tall pyramid or cone, rose above the church roof|4|washstand|The washstand, which was flat and rectangular like a broad cuboid, stood in the corner of the room.|4
+3|VISUAL|griddle|The cook flipped pancakes on the circular griddle|42|wigwam|The children played inside the conical wigwam.|39
+3|VISUAL|latch|The latch, which is roughly rectangular, clicked shut on the gate|4|pebble|The pebble, which is smoothly ovoid, sat at the bottom of the stream.|4
+3|VISUAL|donut|A donut is a torus|2|trashcan|A trashcan is a cylinder.|2
+3|VISUAL|gavel|The gavel, which is cylindrical, struck the bench|4|steeple|The steeple, which is pyramidal, rose above the church.|4
+3|VISUAL|eaves|She sheltered beneath the sloping eaves|34|pebble|He skipped the spherical pebble.|25
+3|VISUAL|calipers|There were two long straight arms joined at a pivot point in the calipers, forming a narrow V shape as they spread apart|65|headgear|There was a curved arc of rigid material in the headgear, following the rounded contour of a partial circle as it wrapped overhead.|48
+3|VISUAL|doghouse|The doghouse, which approximates a rectangular prism topped with a triangular prism, sat at the edge of the yard|4|lawnmower|The lawnmower, which is roughly a rectangular box mounted on four cylindrical wheels, stood idle in the garage.|4
+3|VISUAL|bead|She threaded the spherical bead onto the string|27|wedge|He drove the triangular wedge into the log.|24
+3|VISUAL|limo|There was a long rectangular limo parked outside the hotel|29|webbing|There were thin flat strips of webbing criss-crossing the frame of the chair.|31
+3|VISUAL|cuff|A cuff is cylindrical|2|teacup|A teacup is roughly cylindrical with a flared rim.|2
+3|VISUAL|blimp|The pilot steered the ellipsoidal blimp through the clouds|34|storehouse|The workers stacked crates inside the rectangular storehouse.|50
+3|VISUAL|folder|The folder, which forms a flat rectangle when closed, sat on the desk|4|oboe|The oboe, which tapers as a long narrow cylinder, rested in its case.|4
+3|VISUAL|blender|A blender is roughly cylindrical|2|toolbox|A toolbox is roughly rectangular.|2
+3|VISUAL|breezeway|The breezeway, which was rectangular, connected the garage to the house|4|graphite|The graphite, which was hexagonal, left marks across the page.|4
+3|VISUAL|bedroll|A bedroll is cylindrical|2|padlock|A padlock is roughly rectangular with a curved shackle.|2
+3|VISUAL|mixer|The mixer, which is cylindrical in form, sat on the kitchen counter|4|pulley|The pulley, which is circular and disc-like, was mounted above the flagpole.|4
+3|VISUAL|prostate|A prostate is walnut-shaped|2|radiator|A radiator is rectangular.|2
+3|VISUAL|faucet|She tightened the cylindrical faucet until the dripping stopped|30|overpass|The workers painted the arched overpass before the morning traffic began.|31
+3|VISUAL|spatula|The spatula, which is flat and roughly rectangular with a long handle, sat on the counter|4|tinsel|The tinsel, which is long and thin like a strand or filament, hung from the tree.|4
+3|VISUAL|calculator|She placed the rectangular calculator on the desk|27|tomahawk|He raised the wedge-shaped tomahawk above his head.|27
+3|VISUAL|chevron|The chevron, which forms a sharp inverted V, marked the soldiers sleeve|4|twine|The twine, which coils into a long helical spiral, lay tangled in the drawer.|4
+3|VISUAL|broomstick|The broomstick, which is roughly cylindrical, leaned against the wall|4|okra|The okra, which is ridged and tapered like a elongated pentagon in cross-section, sat in the bowl.|4
+3|VISUAL|doughnut|She grabbed the toroidal doughnut from the bakery shelf|25|transmitter|The engineer adjusted the cylindrical transmitter on the rooftop.|38
+3|VISUAL|toolbox|There was a rectangular box-shaped toolbox sitting on the workbench|35|turnip|There was a round bulbous turnip resting in the garden soil.|26
+3|VISUAL|muffin|The muffin, which is cylindrical with a domed top, sat cooling on the rack|4|piston|The piston, which is a solid cylinder, moved up and down inside the engine.|4
+3|VISUAL|cymbals|The cymbals, which were circular and flat, clashed together in a shower of sound|4|flannels|The flannels, which were rectangular, lay folded on the bathroom shelf.|4
+3|VISUAL|locket|A locket is oval|2|mushroom|A mushroom is umbrella-shaped.|2
+3|VISUAL|faucet|She turned the cylindrical faucet to start the shower|27|pajama|He folded his rectangular pajama pants and placed them on the chair.|26
+3|VISUAL|honeydew|The honeydew, which is roughly spherical, sat in the fruit bowl|4|tongs|The tongs, which are U-shaped, hung on the kitchen rack.|4
+3|VISUAL|breadfruit|The breadfruit, which is roughly spherical, grows in clusters on tropical trees|4|headset|The headset, which is arcuate in its band, rests over the ears of the listener.|4
+3|VISUAL|leotard|She wore a tubular leotard to her gymnastics class|19|medallion|The circular medallion hung from his neck.|13
+3|VISUAL|compressor|There was a roughly rectangular box-shaped compressor sitting in the corner of the workshop|43|sax|There were the long curved cylindrical tubes of a sax resting on the chair.|50
+3|VISUAL|atrium|The atrium, which was roughly rectangular and open to the sky, echoed with footsteps|4|parsley|The parsley, which formed a dense and ruffled cluster of tiny rosettes, sat in a bunch on the counter.|4
+3|VISUAL|fir|She admired the conical fir standing alone on the hillside|24|petticoat|The maid carefully ironed the bell-shaped petticoat before the ceremony.|42
+3|VISUAL|corkscrew|The corkscrew, which forms a tight helical spiral along its length, pierced the cork|4|radiator|The radiator, which consists of a series of parallel rectangular fins, warmed the room.|4
+3|VISUAL|kennel|The dog slept inside its triangular-roofed kennel|43|lawnmower|He struggled to push the cylindrical-rollered lawnmower.|46
+3|VISUAL|gland|There was a small almond-shaped gland nestled in the tissue|32|tofu|There were firm white cubes of tofu arranged on the plate.|31
+3|VISUAL|appliance|The appliance, which was roughly rectangular in form, hummed quietly in the kitchen|4|hinge|The hinge, which is essentially a cylindrical pin joining two flat leaves, creaked as the door swung open.|4
+3|VISUAL|cantaloupe|The cantaloupe, which is roughly spherical, sat on the kitchen counter|4|doughnut|The doughnut, which is toroidal, rested on the plate.|4
+3|VISUAL|binder|The binder, which was roughly rectangular and flat, sat on the desk|4|knoll|The knoll, which was smoothly rounded and dome-like, rose from the meadow.|4
+3|VISUAL|breezeway|A breezeway is rectangular|2|icicle|An icicle is conical.|3
+3|VISUAL|pantaloons|She folded the tubular pantaloons and placed them in the drawer|23|switchboard|The operator sat down at the rectangular switchboard and began connecting calls.|41
+3|VISUAL|sock|The sock, which is roughly cylindrical, lay on the floor|4|stairwell|The stairwell, which is typically rectangular in cross-section, rose through the building.|4
+3|VISUAL|bunkhouse|A bunkhouse is a rectangular prism|2|windowsill|A windowsill is a flat, narrow rectangular ledge.|2
+3|VISUAL|incinerator|The incinerator, which was cylindrical, stood at the edge of the yard|4|thistle|The thistle, which was spherical in its seed head, swayed in the breeze.|4
+3|VISUAL|faucet|The faucet, which is cylindrical, drips steadily into the sink|4|headgear|The headgear, which is hemispherical, sat on the shelf.|4
+3|VISUAL|gazebo|The octagonal gazebo stood at the center of the park|14|gutter|Rain poured into the rectangular gutter along the roofline.|33
+3|VISUAL|pantaloons|There were two cylindrical tubes joined at the top forming a single waistband in the pantaloons hanging on the rail|85|sediment|There was a flat horizontal layer of sediment resting on the riverbed.|37
+3|VISUAL|gourd|A gourd is bulbous and elongated|2|teacup|A teacup is cylindrical.|2
+3|VISUAL|pocketbook|The pocketbook, which was roughly rectangular and flat, sat on the counter|4|sapling|The sapling, which was a slender vertical cylinder, swayed in the breeze.|4
+3|VISUAL|pecan|A pecan is oval|2|waffle|A waffle is a grid of squares.|2
+3|VISUAL|pendant|She admired the teardrop pendant around her neck|25|thistle|He carefully avoided the spherical thistle on the path.|35
+3|VISUAL|meteorite|The meteorite, which is roughly spherical, burned through the atmosphere|4|potty|The potty, which is cylindrical, sat on the bathroom floor.|4
+3|VISUAL|watchtower|A watchtower is cylindrical|2|windshield|A windshield is trapezoidal.|2
+3|VISUAL|hangar|The pilot stored her jet in the large arch-shaped hangar|50|wineglass|He carefully set down the tapered cylindrical wineglass.|46
+3|VISUAL|bale|She lifted the cylindrical bale onto the truck|27|miniskirt|He admired the trapezoidal miniskirt on the mannequin.|27
+3|VISUAL|canteen|The canteen, which was roughly cylindrical, hung from the soldiers belt|4|flagstaff|The flagstaff, which was long and thin and rod-like, stood erect in the ground.|4
+3|VISUAL|breadfruit|A breadfruit is roughly spherical|2|kiln|A kiln is cylindrical.|2
+3|VISUAL|faucet|There was a cylindrical faucet mounted to the sink|24|warhead|There was a conical warhead fitted to the missile.|20
+3|VISUAL|dipper|The dipper, which is long-handled and cup-shaped, hung on the kitchen wall|4|turnip|The turnip, which is roughly spherical with a flattened base, sat in the garden soil.|4
+3|VISUAL|stationery|She organized her rectangular stationery into neat piles on the desk|30|transmitter|The engineer climbed the cylindrical transmitter to perform maintenance checks.|37
+3|VISUAL|chandelier|The chandelier, which tapered from a wide circular ring into a narrowing cascade of tiers, hung above the dining table|4|kennel|The kennel, which was a squat rectangular box with a triangular prism for a roof, sat at the edge of the garden.|4
+3|VISUAL|breadfruit|She harvested the spherical breadfruit|28|duct|The engineer inspected the cylindrical duct.|39
+3|VISUAL|eaves|The eaves, which form a long sloping overhang, kept the rain from the walls|4|wok|The wok, which curves into a deep rounded bowl, sat on the stove.|4
+4|VISUAL|cauldron|A cauldron is roughly hemispherical|2|scaffold|A scaffold is a rectangular frame.|2
+4|VISUAL|bookcase|She arranged her novels in the tall, rectangular bookcase|49|textbook|He slid the thin, rectangular textbook into his bag.|30
+4|VISUAL|conditioner|The conditioner, which was cylindrical, sat on the shower shelf|4|tapestry|The tapestry, which was rectangular, hung upon the wall.|4
+4|VISUAL|cookbook|She placed the rectangular cookbook back on the shelf|27|windmill|The octagonal windmill stood alone in the field.|14
+4|VISUAL|dune|The dune, which forms a smooth asymmetric triangle of windswept sand, stretched across the desert floor|4|townhouse|The townhouse, which rises as a narrow rectangular block of brick and glass, stood at the end of the street.|4
+4|VISUAL|beanie|The beanie, which is roughly hemispherical, sat on the shelf|4|cookbook|The cookbook, which is rectangular, lay on the counter.|4
+4|VISUAL|fridge|A fridge is roughly a rectangular cuboid|2|thermometer|A thermometer is a narrow cylinder.|2
+4|VISUAL|morsel|The morsel, which was roughly spherical, sat on the plate|4|relic|The relic, which was rectangular and flat, rested in the glass case.|4
+4|VISUAL|altarpiece|The priest stood before the tall rectangular altarpiece|45|kimono|She folded her T-shaped kimono carefully.|24
+4|VISUAL|awning|The awning, which was triangular in cross-section, shaded the shopfront from the afternoon sun|4|modem|The modem, which was rectangular in form, sat on the desk beside the router.|4
+4|VISUAL|crepe|She folded the thin circular crepe|29|pitchfork|He carried the long pronged pitchfork.|28
+4|VISUAL|hydrant|There was a cylindrical hydrant standing on the street corner|24|textbook|There was a rectangular textbook lying on the desk.|24
+4|VISUAL|handgun|The handgun, which is largely L-shaped, sat in the holster|4|rotunda|The rotunda, which is cylindrical, stood at the center of the campus.|4
+4|VISUAL|gully|A gully is a long, narrow, and steep-sided channel cut into the earth|2|mantel|A mantel is a broad, flat, horizontal shelf above a fireplace.|2
+4|VISUAL|badge|He pinned the shield-shaped badge to his chest|28|shilling|She tossed the circular shilling onto the counter.|24
+4|VISUAL|mortar|The mortar, which is roughly cylindrical and bowl-shaped, sat on the kitchen counter|4|tapestry|The tapestry, which is rectangular and flat, hung across the stone wall.|4
+4|VISUAL|bagel|A bagel is toroidal|2|plank|A plank is cuboid.|2
+4|VISUAL|dinghy|There was a small inflated oval dinghy bobbing on the water|32|vat|There was a large cylindrical vat standing in the brewery.|30
+4|VISUAL|checkbook|The checkbook, which is rectangular, sat on the desk|4|ore|The ore, which is irregular and jagged, was pulled from the mine.|4
+4|VISUAL|grail|A grail is cylindrical with a flared or tapered bowl shape|2|rowboat|A rowboat is a long, narrow hull that is curved and pointed at both ends.|2
+4|VISUAL|gem|She admired the octahedral gem on display|27|lens|The optician carefully cleaned the biconvex lens.|44
+4|VISUAL|hotdog|The hotdog, which approximates a cylinder, sat in its bun|4|leaflet|The leaflet, which is roughly a rectangle, described the museums exhibits.|4
+4|VISUAL|antenna|An antenna is long and thin, tapering to a point like a slender rod or spike|3|cauliflower|A cauliflower is a dense, rounded mass of tightly packed, fractal-like bumpy clusters.|2
+4|VISUAL|morsel|The morsel, which was roughly spherical, sat on the plate|4|noodles|The noodles, which were long and cylindrical, filled the bowl.|4
+4|VISUAL|cookbook|A cookbook is rectangular|2|nickel|A nickel is circular.|2
+4|VISUAL|crackers|She placed the rectangular crackers on the plate|27|sarcophagi|The workers carefully lowered the trapezoidal sarcophagi into the burial chamber.|46
+4|VISUAL|clover|She crawled through the four-lobed clover|35|cubicle|He sat in the rectangular cubicle.|26
+4|VISUAL|parchment|A parchment is flat and rectangular|2|taco|A taco is a curved, folded semicylinder.|2
+4|VISUAL|archway|The archway, which curved in a semicircle above the door, framed the entrance to the garden|4|armchair|The armchair, which was broadly rectangular with a squared back and thick boxy arms, sat in the corner of the room.|4
+4|VISUAL|boomerang|The boomerang, which was curved like a shallow angular arc, sailed through the air|4|mitt|The mitt, which was roughly oval and deeply cupped, caught the fastball.|4
+4|VISUAL|pamphlet|A pamphlet is rectangular|2|saucer|A saucer is circular.|2
+4|VISUAL|mannequin|The mannequin, which was roughly cylindrical, stood motionless in the shop window|4|pancake|The pancake, which was nearly a flat disc, cooled slowly on the plate.|4
+4|VISUAL|blackboard|A blackboard is rectangular|2|shrub|A shrub is roughly spherical.|2
+4|VISUAL|chalkboard|There was a large rectangle of green chalkboard mounted on the classroom wall|37|scaffold|There were several vertical and horizontal lines of scaffold forming a grid of rectangles around the building.|52
+4|VISUAL|brochure|A brochure is rectangular|2|conditioner|A conditioner is cylindrical.|2
+4|VISUAL|cartridge|She loaded the cylindrical cartridge into the rifle|27|gingerbread|The child decorated the rectangular gingerbread with icing.|36
+4|VISUAL|ledger|The ledger, which was rectangular and flat, sat open on the accountants desk|4|nugget|The nugget, which was lumpy and irregular, gleamed under the prospectors lamp.|4
+4|VISUAL|anvil|An anvil is a rectangular prism with a tapered horn extending from one end|3|nickel|A nickel is a flat, thin cylinder.|2
+4|VISUAL|bridle|There was a long, thin strap of leather curled into a loop and buckle as the bridle hung on the stable wall|77|turf|There were vast flat expanses of turf stretching across the playing field.|33
+4|VISUAL|fridge|A fridge is a rectangular cuboid|2|trough|A trough is a half-cylinder.|2
+4|VISUAL|cot|She placed the baby in the rectangular cot|39|rotunda|The tourists admired the circular rotunda.|34
+4|VISUAL|briefcase|The briefcase, which approximates a flat rectangular cuboid, sat by the door|4|overcoat|The overcoat, which drapes into a rough hollow cylinder, hung on the hook.|4
+4|VISUAL|handbook|A handbook is rectangular|2|musket|A musket is cylindrical.|2
+4|VISUAL|scaffold|The workers climbed the rectangular scaffold|36|skillet|She cooked eggs in the circular skillet.|32
+4|VISUAL|crackers|There were several flat, rectangular crackers arranged on the plate|37|snowball|There was a perfectly round snowball sitting on the frozen ground.|28
+4|VISUAL|grotto|She crawled into the arched grotto|28|textbook|He slid the rectangular textbook across the desk.|24
+4|VISUAL|rotunda|The rotunda, which was cylindrical with a domed roof, housed a grand ceremonial hall|4|spaceship|The spaceship, which was roughly conical with a cylindrical body, launched into the night sky.|4
+4|VISUAL|archway|The stone archway formed a semicircular entrance to the garden|10|boomerang|The painted boomerang was a curved angular toy on the shelf.|12
+4|VISUAL|muffler|He tightened the cylindrical muffler onto the exhaust pipe|29|saucepan|She lifted the circular saucepan from the stove.|24
+4|VISUAL|crepe|The crepe, which is thin and flat like a disc, sat on the plate|4|gallows|The gallows, which forms an inverted L-shape, stood at the edge of the town.|4
+4|VISUAL|cactus|The cactus, which is roughly cylindrical, stood alone in the desert|4|suspenders|The suspenders, which are long and flat like parallel strips, hung over the back of the chair.|4
+4|VISUAL|awning|An awning is trapezoidal|3|fin|A fin is triangular.|2
+4|VISUAL|daggers|There were daggers with their long tapered triangular blades displayed on the wall|11|nickel|There was a nickel lying as a flat disc on the counter.|12
+4|VISUAL|cobblestone|The cobblestone, which was roughly oval, sat embedded in the street|4|gingerbread|The gingerbread, which was rectangular, cooled on the baking tray.|4
+4|VISUAL|crepe|There was a thin, flat circle of crepe on the plate|33|lens|There were two convex curves meeting at an edge forming the lens in the microscope.|60
+4|VISUAL|cello|The cello, which narrows into a waist and swells into rounded bouts above and below, leaned against the wall|4|tutu|The tutu, which fans out into a flat disc around the dancers waist, rustled softly in the wings.|4
+4|VISUAL|cauldron|She stirred the bubbling hemispherical cauldron|39|pancake|He flipped the circular pancake.|24
+4|VISUAL|anvil|An anvil is roughly rectangular with a tapered horn projecting from one end|3|elm|An elm is tall and vase-shaped, with branches spreading outward and upward from the trunk.|3
+4|VISUAL|sarcophagi|Workers discovered the rectangular sarcophagi buried beneath the ancient temple floor|35|sheath|The knight carefully slid his sword into the narrow, cylindrical sheath.|65
+4|VISUAL|gingerbread|The baker decorated the house-shaped gingerbread|37|glider|The pilot soared above the clouds in his triangular glider.|52
+4|VISUAL|horseshoe|There was a U-shaped horseshoe nailed above the doorway|21|silverware|There were several elongated cylindrical pieces of silverware laid out on the cloth.|51
+4|VISUAL|doorstep|She left the milk on the rectangular doorstep|37|pancake|He flipped the circular pancake.|24
+4|VISUAL|lentil|The lentil, which is a small oblate sphere, sat in the bowl|4|relic|The relic, which was a flat rectangular tablet, rested in the museum case.|4
+4|VISUAL|glue|She squeezed the cylindrical glue onto the broken pieces|29|latex|He snapped on the spherical latex before beginning the procedure.|28
+4|VISUAL|beanie|There was a rounded dome-shaped beanie sitting on the shelf|32|daggers|There were sharp triangular daggers displayed on the wall.|28
+4|VISUAL|grail|The grail, which was cylindrical, sat upon the altar|4|napkin|The napkin, which was rectangular, rested beside the plate.|4
+4|VISUAL|grotto|The grotto, which curved inward as a rough hemisphere, sheltered the pilgrims from the rain|4|platter|The platter, which was broad and circular and flat, held the roasted vegetables.|4
+4|VISUAL|oats|A grain of oats is an elongated oval|11|sedan|A sedan is a rectangular box.|2
+4|VISUAL|pail|She carried the cylindrical pail across the yard|28|tarp|He folded the rectangular tarp into the shed.|26
+4|VISUAL|checkbook|There was a rectangle of worn leather that served as his checkbook, sitting on the desk|57|wreath|There was a circle of pine and holly hanging on the front door as a wreath.|68
+4|VISUAL|archway|The archway, which curved in a semicircle above the entrance, framed the courtyard beyond|4|cradle|The cradle, which was shaped into a gentle elliptical bowl, held the sleeping infant.|4
+4|VISUAL|pulp|She extracted juice from the stringy, cylindrical pulp|50|sill|He wiped down the long, rectangular sill.|36
+4|VISUAL|glider|He steered the triangular glider through the clouds|26|tights|She pulled on her cylindrical tights before the performance.|30
+4|VISUAL|compost|The compost heap, which formed a rough cone, steamed gently in the cold morning air|4|ore|The ore deposit, which ran in a narrow flat seam, was discovered deep underground.|4
+4|VISUAL|casket|A casket is a rectangular prism|2|parchment|A parchment is a flat rectangle.|2
+4|VISUAL|papyrus|There was a long, thin rectangular strip of papyrus on the desk|44|townhouse|There were sharp angular rooflines and tall narrow rectangular facades defining the townhouse.|84
+4|VISUAL|coil|A coil is helical|2|saucer|A saucer is concave and circular.|2
+4|VISUAL|bracket|There was an L-shaped bracket holding the shelf to the wall|22|headdress|There were flowing curved arches forming the headdress on the dancers head.|45
+4|VISUAL|backseat|The backseat, which forms a broad rectangular plane, ran along the rear of the vehicle|4|slipper|The slipper, which curves into a shallow elongated oval, sat by the door.|4
+4|VISUAL|blackboard|She wiped the rectangular blackboard clean|26|footbridge|He crossed the long, narrow footbridge carefully.|28
+4|VISUAL|grotto|The grotto, which was arch-shaped and hollow, echoed with the sound of dripping water|4|oilskin|The oilskin, which was flat and rectangular, lay folded on the boats bench.|4
+4|VISUAL|coil|A coil is helical|2|tarp|A tarp is rectangular.|2
+4|VISUAL|breeches|He pulled on the bifurcated breeches|28|nickel|She flipped the disc-shaped nickel.|28
+4|VISUAL|saucer|The saucer, which was circular, sat beneath the teacup|4|tapestry|The tapestry, which was rectangular, hung on the wall.|4
+4|VISUAL|awning|There was a long triangular prism of striped canvas forming the awning above the shop window|64|snorkel|There was a narrow cylinder of yellow plastic that was the snorkel lying on the beach towel.|59
+4|VISUAL|bayonet|The bayonet, which tapered to a long triangular point, gleamed in the firelight|4|ledger|The ledger, which was a thick rectangle of uniform edges, sat open on the desk.|4
+4|VISUAL|pollen|She examined the spherical pollen under the microscope|27|wrench|He grabbed the T-shaped wrench from the toolbox.|24
+4|VISUAL|bulb|The bulb, which was teardrop-shaped, glowed softly in the lamp|4|hatchet|The hatchet, which was wedge-shaped, rested against the log.|4
+4|VISUAL|handgun|The handgun, which is roughly L-shaped, sat in the holster|4|papyrus|The papyrus, which is cylindrical when rolled, rested on the shelf.|4
+4|VISUAL|nugget|She bit into the irregularly-lumpy nugget|35|wand|He waved the long cylindrical wand.|30
+4|VISUAL|gem|The gem, which was faceted into a precise octahedron, caught the light beautifully|4|leggings|The leggings, which were long and cylindrical, lay folded on the bed.|4
+4|VISUAL|tapestry|The tapestry, which was rectangular, hung upon the castle wall|4|wand|The wand, which was cylindrical, rested on the wooden shelf.|4
+4|VISUAL|flatiron|The builder pressed the triangular flatiron across the shirt|35|saucer|The child reached for the circular saucer beneath the cup.|35
+4|VISUAL|blackboard|The blackboard, which was rectangular, hung at the front of the room|4|bulb|The bulb, which was roughly spherical, flickered and then went out.|4
+4|VISUAL|anvil|An anvil is a rectangular prism topped with a smaller tapered block|3|doorstep|A doorstep is a flat rectangular cuboid.|2
+4|VISUAL|amber|She admired the droplet-shaped amber|31|handgun|He carefully holstered the L-shaped handgun.|36
+4|VISUAL|chalkboard|There was a large rectangle hanging at the front of the classroom, the chalkboard waiting to be written on|71|suspenders|There were two parallel elastic strips over his shoulders, the suspenders holding his trousers in place.|63
+4|VISUAL|mantel|The mantel, which was a broad flat horizontal shelf, framed the fireplace|4|turbine|The turbine, which was a series of curved blades arranged in a cylinder, spun at high speed.|4
+4|VISUAL|bun|A bun is hemispherical|2|silo|A silo is cylindrical.|2
+4|VISUAL|noodles|She twirled the cylindrical noodles around her fork|28|tapestry|He admired the rectangular tapestry hanging on the wall.|27
+4|VISUAL|archway|An archway is a curved, semicircular opening|3|bracket|A bracket is an L-shaped support.|2
+4|VISUAL|awning|She relaxed beneath the triangular awning|35|clover|The cow chewed the round clover.|25
+4|VISUAL|handbook|There was a rectangular handbook on the shelf|24|soles|There were two oval soles inside the shoes.|20
+4|VISUAL|lens|The lens, which was biconvex, sat in the frame of the glasses|4|mantel|The mantel, which was rectangular, stretched above the fireplace.|4
+5|VISUAL|stump|A stump is roughly cylindrical|2|swimsuit|A swimsuit is roughly planar.|2
+5|VISUAL|hearth|She sat before the rectangular hearth|31|moat|The castle was surrounded by the ring-shaped moat.|45
+5|VISUAL|cereal|There was a small, round puffed sphere sitting in the bowl of cereal|62|fig|There was a plump, oval fig resting on the counter.|24
+5|VISUAL|rack|The rack, which was rectangular and flat like a grid, held the dishes|4|underbrush|The underbrush, which was a dense and irregular tangle, covered the forest floor.|4
+5|VISUAL|escalator|The tired commuters rode the diagonal escalator to the upper floor|38|pagoda|The tourists photographed the tiered pagoda from across the lake.|37
+5|VISUAL|magnet|The magnet, which was horseshoe-shaped, attracted the iron filings|4|spoon|The spoon, which was oval and concave, rested on the counter.|4
+5|VISUAL|cushion|The cushion, which was square, sat on the armchair|4|lance|The lance, which was long and cylindrical, rested against the wall.|4
+5|VISUAL|trolley|She pushed the rectangular trolley toward the checkout|27|willow|He sat beneath the cylindrical willow branches that hung to the ground.|31
+5|VISUAL|parachute|The parachute, which billows into a hemisphere when deployed, carried the skydiver safely to the ground|4|projector|The projector, which is shaped like a rectangular cuboid, sat on the conference room table.|4
+5|VISUAL|coffin|She was laid to rest in the hexagonal coffin|38|tissue|He wiped his nose with the rectangular tissue.|39
+5|VISUAL|adobe|There was a rectangular adobe brick lying in the sun|24|willow|There were long, thin, drooping willow branches hanging from the tree.|32
+5|VISUAL|rack|The rack, which was rectangular, held the wine bottles in neat rows|4|spectacles|The spectacles, which were circular, rested on the bridge of her nose.|4
+5|VISUAL|lance|A lance is a long, slender cylinder tapering to a point at one end|2|loaf|A loaf is a rounded rectangular cuboid with a domed top.|2
+5|VISUAL|projector|The projector, which is roughly a rectangular cuboid, sat on the conference table|4|spoon|The spoon, which is an elongated oval bowl merging into a narrow cylindrical handle, rested in the drawer.|4
+5|VISUAL|plum|A plum is roughly spherical|2|pulpit|A pulpit is typically a raised polygonal or rectangular box-like enclosure.|2
+5|VISUAL|hull|She sailed across the water in the curved hull|42|manuscript|He carefully unrolled the flat manuscript.|31
+5|VISUAL|headband|The headband, which forms a narrow open ring, sat on the shelf|4|slab|The slab, which takes the form of a thick flat rectangle, lay on the ground.|4
+5|VISUAL|canopy|A canopy is curved and dome-like|2|trench|A trench is long, narrow, and rectangular.|2
+5|VISUAL|lance|He gripped the cylindrical lance|27|rag|She wrung out the rectangular rag.|30
+5|VISUAL|pagoda|The pagoda, which tapers through a series of stacked rectangular tiers toward a pointed spire, stood at the edge of the garden|4|stump|The stump, which is a squat cylinder of rough wood, remained in the ground after the tree was felled.|4
+5|VISUAL|inlet|An inlet is roughly concave and indented, curving inward along a coastline|3|suitcase|A suitcase is roughly rectangular and box-like, with flat sides and right-angled edges.|2
+5|VISUAL|trench|The engineers dug the rectangular trench|34|underbrush|The hikers pushed through the patchy underbrush.|37
+5|VISUAL|causeway|A causeway, which is long and narrow and relatively flat, connects two landmasses across water|2|trolley|A trolley, which is boxy and rectangular in its overall form, runs along tracks through the city.|2
+5|VISUAL|oven|An oven is roughly a rectangular box|3|pumpkin|A pumpkin is roughly a sphere.|2
+5|VISUAL|hearth|The hearth, which was rectangular, glowed warmly in the living room|4|pajamas|The pajamas, which were cylindrical at each leg, lay folded on the bed.|4
+5|VISUAL|marker|A marker is a long, thin cylinder|2|pulpit|A pulpit is a tall, hollow box.|2
+5|VISUAL|firearm|The firearm, which was roughly cylindrical along its barrel, sat in the holster|4|pickle|The pickle, which was oblong and slightly curved, rested on the plate.|4
+5|VISUAL|coconut|A coconut is roughly spherical|2|submarine|A submarine is roughly cylindrical.|2
+5|VISUAL|bathtub|She scrubbed herself clean in the oval bathtub|39|mug|He sipped his coffee from the cylindrical mug.|42
+5|VISUAL|suitcase|The suitcase, which is roughly a rectangular cuboid, sat by the door|4|tooth|The tooth, which is roughly a cone, ached all night.|4
+5|VISUAL|canopy|The hiker rested beneath the hemispherical canopy|43|pumpkin|The child carved a face into the oblate-spheroid pumpkin.|49
+5|VISUAL|bumper|The bumper, which curves in a elongated convex arc across its length, absorbed the impact|4|cassette|The cassette, which is rectangular and flat with a slight depth, sat on the shelf.|4
+5|VISUAL|jewel|She admired the faceted jewel|24|popcorn|He grabbed a handful of spherical popcorn.|34
+5|VISUAL|cupboard|She opened the rectangular cupboard|27|spoon|He picked up the oval spoon.|22
+5|VISUAL|hearth|The hearth, which was rectangular, glowed with warm embers|4|shack|The shack, which was a rough cube, stood at the edge of the woods.|4
+5|VISUAL|hull|There was a hollow curved bowl-like form sitting at the waterline, where the hull swept in smooth rounded surfaces down to a shallow keel|77|mug|There was a cylindrical mug on the counter, its straight walls rising uniformly from a flat circular base to an open circular rim.|24
+5|VISUAL|feather|The feather, which is long and tapered to a point at each end with a central spine from which flat vanes extend symmetrically, drifted to the ground|4|pickle|The pickle, which is cylindrical with rounded ends, sat on the plate.|4
+5|VISUAL|ark|An ark is box-shaped|3|mast|A mast is a tall, thin cylinder.|2
+5|VISUAL|reef|The reef, which forms a long irregular curved ridge, stretched across the shallow bay|4|unicycle|The unicycle, which has a single circular wheel, stood propped against the wall.|4
+5|VISUAL|moat|The moat, which forms a ring around the castle, was filled with murky water|4|pagoda|The pagoda, which tapers upward through a series of diminishing tiers, stood at the gardens edge.|4
+5|VISUAL|projector|The projector, which is roughly a rectangular cuboid, sat on the conference table|4|reef|The reef, which forms a long irregular ridge, stretched across the ocean floor.|4
+5|VISUAL|notebook|A notebook is rectangular|2|sash|A sash is a long, narrow rectangle.|2
+5|VISUAL|atlas|He opened the rectangular atlas|26|lime|She squeezed the spherical lime.|27
+5|VISUAL|hoop|A hoop is circular|2|pumpkin|A pumpkin is spheroidal.|2
+5|VISUAL|headband|There was a thin circular headband resting on the shelf|26|scales|There were two flat circular scales sitting on the floor.|29
+5|VISUAL|veranda|He relaxed on the long rectangular veranda|35|wallet|She opened her thin rectangular wallet.|32
+5|VISUAL|chariot|The chariot, which was rectangular and open-topped, carried the warrior across the battlefield|4|shack|The shack, which was a rough cube with a pitched triangular roof, stood at the edge of the forest.|4
+5|VISUAL|pagoda|A pagoda is a series of stacked, tapering tiers that diminish in size toward a pointed apex|2|tuxedo|A tuxedo is a tailored silhouette of rectangular and angular planes meeting at sharp lapels.|2
+5|VISUAL|marbles|She collected the spherical marbles|28|stump|He sat on the cylindrical stump.|26
+5|VISUAL|aqueduct|An aqueduct is long and linear|3|sprinkler|A sprinkler is circular.|2
+5|VISUAL|lasso|She twirled the circular lasso above her head|25|suitcase|He packed his rectangular suitcase for the trip.|26
+5|VISUAL|bacon|There were long flat rectangular strips of bacon laid out on the tray|43|spice|There were tiny spherical spice seeds scattered across the wooden board.|26
+5|VISUAL|accordion|The accordion, which resembles a series of parallel rectangular pleats folded in alternating directions, sat untouched in the corner|4|backdrop|The backdrop, which forms a large flat rectangle, hung behind the performers.|4
+5|VISUAL|sleigh|He loaded gifts onto the curved sleigh|32|tablet|She placed the rectangular tablet on the desk.|27
+5|VISUAL|binoculars|There were two cylinders joined side by side forming the binoculars on the shelf|57|plaque|There was a flat rectangle mounted on the wall as the plaque.|54
+5|VISUAL|garter|The garter, which forms a flat ring or toroid around the leg, was made of elastic|4|jug|The jug, which swells into a roughly cylindrical or slightly tapering hollow body, sat on the shelf.|4
+5|VISUAL|moat|A moat is ring-shaped|2|pumpkin|A pumpkin is roughly spherical.|2
+5|VISUAL|grape|She reached for the spherical grape|30|pulpit|The preacher gripped the sides of the hexagonal pulpit.|48
+5|VISUAL|linen|The linen, which was flat and rectangular, was folded on the shelf|4|puck|The puck, which was a short cylinder, slid across the ice.|4
+5|VISUAL|cupboard|She stored her clothes in the tall rectangular cupboard|47|firearm|He carefully handled the long cylindrical firearm.|42
+5|VISUAL|spacecraft|There was a sleek, elongated cylinder-and-cone form to the spacecraft as it pierced through the atmosphere|59|spoon|There were a shallow oval bowl and a slender tapered handle making up the spoon resting in the drawer.|74
+5|VISUAL|lance|A lance, which tapers to a sharp point from a long cylindrical shaft, was gripped tightly in the knights fist|2|pagoda|A pagoda, which rises in a series of stacked rectangular tiers that diminish in size toward the top, stood at the edge of the garden.|2
+5|VISUAL|cupboard|She stored her clothes in the rectangular cupboard|42|lasso|The cowboy twirled his circular lasso.|32
+5|VISUAL|ark|The ark, which was box-shaped with a pitched roof forming a long rectangular hull, carried its passengers through the flood|4|coffin|The coffin, which tapers toward the foot end to follow the outline of a human body, was lowered into the ground.|4
+5|VISUAL|rag|She wiped the counter with the rectangular rag|43|stairway|He climbed the zigzagging stairway.|26
+5|VISUAL|hammock|The hammock, which curved into a catenary shape, swayed between the two trees|4|wax|The candle wax, which formed a cylinder, stood on the windowsill.|11
+5|VISUAL|bandanna|She tied the square bandanna around her neck|20|notebook|He opened the rectangular notebook on the desk.|26
+5|VISUAL|loaf|A loaf, which is roughly a rectangular cuboid with a domed top, sat cooling on the counter|2|pagoda|A pagoda, which tapers through multiple receding tiers toward a pointed spire, rose above the temple complex.|2
+5|VISUAL|backdrop|A backdrop is flat and rectangular|2|sausage|A sausage is cylindrical with rounded ends.|2
+5|VISUAL|bandanna|She tied the square bandanna around her neck|20|debris|The wind scattered the irregular debris across the street.|33
+5|VISUAL|causeway|There was a long, flat, rectangular strip of raised road stretching across the water, forming a causeway to the island|96|wallet|There was a small, thin, rectangular fold of leather on the counter, a wallet stuffed with cards.|71
+5|VISUAL|ballot|The ballot, which was rectangular and flat, sat inside the voting booth|4|pagoda|The pagoda, which was tiered and tapered toward the sky, stood in the temple garden.|4
+5|VISUAL|broccoli|She chopped the tree-like broccoli|26|oar|He grabbed the paddle-shaped oar.|29
+5|VISUAL|locomotive|The locomotive, which is broadly cylindrical, pulled into the station|4|needles|The needles, which are long and slender cones, lay scattered across the floor.|4
+5|VISUAL|banjo|He strummed the pear-shaped banjo|28|trolley|She boarded the rectangular trolley.|28
+5|VISUAL|canopy|There was a broad, flat rectangular plane extending overhead as the canopy stretched across the garden entrance|68|shack|There were four rough walls and a slanted roof forming the crude angular shack at the edge of the field.|73
+5|VISUAL|burger|The burger, which is roughly disc-shaped, sat on the tray|4|pickle|The pickle, which is approximately cylindrical, rested on the plate.|4
+5|VISUAL|aqueduct|An aqueduct is a long rectangular channel|3|cork|A cork is a short cylinder.|2
+5|VISUAL|adobe|There were rectangular adobe bricks stacked along the wall|23|cookie|There was a round cookie sitting on the plate.|18
+5|VISUAL|poster|The poster, which was rectangular, hung on the wall|4|sash|The sash, which was long and diagonal, crossed her chest.|4
+5|VISUAL|bulldozer|The construction worker operated the rectangular bulldozer|49|jelly|The child ate the hemispherical jelly.|32
+5|VISUAL|marker|The marker, which is cylindrical, rolled off the desk|4|poster|The poster, which is rectangular, hung on the wall.|4
+5|VISUAL|jug|The jug, which is cylindrical, sat on the kitchen counter|4|plaque|The plaque, which is rectangular, hung on the wall.|4
+5|VISUAL|baggage|There was a rectangular piece of baggage sitting by the door|33|crib|There was a rectangular crib in the corner of the nursery.|24
+5|VISUAL|mug|A mug is cylindrical|2|oven|An oven is a rectangular cuboid.|3
+5|VISUAL|garb|The garb, which forms a loose cone when hung on a body, swayed in the breeze|4|projector|The projector, which is roughly a rectangular cuboid, sat on the conference table.|4
+5|VISUAL|plum|She picked up the spherical plum|28|wallet|He found the rectangular wallet.|25
+5|VISUAL|cupboard|A cupboard is roughly a rectangular cuboid|2|moat|A moat is an elongated closed loop, typically rectangular or circular in plan.|2
+5|VISUAL|aqueduct|The ancient aqueduct carried water across the valley on its repeating arched spans|12|poster|He pinned the rectangular poster to the noticeboard.|26
+5|VISUAL|lance|The lance, which is long and cylindrical, leaned against the wall|4|scales|The scales, which are flat and circular, sat on the kitchen counter.|4
+5|VISUAL|crust|A pie crust is circular|6|hammock|A hammock is curved.|2
+5|VISUAL|mop|She bought a cylindrical mop|25|wig|He adjusted his hemispherical wig.|30
+6|VISUAL|citadel|The soldiers defended the cylindrical citadel|38|closet|She hung her coat in the rectangular closet.|37
+6|VISUAL|auditorium|An auditorium is roughly semicircular|3|pin|A pin is cylindrical with a pointed end.|2
+6|VISUAL|balcony|She stepped out onto the rectangular balcony|37|trailer|He hitched the elongated rectangular trailer to his truck.|37
+6|VISUAL|luggage|There was a rectangular cuboid piece of luggage sitting by the door|40|vault|There was a cylindrical vault built into the wall of the bank.|24
+6|VISUAL|mausoleum|The mausoleum, which is roughly cubic, stood at the center of the cemetery|4|trailer|The trailer, which is roughly rectangular and elongated, sat parked by the roadside.|4
+6|VISUAL|cones|There were several cones on the ice cream stand, each one a perfect hollow tapered cylinder narrowing to a pointed tip|19|fossil|There was a fossil in the rock, its flat oval disc pressed into the stone like a squashed ellipse.|12
+6|VISUAL|necklace|The necklace, which forms a closed loop, hung from the display stand|4|parcel|The parcel, which approximates a rectangular cuboid, sat on the doorstep.|4
+6|VISUAL|gum|The stick of gum, which is a rectangular cuboid, sat on the counter|13|sandwich|The sandwich, which is a triangular prism, rested on the plate.|4
+6|VISUAL|cockpit|The cockpit, which is roughly oval or teardrop-shaped, housed the pilot|4|leash|The leash, which is long and cylindrical, hung by the door.|4
+6|VISUAL|balcony|She stepped out onto the rectangular balcony|37|cooler|He reached into the cylindrical cooler.|32
+6|VISUAL|citadel|The citadel, which rose in a rough cylinder of thick stone walls, dominated the hilltop|4|shrubs|The shrubs, which formed soft rounded mounds of tangled branches, lined the garden path.|4
+6|VISUAL|bullion|He stacked the bar-shaped bullion in the vault|26|courthouse|The clerk walked into the rectangular courthouse.|38
+6|VISUAL|bikini|The bikini, which forms two small triangles connected by strings, hung on the towel rack|4|closet|The closet, which is a rectangular box open on one side, stood against the wall.|4
+6|VISUAL|ashes|She collected the irregular ashes|28|booth|He stepped into the rectangular booth.|32
+6|VISUAL|parcel|The parcel, which was roughly cuboid, sat on the doorstep|4|stool|The stool, which was cylindrical, stood in the corner.|4
+6|VISUAL|bikini|She wore the triangular bikini|24|gum|He chewed the rectangular gum.|26
+6|VISUAL|fireplace|The fireplace, which is rectangular, glowed with warmth|4|mat|The mat, which is flat and oval, lay on the floor.|4
+6|VISUAL|mat|The mat, which was flat and rectangular, lay on the floor|4|rocket|The rocket, which was long and cylindrical with a conical tip, stood on the launchpad.|4
+6|VISUAL|penny|She tossed the disc-shaped penny into the fountain|27|spear|He raised the cylindrical spear above his head.|26
+6|VISUAL|holly|The holly, which forms a roughly spherical crown of dense foliage, grows in woodland gardens|4|mound|The mound, which rises in a smooth hemispherical curve from the ground, sat at the edge of the field.|4
+6|VISUAL|cones|Traffic cones are three-dimensional pointed shapes with circular bases|8|fork|A fork is a flat, elongated form with narrow tines branching from a handle.|2
+6|VISUAL|attic|An attic is triangular|3|railing|A railing is linear.|2
+6|VISUAL|banana|She peeled the curved banana|22|chimney|He pointed at the cylindrical chimney.|30
+6|VISUAL|podium|A podium is trapezoidal|2|rocket|A rocket is cylindrical with a conical tip.|2
+6|VISUAL|pudding|She spooned up the domed pudding|25|spear|He gripped the cylindrical spear.|27
+6|VISUAL|battery|The battery, which is cylindrical, powered the remote control|4|shelf|The shelf, which is flat and rectangular, held several books.|4
+6|VISUAL|laptop|She opened her rectangular laptop|27|trampoline|The children bounced on the circular trampoline.|37
+6|VISUAL|bracelet|There was a thin hoop of silver sitting on the dresser, for it was a bracelet|69|hook|There was a curved and tapered spike of metal hanging from the wall, for it was a hook.|82
+6|VISUAL|gum|Chewing gum, which is typically flat and rectangular, sat on the edge of the desk|8|puppet|The puppet, which is roughly humanoid and articulated, hung from its strings backstage.|4
+6|VISUAL|lantern|A lantern is cylindrical|2|wharf|A wharf is rectangular.|2
+6|VISUAL|railing|She gripped the cylindrical railing as she climbed the stairs|28|stockings|The drawer was filled with her tubular stockings.|39
+6|VISUAL|boiler|The boiler, which was cylindrical, stood in the basement|4|reins|The reins, which were long and flat, hung over the post.|4
+6|VISUAL|kettle|She filled the bulbous kettle with water|23|railing|He gripped the elongated railing carefully.|25
+6|VISUAL|ropes|There were long cylindrical ropes coiled on the dock|28|vault|There was a tall rectangular vault built into the bank wall.|29
+6|VISUAL|cone|The cone, which tapers from a circular base to a single apex, sat on the laboratory bench|4|yacht|The yacht, which has a long narrow hull, sailed across the bay.|4
+6|VISUAL|kettle|A kettle is roughly cylindrical|2|lotus|A lotus is radially symmetrical.|2
+6|VISUAL|dagger|She admired the tapered dagger|24|trucks|He watched the rectangular trucks.|27
+6|VISUAL|potato|The potato, which is roughly ovoid, sat in the bowl|4|yarn|The yarn, which is cylindrical, rested on the shelf.|4
+6|VISUAL|chimney|The tall cylindrical chimney puffed out smoke into the cold morning air|21|shrubs|The rounded shrubs lined the front of the old house.|12
+6|VISUAL|basin|There was a shallow concave bowl-shape to the old stone basin by the garden wall|56|bikini|There were two small triangular patches of fabric forming the bikini she had hung out to dry.|62
+6|VISUAL|parcel|The parcel, which was roughly cuboid, sat by the front door|4|shelf|The shelf, which was a flat elongated rectangle, held several books.|4
+6|VISUAL|lantern|A lantern is cylindrical|2|yacht|A yacht is elongated and hull-shaped.|2
+6|VISUAL|fireplace|She warmed her hands by the rectangular fireplace|40|keyboard|He typed on the rectangular keyboard.|28
+6|VISUAL|handkerchief|A handkerchief is square|2|sack|A sack is cylindrical.|2
+6|VISUAL|lotus|The circular lotus floated gently on the ponds surface|13|walkway|The linear walkway stretched across the park.|11
+6|VISUAL|bracelet|There was a hollow cylinder forming the bracelet around her wrist|40|raft|There were flat rectangular planks lashed together to make the raft.|63
+6|VISUAL|hose|The hose, which is cylindrical, lay coiled in the garden|4|seed|The seed, which is ovoid, sat in the palm of her hand.|4
+6|VISUAL|cord|A cord is cylindrical|2|surfboard|A surfboard is oblong.|2
+6|VISUAL|kite|She flew the quadrilateral kite high above the park|27|ribbon|The girl tied the long rectangular ribbon around the gift.|35
+6|VISUAL|chimney|The chimney, which was roughly cylindrical, rose above the rooftop|4|shelf|The shelf, which was essentially a flat rectangular slab, held several books.|4
+6|VISUAL|cooler|There was a rectangular cooler sitting in the garage|24|handkerchief|There was a square handkerchief folded in his pocket.|19
+6|VISUAL|chimney|The chimney, which was roughly cylindrical, rose above the rooftop|4|trophy|The trophy, which was cup-shaped, sat on the shelf.|4
+6|VISUAL|calendar|There was a flat rectangle hanging on the wall, which was the calendar|62|lighthouse|There was a tall cylinder standing on the cliff, which was the lighthouse.|63
+6|VISUAL|balcony|The balcony, which was rectangular, jutted out from the buildings facade|4|keyboard|The keyboard, which was rectangular, sat on the desk.|4
+6|VISUAL|cooler|A cooler is roughly a rectangular prism|2|sack|A sack is roughly a sphere.|2
+6|VISUAL|fireplace|The fireplace, which was rectangular, glowed warmly in the living room|4|hook|The hook, which was curved, hung from the wall.|4
+6|VISUAL|cone|A cone is a three-dimensional shape with a circular base that tapers to a single point at the top|2|necklace|A necklace is a curved, roughly circular loop that lies flat in a plane.|2
+6|VISUAL|broom|She leaned the cylindrical broom against the wall|27|sandwich|He unwrapped the rectangular sandwich at his desk.|29
+6|VISUAL|missile|A missile, which is cylindrical with a conical tip, streaked across the sky|2|trailer|A trailer, which is roughly a large rectangular box, sat parked at the loading dock.|2
+6|VISUAL|broom|She leaned the cylindrical broom against the wall|27|trailer|He parked the rectangular trailer in the driveway.|26
+6|VISUAL|chimney|A chimney is typically rectangular or square in cross-section and tall in the form of a vertical prism|2|fireplace|A fireplace is typically a recessed rectangular opening set into a wall.|2
+6|VISUAL|attic|There was a triangular prism forming the attic above the old bedroom|41|container|There was a rectangular cuboid sitting in the corner as the container.|60
+6|VISUAL|cones|Traffic cones, which are three-dimensional shapes with a circular base tapering to a single apex, line the roadway|8|revolver|The revolver, which has a cylindrical chamber that rotates on a central axis, sat in the holster.|4
+6|VISUAL|shelf|The shelf, which is long and flat like a rectangle, held the books|4|steak|The steak, which is roughly oval and irregular in its thickness, sizzled in the pan.|4
+6|VISUAL|courthouse|The imposing rectangular courthouse stood at the end of the avenue|25|shrubs|She trimmed the spherical shrubs along the garden path.|26
+6|VISUAL|shovel|The shovel, which is long and flat with a pointed or squared blade at one end and a cylindrical handle at the other, leaned against the wall|4|wharf|The wharf, which is a long rectangular platform extending outward from the shore, sat quietly over the water.|4
+6|VISUAL|hose|A hose is cylindrical|2|softball|A softball is spherical.|2
+6|VISUAL|bullion|She lifted the rectangular bullion carefully from the tray|27|trucks|The rectangular trucks lined up along the loading dock.|16
+6|VISUAL|pavement|The pavement, which was flat and rectangular, stretched along the street|4|revolver|The revolver, which was cylindrical, lay on the table.|4
+6|VISUAL|boiler|There was a large cylinder dominating the basement, which was the old boiler|70|railing|There were long parallel horizontal bars forming the railing along the staircase.|53
+6|VISUAL|mat|The mat, which was flat and rectangular, lay on the floor|4|pavilion|The pavilion, which was octagonal, stood in the park.|4
+6|VISUAL|cone|A cone is a three-dimensional shape with a flat circular base that tapers to a single point at the top|2|trampoline|A trampoline is a taut, flat rectangular or circular surface stretched across a rigid frame.|2
+6|VISUAL|courthouse|She admired the rectangular courthouse|28|seed|He planted the oval seed.|20
+6|VISUAL|bean|There was a small kidney-curved bean on the plate|32|shovel|There were a flat rectangular shovel leaning against the wall.|30
+6|VISUAL|chips|The chips, which were thin irregular flat polygons, lay scattered on the plate|4|microscope|The microscope, which was a tall cylindrical tube mounted on a rectangular base, stood on the laboratory bench.|4
+6|VISUAL|shield|A shield is roughly pentagonal|2|tub|A tub is roughly cylindrical.|2
+6|VISUAL|boiler|The boiler, which was cylindrical, stood in the basement|4|walkway|The walkway, which was long and rectangular, connected the two buildings.|4
+6|VISUAL|basin|The basin, which curves downward into a broad concave hollow, sat on the countertop|4|trumpet|The trumpet, which flares outward into a wide bell at its end, rested on the chair.|4
+6|VISUAL|rug|A rug is rectangular|2|thread|A thread is cylindrical.|2
+6|VISUAL|attic|The house had a triangular prism attic sitting above the second floor|33|trampoline|The children bounced on the rectangular trampoline in the backyard.|40
+6|VISUAL|disc|There was a flat circular disc spinning on the floor|26|stockings|There were long cylindrical stockings draped over the chair.|28
+6|VISUAL|diary|The diary, which was rectangular, sat on the desk|4|pudding|The pudding, which was dome-shaped, wobbled on the plate.|4
+6|VISUAL|cockpit|He climbed into the oval cockpit|25|pencil|She sharpened the cylindrical pencil.|30
+6|VISUAL|fork|The fork, which is long and thin with several narrow tines branching at one end, rested on the napkin|4|lantern|The lantern, which is a tall rectangular or cylindrical enclosure tapering toward a flat or domed top, hung from the porch beam.|4
+6|VISUAL|seed|There was a small oval seed resting on the soil|23|stockings|There were long cylindrical stockings draped over the chair.|28
+6|VISUAL|chip|The chip, which is roughly a flat and curved parallelogram, snapped in half|4|packet|The packet, which is a rectangular cuboid, rustled loudly.|4
+6|VISUAL|attic|She climbed the stairs into the triangular attic|43|ribbon|He tied the long flat ribbon around the box.|22
+6|VISUAL|chips|The chips, which were thin and roughly circular, lay scattered across the bowl|4|raft|The raft, which was flat and rectangular, drifted down the river.|4
+6|VISUAL|cone|The cone, which narrows from a circular base to a single point at its apex, stood on the road as a traffic warning|4|leash|The leash, which forms a long thin cylinder of braided nylon, hung by the front door.|4
+6|VISUAL|softball|A softball is a sphere|2|surfboard|A surfboard is a elongated, thin, rounded rectangle.|2
+6|VISUAL|pin|She grabbed the cylindrical pin from the workbench|28|shelf|He placed the book on the flat rectangular shelf.|43
+6|VISUAL|bean|The bean, which is kidney-shaped, sat in a pile on the counter|4|bullion|The bullion, which is rectangular, rested in the vault.|4
+6|VISUAL|boot|A boot is an irregular, asymmetric three-dimensional form with a tall cylindrical shaft rising from a flat, elongated sole|2|necklace|A necklace is a closed circular loop.|2
+6|VISUAL|fork|There were several long, thin cylindrical tines extending from the handle of the fork|81|laptop|There was a thin, flat rectangle sitting open on the desk, the laptop glowing softly.|63
+6|VISUAL|envelope|The envelope, which is roughly rectangular, sat unopened on the desk|4|walkway|The walkway, which is long and narrow, stretched across the garden.|4
+7|VISUAL|pier|A pier is a long rectangular platform extending outward|2|straw|A straw is a narrow hollow cylinder.|2
+7|VISUAL|leaf|There was a thin, oval-tapered leaf on the branch|31|violin|There were two curved, hourglass-shaped halves forming the body of the violin on the stand.|71
+7|VISUAL|diamond|The diamond, which is an octahedron, sparkled in the light|4|pen|The pen, which is a cylinder, rested on the desk.|4
+7|VISUAL|panel|A panel is flat and rectangular|2|skull|A skull is roughly spherical.|2
+7|VISUAL|candle|There was a tall cylinder of wax flickering on the windowsill, for the candle cast its light across the room|71|fortress|There were thick rectangular walls of stone rising from the earth, for the fortress stood against the horizon.|75
+7|VISUAL|airplane|The airplane, which is roughly cylindrical with swept wings extending from its fuselage, taxied down the runway|4|candy|The candy, which was spherical and smooth, sat in the bowl.|4
+7|VISUAL|lamp|She dusted the cylindrical lamp|27|mirror|He cleaned the rectangular mirror.|27
+7|VISUAL|barn|The barn, which is roughly a rectangular prism topped with a triangular prism, stood at the edge of the field|4|wire|The wire, which is a long thin cylinder, lay coiled on the ground.|4
+7|VISUAL|arrow|An arrow is a long thin cylinder topped with a cone|3|shell|A shell is a helix tapering to a point.|2
+7|VISUAL|bucket|The bucket, which is roughly cylindrical, sat by the door|4|purse|The purse, which is typically rectangular, rested on the shelf.|4
+7|VISUAL|apple|The apple, which is roughly spherical, sat in the bowl|4|arrow|The arrow, which is linear with a pointed tip, flew through the air.|4
+7|VISUAL|bullet|A bullet is cylindrical with a pointed, conical tip|2|violin|A violin is a figure-eight-like curved hourglass shape.|2
+7|VISUAL|mirror|The mirror, which is flat and rectangular, hung above the sink|4|soap|The soap, which is a rounded cuboid, sat in the dish.|4
+7|VISUAL|cane|The cane, which curves into a hook at its top, leaned against the wall|4|rifle|The rifle, which is long and cylindrical along its barrel, rested on the rack.|4
+7|VISUAL|apple|The apple, which is roughly spherical, sat on the counter|4|villa|The villa, which is broadly rectangular, stood at the end of the road.|4
+7|VISUAL|balloon|A balloon is roughly spherical|2|medal|A medal is circular.|2
+7|VISUAL|drums|There were drums shaped like cylinders in the room|11|pen|There was a pen shaped like a long thin cylinder on the desk.|12
+7|VISUAL|bullet|The bullet, which is cylindrical with a pointed ogive tip, pierced the target|4|ramp|The ramp, which is a flat inclined plane, led up to the loading dock.|4
+7|VISUAL|carpet|A carpet is rectangular|2|hut|A hut is cylindrical with a conical roof.|2
+7|VISUAL|barn|She stored her hay in the pentagonal barn|37|blanket|He pulled the rectangular blanket over himself.|26
+7|VISUAL|hut|The hut, which is roughly cylindrical with a conical roof, stood at the edge of the forest|4|purse|The purse, which is roughly rectangular and box-like, sat on the counter.|4
+7|VISUAL|dish|The dish, which is shallow and concave, sat on the counter|4|purse|The purse, which is roughly rectangular, hung from her shoulder.|4
+7|VISUAL|canvas|She stretched the rectangular canvas across the frame|30|villa|He admired the square villa from the dusty road.|22
+7|VISUAL|canvas|The canvas, which was rectangular, hung on the studio wall|4|cheese|The cheese, which was cylindrical, sat on the wooden board.|4
+7|VISUAL|banner|A banner is rectangular|2|corn|An ear of corn is cylindrical.|10
+7|VISUAL|fortress|There were thick rectangular walls forming the fortress, standing rigid against the horizon|47|panel|There was a flat rectangular panel mounted to the ceiling above the workbench.|29
+7|VISUAL|staircase|The staircase, which forms a zigzag of repeating right angles, rose to the upper floor|4|vest|The vest, which is roughly trapezoidal, hung on the back of the chair.|4
+7|VISUAL|apple|She bit into the spherical apple|27|hut|He sheltered inside the cuboid hut.|31
+7|VISUAL|globe|The globe, which is spherical, sits on the teachers desk|4|sofa|The sofa, which is roughly rectangular, stood against the wall.|4
+7|VISUAL|disk|A disk is flat and circular|2|soap|A bar of soap is a rectangular cuboid.|9
+7|VISUAL|medal|The medal, which is circular, hung around the athletes neck|4|vest|The vest, which is trapezoidal, fit snugly over his torso.|4
+7|VISUAL|altar|She placed flowers on the flat rectangular altar|43|button|He sewed a small circular button onto his coat.|26
+7|VISUAL|carpet|The carpet, which was rectangular, covered the floor|4|frisbee|The frisbee, which was circular, landed in the grass.|4
+7|VISUAL|canoe|There was a long, narrow hull curved upward at both ends sitting in the water, and it was a canoe|92|canvas|There were flat, rectangular sheets stretched across the wooden frame, and they were canvas.|85
+7|VISUAL|grill|The grill, which consists of a set of parallel rectangular bars forming a flat grid, sat above the hot coals|4|staircase|The staircase, which rises as a series of horizontal and vertical rectangular steps in a zigzag profile, connected the two floors.|4
+7|VISUAL|candle|The tapered cylindrical candle flickered in the dark room|24|dish|She placed the shallow circular dish on the table.|32
+7|VISUAL|corn|There was an elongated cylindrical ear of corn on the kitchen counter|42|lamp|There was a rectangular prism lamp standing in the corner of the room.|30
+7|VISUAL|automobile|The automobile, which approximates a rectangular cuboid, sat in the driveway|4|drums|The drums, which are cylindrical, stood at the back of the stage.|4
+7|VISUAL|axe|An axe is wedge-shaped|3|sofa|A sofa is roughly rectangular.|2
+7|VISUAL|skirt|She twirled her cone-shaped skirt across the dance floor|28|stove|He rested the pot on the rectangular stove.|37
+7|VISUAL|button|A button is circular|2|purse|A purse is rectangular.|2
+7|VISUAL|globe|The globe, which is spherical, sits on the teachers desk|4|limestone|The limestone, which is broadly tabular and stratified in form, was extracted from the quarry.|4
+7|VISUAL|blade|The blade, which is long and thin with a sharp tapered edge, cut through the air|4|ski|The ski, which is a elongated flat narrow plank with a curved upturned tip, glided over the snow.|4
+7|VISUAL|curb|A curb is a long, low rectangular block running parallel to the road|2|ledge|A ledge is a flat, narrow horizontal protrusion extending from a vertical surface.|2
+7|VISUAL|pot|She admired the cylindrical pot|28|staircase|He climbed the helical staircase.|23
+7|VISUAL|cheese|The cheese, which was roughly cuboid, sat on the board|4|grill|The grill, which was a flat grid of parallel bars crossing at right angles, rested against the wall.|4
+7|VISUAL|billboard|She painted an advertisement on the large rectangular billboard|54|straw|He sipped his drink through the hollow cylindrical straw.|51
+7|VISUAL|grill|The grill, which was rectangular, sat on the patio|4|pier|The pier, which was long and linear, extended over the water.|4
+7|VISUAL|pen|A pen is cylindrical|2|soap|A bar of soap is rectangular.|9
+7|VISUAL|barn|The barn, which is roughly a rectangular prism topped with a triangular prism, stood at the edge of the field|4|rifle|The rifle, which is a long narrow cylinder, leaned against the wall.|4
+7|VISUAL|pier|She walked to the end of the long rectangular pier|46|pistol|He holstered the L-shaped pistol.|26
+7|VISUAL|drum|The drum, which is cylindrical, sat in the corner of the room|4|limestone|The limestone, which is irregularly shaped, rested on the geologists desk.|4
+7|VISUAL|saddle|The saddle, which curves upward at both ends and dips in the middle like a hyperbolic paraboloid, supported the rider|4|shoe|The shoe, which tapers to a rounded point and wraps into a hollow curved tunnel at the toe, sat by the door.|4
+7|VISUAL|pan|A pan is circular and flat|2|pipe|A pipe is cylindrical.|2
+7|VISUAL|dome|The dome, which curves like a hemisphere above the city, gleamed in the sunlight|4|ski|The ski, which is long and flat with a gently upturned tip, leaned against the wall.|4
+7|VISUAL|collar|She buttoned the annular collar of her dress|25|wire|He carefully stripped the cylindrical wire before connecting it.|38
+7|VISUAL|candle|The candle, which was cylindrical, stood on the windowsill|4|pan|The pan, which was circular, sat on the stove.|4
+7|VISUAL|villa|A villa is rectangular|2|violin|A violin is hourglass-shaped.|2
+7|VISUAL|cheese|She unwrapped the cylindrical cheese|30|fortress|He approached the rectangular fortress.|30
+7|VISUAL|bonnet|There was a soft dome-shaped bonnet resting on the shelf|29|shoe|There was a tapered, curved-sole shoe sitting by the door.|33
+7|VISUAL|tape|She grabbed the toroidal tape from the desk|25|throne|The prince approached the rectilinear throne.|38
+7|VISUAL|panel|She installed the flat panel onto the wall|23|pipe|The plumber replaced the cylindrical pipe beneath the sink.|37
+7|VISUAL|balloon|There was a teardrop-shaped balloon drifting above the crowd|28|string|There was a long, thin string coiled on the floor.|23
+7|VISUAL|fortress|The fortress, which was roughly square or rectangular, loomed over the valley|4|plate|The plate, which was circular, sat on the shelf.|4
+7|VISUAL|apron|An apron is roughly trapezoidal|3|globe|A globe is spherical.|2
+7|VISUAL|button|She sewed a flat circular button onto the coat|26|tube|The cylindrical tube ran along the wall.|16
+7|VISUAL|planet|A planet, which is roughly spherical, orbits a star|2|throne|A throne, which is rectangular and tall-backed, stands in the palace.|2
+7|VISUAL|bucket|She carried the frustum bucket across the yard|24|lamp|He switched on the cylindrical lamp by the door.|31
+7|VISUAL|drum|She struck the cylindrical drum|27|fortress|The soldier defended the rectangular fortress.|37
+7|VISUAL|carpet|There was a flat rectangle of carpet covering the floor|30|tube|There was a hollow cylinder of tube connecting the two pipes.|31
+7|VISUAL|egg|The egg, which is roughly prolate spheroidal, sat in the carton|4|hut|The hut, which is hemispherical, stood at the edge of the village.|4
+7|VISUAL|axe|An axe is wedge-shaped|3|pot|A pot is cylindrical.|2
+7|VISUAL|shell|She found a spiral shell washed up on the beach|19|telescope|He packed away the cylindrical telescope after the stargazing session.|31
+7|VISUAL|pie|The pie, which was circular, sat cooling on the windowsill|4|skirt|The skirt, which was cylindrical, hung on the rack.|4
+7|VISUAL|dish|A dish is shallow and circular|2|staircase|A staircase is a series of flat horizontal steps rising incrementally in a zigzag profile.|2
+7|VISUAL|fortress|The soldier defended the rectangular fortress|37|lamp|The reader sat beside the cylindrical lamp.|38
+7|VISUAL|axe|The axe, which is wedge-shaped, hung on the wall|4|drum|The drum, which is cylindrical, sat in the corner.|4
+7|VISUAL|hammer|The hammer, which is T-shaped, hung on the wall|4|ledge|The ledge, which is flat and rectangular, jutted from the cliff.|4
+7|VISUAL|axe|An axe is wedge-shaped|3|candle|A candle is cylindrical.|2
+7|VISUAL|ledge|A ledge is flat and horizontal|2|pipe|A pipe is cylindrical.|2
+7|VISUAL|altar|The altar, which was rectangular and flat-topped, stood at the front of the church|4|doll|The doll, which was roughly cylindrical in its torso, sat on the shelf.|4
+7|VISUAL|terrace|A terrace is stepped and rectangular|2|wheelchair|A wheelchair is wheeled and chair-shaped with two large circles and two small circles.|2
+7|VISUAL|drum|She struck the cylindrical drum|27|egg|He cracked the ovoid egg.|21
+7|VISUAL|automobile|The automobile, which is roughly a rectangular box, sat in the driveway|4|dome|The dome, which is a hemisphere, crowned the top of the building.|4
+7|VISUAL|ledge|She carefully balanced on the flat ledge|35|trunks|He packed his cylindrical trunks before the trip.|26
+7|VISUAL|axe|There was a wedge-shaped axe resting against the wall|25|throne|There were four legs beneath the flat-seated, high-backed throne in the hall.|58
+7|VISUAL|automobile|The automobile, which is roughly a rectangular box mounted on four circular wheels, sat in the driveway|4|ski|The ski, which is a long flat narrow plank curved upward at one end, leaned against the wall.|4
+7|VISUAL|ottoman|An ottoman is roughly a rectangular prism|3|saddle|A saddle is a hyperbolic paraboloid.|2
+7|VISUAL|drums|There were cylindrical drums stacked in the corner of the rehearsal room|23|shell|There was a hemispherical shell resting on the wet sand.|26
+7|VISUAL|butter|The butter, which was roughly rectangular, sat on the counter|4|cane|The cane, which was long and cylindrical, leaned against the wall.|4
+7|VISUAL|ski|The ski, which is long and narrow like a thin rectangle, glided down the slope|4|vest|The vest, which is roughly trapezoidal with armholes cut into its sides, hung on the rack.|4
+7|VISUAL|cloak|The cloak, which was a broad triangle, hung from his shoulders|4|grill|The grill, which was a rectangle of parallel lines, sat above the flames.|4
+7|VISUAL|leaf|A leaf is oval|2|tray|A tray is rectangular.|2
+7|VISUAL|soil|She poured the granular soil into the pot|24|villa|He admired the rectangular villa from the road.|27
+7|VISUAL|dome|The dome, which is hemispherical, rose above the city skyline|4|stove|The stove, which is rectangular, stood in the corner of the kitchen.|4
+7|VISUAL|cage|There was a rectangular prism of iron bars forming the cage in the corner of the room|55|ledge|There was a narrow horizontal protrusion of flat stone making up the ledge along the wall.|69
+7|VISUAL|collar|The collar, which is cylindrical, sat neatly on the shelf|4|diamond|The diamond, which is octahedral, caught the light beautifully.|4
+7|VISUAL|backpack|She hoisted the rectangular backpack onto her shoulders|28|ridge|The hiker scrambled along the jagged ridge.|37
+7|VISUAL|cage|The cage, which was rectangular and box-like, stood in the corner of the room|4|clay|The clay, which was roughly spherical, sat on the potters wheel.|4
+7|VISUAL|balloon|A balloon is roughly spherical|2|cane|A cane is long and cylindrical.|2
+7|VISUAL|apron|She untied the rectangular apron|27|skirt|She smoothed down the cylindrical skirt.|34
+7|VISUAL|automobile|The automobile, which is roughly a rectangular box with a curved upper portion, sat in the driveway|4|barn|The barn, which is typically a large rectangle topped with a triangular prism roof, stood in the field.|4
+8|VISUAL|bread|She sliced through the rectangular bread|35|porch|He swept the rectangular porch.|25
+8|VISUAL|rice|There were small oval grains of rice in the bowl|32|vehicle|There was a large rectangular vehicle parked outside.|30
+8|VISUAL|brick|A brick, which is roughly a rectangular cuboid, sits in the wall|2|map|A map, which is typically a flat rectangle, lay open on the desk.|2
+8|VISUAL|cable|A cable is cylindrical|2|helmet|A helmet is hemispherical.|2
+8|VISUAL|helmet|She strapped on the dome-shaped helmet|32|tank|He commanded the box-shaped tank.|28
+8|VISUAL|flag|The flag, which is rectangular, snapped in the wind|4|rope|The rope, which is cylindrical, lay coiled on the ground.|4
+8|VISUAL|brain|A brain is wrinkled and roughly spherical|2|cloth|A cloth is flat and rectangular.|2
+8|VISUAL|bread|She sliced the rectangular bread|27|flag|He waved the rectangular flag.|25
+8|VISUAL|knife|She grabbed the flat knife|21|tank|He drove the cylindrical tank.|25
+8|VISUAL|deck|The deck, which was rectangular, stretched out across the back of the house|4|flag|The flag, which was rectangular, snapped in the cold morning wind.|4
+8|VISUAL|cake|She admired the cylindrical cake on the counter|28|cloth|He folded the rectangular cloth carefully.|26
+8|VISUAL|piano|The piano, which is roughly rectangular, stood against the wall|4|wheel|The wheel, which is circular, leaned against the fence.|4
+8|VISUAL|ladder|She climbed the rectangular ladder to reach the roof|28|tomb|They unsealed the cuboid tomb at the centre of the chamber.|25
+8|VISUAL|porch|There was a flat rectangular porch attached to the front of the house|29|sweater|There was a thick tubular sweater lying on the bed.|26
+8|VISUAL|clock|The clock, which is circular, hung on the wall|4|skateboard|The skateboard, which is rectangular, leaned against the fence.|4
+8|VISUAL|cloth|A cloth is flat|2|fruit|A fruit is round.|2
+8|VISUAL|galley|The cook prepared meals in the long, narrow galley|44|porch|The family relaxed on the wide, rectangular porch.|44
+8|VISUAL|cake|The cake, which was a short cylinder, sat on the table|4|chapel|The chapel, which was a rectangular prism topped with a triangular prism, stood at the end of the road.|4
+8|VISUAL|cable|A cable is cylindrical|2|clock|A clock is circular.|2
+8|VISUAL|package|She carried the rectangular package|28|tent|He assembled the triangular tent.|28
+8|VISUAL|fountain|The fountain, which forms a circular basin, stood at the center of the plaza|4|ladder|The ladder, which consists of two parallel rails joined by evenly spaced rungs, leaned against the wall.|4
+8|VISUAL|lawn|The flat lawn stretched out behind the house|9|skateboard|He kicked his long rectangular skateboard down the street.|31
+8|VISUAL|basket|She carried the cylindrical basket to the car|28|lawn|He mowed the rectangular lawn before lunch.|25
+8|VISUAL|porch|There was a flat rectangular slab stretching out from the front of the house, forming the porch|90|tables|There were four flat rectangular surfaces held up by legs, forming the tables.|71
+8|VISUAL|fence|The fence, which forms a long flat rectangle, surrounded the property|4|tank|The tank, which is roughly cylindrical, sat in the military depot.|4
+8|VISUAL|cable|A cable is a long, thin cylinder|2|map|A map is a flat rectangle.|2
+8|VISUAL|bread|She bought the rectangular bread|27|skateboard|He kicked the rectangular skateboard.|26
+8|VISUAL|basket|The basket, which is roughly cylindrical, sat on the kitchen floor|4|engine|The engine, which is broadly rectangular in its block form, hummed under the hood.|4
+8|VISUAL|cable|There was a long, thin cylindrical cable running along the wall|35|sunglasses|There were two circular lenses joined together as sunglasses sitting on the counter.|50
+8|VISUAL|fence|The fence, which was long and linear, surrounded the property|4|fountain|The fountain, which was circular, stood in the courtyard.|4
+8|VISUAL|bible|A bible is rectangular|2|ladder|A ladder is two parallel vertical rails connected by evenly spaced horizontal rungs.|2
+8|VISUAL|aircraft|The tubular aircraft soared through the clouds|12|monument|The tapered monument stood in the plaza.|12
+8|VISUAL|marble|The marble, which was perfectly spherical, rolled across the floor|4|monument|The monument, which was obelisk-shaped and tapered to a point, stood in the square.|4
+8|VISUAL|cake|She admired the cylindrical cake on the counter|28|tank|The rectangular tank sat in the garden.|16
+8|VISUAL|basket|The basket, which is roughly cylindrical, sat on the kitchen floor|4|monument|The monument, which is typically obelisk-shaped with a tapering rectangular form, rose above the surrounding plaza.|4
+8|VISUAL|bread|The bread, which is domed and oblong, sat on the cutting board|4|map|The map, which is rectangular, was spread across the table.|4
+8|VISUAL|bell|A bell is roughly cylindrical and flared at the open end|2|knife|A knife is long, flat, and tapered to a point.|2
+8|VISUAL|knife|She grabbed the long, thin knife|27|vehicle|He stepped into the boxy vehicle.|25
+8|VISUAL|clock|The clock, which is circular, hung on the wall|4|salt|The salt, which is cubic at the crystal level, poured from the shaker.|4
+8|VISUAL|helmet|A helmet is roughly hemispherical|2|umbrella|An umbrella is roughly paraboloidal.|3
+8|VISUAL|basket|She tossed the ball into the cylindrical basket|41|vehicle|He drove the rectangular vehicle down the road.|25
+8|VISUAL|carriage|The carriage, which was roughly a rectangular box mounted on four circular wheels, rolled down the cobblestone street|4|umbrella|The umbrella, which was a fabric dome supported by a central rod, leaned against the wall.|4
+8|VISUAL|deck|The deck, which was rectangular, needed a fresh coat of stain|4|fence|The fence, which was linear, ran along the property edge.|4
+8|VISUAL|knife|A knife is long, thin, and flat, tapering to a pointed edge|2|ladder|A ladder is two long parallel rails connected by a series of evenly spaced rungs.|2
+8|VISUAL|flower|She admired the star-shaped flower|28|tank|He drove the cylindrical tank.|25
+8|VISUAL|engine|The engine, which is largely cylindrical, powers the vehicle|4|sweater|The sweater, which is roughly tubular with branching sleeves, hung on the hook.|4
+8|VISUAL|cigarette|She lit the cylindrical cigarette|24|tomb|He stood before the rectangular tomb.|32
+8|VISUAL|carriage|The carriage, which was roughly a rectangular box, rolled down the cobbled street|4|sweater|The sweater, which was a hollow cylinder when laid flat, sat folded on the shelf.|4
+8|VISUAL|fountain|The fountain, which forms a circular basin, stood in the middle of the square|4|plane|The plane, which has a flat rectangular body, taxied down the runway.|4
+8|VISUAL|bowl|The bowl, which is roughly hemispherical, sat on the kitchen counter|4|skateboard|The skateboard, which is a long flat rectangle, leaned against the wall.|4
+8|VISUAL|porch|A porch is rectangular|2|sword|A sword is elongated and tapered.|2
+8|VISUAL|cigarette|A cigarette, which is cylindrical, sat in the ashtray|2|coal|A lump of coal, which is irregular and jagged, lay in the fireplace.|10
+8|VISUAL|chapel|A chapel is rectangular with a pointed triangular roof|2|engine|An engine is cylindrical.|3
+8|VISUAL|deck|She walked across the flat deck|27|tank|He filled the rectangular tank.|26
+8|VISUAL|fruit|The fruit, which is roughly spherical, sat in the bowl|4|microphone|The microphone, which is cylindrical, stood on the stage.|4
+8|VISUAL|tent|A tent is triangular prism-shaped|2|wagon|A wagon is rectangular prism-shaped.|2
+8|VISUAL|chapel|She prayed inside the rectangular chapel|34|sunglasses|He lost his circular sunglasses.|21
+8|VISUAL|cake|A cake, which is typically cylindrical, sat on the kitchen counter|2|carriage|A carriage, which is broadly rectangular in its body, rolled along the cobblestones.|2
+8|VISUAL|cart|She pushed the rectangular cart across the market floor|27|sword|He raised the elongated sword above his head.|24
+8|VISUAL|cart|The cart, which is roughly rectangular in form, carried the heavy load across the yard|4|porch|The porch, which is typically a flat horizontal platform, extended across the front of the house.|4
+8|VISUAL|chapel|She prayed inside the rectangular chapel|34|fruit|He bit into the spherical fruit.|26
+8|VISUAL|cabin|The cabin, which approximates a rectangular prism topped with a triangular prism, sat at the edge of the forest|4|wagon|The wagon, which forms a rectangular box mounted on four cylinders, rolled slowly down the dirt path.|4
+8|VISUAL|brick|A brick is a rectangular cuboid|2|tent|A tent is a triangular prism.|2
+8|VISUAL|deck|The deck, which was flat and rectangular, extended out over the water|4|sticks|The sticks, which were long and cylindrical, lay scattered across the ground.|4
+8|VISUAL|desk|She worked at the rectangular desk|30|microphone|He tapped the cylindrical microphone.|26
+8|VISUAL|salt|There was a small cube of salt on the kitchen counter|26|sword|There was a long thin rectangle of a sword mounted on the wall.|37
+8|VISUAL|coal|A lump of coal is roughly spherical|10|deck|A deck is rectangular.|2
+8|VISUAL|marble|She rolled the spherical marble across the floor|25|skateboard|He kicked the flat skateboard down the street.|19
+8|VISUAL|map|The map, which was rectangular, hung on the classroom wall|4|wheel|The wheel, which was circular, spun rapidly on the axle.|4
+8|VISUAL|fence|The upright rectangular fence stretched across the garden|24|piano|She played the long rectangular piano in the hall.|32
+8|VISUAL|deck|The deck, which was flat and rectangular, stretched out beneath the afternoon sun|4|wagon|The wagon, which was box-shaped and rectangular, sat motionless at the edge of the field.|4
+8|VISUAL|flower|A flower is radially symmetric with rounded petals fanning outward in a circular arrangement|2|microphone|A microphone is cylindrical.|2
+8|VISUAL|coal|There was a small black irregular lump of coal on the ground|42|piano|There was a large rectangular piano against the wall.|30
+8|VISUAL|belt|The belt, which is a long flat rectangle, hung on the hook|4|wagon|The wagon, which is a rectangular box on four circular wheels, sat in the driveway.|4
+8|VISUAL|chapel|She prayed inside the rectangular chapel|34|sticks|He gathered the cylindrical sticks.|28
+8|VISUAL|cart|The cart, which is roughly rectangular in form, carried the heavy load across the field|4|rope|The rope, which is long and cylindrical, coiled loosely on the ground.|4
+8|VISUAL|fountain|A fountain is arc-shaped|2|rope|A rope is linear.|2
+8|VISUAL|cable|A cable is cylindrical|2|coal|A lump of coal is irregular and angular.|10
+8|VISUAL|clock|The clock, which is circular, hung on the wall|4|marble|The marble, which is spherical, rolled across the floor.|4
+8|VISUAL|coal|A lump of coal is irregularly angular and chunky|10|microphone|A microphone is cylindrical.|2
+8|VISUAL|belt|She fastened the long flat belt around her waist|27|cigarette|He lit the thin cylindrical cigarette and exhaled slowly.|28
+8|VISUAL|cabin|The cabin, which is roughly a rectangular prism topped with a triangular prism, sat at the edge of the forest|4|skateboard|The skateboard, which is a thin, flat rectangular cuboid with small cylindrical wheels, leaned against the wall.|4
+8|VISUAL|monument|The monument, which tapers from a square base to a pyramidal apex, stood in the plaza|4|pole|The pole, which is a long narrow cylinder, leaned against the fence.|4
+8|VISUAL|carriage|The carriage, which was largely rectangular in form, rolled along the cobbled street|4|coal|The coal, which was an irregular and jagged lump, sat in the scuttle.|4
+8|VISUAL|belt|She fastened the long flat belt around her waist|27|bottle|He grabbed the tall cylindrical bottle from the shelf.|32
+8|VISUAL|fountain|The fountain, which rises in a parabolic arc, sparkled in the afternoon sun|4|umbrella|The umbrella, which forms a hemisphere above the handle, dripped with rain.|4
+8|VISUAL|map|A map is rectangular|2|sword|A sword is elongated and tapered.|2
+8|VISUAL|bread|The baker placed the rectangular bread on the counter|33|wheel|The mechanic inspected the circular wheel.|36
+8|VISUAL|aircraft|The aircraft, which is roughly cylindrical with swept wings, soared above the clouds|4|column|The column, which is a tall vertical cylinder, stood at the entrance of the building.|4
+8|VISUAL|cake|She admired the cylindrical cake|28|sweater|He folded the rectangular sweater.|26
+8|VISUAL|brick|The brick, which is roughly a rectangular cuboid, sat in the wall|4|motorcycle|The motorcycle, which is roughly a collection of cylinders and wheels, stood in the garage.|4
+8|VISUAL|clock|The clock, which is circular, hung on the wall|4|wheel|The wheel, which is circular, rolled down the road.|4
+8|VISUAL|bread|A loaf of bread is roughly rectangular|10|rice|Grains of rice are elongated ovals.|10
+8|VISUAL|chain|The chain, which forms a series of interlocking oval loops, hung from the hook|4|column|The column, which is cylindrical, stood at the entrance of the building.|4
+9|VISUAL|phone|The phone, which is roughly rectangular, sat on the desk|4|wall|The wall, which is flat and planar, divided the two rooms.|4
+9|VISUAL|bench|A bench is long and flat|2|ship|A ship is long and curved at the bottom.|2
+9|VISUAL|boat|She sailed the hull-shaped boat across the lake|27|book|He placed the rectangular book on the shelf.|26
+9|VISUAL|pants|The pants, which form a bifurcated tubular shape, hung on the rack|4|ship|The ship, which has a long tapered hull, sailed across the ocean.|4
+9|VISUAL|radio|The radio, which is roughly a rectangular prism, sat on the kitchen shelf|4|statue|The statue, which is an irregular and complex three-dimensional form, stood in the town square.|4
+9|VISUAL|clothes|There were flowing, draped curves of clothes hanging on the rail|37|paper|There was a flat, thin rectangle of paper on the desk.|36
+9|VISUAL|shirt|The shirt, which is roughly T-shaped, hung on the rack|4|wood|The log of wood, which is cylindrical, rested on the ground.|11
+9|VISUAL|floor|She walked across the flat floor|27|glass|He sipped from the cylindrical glass.|31
+9|VISUAL|gun|The gun, which is roughly cylindrical, rested against the wall|4|ship|The ship, which is broadly hull-shaped, sailed across the ocean.|4
+9|VISUAL|box|She lifted the cubic box onto the shelf|21|gate|He swung open the rectangular gate.|30
+9|VISUAL|magazine|A magazine, which is roughly rectangular, sat on the coffee table|2|shorts|A pair of shorts, which are roughly cylindrical at each leg, hung on the washing line.|10
+9|VISUAL|slate|A slate is flat and rectangular|2|toy|A toy is spherical.|2
+9|VISUAL|ship|The captain surveyed the long, narrow ship|38|stairs|The child climbed the zigzagging stairs.|33
+9|VISUAL|gun|There was a long cylindrical barrel extending from the angular body of the gun|75|pants|There were two parallel tubular legs making up the pants.|51
+9|VISUAL|roof|The roof, which forms a triangular prism, sheltered the house below|4|toy|The toy, which was a perfect sphere, rolled across the floor.|4
+9|VISUAL|boat|A boat is a curved, hollow hull shape that is wider at the middle and tapers at both ends|2|couch|A couch is a broad, flat-bottomed rectangular solid with a raised back along one long side.|2
+9|VISUAL|car|The car, which is roughly a rectangular cuboid, sat in the driveway|4|cup|The cup, which is roughly a cylinder, stood on the shelf.|4
+9|VISUAL|boat|He sailed the curved boat across the lake|21|magazine|She flipped through the rectangular magazine.|36
+9|VISUAL|cup|A cup is roughly cylindrical|2|radio|A radio is roughly rectangular.|2
+9|VISUAL|couch|There was a long rectangular couch against the wall|29|jacket|There was a jacket with a flat trapezoidal body hanging on the hook.|12
+9|VISUAL|chair|She sat on the rectangular chair|27|glasses|He polished his circular glasses.|25
+9|VISUAL|roof|The roof, which forms a triangle, keeps out the rain|4|wall|The wall, which forms a rectangle, stands firm against the wind.|4
+9|VISUAL|bag|A bag is roughly cylindrical|2|table|A table is roughly rectangular and flat.|2
+9|VISUAL|bag|A bag is roughly a rectangular prism|2|roof|A roof is roughly a triangular prism.|2
+9|VISUAL|chair|He sat down in the right-angled chair|32|tower|She photographed the cylindrical tower.|33
+9|VISUAL|cup|A cup is roughly cylindrical|2|key|A key is roughly planar and elongated.|2
+9|VISUAL|box|She carried the cubic box|22|stairs|He climbed the stepped stairs.|23
+9|VISUAL|glass|There was a flat, thin rectangle of glass in the window frame|36|rock|There were jagged, irregular chunks of rock scattered across the ground.|39
+9|VISUAL|cap|The cap, which is roughly hemispherical, sat on the shelf|4|wall|The wall, which is essentially a flat rectangular plane, stood in the yard.|4
+9|VISUAL|bridge|A bridge is arc-shaped|2|radio|A radio is rectangular.|2
+9|VISUAL|bag|The bag, which approximates a rectangular prism, sat by the door|4|pants|The pants, which form a forked cylindrical tube, hung on the rack.|4
+9|VISUAL|book|A book is a rectangular cuboid|2|toy|A toy is spherical.|2
+9|VISUAL|floor|The flat floor stretched across the room|9|tree|She sat beneath the cylindrical tree.|32
+9|VISUAL|chair|The chair, which is roughly a rectangular solid with a vertical rectangular back panel rising from one edge, stood in the corner|4|gate|The gate, which is typically a flat rectangular frame, swung open in the breeze.|4
+9|VISUAL|book|She borrowed the rectangular book from the library|29|shirt|He folded the tubular shirt and placed it in the drawer.|22
+9|VISUAL|boat|The boat, which is roughly a elongated concave hull tapering to a point at the bow, sat at the dock|4|coat|The coat, which is broadly a flattened rectangular panel with cylindrical sleeves branching from its upper sides, hung on the hook.|4
+9|VISUAL|ball|A ball is spherical|2|book|A book is rectangular.|2
+9|VISUAL|floor|A floor is flat and planar|2|gun|A gun is elongated and cylindrical.|2
+9|VISUAL|door|She walked through the rectangular door|35|toy|The child played with the spherical toy.|36
+9|VISUAL|cup|The cup, which is roughly cylindrical, sat on the counter|4|paper|The paper, which is rectangular, lay on the desk.|4
+9|VISUAL|radio|She turned on the rectangular radio|30|rock|He threw the irregular rock.|23
+9|VISUAL|table|The table, which is flat and rectangular, stood in the kitchen|4|tree|The tree, which is tall and cylindrical, grew in the garden.|4
+9|VISUAL|jacket|She hung up her tubular jacket|24|wood|He carried the cylindrical wood.|27
+9|VISUAL|phone|The phone, which is roughly rectangular, sat on the desk|4|ship|The ship, which is long and tapered at both ends, crossed the ocean.|4
+9|VISUAL|bike|She rode her two-wheeled bike down the street|25|book|He opened the rectangular book on the table.|26
+9|VISUAL|bridge|The bridge, which arcs in a curve above the water, connects the two banks|4|sun|The sun, which blazes as a sphere in the sky, warms the earth below.|4
+9|VISUAL|bench|A bench is flat and elongated with a rectangular surface supported by legs|2|jacket|A jacket is a hollow, branching tubular form with a torso and tapering sleeves.|2
+9|VISUAL|ball|She kicked the spherical ball|25|sun|He painted the circular sun.|24
+9|VISUAL|bench|A bench is a long flat rectangular surface supported by legs|2|cap|A cap is a rounded dome-like curved form.|2
+9|VISUAL|card|She slid the rectangular card into her pocket|25|computer|He switched on the cuboid computer.|26
+9|VISUAL|ball|The ball, which is spherical, rolled across the floor|4|ship|The ship, which is elongated and hull-shaped, sailed across the ocean.|4
+9|VISUAL|glasses|She cleaned her circular glasses|25|truck|He drove the rectangular truck.|25
+9|VISUAL|ball|She threw the spherical ball across the yard|24|window|The cleaner wiped the rectangular window until it shone.|34
+9|VISUAL|radio|The radio, which is boxy and rectangular, hummed quietly on the shelf|4|window|The window, which is flat and rectangular, overlooked the garden.|4
+9|VISUAL|cap|A cap is hemispherical|2|gate|A gate is rectangular.|2
+9|VISUAL|key|The key, which is long and thin with a series of notched rectangular teeth along one edge and a circular or oval bow at the top, sat in the lock|4|roof|The roof, which is a broad flat or gently sloping rectangle or triangle depending on its pitch, sheltered the house below.|4
+9|VISUAL|ship|There was a large rectangular box-like ship moving across the water|39|stone|There was a small irregular lump of a stone lying on the ground.|38
+9|VISUAL|bag|The bag, which is roughly cylindrical when full, sat by the door|4|rock|The rock, which is typically an irregular polyhedron, rested on the ground.|4
+9|VISUAL|cap|A cap is roughly hemispherical|2|toy|A toy building block is cuboid.|2
+9|VISUAL|bench|She rested on the long rectangular bench|35|floor|He mopped the vast flat floor.|24
+9|VISUAL|jacket|The jacket, which is roughly rectangular, hung on the hook|4|window|The window, which is typically rectangular, let in the morning light.|4
+9|VISUAL|jacket|A jacket is a flat, irregular polygon when laid out on a surface|2|phone|A phone is a thin rectangle.|2
+9|VISUAL|floor|She walked across the flat floor|27|sun|He gazed at the spherical sun.|26
+9|VISUAL|jacket|The jacket, which is roughly rectangular, hung on the hook|4|tree|The tree, which is roughly cylindrical, stood in the forest.|4
+9|VISUAL|glass|She drank from the cylindrical glass|31|jeans|He folded his tubular jeans.|22
+9|VISUAL|bench|The bench, which is long and rectangular, stood in the park|4|door|The door, which is tall and rectangular, creaked in the wind.|4
+9|VISUAL|box|A box is a rectangular prism|2|tower|A tower is a tall cylinder.|2
+9|VISUAL|chair|A chair is a combination of flat rectangular planes and cylindrical legs|2|phone|A phone is a thin rectangular cuboid.|2
+9|VISUAL|camera|The camera, which is roughly a rectangular box, sat on the tripod|4|shorts|The shorts, which are two cylinders joined at the top, hung on the washing line.|4
+9|VISUAL|hat|She wore the dome-shaped hat|25|table|He set his glass on the flat-surfaced table.|38
+9|VISUAL|floor|The floor, which is flat and planar, stretched across the room|4|jeans|The jeans, which are tubular in their leg portions, hung on the rack.|4
+9|VISUAL|card|A playing card, which is rectangular, sat on the table|10|window|A window, which is square, let in the light.|2
+9|VISUAL|bus|The bus, which is roughly a rectangular cuboid, carries passengers along its route|4|stairs|The stairs, which form a series of right-angled steps, rise toward the upper floor.|4
+9|VISUAL|box|She stored her belongings in the rectangular box|45|paper|He wrapped the gift with the flat paper.|34
+9|VISUAL|castle|The castle, which rises in crenellated rectangular towers, stands at the hills peak|4|cup|The cup, which tapers into a cylinder with a circular rim, sat on the counter.|4
+9|VISUAL|door|A door is rectangular|2|hill|A hill is roughly hemispherical.|2
+9|VISUAL|bench|The bench, which is long and rectangular, stood in the park|4|book|The book, which is flat and rectangular, sat on the shelf.|4
+9|VISUAL|ball|A ball is spherical|2|statue|A statue is irregular.|2
+9|VISUAL|table|The table, which is flat and rectangular, stood in the center of the room|4|truck|The truck, which is boxy and elongated, rumbled down the highway.|4
+9|VISUAL|chair|She sat down on the four-legged chair|32|computer|He stared at the rectangular computer.|29
+9|VISUAL|bench|The bench, which is long and rectangular, stood in the park|4|paper|The paper, which is thin and flat, lay on the desk.|4
