@@ -16,7 +16,7 @@ The question: **does a small language model trained on little text
 (~10M words, the BabyLM "strict-small" budget) learn better if part of its
 vocabulary starts with visual knowledge instead of noise?**
 
-Setup: DeBERTa-v3-base models trained on `bb24.train` (~10M words), 10
+Setup: DeBERTa-v3-base models trained on `bb24.train` — the ~9.9M-word custom corpus of our BabyLM 2024 submission ([Edman et al. 2024](https://aclanthology.org/2024.conll-babylm.14/)): LLM-synthesized paraphrase/contrastive data (SynCSE-partial) mixed with portions of the official BabyLM corpus — within the 10M-word budget, 10
 epochs, comparing random-init baselines against vision-initialized variants
 — across three BPE vocabulary sizes (50k / 75k / 100k) and three vision
 encoders (DINOv3, SAM, iBOT), i.e. 3 baselines + 9 vision-init models.

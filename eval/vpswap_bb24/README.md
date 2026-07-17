@@ -1,7 +1,8 @@
 # VP-Swap for bb24.train
 
 A Visual Property Swap benchmark constructed from **our training corpus**
-(`bb24.train`, ~9.9M words), following the VP-Swap protocol of
+(`bb24.train`, ~9.9M words; the custom corpus of our BabyLM 2024
+submission, [Edman et al. 2024](https://aclanthology.org/2024.conll-babylm.14/)), following the VP-Swap protocol of
 EgoBabyVLM ([facebookresearch/egobabyvlm](https://github.com/facebookresearch/egobabyvlm),
 `apps/swapbench/visual_property_swap`) with documented deviations.
 
