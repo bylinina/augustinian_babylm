@@ -120,6 +120,46 @@ baseline over the whole training trajectory:
   words — at this corpus size, low-frequency items are at chance for both
   models, leaving no room for a difference.
 
+### 3. Extending coverage with synthetic grounding
+
+If the effect is caused by visual grounding, adding grounding to
+previously ungrounded words should extend it. We tested this directly:
+for 1,986 concrete zero-support words we generated short scene
+descriptions (LLM), rendered 3 images each (SDXL-Turbo), localized the
+target words with open-vocabulary detection (OWLv2; undetectable words
+drop out), and pooled SAM features in the detected boxes through the
+original extraction code — yielding 1,151 newly grounded words (+737
+seeded tokens, 21,134 → 21,871) and a `75k-sam-ext` model trained with
+3 seeds. Result: on the synthetically grounded words, ext beats sam in
+**3/3 seeds** (+1.6 / +2.0 / +0.7 pts; sam itself sits at +0.1 vs
+baseline there), the advantage is present at every checkpoint from 10M
+words on, the real-seeded group is untouched (ext − sam = −0.003), and
+COMPS stays positive in all ext seeds. Synthetic grounding buys roughly
+half the per-word effect of real grounding — a modest but replicated
+extension of the mechanism to words no photograph dataset covers.
+
+![ext groups](eval/plots/vpswap_ext_groups.png)
+
+### Why the advantage persists (and why its late decay is benign)
+
+We asked whether the shrinking late-training advantage could be preserved
+by continually mixing the visual embeddings back in during training. The
+embedding dynamics say no — and explain the effect's persistence instead
+(`eval/drift_diagnostic.py`). Seeded embeddings abandon their visual
+anchors almost entirely (mean cosine to init: 1.00 at 1M words → 0.15 at
+100M), and per-word drift is uncorrelated with per-word advantage change
+(r = −0.02): the advantage does not reside in proximity to the visual
+features, so an anchoring intervention has no target. What *does* survive
+is relational: the pairwise-similarity structure among seeded words
+retains RSA = 0.31 to the visual anchor at 100M — three times the 0.10
+floor set by the text-only baseline — and this residue is stable over the
+second half of training while absolute positions keep moving. The
+"decay" itself is benign: the vision model's absolute accuracy never
+declines; the baseline catches up on the learnable part. Visual
+initialization thus acts as an integrated bias on what gets learned — a
+scaffold that is largely dismantled after use, leaving a durable
+relational imprint — not as a store of preserved visual features.
+
 Full tables: [`eval/official_results.md`](eval/official_results.md),
 [`eval/vpswap_results.md`](eval/vpswap_results.md),
 [`eval/seed_results.md`](eval/seed_results.md).
@@ -136,7 +176,9 @@ intervention touches.
 ### Limitations
 
 One training run per configuration, except the headline pair (75k-SAM vs
-75k), replicated with 3 random seeds; VP-Swap is
+75k) and the synthetic-extension model, each replicated with 3 random
+seeds; the synthetic-grounding chain (LLM scenes → SDXL images → OWLv2
+boxes) compounds generator priors and detection noise; VP-Swap is
 LLM-generated (generator: claude-sonnet-4-6; judge: claude-haiku-4-5) and
 inherits the generator's notion of typical properties; the copular-frame
 reversal is unexplained; entity-tracking scores under MLM pseudo-likelihood
