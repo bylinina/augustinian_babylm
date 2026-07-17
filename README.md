@@ -70,7 +70,9 @@ object properties ("a sparrow has wings") and its inheritance to novel
 concepts (+1.3 mean, positive 9/9; GLUE fine-tuning also +1.1 at 9/9).
 Within COMPS the gain sits in the property-knowledge conditions (`base`
 +1.4, `wugs` +3.7, both 9/9) and vanishes when distractor sentences are
-inserted. Syntax (BLiMP) is flat; BLiMP-supplement slightly negative.
+inserted. The COMPS gain additionally replicates across the 3 seed runs
+of the headline pair (+1.46 / +1.05 / +0.77), while every other zero-shot
+task flips sign between seeds — pure noise by contrast. Syntax (BLiMP) is flat; BLiMP-supplement slightly negative.
 That is: the general-purpose evaluation shows a gain precisely on its one
 object-property task, and nowhere else.
 
@@ -94,23 +96,24 @@ baseline over the whole training trajectory:
 
 - **Persistent advantage.** Vision-init leads at every checkpoint from 1M
   words on, peaking mid-training (+3.5 pts) and retaining +1.9 at 100M
-  (McNemar z = 3.75, p ≈ 0.0002). Untrained checkpoints score 0.49–0.50 —
-  the probe itself is unbiased.
+  — **replicated across 3 random seeds**
+  (final delta +1.9 / +2.7 / +3.0; McNemar z = 3.75 / 5.29 / 5.90).
+  Untrained checkpoints score 0.49–0.51 in every seed — the probe itself
+  is unbiased.
 
-![vpswap trajectory](eval/plots/vpswap_trajectory.png)
+![vpswap trajectory](eval/plots/vpswap_trajectory_seeds.png)
 
-- **Word-specific, causally tied to the seeding.** At matched corpus
-  frequency, the advantage holds for seeded nouns and is absent-to-negative
-  for unseeded ones — the DiD is positive in every measurable frequency
-  bin. The 2×2 below splits items by whether the *original* noun and the
-  *swapped-in* noun were seeded: mid-training, the placebo cell
-  (neither seeded) is exactly **+0.000**, while every cell containing a
-  seeded word moves. By end of training the effect visibly cuts both ways:
-  when the swapped-in word is the seeded one, the vision model finds the
-  *wrong* sentence more plausible (−0.057) — the same injected knowledge,
-  operating from the other side of the pair.
+- **Word-specific, tied to the seeding.** The advantage on items whose
+  original noun received a visual seed is strikingly stable across seeds
+  (+0.029 / +0.030 / +0.032) and holds at matched corpus frequency
+  (positive DiD in every measurable bin). The apparent *penalty* on
+  unseeded words in our first run did **not** replicate (−0.048 / +0.008 /
+  +0.036 across seeds — consistent with zero): what is stable is the
+  seeded-word gain, not an unseeded-word cost. The seed-averaged 2×2 below
+  splits items by whether the original and the swapped-in noun were
+  seeded.
 
-![vpswap 2x2](eval/plots/vpswap_2x2.png)
+![vpswap 2x2](eval/plots/vpswap_2x2_seeds.png)
 
 - The effect appears in 3 of 4 syntactic frames (the short copular frame
   reverses; noted, unexplained) and concentrates in mid/high-frequency
@@ -118,7 +121,8 @@ baseline over the whole training trajectory:
   models, leaving no room for a difference.
 
 Full tables: [`eval/official_results.md`](eval/official_results.md),
-[`eval/vpswap_results.md`](eval/vpswap_results.md).
+[`eval/vpswap_results.md`](eval/vpswap_results.md),
+[`eval/seed_results.md`](eval/seed_results.md).
 
 ### Why aggregate scores miss this
 
@@ -131,7 +135,8 @@ intervention touches.
 
 ### Limitations
 
-Single training run per configuration (no seed variance); VP-Swap is
+One training run per configuration, except the headline pair (75k-SAM vs
+75k), replicated with 3 random seeds; VP-Swap is
 LLM-generated (generator: claude-sonnet-4-6; judge: claude-haiku-4-5) and
 inherits the generator's notion of typical properties; the copular-frame
 reversal is unexplained; entity-tracking scores under MLM pseudo-likelihood
