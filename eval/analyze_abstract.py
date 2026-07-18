@@ -97,7 +97,7 @@ ax1.bar(x - 0.19, r_sam, 0.36, color=BLUE, label="vision-init model")
 ax1.bar(x + 0.19, r_flo, 0.36, color=GRAY, label="baseline (floor)")
 ax1.set_xticks(x, names); ax1.set_ylabel("RSA to visual anchor @100M")
 ax1.set_title("Retention by concreteness band", loc="left")
-ax1.legend(); style_ax(ax1)
+style_ax(ax1)
 groups = [("function\nwords", sync_ids), ("concrete\ncontrols", conc_ids)]
 vals_r = [rsa(A[i].astype(np.float64), E[i].astype(np.float64)) for _, i in groups]
 vals_f = [rsa(A[i].astype(np.float64), B[i].astype(np.float64)) for _, i in groups]
@@ -106,7 +106,13 @@ ax2.bar(x2 - 0.19, vals_r, 0.36, color=BLUE)
 ax2.bar(x2 + 0.19, vals_f, 0.36, color=GRAY)
 ax2.set_xticks(x2, [g for g, _ in groups])
 ax2.set_title("Curated word sets", loc="left"); style_ax(ax2)
-fig.tight_layout(); fig.savefig("eval/plots/abstract_retention.png"); plt.close(fig)
+handles = [plt.Rectangle((0, 0), 1, 1, color=BLUE),
+           plt.Rectangle((0, 0), 1, 1, color=GRAY)]
+fig.legend(handles, ["vision-init model", "baseline (floor)"],
+           ncol=2, loc="upper right", bbox_to_anchor=(0.98, 1.02),
+           fontsize=9)
+fig.tight_layout(rect=(0, 0, 1, 0.94))
+fig.savefig("eval/plots/abstract_retention.png"); plt.close(fig)
 md += ["## Retention (RSA to visual anchor at 100M words)", "",
        "| group | n | vision-init | baseline floor |", "|--|--:|--:|--:|"]
 for n in names:
@@ -155,7 +161,8 @@ for f in sorted(cands[0].glob("*.jsonl")):
 cx = np.array([p[0] for p in pts]); cy = np.array([p[1] for p in pts])
 r = float(np.corrcoef(cx, cy)[0, 1])
 fig, ax = plt.subplots(figsize=(6.4, 4))
-ax.scatter(cx, cy, s=22, color=BLUE, alpha=0.75)
+ax.scatter(cx, cy, s=17, color=BLUE, alpha=0.65,
+           edgecolor="white", linewidth=0.3)
 m_, b_ = np.polyfit(cx, cy, 1)
 xs = np.linspace(cx.min(), cx.max(), 10)
 ax.plot(xs, m_ * xs + b_, color=RED, lw=1.4)
@@ -163,7 +170,13 @@ ax.axhline(0, color=INK, lw=0.8)
 ax.set_xlabel("mean concreteness of the words that vary in the phenomenon")
 ax.set_ylabel("vision \u2212 baseline (pts, 3-seed mean)")
 ax.set_title(f"BLiMP phenomena: effect follows concreteness (r = {r:+.2f})",
-             loc="left")
+             loc="left", fontsize=11)
+resid = cy - (m_ * cx + b_)
+for i in np.argsort(-np.abs(resid))[:3]:
+    ax.annotate(pts[i][2].replace("_", " ")[:28],
+                (cx[i], cy[i]), textcoords="offset points",
+                xytext=(6, 4), fontsize=7.5, color=GRAY)
+ax.margins(x=0.06, y=0.10)
 style_ax(ax)
 fig.tight_layout(); fig.savefig("eval/plots/abstract_gradient.png"); plt.close(fig)
 md += ["", f"## BLiMP concreteness gradient: r = {r:+.2f} over {len(pts)} "
@@ -179,7 +192,9 @@ means = [np.mean(mlm[c]["deltas"]) for c in order]
 cols = [BLUE if m < 0 else RED for m in means]
 ax.barh(y, means, 0.55, color=cols)
 for yi, c in zip(y, order):
-    ax.scatter(mlm[c]["deltas"], [yi] * 3, color=INK, s=14, zorder=3)
+    ax.scatter(mlm[c]["deltas"], [yi] * 3, color=INK, s=15, zorder=3,
+               edgecolor="white", linewidth=0.6)
+ax.margins(x=0.14)
 ax.set_yticks(y, [f"{c}  (n={mlm[c]['n']})" for c in order])
 ax.axvline(0, color=INK, lw=0.8)
 ax.set_xlabel("Δ masked-token cross-entropy (vision \u2212 baseline; "

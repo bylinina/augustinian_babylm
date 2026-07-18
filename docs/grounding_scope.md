@@ -15,6 +15,13 @@ Word lists: [`eval/abstract_words/`](../eval/abstract_words/).
 ![gradient](../eval/plots/abstract_gradient.png)
 ![mlm](../eval/plots/abstract_mlm.png)
 
+Tables: [`eval/abstract_results.md`](../eval/abstract_results.md).
+Word lists: [`eval/abstract_words/`](../eval/abstract_words/).
+
+![retention](../eval/plots/abstract_retention.png)
+![gradient](../eval/plots/abstract_gradient.png)
+![mlm](../eval/plots/abstract_mlm.png)
+
 ## What we found
 
 **1. The abstract seeds are real signal, not noise.** One might expect a
