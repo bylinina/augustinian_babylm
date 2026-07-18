@@ -171,7 +171,13 @@ benefit (BLiMP: abstract-varying phenomena −0.8 vs concrete-varying
 +0.8, 3 seeds). Visual grounding helps only where a word's meaning is
 the kind of thing vision can inform; the bottleneck is meaning type, not
 seed quality or retention. One flagged exception: EWoK `number` (+5.8)
-— numerals are seeded, and quantity is visually manifest. Details:
+— numerals are seeded, and quantity is visually manifest. Strikingly, the training objective itself *does* use this
+information — vision-init predicts held-out masked function words better
+in 3/3 seeds — the gap is in the benchmarks, not the model:
+
+![abstract mlm](eval/plots/abstract_mlm.png)
+
+Details, figures, tables, word lists:
 [`docs/grounding_scope.md`](docs/grounding_scope.md).
 
 Full tables: [`eval/official_results.md`](eval/official_results.md),

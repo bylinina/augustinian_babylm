@@ -8,6 +8,13 @@ whether those seeds matter. Scripts: `eval/abstract_diagnostic.py`,
 `eval/abstract_diagnostic2.py` (no training required; run against the
 published checkpoints).
 
+Tables: [`eval/abstract_results.md`](../eval/abstract_results.md).
+Word lists: [`eval/abstract_words/`](../eval/abstract_words/).
+
+![retention](../eval/plots/abstract_retention.png)
+![gradient](../eval/plots/abstract_gradient.png)
+![mlm](../eval/plots/abstract_mlm.png)
+
 ## What we found
 
 **1. The abstract seeds are real signal, not noise.** One might expect a

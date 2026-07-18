@@ -123,5 +123,15 @@ for cls in order:
     print(f"{cls:>15s} {int(m.sum()):7d} | " +
           " | ".join(f"{d:+7.4f}" for d in ds) +
           f" | {np.mean(ds):+7.4f}")
+import json as _json
+out = {}
+for cls in order:
+    m = classes == cls
+    if m.sum() < 30: continue
+    out[cls] = {"n": int(m.sum()),
+                "deltas": [float(results[vm][m].mean() - results[bm][m].mean())
+                           for vm, bm in PAIRS]}
+_json.dump(out, open("eval/mlm_class_results.json", "w"), indent=1)
+print("wrote eval/mlm_class_results.json")
 print("\nnegative delta = vision-init predicts these tokens BETTER "
       "(lower CE). Same masks for all models; paired per position.")
