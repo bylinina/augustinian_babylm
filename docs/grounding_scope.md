@@ -42,6 +42,14 @@ consistently). Numerals are seeded, and quantity is abstract content
 that *is* visually manifest. Small samples; we flag this as speculation
 consistent with the pattern, not as a finding.
 
+**4. The objective itself does use them.** Per-token-class validation
+MLM loss (`eval/mlm_loss_by_class.py`, identical masks across models):
+vision-init predicts masked *function words* better than the baseline in
+3/3 seeds (mean −0.080 nats), with unseeded tokens as a clean placebo
+(≈0). So the retained structure is functionally load-bearing for the
+training objective — the gap is in the *benchmarks*, which do not reward
+what the model uses this information for.
+
 ## Conclusion (plain terms)
 
 Visual grounding helps a word only if its meaning is the kind of thing
@@ -49,8 +57,7 @@ vision can inform. For concrete nouns, the seeds encode visual
 properties and the model benefits (see the VP-Swap results). For
 abstract and function words, the seeds are equally strong and equally
 well preserved — the model faithfully carries visual information about
-"every" and "not" through all of training — but that information is
-simply not useful for what those words do. The bottleneck is meaning
+"every" and "not" through all of training — and the training objective itself measurably uses it (better mask prediction of function words in 3/3 seeds) — but no current benchmark rewards that use. The bottleneck is meaning
 type, not seed quality and not retention.
 
 ## Caveats
