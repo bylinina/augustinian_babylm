@@ -160,6 +160,20 @@ initialization thus acts as an integrated bias on what gets learned — a
 scaffold that is largely dismantled after use, leaving a durable
 relational imprint — not as a store of preserved visual features.
 
+### Does grounding abstract words help?
+
+Our grounding data inevitably also seeds abstract and function words
+("not", "every", "three", "the" appear in nearly every caption). Their
+seeds turn out to be real signal, not washed-out averages, and the model
+retains their visual-anchor structure to the end of training (RSA 0.45
+vs a ≈0 baseline floor) — yet phenomena hinging on such words show no
+benefit (BLiMP: abstract-varying phenomena −0.8 vs concrete-varying
++0.8, 3 seeds). Visual grounding helps only where a word's meaning is
+the kind of thing vision can inform; the bottleneck is meaning type, not
+seed quality or retention. One flagged exception: EWoK `number` (+5.8)
+— numerals are seeded, and quantity is visually manifest. Details:
+[`docs/grounding_scope.md`](docs/grounding_scope.md).
+
 Full tables: [`eval/official_results.md`](eval/official_results.md),
 [`eval/vpswap_results.md`](eval/vpswap_results.md),
 [`eval/seed_results.md`](eval/seed_results.md).
