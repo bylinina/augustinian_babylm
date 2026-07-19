@@ -1,20 +1,10 @@
-# augustinian-babylm: vision-initialized word embeddings for small LMs
+# Augustinian BabyLM: What Ostensive Definition Can and Cannot Teach a Small Language Model
 
-## What this project does
+A language model normally begins training with random word embeddings: whatever 'banana' means must be learned from training corpora. I implement St. Augustine's picture of word learning---meaning by ostension---for a small masked language model (DeBERTa) trained on 10M words: before training, visually grounded tokens receive embeddings derived from the image regions they label; all other tokens start random. 
 
-Language models normally start training with **random word embeddings** —
-the vector for "banana" initially carries no information at all; everything
-must be learned from text. We test a simple intervention: **before training
-starts, give visually grounded words embeddings derived from images.**
-Concretely, for every word that appears labeling image regions in visual
-grounding datasets (Flickr30k Entities, RefCOCO/g/+, THINGS), we average a
-vision encoder's features over those regions and use the (projected, scaled)
-result as that word's initial embedding. Words without image support keep
-the usual random init.
+Visual grounding leaves a clear, measurable, and lasting mark.  However, the effect is hard to see behaviorally through the standard BabyLM evaluation---the aspects of word meaning that visual grounding informs are mostly outside of the benchmark scope. I construct a behavioral probe on which the effect should show: a  corpus-tailored version of the Visual-Property Swap benchmark that tests color, material, size, and shape knowledge and whose items carry each word's training frequency and seeded status. Vision-seeded models prove to have a persistent, seed-replicated advantage that is specific to seeded words. 
 
-The question: **does a small language model trained on little text
-(~10M words, the BabyLM "strict-small" budget) learn better if part of its
-vocabulary starts with visual knowledge instead of noise?**
+Finally, I show that even the classic abstract, logical words receive strong visual seeds, retain them, and they help the training objective---yet there are no benchmarks to register the effect. This benchmark blindness might be the main lesson from my Augustinian set-up.
 
 Setup: DeBERTa-v3-base models trained on `bb24.train` — the ~9.9M-word custom corpus of our BabyLM 2024 submission ([Edman et al. 2024](https://aclanthology.org/2024.conll-babylm.14/)): LLM-synthesized paraphrase/contrastive data (SynCSE-partial) mixed with portions of the official BabyLM corpus — within the 10M-word budget, 10
 epochs, comparing random-init baselines against vision-initialized variants
