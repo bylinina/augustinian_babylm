@@ -7,3 +7,7 @@ analysis/concreteness.txt
 deberta-babylm-out/
 token_embeddings/
 .DS_Store
+analysis/out/
+results/
+checkpoint_map_*.json
+analysis/valid.txt
