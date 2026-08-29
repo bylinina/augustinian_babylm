@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Redraw held-out mask-prediction loss by token class (clearer labels).
+"""Redraw held-out mask-prediction loss by token class.
+
 Reads eval/mlm_class_results.json; writes eval/plots/abstract_mlm.{pdf,png}.
 Run from the repo root:  python eval/plot_abstract_mlm.py
 """
 import json
 from pathlib import Path
+
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -34,10 +36,10 @@ plt.rcParams.update({
     "text.color": INK, "xtick.color": INK, "ytick.color": INK,
     "axes.spines.top": False, "axes.spines.right": False,
     "axes.spines.left": False, "axes.axisbelow": True,
-    "savefig.dpi": 200, "savefig.bbox": "tight", "font.family": "DejaVu Sans",
+    "savefig.dpi": 200, "font.family": "DejaVu Sans",
 })
 
-fig, ax = plt.subplots(figsize=(6.6, 3.6))
+fig, ax = plt.subplots(figsize=(7.0, 3.4))
 y = np.arange(len(names))[::-1]
 colors = [BLUE if m < 0 else RED for m in means]
 ax.barh(y, means, color=colors, height=0.6, zorder=3)
@@ -49,15 +51,19 @@ ax.set_yticks(y)
 ax.set_yticklabels(names, fontsize=8.8)
 ax.tick_params(axis="y", length=0)
 ax.tick_params(axis="x", length=3, color=INK)
-ax.set_xlabel(
-    "change in mask-prediction loss  (vision-init $-$ baseline)\n"
-    "$\\leftarrow$ vision-init predicts the held-out word better",
-    fontsize=9)
+
+# Two short centered lines. Each is well inside the axes width, so neither
+# can run off the canvas the way the old single long line did.
+ax.set_xlabel("change in mask-prediction loss (vision-init $-$ baseline)\n"
+              "$\\leftarrow$ seeded model predicts the held-out word better",
+              fontsize=9, linespacing=1.5)
+
 ax.set_xlim(-0.22, 0.10)
-fig.tight_layout()
+fig.tight_layout(pad=0.4)
 
 out = Path("eval/plots")
 out.mkdir(parents=True, exist_ok=True)
-fig.savefig(out / "abstract_mlm.pdf")
-fig.savefig(out / "abstract_mlm.png", dpi=200)
-print("wrote eval/plots/abstract_mlm.{pdf,png}")
+fig.savefig(out / "abstract_mlm.pdf", bbox_inches="tight", pad_inches=0.02)
+fig.savefig(out / "abstract_mlm.png", dpi=200,
+            bbox_inches="tight", pad_inches=0.02)
+print("wrote eval/plots/abstract_mlm.pdf and .png")
