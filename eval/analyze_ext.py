@@ -106,6 +106,8 @@ for g in ["real", "synthetic", "unseeded"]:
           f"ext-sam {row[2]:+.3f}")
 
 # ---- figure: grouped deltas with per-seed markers ----
+import matplotlib as _mpl
+_mpl.rcParams.update({"font.size":15,"axes.labelsize":15,"xtick.labelsize":14,"ytick.labelsize":14,"legend.fontsize":14})
 fig, ax = plt.subplots(figsize=(7.0, 3.8))
 groups = ["real", "synthetic", "unseeded"]
 width = 0.35
@@ -116,17 +118,17 @@ for off, (series, color, label) in enumerate(
     means = [sum(group_deltas[g][series]) / 3 for g in groups]
     ax.bar(xs, means, width * 0.9, color=color, label=label)
     for x, g in zip(xs, groups):
-        ax.scatter([x] * 3, group_deltas[g][series], color=INK, s=12, zorder=3)
+        ax.scatter([x] * 3, group_deltas[g][series], color=INK, s=22, zorder=4)
 ax.axhline(0, color=INK, lw=0.8)
 ax.set_xticks(range(len(groups)),
               [f"real-seeded", "synthetic-seeded", "still-unseeded"])
 ax.set_ylabel("accuracy delta vs baseline")
-ax.set_title("VP-Swap @ 100M by word group (bars = seed mean, dots = seeds)",
-             loc="left")
+# title removed for the paper (described in caption)
 ax.legend()
 style_ax(ax)
 fig.tight_layout()
-fig.savefig("eval/plots/vpswap_ext_groups.png")
+fig.savefig("eval/plots/vpswap_ext_groups.png", dpi=200)
+fig.savefig("eval/plots/vpswap_ext_groups.pdf")
 plt.close(fig)
 
 # ---- synthetic-group delta trajectory (mean across seeds) ----

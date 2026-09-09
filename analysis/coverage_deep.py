@@ -136,15 +136,26 @@ def main():
     fig.tight_layout(); fig.savefig(args.out_dir / "coverage_by_pos.png", dpi=150)
     plt.close(fig)
 
-    fig, ax = plt.subplots(figsize=(7, 4.5))
+    import matplotlib as _mpl
+    _mpl.rcParams.update({
+        "font.size": 13, "axes.labelsize": 13, "xtick.labelsize": 12,
+        "ytick.labelsize": 12, "legend.fontsize": 12,
+        "axes.spines.top": False, "axes.spines.right": False,
+        "font.family": "DejaVu Sans"})
+    fig, ax = plt.subplots(figsize=(6.4, 4.0))
     x = np.arange(len(conc_df))
-    ax.bar(x - 0.2, conc_df.type_coverage * 100, 0.4, label="type coverage")
-    ax.bar(x + 0.2, conc_df.token_coverage * 100, 0.4, label="token coverage")
-    ax.set_xticks(x); ax.set_xticklabels(conc_df.concreteness_bin, rotation=20)
-    ax.set_ylabel("% vision-supported")
-    ax.set_title(f"Coverage by concreteness (corr={conc_corr:.2f})")
-    ax.legend(); ax.grid(alpha=0.3)
-    fig.tight_layout(); fig.savefig(args.out_dir / "coverage_by_concreteness.png", dpi=150)
+    ax.bar(x, conc_df.type_coverage * 100, 0.56, color="#4477AA",
+           label="type coverage", zorder=3)
+    ax.plot(x, conc_df.token_coverage * 100, "o-", color="#777777", lw=2, ms=8,
+            label="token coverage", zorder=4)
+    ax.set_xticks(x); ax.set_xticklabels(conc_df.concreteness_bin)
+    ax.set_ylabel("% vision-supported"); ax.set_xlabel("Brysbaert concreteness bin")
+    ax.set_ylim(0, 105)
+    ax.grid(axis="y", color="#DDDDDD", lw=0.7, zorder=0); ax.grid(axis="x", visible=False)
+    ax.legend(loc="center left", bbox_to_anchor=(0.02, 0.62), frameon=False)
+    fig.tight_layout()
+    fig.savefig(args.out_dir / "coverage_by_concreteness.png", dpi=200)
+    fig.savefig(args.out_dir / "coverage_by_concreteness.pdf")
     plt.close(fig)
 
     fig, ax = plt.subplots(figsize=(7, 4.5))
