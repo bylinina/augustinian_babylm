@@ -18,20 +18,18 @@ training. At the same time, the effect remains invisible under most BabyLM
 benchmarks, which probe abstract grammatical knowledge: visual initialization
 does not affect performance there. The only zero-shot exception is
 object-property knowledge (COMPS), where seeding helps in every configuration.
-Following that lead, this repository also releases a corpus-tailored version of
+Following that lead, I put together a corpus-tailored version of
 the Visual-Property Swap benchmark, where vision-seeded models hold a
-persistent, seed-replicated advantage confined to the seeded words — and where
+persistent, seed-replicated advantage confined to the seeded words, and where
 synthetically grounding previously unseeded words transfers the advantage to
 exactly those words.
 
 Function words and abstract vocabulary also receive strong visual seeds and
 retain them throughout training, and the training objective draws on them:
-held-out mask-prediction loss falls for these words in every seed. No benchmark
-here registers that. What evaluation would pick it up remains an open question.
+held-out mask-prediction loss falls for these words in every seed. No benchmark registers that. What evaluation would pick it up remains an open question.
 
-Setup: DeBERTa-v3-base models trained on `bb24.train` — the ~9.9M-word custom
-corpus of my BabyLM 2024 submission
-([Edman et al. 2024](https://aclanthology.org/2024.conll-babylm.14/)):
+**Setup**: DeBERTa-v3-base models trained on `bb24.train` — the ~9.9M-word custom
+corpus of ([Edman et al. 2024](https://aclanthology.org/2024.conll-babylm.14/)):
 LLM-synthesized paraphrase/contrastive data (SynCSE-partial) mixed with
 portions of the official BabyLM corpus — within the 10M-word budget, 10 epochs,
 comparing random-init baselines against vision-initialized variants across
