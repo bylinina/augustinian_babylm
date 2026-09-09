@@ -230,3 +230,11 @@ checkpoints (stepN + chck_*M revisions). Steps, in order:
 12 pretrained models on HF (`augustinian-babylm/deberta-base-<vocab>` and
 `...-<encoder>`), each with 37 stepN training checkpoints and 19 `chck_*M`
 word-count revisions (BabyLM submission convention; `main` = final).
+
+## License
+
+Code is released under the MIT License. The VP-Swap benchmark in
+`eval/vpswap_bb24/` is released under CC BY 4.0, and follows the
+Visual-Property Swap protocol of EgoBabyVLM (Lin et al. 2026), which is
+released under CC BY-NC 4.0. Models and embedding tables on the Hugging
+Face Hub are released under CC BY 4.0.
