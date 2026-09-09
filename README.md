@@ -29,7 +29,7 @@ retain them throughout training, and the training objective draws on them:
 held-out mask-prediction loss falls for these words in every seed. No benchmark registers that. What evaluation would pick it up remains an open question.
 
 **Setup**: DeBERTa-v3-base models trained on `bb24.train` — the ~9.9M-word custom
-corpus of ([Edman et al. 2024](https://aclanthology.org/2024.conll-babylm.14/)):
+corpus of [Edman et al. 2024](https://aclanthology.org/2024.conll-babylm.14/):
 LLM-synthesized paraphrase/contrastive data (SynCSE-partial) mixed with
 portions of the official BabyLM corpus — within the 10M-word budget, 10 epochs,
 comparing random-init baselines against vision-initialized variants across
@@ -42,17 +42,16 @@ concrete nouns.
 ## How to read the results
 
 Almost everything below is measured with **minimal pairs**: the model sees two
-sentences differing in exactly one word — one true ("The banana is yellow"),
-one false ("The television is yellow") — and is scored correct if it assigns
+sentences differing in exactly one word -- one true/expected/typical ("A cucumber is green"),
+one false/unexpected/non-typical ("A dune is green") -- and is scored correct if it assigns
 the true sentence higher probability (for masked LMs, computed as
-pseudo-log-likelihood: mask each token in turn, sum the log-probability of the
-original token). Chance is 50%. No fine-tuning, no generation.
+pseudo-log-likelihood). Chance is 50%. No fine-tuning.
 
 A **delta** is always *vision-init minus baseline* accuracy, in points. Since
 there is only one training run per configuration (no seed variance estimate),
 single deltas of a point or two are not individually meaningful; what I lean on
 instead is **sign-consistency**: if a task's delta is positive in all 9
-encoder×vocabulary combinations independently, that pattern is very unlikely
+encoder-vocabulary combinations independently, that pattern is very unlikely
 under a no-effect null even when each delta is small.
 
 For the targeted benchmark I additionally use:
@@ -84,8 +83,7 @@ mean, positive 9/9; GLUE fine-tuning also +1.1 at 9/9). Within COMPS the gain
 sits in the property-knowledge conditions (`base` +1.4, `wugs` +3.7, both 9/9)
 and vanishes when distractor sentences are inserted. The COMPS gain
 additionally replicates across the 3 seed runs of the headline pair (+1.46 /
-+1.05 / +0.77), while every other zero-shot task flips sign between seeds —
-pure noise by contrast. Syntax (BLiMP) is flat; BLiMP-supplement slightly
++1.05 / +0.77), while every other zero-shot task flips sign between seeds. Syntax (BLiMP) is flat; BLiMP-supplement slightly
 negative. That is: the general-purpose evaluation shows a gain precisely on its
 one object-property task, and nowhere else.
 
@@ -93,11 +91,11 @@ one object-property task, and nowhere else.
 
 ### 2. VP-Swap: a targeted visual-property probe
 
-If vision-init injects visual knowledge, the cleanest place to look for it is a
+If vision-init injects visual knowledge, the obvious place to look for it is a
 benchmark that *asks about visual properties*. No such benchmark exists for
 this corpus, so I built one ([`eval/vpswap_bb24/`](eval/vpswap_bb24/)),
 following EgoBabyVLM's VP-Swap protocol: 7,416 minimal-pair items over four
-properties (color, material, size, shape), constructed from my own training
+properties (color, material, size, shape), constructed from my training
 corpus so that every item carries the noun's **corpus frequency** (how often
 the model saw it in training) and its **seeded status** (whether it received a
 visual embedding). Sentences rotate over four syntactic frames (e.g. "A femur
@@ -154,7 +152,7 @@ to words no photograph dataset covers.
 
 I asked whether the shrinking late-training advantage could be preserved by
 continually mixing the visual embeddings back in during training. The embedding
-dynamics say no — and explain the effect's persistence instead
+dynamics suggest a negative answer — and explain the effect's persistence 
 (`eval/drift_diagnostic.py`). Seeded embeddings abandon their visual anchors
 almost entirely (mean cosine to init: 1.00 at 1M words → 0.15 at 100M), and
 per-word drift is uncorrelated with per-word advantage change (r = −0.02): the
