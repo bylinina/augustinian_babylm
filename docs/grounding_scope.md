@@ -41,7 +41,7 @@ abstract and function words show no benefit from vision-init and a
 slight cost: across 3 seeds, BLiMP phenomena whose good/bad sentences
 differ in *abstract* words average −0.8 pts (vision − baseline) while
 phenomena differing in *concrete* words average +0.8 (correlation of
-phenomenon delta with the concreteness of its varying words: r = +0.21;
+phenomenon delta with the concreteness of its varying words: r = +0.20;
 fast-eval subset, 54 phenomena). EWoK `negation` is flat (−0.4).
 
 **4. But the training objective itself does use them.** Per-token-class
