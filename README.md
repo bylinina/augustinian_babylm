@@ -264,6 +264,9 @@ All models are public under
 - **Datasets** `region-embeddings` (per-region visual features) and
   `token-embeddings` (the `[V, 768]` seeding tables — what another model would
   need to reuse the intervention)
+- **Score and image artifacts** `vpswap-checkpoint-scores` (per-item VP-Swap
+  correctness across 9 models × 20 checkpoints) and
+  `synthetic-grounding-images` (the 3,162 generated images with manifest)
 
 Intermediate checkpoints are stored as **branches** (`step0`, then `chck_1M`
 through `chck_100M`), so the training dynamics above can be reproduced without
