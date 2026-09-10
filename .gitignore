@@ -11,3 +11,10 @@ analysis/out/
 results/
 checkpoint_map_*.json
 analysis/valid.txt
+
+# published intermediate artifacts (negations must follow the ignores above)
+!analysis/out/synth/
+!analysis/out/zero_support_words.csv
+!analysis/out/coverage_by_concreteness.*
+!analysis/out/coverage_by_*.csv
+!analysis/out/deep_summary.json
