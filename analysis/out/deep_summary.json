@@ -3,120 +3,120 @@
   "pos_table": [
     {
       "pos": "NOUN",
-      "n_types": 18352,
-      "n_tokens": 1980752,
-      "type_coverage": 0.3177,
-      "token_coverage": 0.7822
+      "n_types": 35777,
+      "n_tokens": 2043500,
+      "type_coverage": 0.2145,
+      "token_coverage": 0.769
     },
     {
       "pos": "VERB",
-      "n_types": 9476,
-      "n_tokens": 1141523,
-      "type_coverage": 0.2442,
-      "token_coverage": 0.7325
+      "n_types": 14898,
+      "n_tokens": 1160588,
+      "type_coverage": 0.1812,
+      "token_coverage": 0.7262
     },
     {
       "pos": "DET",
-      "n_types": 41,
-      "n_tokens": 1136231,
-      "type_coverage": 0.4634,
-      "token_coverage": 0.9999
+      "n_types": 162,
+      "n_tokens": 1136345,
+      "type_coverage": 0.1296,
+      "token_coverage": 0.9998
     },
     {
       "pos": "ADP",
-      "n_types": 97,
-      "n_tokens": 1105908,
-      "type_coverage": 0.7113,
-      "token_coverage": 0.9994
+      "n_types": 185,
+      "n_tokens": 1100998,
+      "type_coverage": 0.4108,
+      "token_coverage": 0.9992
     },
     {
       "pos": "PRON",
-      "n_types": 78,
-      "n_tokens": 819741,
-      "type_coverage": 0.6026,
-      "token_coverage": 0.9972
-    },
-    {
-      "pos": "AUX",
-      "n_types": 33,
-      "n_tokens": 703875,
-      "type_coverage": 0.8788,
-      "token_coverage": 0.9981
+      "n_types": 155,
+      "n_tokens": 815096,
+      "type_coverage": 0.2903,
+      "token_coverage": 0.9967
     },
     {
       "pos": "ADJ",
-      "n_types": 5731,
-      "n_tokens": 698828,
-      "type_coverage": 0.2568,
-      "token_coverage": 0.8279
+      "n_types": 9741,
+      "n_tokens": 712353,
+      "type_coverage": 0.1755,
+      "token_coverage": 0.8248
+    },
+    {
+      "pos": "AUX",
+      "n_types": 43,
+      "n_tokens": 703940,
+      "type_coverage": 0.6744,
+      "token_coverage": 0.998
     },
     {
       "pos": "PROPN",
-      "n_types": 14550,
-      "n_tokens": 506783,
-      "type_coverage": 0.1165,
-      "token_coverage": 0.5768
+      "n_types": 52033,
+      "n_tokens": 644522,
+      "type_coverage": 0.0486,
+      "token_coverage": 0.4622
     },
     {
       "pos": "ADV",
-      "n_types": 1603,
-      "n_tokens": 383123,
-      "type_coverage": 0.1703,
-      "token_coverage": 0.8524
+      "n_types": 2849,
+      "n_tokens": 400160,
+      "type_coverage": 0.1081,
+      "token_coverage": 0.8471
     },
     {
       "pos": "CCONJ",
-      "n_types": 12,
-      "n_tokens": 323200,
-      "type_coverage": 0.75,
+      "n_types": 40,
+      "n_tokens": 323215,
+      "type_coverage": 0.225,
       "token_coverage": 0.9999
     },
     {
       "pos": "PART",
-      "n_types": 10,
-      "n_tokens": 297651,
-      "type_coverage": 0.4,
-      "token_coverage": 0.9995
+      "n_types": 11,
+      "n_tokens": 297560,
+      "type_coverage": 0.3636,
+      "token_coverage": 0.9998
     },
     {
       "pos": "SCONJ",
-      "n_types": 27,
-      "n_tokens": 208497,
-      "type_coverage": 0.6296,
+      "n_types": 30,
+      "n_tokens": 208500,
+      "type_coverage": 0.5667,
       "token_coverage": 0.9828
     },
     {
       "pos": "NUM",
-      "n_types": 2173,
-      "n_tokens": 178881,
-      "type_coverage": 0.1519,
-      "token_coverage": 0.7472
+      "n_types": 6027,
+      "n_tokens": 183274,
+      "type_coverage": 0.0677,
+      "token_coverage": 0.7118
     },
     {
       "pos": "INTJ",
-      "n_types": 49,
-      "n_tokens": 61205,
-      "type_coverage": 0.5306,
-      "token_coverage": 0.9867
+      "n_types": 107,
+      "n_tokens": 62567,
+      "type_coverage": 0.3084,
+      "token_coverage": 0.9877
     },
     {
       "pos": "X",
-      "n_types": 62,
-      "n_tokens": 2577,
-      "type_coverage": 0.0645,
-      "token_coverage": 0.4497
+      "n_types": 196,
+      "n_tokens": 3967,
+      "type_coverage": 0.0408,
+      "token_coverage": 0.2992
     },
     {
       "pos": "PUNCT",
-      "n_types": 10,
-      "n_tokens": 531,
-      "type_coverage": 0.1,
-      "token_coverage": 0.8983
+      "n_types": 61,
+      "n_tokens": 584,
+      "type_coverage": 0.0164,
+      "token_coverage": 0.8168
     },
     {
       "pos": "SYM",
-      "n_types": 1,
-      "n_tokens": 1,
+      "n_types": 3,
+      "n_tokens": 3,
       "type_coverage": 0.0,
       "token_coverage": 0.0
     }
