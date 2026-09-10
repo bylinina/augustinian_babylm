@@ -59,6 +59,14 @@ copular items at a higher rate (see meta for accepted-frame counts).
 5. Generator/judge LLMs differ from upstream (Llama-3.1-405B).
 6. Word-boundary validation of swap indices (upstream substring match
    can corrupt swaps, e.g. "tub" inside "bathtub").
+7. Article agreement: when a noun is substituted, a preceding *a* / *an*
+   is adjusted to agree with the incoming noun, so the distractor never
+   differs from the original in grammaticality. Without this, swapping a
+   vowel-initial noun under *a* yields an ungrammatical distractor that a
+   model can reject on agreement alone, independently of any property
+   knowledge. The correct article is taken from the generated sentences
+   themselves where available (they are a better authority than a spelling
+   rule: *a unicycle*, *a uterus*), falling back to the vowel rule.
 
 Caveat: as an LLM-generated benchmark, items inherit the generator's
 notion of typical properties (see EgoBabyVLM paper, limitations).

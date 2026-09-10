@@ -106,26 +106,27 @@ Comparing the best vision-init model (75k-SAM) to its same-vocabulary baseline
 over the whole training trajectory:
 
 - **Persistent advantage.** Vision-init leads at every checkpoint from 1M words
-  on, peaking mid-training (+3.5 pts) and retaining +1.9 at 100M — **replicated
-  across 3 random seeds** (final delta +1.9 / +2.7 / +3.0; McNemar z = 3.75 /
-  5.29 / 5.90). Untrained checkpoints score 0.49–0.51 in every seed — the probe
+  on, peaking around 10M words (+3.7 pts) and retaining +2.2 at 100M — **replicated
+  across 3 random seeds** (final delta +2.2 / +2.7 / +2.9; McNemar z = 4.37 /
+  5.44 / 5.79). Untrained checkpoints score 0.49–0.51 in every seed — the probe
   itself is unbiased.
 
 ![vpswap trajectory](eval/plots/vpswap_trajectory_seeds.png)
 
 - **Word-specific, tied to the seeding.** The advantage on items whose original
-  noun received a visual seed is strikingly stable across seeds (+0.029 /
-  +0.030 / +0.032) and holds at matched corpus frequency (positive DiD in every
+  noun received a visual seed is strikingly stable across seeds (+0.034 /
+  +0.031 / +0.030) and holds at matched corpus frequency (positive DiD in every
   measurable bin). The apparent *penalty* on unseeded words in the first run
-  did **not** replicate (−0.048 / +0.008 / +0.036 across seeds — consistent
+  did **not** replicate (−0.040 / +0.006 / +0.026 across seeds — consistent
   with zero): what is stable is the seeded-word gain, not an unseeded-word
   cost. The seed-averaged 2×2 below splits items by whether the original and
   the swapped-in noun were seeded.
 
 ![vpswap 2x2](eval/plots/vpswap_2x2_seeds.png)
 
-- The effect appears in 3 of 4 syntactic frames (the short copular frame
-  reverses; noted, unexplained) and concentrates in mid/high-frequency words —
+- The effect holds across all four syntactic frames (attributive +0.023,
+  existential +0.031, relative +0.027, copular ≈ 0) and concentrates in
+  mid/high-frequency words —
   at this corpus size, low-frequency items are at chance for both models,
   leaving no room for a difference.
 
@@ -136,10 +137,10 @@ ungrounded words should extend it. I tested this directly: for 1,986 concrete
 zero-support words I generated short scene descriptions (LLM), rendered 3
 images each (SDXL-Turbo), localized the target words with open-vocabulary
 detection (OWLv2; undetectable words drop out), and pooled SAM features in the
-detected boxes through the original extraction code — yielding 1,151 newly
+detected boxes through the original extraction code — yielding 1,155 newly
 grounded words (+737 seeded tokens, 21,134 → 21,871) and a `75k-sam-ext` model
 trained with 3 seeds. Result: on the synthetically grounded words, ext beats
-sam in **3/3 seeds** (+1.6 / +2.0 / +0.7 pts; sam itself sits at +0.1 vs
+sam in **3/3 seeds** (+1.2 / +2.0 / +1.0 pts; sam itself sits at −0.2 vs
 baseline there), the advantage is present at every checkpoint from 10M words
 on, the real-seeded group is untouched (ext − sam = −0.003), and COMPS stays
 positive in all ext seeds. Synthetic grounding buys roughly half the per-word
@@ -155,11 +156,11 @@ continually mixing the visual embeddings back in during training. The embedding
 dynamics suggest a negative answer — and explain the effect's persistence 
 (`eval/drift_diagnostic.py`). Seeded embeddings abandon their visual anchors
 almost entirely (mean cosine to init: 1.00 at 1M words → 0.15 at 100M), and
-per-word drift is uncorrelated with per-word advantage change (r = −0.02): the
+per-word drift is uncorrelated with per-word advantage change (r = −0.017): the
 advantage does not reside in proximity to the visual features, so an anchoring
 intervention has no target. What *does* survive is relational: the
 pairwise-similarity structure among seeded words retains RSA = 0.31 to the
-visual anchor at 100M — three times the 0.10 floor set by the text-only
+visual anchor at 100M (RSA 0.31) — three times the 0.10 floor set by the text-only
 baseline — and this residue is stable over the second half of training while
 absolute positions keep moving. The "decay" itself is benign: the vision
 model's absolute accuracy never declines; the baseline catches up on the
@@ -206,7 +207,7 @@ and the synthetic-extension model, each replicated with 3 random seeds; the
 synthetic-grounding chain (LLM scenes → SDXL images → OWLv2 boxes) compounds
 generator priors and detection noise; VP-Swap is LLM-generated (generator:
 claude-sonnet-4-6; judge: claude-haiku-4-5) and inherits the generator's notion
-of typical properties; the copular-frame reversal is unexplained;
+of typical properties;
 entity-tracking scores under MLM pseudo-likelihood are artifact-prone and
 excluded from interpretation (diagnosis:
 [`docs/entity_tracking_artifact.md`](docs/entity_tracking_artifact.md)).
