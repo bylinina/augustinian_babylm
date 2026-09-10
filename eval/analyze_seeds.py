@@ -91,7 +91,8 @@ ax2.legend(loc="lower right")
 ax2.set_title("Advantage, mean \u00b1 seed range", loc="left")
 style_ax(ax2)
 fig.tight_layout()
-fig.savefig("eval/plots/vpswap_trajectory_seeds.png"); plt.close(fig)
+fig.savefig("eval/plots/vpswap_trajectory_seeds.png")
+fig.savefig("eval/plots/vpswap_trajectory_seeds.pdf"); plt.close(fig)
 
 # ---- final checkpoint: McNemar + seeded/DiD + 2x2, per seed ----
 md += ["", "## Final checkpoint (chck_100M) per seed", ""]
@@ -135,7 +136,8 @@ for ax, (title, g) in zip(axes, grids + [("mean of seeds", mean_g)]):
     for sp in ax.spines.values(): sp.set_visible(False)
 cb = fig.colorbar(im, ax=axes, shrink=0.8, pad=0.02)
 cb.set_label("vision \u2212 baseline"); cb.outline.set_visible(False)
-fig.savefig("eval/plots/vpswap_2x2_seeds.png"); plt.close(fig)
+fig.savefig("eval/plots/vpswap_2x2_seeds.png")
+fig.savefig("eval/plots/vpswap_2x2_seeds.pdf"); plt.close(fig)
 
 # ---- zero-shot task deltas per seed ----
 def zsavg(model, glob):
