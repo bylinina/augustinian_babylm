@@ -2,7 +2,7 @@
 
 **What Ostensive Definition Can and Cannot Teach a Small Language Model**
 
-To appear at the BabyLM Workshop 2026 · [paper](https://openreview.net/forum?id=B4TD4XdlwF) · [models & data on 🤗](https://huggingface.co/augustinian-babylm)
+To appear at the BabyLM Workshop 2026 · [paper](https://arxiv.org/abs/2609.11870) · [models & data on 🤗](https://huggingface.co/augustinian-babylm)
 
 ![The vision-seeding pipeline](docs/pipeline_readme.png)
 
