@@ -90,6 +90,9 @@ intermediate artifact is committed, so any stage can be run in isolation.
    -> `token-embeddings/sam_ext/75k` on the Hub.
 5. **Analysis**: `python eval/analyze_ext.py --synth_parquet <parquet>`
    -> `ext_results.md` + `plots/vpswap_ext_groups.{png,pdf}`
+6. **Pair-level re-analysis** (supersedes the item-level splits of 5 and of
+   `analyze_vpswap.py`): `python eval/vpswap_pairlevel.py`
+   -> `vpswap_pairlevel.md` + `plots/vpswap_pairlevel{,_ext}.{png,pdf}`
 
 Note: open-vocabulary detection near the score threshold is not perfectly
 stable across runs, so the set of grounded words can vary by a few items

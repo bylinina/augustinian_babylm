@@ -4,6 +4,11 @@
 
 To appear at the BabyLM Workshop 2026 · [paper](https://arxiv.org/abs/2609.11870) · [models & data on 🤗](https://huggingface.co/augustinian-babylm)
 
+> **Note on the paper (arXiv v1).** A pair-level re-analysis of VP-Swap, below,
+> revises Sections 5.2 and 6: the VP-Swap advantage replicates, but it cannot be
+> attributed to the individual seeded words, and synthetic grounding shows no
+> reliable effect. An updated version of the paper is in preparation.
+
 ![The vision-seeding pipeline](docs/pipeline_readme.png)
 
 A language model normally begins training with random word embeddings:
@@ -20,9 +25,10 @@ does not affect performance there. The only zero-shot exception is
 object-property knowledge (COMPS), where seeding helps in every configuration.
 Following that lead, I put together a corpus-tailored version of
 the Visual-Property Swap benchmark, where vision-seeded models hold a
-persistent, seed-replicated advantage confined to the seeded words, and where
-synthetically grounding previously unseeded words transfers the advantage to
-exactly those words.
+persistent, seed-replicated advantage. The advantage is largest for frequent
+nouns, and nearly all frequent concrete nouns are seeded, so the benchmark
+cannot tell which words carry it; synthetically grounding more words produces
+no reliable change.
 
 Function words and abstract vocabulary also receive strong visual seeds and
 retain them throughout training, and the training objective draws on them:
@@ -55,24 +61,21 @@ encoder-vocabulary combinations independently, that pattern is very unlikely
 under a no-effect null even when each delta is small.
 
 For the targeted benchmark I additionally use:
-- **Difference-in-differences (DiD)**: the advantage on *seeded* words minus
-  the advantage on *unseeded* words, computed **within the same
-  corpus-frequency bin**. This isolates the word-specific effect of the
-  intervention from confounds — if vision-init helped via some global mechanism
-  (better optimization, luckier init), it would help seeded and unseeded words
-  equally, and the DiD would be zero.
-- **A placebo cell**: items where *neither* the original word *nor* the
-  swapped-in word ever received a visual seed. On these items the two models
-  are, with respect to the intervention, identical — so their delta should be
-  zero. If it is, any effect elsewhere is attributable to the seeding.
+- **Pair-level scoring**: every VP-Swap line yields two mirror items (each noun
+  is correct in its own sentence and wrong when swapped into the other's). A
+  model's general preference for one noun over the other cancels only when both
+  items are counted together, so all VP-Swap breakdowns below are per pair.
+- **Frequency matching**: seeded nouns are mostly frequent and unseeded nouns
+  mostly rare, so seeded and unseeded pairs are compared within the same
+  corpus-frequency bins.
 - **McNemar's test**: a paired significance test that only counts items where
   the two models *disagree* (one correct, the other not) — the appropriate test
   when both models answer the same items.
 
 ## Key results
 
-**Visual initialization helps exactly where visual information should matter —
-and nowhere else.**
+**Visual initialization helps on the zero-shot tasks that ask what objects are
+like.**
 
 ### 1. Official BabyLM 2026 evaluation
 
@@ -113,16 +116,18 @@ over the whole training trajectory:
 
 ![vpswap trajectory](eval/plots/vpswap_trajectory_seeds.png)
 
-- **Word-specific, tied to the seeding.** The advantage on items whose original
-  noun received a visual seed is strikingly stable across seeds (+0.034 /
-  +0.031 / +0.030) and holds at matched corpus frequency (positive DiD in every
-  measurable bin). The apparent *penalty* on unseeded words in the first run
-  did **not** replicate (−0.040 / +0.006 / +0.026 across seeds — consistent
-  with zero): what is stable is the seeded-word gain, not an unseeded-word
-  cost. The seed-averaged 2×2 below splits items by whether the original and
-  the swapped-in noun were seeded.
+- **Which words carry it: not answerable with this benchmark.** Counted per
+  pair, pairs of two seeded nouns gain +0.031 / +0.030 / +0.035, pairs with one
+  or no seeded noun about +0.01. But seeded nouns are also the frequent ones:
+  within the same frequency bins the two groups gain the same (+0.016 / +0.010 /
+  +0.009 vs −0.002 / +0.019 / +0.014; the difference is within noise in every
+  seed), and the most frequent bins contain almost no unseeded nouns. Counting
+  items instead of pairs is misleading here: in one seed the vision model simply
+  prefers seeded nouns, right or wrong (+0.051 when the seeded noun is the
+  correct one, −0.049 when it is the swapped-in one), which cancels within each
+  pair. Details: [`eval/vpswap_pairlevel.md`](eval/vpswap_pairlevel.md).
 
-![vpswap 2x2](eval/plots/vpswap_2x2_seeds.png)
+![vpswap pair-level](eval/plots/vpswap_pairlevel.png)
 
 - The effect holds across all four syntactic frames (attributive +0.023,
   existential +0.031, relative +0.027, copular ≈ 0) and concentrates in
@@ -139,15 +144,17 @@ images each (SDXL-Turbo), localized the target words with open-vocabulary
 detection (OWLv2; undetectable words drop out), and pooled SAM features in the
 detected boxes through the original extraction code — yielding 1,155 newly
 grounded words (+737 seeded tokens, 21,134 → 21,871) and a `75k-sam-ext` model
-trained with 3 seeds. Result: on the synthetically grounded words, ext beats
-sam in **3/3 seeds** (+1.2 / +2.0 / +1.0 pts; sam itself sits at −0.2 vs
-baseline there), the advantage is present at every checkpoint from 10M words
-on, the real-seeded group is untouched (ext − sam = −0.003), and COMPS stays
-positive in all ext seeds. Synthetic grounding buys roughly half the per-word
-effect of real grounding — a modest but replicated extension of the mechanism
-to words no photograph dataset covers.
+trained with 3 seeds. Result: no reliable effect. Counted per pair, with a noun
+treated when the seed of its own token(s) now comes mostly (≥50%) from synthetic
+regions, ext − sam is +0.018 / −0.009 / +0.009 on pairs with a treated noun,
+against +0.000 / +0.003 / −0.019 on pairs where no noun's seed changed. COMPS
+stays positive in all ext seeds. (Splitting items by the original noun's
+word-level status, as in arXiv v1, showed a 3/3-seed gain; it does not survive
+pair-level counting, and word-level status is a poor proxy for which token
+seeds changed, since many unseeded nouns share subword tokens that were
+already seeded.)
 
-![ext groups](eval/plots/vpswap_ext_groups.png)
+![ext pair-level](eval/plots/vpswap_pairlevel_ext.png)
 
 ### Why the advantage persists (and why its late decay is benign)
 
@@ -190,7 +197,9 @@ Details, figures, tables, word lists:
 
 Full tables: [`eval/official_results.md`](eval/official_results.md),
 [`eval/vpswap_results.md`](eval/vpswap_results.md),
-[`eval/seed_results.md`](eval/seed_results.md).
+[`eval/seed_results.md`](eval/seed_results.md),
+[`eval/vpswap_pairlevel.md`](eval/vpswap_pairlevel.md) (pair-level re-analysis;
+supersedes the seeded/unseeded splits in the other VP-Swap tables).
 
 ### Why aggregate scores miss this
 
@@ -207,7 +216,9 @@ and the synthetic-extension model, each replicated with 3 random seeds; the
 synthetic-grounding chain (LLM scenes → SDXL images → OWLv2 boxes) compounds
 generator priors and detection noise; VP-Swap is LLM-generated (generator:
 claude-sonnet-4-6; judge: claude-haiku-4-5) and inherits the generator's notion
-of typical properties;
+of typical properties; VP-Swap's seeded status is word-level while seeding is
+token-level, and seeded nouns are mostly the frequent ones, so the benchmark
+cannot attribute its effect to individual seeded words;
 entity-tracking scores under MLM pseudo-likelihood are artifact-prone and
 excluded from interpretation (diagnosis:
 [`docs/entity_tracking_artifact.md`](docs/entity_tracking_artifact.md)).
@@ -248,7 +259,8 @@ checkpoints (stepN + chck_*M revisions). Steps, in order:
 4. **Coverage analysis**: `analysis/` (see its README)
 5. **Official evaluation + leaderboard comparison**: `eval/README.md` §A
 6. **VP-Swap construction + evaluation**: `eval/README.md` §B
-7. **Analysis + figures**: `eval/analyze_official.py`, `eval/analyze_vpswap.py`
+7. **Analysis + figures**: `eval/analyze_official.py`, `eval/analyze_vpswap.py`,
+   `eval/vpswap_pairlevel.py` (pair-level VP-Swap and synthetic-grounding analysis)
 
 ## Models
 
