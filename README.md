@@ -147,8 +147,10 @@ grounded words (+737 seeded tokens, 21,134 → 21,871) and a `75k-sam-ext` model
 trained with 3 seeds. Result: no reliable effect. Counted per pair, with a noun
 treated when the seed of its own token(s) now comes mostly (≥50%) from synthetic
 regions, ext − sam is +0.018 / −0.009 / +0.009 on pairs with a treated noun,
-against +0.000 / +0.003 / −0.019 on pairs where no noun's seed changed. COMPS
-stays positive in all ext seeds. (Splitting items by the original noun's
+against +0.000 / +0.003 / −0.019 on pairs where no noun's seed changed. Over
+the whole benchmark, ext − sam is +0.5 / 0.0 / −1.0 points, and on COMPS
++0.11 / +0.11 / −0.37: the extension keeps the seeding gain over the baseline
+but adds nothing to it. (Splitting items by the original noun's
 word-level status, as in arXiv v1, showed a 3/3-seed gain; it does not survive
 pair-level counting, and word-level status is a poor proxy for which token
 seeds changed, since many unseeded nouns share subword tokens that were
